@@ -1,0 +1,230 @@
+<Database>
+    <GameDBStringTable ID="LOC_RU_ADDON_CRP_EXAMINATIONS">
+
+        <LanguageCode>ru</LanguageCode>
+        <LanguageNameLocalized>Русский</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>U-ru-Ru</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- Examinations -->
+            <GameDBLocalizedString>      
+			<LocID>EXM_CRP_CCBT</LocID>                                      
+			<Text>Кровь на катехоламины</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_CCBT_DESC</LocID>                                      
+			<Text>Анализ крови на катехоламины измеряет количество катехоламинов в организме. «Катехоламины» - это общий термин, обозначающий гормоны дофамин, норадреналин и адреналин.</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_CCBT_TEST</LocID>                                      
+			<Text>Анализ крови на катехоламины</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_CCBT_TEST_DESC</LocID>                                      
+			<Text>Анализ крови на катехоламины измеряет количество катехоламинов в организме. «Катехоламины» - это общий термин, обозначающий гормоны дофамин, норадреналин и адреналин.</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_CEA</LocID>                                      
+			<Text>CEA-тест крови</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_CEA_DESC</LocID>                                      
+			<Text>Тест на карциноэмбриональный антиген (СЕА) - это анализ крови, который используется для диагностики и лечения определенных видов рака. Тест CEA используется специально для рака толстой и прямой кишки. Тест СЕА измеряет количество СЕА в крови. Большое количество СЕА в вашем теле после лечения или операции предполагает, что рак по прежнему присутствует в организме. </Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_CEA_TEST</LocID>                                      
+			<Text>CEA-тест крови</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_CEA_TEST_DESC</LocID>                                      
+			<Text>Тест на карциноэмбриональный антиген (СЕА) - это анализ крови, который используется для диагностики и лечения определенных видов рака. Тест CEA используется специально для рака толстой и прямой кишки. Тест СЕА измеряет количество СЕА в крови. Большое количество СЕА в вашем теле после лечения или операции предполагает, что рак по прежнему присутствует в организме.</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_COLONOSCOPY</LocID>                                      
+			<Text>Колоноскопия</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_COLONOSCOPY_DESC</LocID>                                      
+			<Text>Колоноскопия - это медицинская процедура, которая проводится для выявления рака, полипов толстой кишки или других патологий в кишечнике. Колоноскопия проводится с использованием инструмента, называемого колоноскоп (тип эндоскопа) - длинной, тонкой, гибкой трубки, содержащей камеру и источник света.</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_5HIAA</LocID>                                      
+			<Text>Моча на 5-HIAA</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_5HIAA_DESC</LocID>                                      
+			<Text>Анализ мочи для проверки количества 5-HIAA (5-гидроксииндолуксусной кислоты), продукта распада серотонина. Серотонин, нейротрансмиттер, участвующий в поведении и депрессии, производится нейроэндокринной опухолью.</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_5HIAA_TEST</LocID>                                      
+			<Text>Анализ мочи на 5-HIAA</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_5HIAA_TEST_DESC</LocID>                                      
+			<Text>Анализ мочи для проверки количества 5-HIAA (5-гидроксииндолуксусной кислоты), продукта распада серотонина. Серотонин, нейротрансмиттер, участвующий в поведении и депрессии, производится нейроэндокринной опухолью.</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_CHRAB</LocID>                                      
+			<Text>Кровь на хромогранин-A</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_CHRAB_DESC</LocID>                                      
+			<Text>Тест на хромогранин-А (CgA) используется в качестве маркера опухоли для диагностики карциноидных опухолей. Он также может быть использован для обнаружения других опухолей, возникающих из нейроэндокринных клеток.</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_CHRAB_TEST</LocID>                                      
+			<Text>Анализ крови на хромогранин-A</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_CHRAB_TEST_DESC</LocID>                                      
+			<Text>Тест на хромогранин-А (CgA) используется в качестве маркера опухоли для диагностики карциноидных опухолей. Он также может быть использован для обнаружения других опухолей, возникающих из нейроэндокринных клеток.</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_BONEBIOPSY_SAMPLE</LocID>                                      
+			<Text>Биопсия костного мозга</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_BONEBIOPSY_SAMPLE_DESC</LocID>                                      
+			<Text>Весьма болезненная процедура. Образец биопсии оценивается специалистом для определения состава клеток костного мозга. Объемы клеток сравниваются между собой, сопоставляются с объемами иных компонентов костного мозга. Определяется достаточночть их количества и наличие аномалий. </Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_BONEBIOPSY_TEST</LocID>                                      
+			<Text>Биопсия костного мозга</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_BONEBIOPSY_TEST_DESC</LocID>                                      
+			<Text>Весьма болезненная процедура. Образец биопсии оценивается специалистом для определения состава клеток костного мозга. Объемы клеток сравниваются между собой, сопоставляются с объемами иных компонентов костного мозга. Определяется достаточночть их количества и наличие аномалий.</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_FLOWCYT</LocID>                                      
+			<Text>Взять образец для проточной цитометрии</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_FLOWCYT_DESC</LocID>                                      
+			<Text>Проточная цитометрия - это метод, используемый для обнаружения и измерения физических и химических характеристик популяции клеток или частиц. Образец, содержащий клетки или частицы, суспендируют в жидкости и вводят в прибор с проточным цитометром.</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_FLOWCYT_TEST</LocID>                                      
+			<Text>Взять образец для проточной цитометрии</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_FLOWCYT_TEST_DESC</LocID>                                      
+			<Text>Проточная цитометрия - это метод, используемый для обнаружения и измерения физических и химических характеристик популяции клеток или частиц. Образец, содержащий клетки или частицы, суспендируют в жидкости и вводят в прибор с проточным цитометром.</Text>  
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_CBC_SAMPLING</LocID>                                      
+			<Text>(Онкология) Общий анализ крови</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_BLOOD_SMEAR_SAMPLE</LocID>                                      
+			<Text>Микроскопия мазка крови</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_BLOOD_SMEAR_SAMPLE_DESC</LocID>                                      
+			<Text>Тонкий слой крови, смазываемый на предметном стекле и окрашиваемый таким образом, чтобы можно было микроскопически исследовать различные клетки крови. Исследование мазка крови позволяет обнаружить различные нарушения структуры эритроцитов (изменение их формы, размеров, появление не вполне зрелых форм эритроцитов и т.д.).</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_BLOOD_SMEAR_TEST</LocID>                                      
+			<Text>Микроскопия мазка крови</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_BLOOD_SMEAR_TEST_DESC</LocID>                                      
+			<Text>Тонкий слой крови, смазываемый на предметном стекле и окрашиваемый таким образом, чтобы можно было микроскопически исследовать различные клетки крови. Исследование мазка крови позволяет обнаружить различные нарушения структуры эритроцитов (изменение их формы, размеров, появление не вполне зрелых форм эритроцитов и т.д.).</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_LIVER_FT_SAMPLING</LocID>                                      
+			<Text>Функциональный тест печени</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_LIVER_FT_SAMPLING_DESC</LocID>                                      
+			<Text>Функциональные тесты печени - это анализы крови, который может предоставить информацию о том, как работает печень. В нем проверяют уровень ряда белков и ферментов, которые либо вырабатываются, либо выделяются в кровь при повреждении клеток печени. </Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_LIVER_FT_TEST</LocID>                                      
+			<Text>Функциональный тест печени</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_LIVER_FT_TEST_DESC</LocID>                                      
+			<Text>Функциональные тесты печени - это анализы крови, который может предоставить информацию о том, как работает печень. В нем проверяют уровень ряда белков и ферментов, которые либо вырабатываются, либо выделяются в кровь при повреждении клеток печени.</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_FISH_SAMPLE</LocID>                                      
+			<Text>F.I.S.H.- исследование</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_FISH_SAMPLE_DESC</LocID>                                      
+			<Text>Флуоресцентная гибридизация in situ (FISH) - это молекулярно-цитогенетический метод, в котором используются флуоресцентные зонды, которые связываются только с теми частями последовательности нуклеиновой кислоты, которые обладают высокой степенью комплементарности последовательности.Позволяет: \n[1] Обнаружить и локализовать наличия или отсутствие специфических последовательностей ДНК на хромосомах. \n[2]Обнаружить и локализовать специфические РНК в циркулирующих опухолевых клетках и образцах тканей.</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_FISH_TEST</LocID>                                      
+			<Text>F.I.S.H.- исследование</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_FISH_TEST_DESC</LocID>                                      
+			<Text>Флуоресцентная гибридизация in situ (FISH) - это молекулярно-цитогенетический метод, в котором используются флуоресцентные зонды, которые связываются только с теми частями последовательности нуклеиновой кислоты, которые обладают высокой степенью комплементарности последовательности.Позволяет: \n[1] Обнаружить и локализовать наличия или отсутствие специфических последовательностей ДНК на хромосомах. \n[2]Обнаружить и локализовать специфические РНК в циркулирующих опухолевых клетках и образцах тканей.</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_IV_STAINING_SAMPLE</LocID>                                      
+			<Text>Микроскопия с красителями</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_IV_STAINING_SAMPLE_DESC</LocID>                                      
+			<Text>Окрашивание - это метод, используемый для усиления контраста в образцах, как правило, на микроскопическом уровне. Пятна и красители часто используются в гистологии и в медицинских областях гистопатологии, гематологии и цитопатологии. Красители используются для определения биологических тканей (мышечных волокон или соединительной ткани), клеточных популяций (классификация различных клеток крови) или органелл в отдельных клетках.</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_IV_STAINING_TEST</LocID>                                      
+			<Text>Микроскопия с красителями</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_IV_STAINING_TEST_DESC</LocID>                                      
+			<Text>Окрашивание - это метод, используемый для усиления контраста в образцах, как правило, на микроскопическом уровне. Пятна и красители часто используются в гистологии и в медицинских областях гистопатологии, гематологии и цитопатологии. Красители используются для определения биологических тканей (мышечных волокон или соединительной ткани), клеточных популяций (классификация различных клеток крови) или органелл в отдельных клетках.</Text>  
+			</GameDBLocalizedString>
+
+</LocalizedStrings>
+</GameDBStringTable>
+</Database>
