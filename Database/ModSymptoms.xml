@@ -694,9 +694,145 @@
 		
     </GameDBSymptom>
 	
+    <GameDBSymptom ID="SYM_CRP_HYPOSALIVATION">
+        <DescriptionLocID>SYM_CRP_HYPOSALIVATION_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_EVALUATION</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_REHYDRATION</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>50</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1557</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_OR_SYM_ICON004_LARGE</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_OR_SYM_ICON004_SMALL</CustomIconSmallAssetRef>
+		
+    </GameDBSymptom>
+	
+	<GameDBSymptom ID="SYM_CRP_DRY_MOUTH">
+        <DescriptionLocID>SYM_CRP_DRY_MOUTH_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_EVALUATION</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_REHYDRATION</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>50</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1557</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_OR_SYM_ICON004_LARGE</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_OR_SYM_ICON004_SMALL</CustomIconSmallAssetRef>
+		
+    </GameDBSymptom>
+	
+	<GameDBSymptom ID="SYM_CRP_MOUTH_DRAINAGE">
+        <DescriptionLocID>SYM_CRP_MOUTH_DRAINAGE_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_ORAL_CAVITY_INSPECTION</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_NSAIDS</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>35</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1393</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_OR_SYM_ICON014_LARGE</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_OR_SYM_ICON014_SMALL</CustomIconSmallAssetRef>
+		
+    </GameDBSymptom>
+	
 	<!-- ### Lung/Throat Based Symptoms ### -->
 	<!-- ################################## -->
 
+	<GameDBSymptom ID="SYM_CRP_SWOLLEN_NECK">
+        <DescriptionLocID>SYM_CRP_SWOLLEN_NECK_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+	
+        <Examinations>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_NSAIDS</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+        <IconIndex>2142</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_OR_SYM_ICON011_LARGE</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_OR_SYM_ICON011_SMALL</CustomIconSmallAssetRef>
+		
+    </GameDBSymptom>
+	
+	<GameDBSymptom ID="SYM_CRP_NECK_INJURY">
+        <DescriptionLocID>SYM_CRP_NECK_INJURY_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+	
+        <Examinations>
+		    <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+        <IconIndex>1</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_OR_SYM_ICON002_LARGE</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_OR_SYM_ICON002_SMALL</CustomIconSmallAssetRef>
+		
+    </GameDBSymptom>
+	
+	<GameDBSymptom ID="SYM_CRP_LUMP_IN_THROAT">
+        <DescriptionLocID>SYM_CRP_LUMP_IN_THROAT_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+	
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+        </Examinations>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+        <IconIndex>1609</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_OR_SYM_ICON015_LARGE</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_OR_SYM_ICON015_SMALL</CustomIconSmallAssetRef>
+		
+    </GameDBSymptom>
+	
 	<GameDBSymptom ID="SYM_CRP_HEMOPTYSIS1">
         <DescriptionLocID>SYM_CRP_HEMOPTYSIS1_DESC</DescriptionLocID>
         <DiscomfortLevel>Medium</DiscomfortLevel>
@@ -718,6 +854,91 @@
         <IconIndex>1365</IconIndex>
 		<CustomIconBigAssetRef>ASSET_CRP_SYM_ICON_021</CustomIconBigAssetRef>
         <CustomIconSmallAssetRef>ASSET_CRP_SYM_ICON_022</CustomIconSmallAssetRef>
+    </GameDBSymptom>
+	
+	<GameDBSymptom ID="SYM_CRP_PNEUMONIA">
+        <DescriptionLocID>SYM_CRP_PNEUMONIA_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>High</Hazard>
+
+        <RiskOfCollapseStartHours>6</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>24</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_CRP_ARDS</CollapseSymptomRef>
+        
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_X_RAY_TORSO</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_ANTIBIOTICS</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>1191</IconIndex>
+    </GameDBSymptom>
+	
+	<GameDBSymptom ID="SYM_CRP_ARDS">
+        <DescriptionLocID>SYM_CRP_ARDS_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>High</Hazard>
+		
+		<RiskOfCollapseStartHours>10</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>30</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_DYSPNEA</CollapseSymptomRef>
+		
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_CT</ExaminationRef>
+			<ExaminationRef>EXM_X_RAY_TORSO</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_ARTIFICIAL_VENTILATION</TreatmentRef>
+        </Treatments>
+		<CollapseProcedureRef>CONTROL_PROCEDURE_COLLAPSE_LOW</CollapseProcedureRef>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1793</IconIndex>
+    </GameDBSymptom>
+	
+	<GameDBSymptom ID="SYM_CRP_STRIDOR"> 
+        <DescriptionLocID>SYM_CRP_STRIDOR_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Medium</Hazard>
+		
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_CHEST_LISTENING</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_NSAIDS</TreatmentRef>
+        </Treatments>
+        <ShameLevel>40</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1047</IconIndex>
+    </GameDBSymptom>
+	
+	<GameDBSymptom ID="SYM_CRP_DECREASED_PITCH_AND_LOUDNESS"> 
+        <DescriptionLocID>SYM_CRP_DECREASED_PITCH_AND_LOUDNESS_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Medium</Hazard>
+		
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_SPEECH_LISTENING</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_JM_VOCAL_THERAPY</TreatmentRef>
+        </Treatments>
+        <ShameLevel>30</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1827</IconIndex>
     </GameDBSymptom>
 	
 	<!-- This symptom requires a surgery to be added to support it -->
@@ -752,6 +973,122 @@
         <IconIndex>1365</IconIndex>
 		<CustomIconBigAssetRef>ASSET_CRP_SYM_ICON_021</CustomIconBigAssetRef>
         <CustomIconSmallAssetRef>ASSET_CRP_SYM_ICON_022</CustomIconSmallAssetRef>
+    </GameDBSymptom>
+	
+	<!-- ### Nose Based Symptoms ### -->
+	<!-- ########################### -->
+	
+    <GameDBSymptom ID="SYM_CRP_NASAL_POLYP">
+        <DescriptionLocID>SYM_CRP_NASAL_POLYPS_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility> 
+	
+        <Examinations>
+			<ExaminationRef>EXM_CT</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_OTOR_FESS</TreatmentRef>
+			<TreatmentRef>TRT_JM_CORTICOSTEROID_NASAL_SPRAY</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+        <IconIndex>1595</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_OR_SYM_ICON008_LARGE</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_OR_SYM_ICON008_SMALL</CustomIconSmallAssetRef>
+	</GameDBSymptom>
+	
+	<GameDBSymptom ID="SYM_CRP_NASAL_DRIP">
+        <DescriptionLocID>SYM_CRP_NASAL_DRIP_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+	
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_NASAL_DROPS</TreatmentRef>
+			<TreatmentRef>TRT_JM_SALINE_NASAL_SPRAY</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+        <IconIndex>1</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_OR_SYM_ICON009_LARGE</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_OR_SYM_ICON009_SMALL</CustomIconSmallAssetRef>
+		
+    </GameDBSymptom>
+	
+	<GameDBSymptom ID="SYM_CRP_SINUS_FINDINGS"> 
+        <DescriptionLocID>SYM_CRP_SINUS_FINDINGS_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_CT</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_OTOR_INCISION_AND_DRAINAGE</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1041</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_OR_SYM_ICON012_LARGE</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_OR_SYM_ICON012_SMALL</CustomIconSmallAssetRef>
+    </GameDBSymptom>
+	
+	<GameDBSymptom ID="SYM_CRP_NASAL_DRAINAGE">
+        <DescriptionLocID>SYM_CRP_NASAL_DRAINAGE_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_NASAL_CAVITY_INSPECTION</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_NSAIDS</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>50</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1041</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_OR_SYM_ICON009_LARGE</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_OR_SYM_ICON009_SMALL</CustomIconSmallAssetRef>
+		
+    </GameDBSymptom>
+	
+	<!-- ### Ear Based Symptoms ### -->
+	<!-- ########################## -->
+	
+	<GameDBSymptom ID="SYM_CRP_EAR_PRESSURE">
+        <DescriptionLocID>SYM_CRP_EAR_PRESSURE_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_EVALUATION</ExaminationRef>
+        </Examinations>
+        <ShameLevel>20</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>2150</IconIndex>
+		<CustomIconBigAssetRef>ASSET_OR_SYM_ICON018_LARGE</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_OR_SYM_ICON018_SMALL</CustomIconSmallAssetRef>
     </GameDBSymptom>
 	
 	<!-- ### Infections ### -->
