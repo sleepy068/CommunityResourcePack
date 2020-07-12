@@ -988,6 +988,121 @@
         <DurationHours>2</DurationHours>
     </GameDBExamination>
 	
+    <GameDBExamination ID="EXM_CRP_SPUTUM_CULTURE_SAMPLING">  
+        <AbbreviationLocID>EXM_CRP_SPUTUM_CULTURE_SAMPLING_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>sit_exam</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>doc_equipment</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>clean_hands</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+            
+
+            <RequiredRoomTags>
+                <Tag>examinations_basic_equipment</Tag>
+				<Tag>ward</Tag>
+            </RequiredRoomTags>
+            
+            <ProcedureScript>ProcedureScriptExaminationGeneralEquipment</ProcedureScript>
+            <AnimationSetupSitting>
+                <AnimationNameIn>stand_bacteria_cultivation_sampling_in</AnimationNameIn>
+                <AnimationNameIdle>stand_bacteria_cultivation_sampling_idle</AnimationNameIdle>
+                <AnimationNameOut>stand_bacteria_cultivation_sampling_out</AnimationNameOut>
+            </AnimationSetupSitting>
+            <AnimationSetupLying>
+                <AnimationNameIn>stand_examination_in</AnimationNameIn>
+                <AnimationNameIdle>stand_examination_idle</AnimationNameIdle>
+                <AnimationNameOut>stand_examination_out</AnimationNameOut>
+            </AnimationSetupLying>
+            <DressLevel>FULL</DressLevel>
+            <Biohazard>true</Biohazard>
+            <Priority>20</Priority>
+        </Procedure>
+        <ExaminationType>EXAMINATION</ExaminationType>
+        <Cost>50</Cost>
+        <IconIndex>1663</IconIndex>
+		<CustomIconBigAssetRef>ASSET_OR_EXM_ICON001_LARGE</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_OR_EXM_ICON001_SMALL</CustomIconSmallAssetRef>
+        <DurationHours>0</DurationHours>
+        <LabTestingExaminationRef>EXM_JM_SPUTUM_CULTURE_TESTING</LabTestingExaminationRef>
+    </GameDBExamination>
+
+    <GameDBExamination ID="EXM_CRP_SPUTUM_CULTURE_TESTING"> 
+        <AbbreviationLocID>EXM_CRP_SPUTUM_CULTURE_TESTING_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_IGNORE_DOCTOR</StaffSelectionRules>
+            <RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredSkillsToPrescribe>
+            <RequiredStatLabQualificationRef>SKILL_LAB_SPECIALIST_QUALIF_SCIENCE_EDUCATION</RequiredStatLabQualificationRef>
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>stat_lab_exam</Tag>
+                    <DurationHours>0.1</DurationHours>
+                    <BlocksSpecialist>false</BlocksSpecialist>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>fume_hood</Tag>
+                    <DurationHours>0.1</DurationHours>
+                    <BlocksSpecialist>true</BlocksSpecialist>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>mic_incubator</Tag>
+                    <DurationHours>0.1</DurationHours>
+                    <BlocksSpecialist>false</BlocksSpecialist>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>microscope</Tag>
+                    <DurationHours>0.1</DurationHours>
+                    <BlocksSpecialist>false</BlocksSpecialist>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>biohazard_trash</Tag>
+                    <DurationHours>0.1</DurationHours>
+                    <BlocksSpecialist>true</BlocksSpecialist>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>clean_hands</Tag>
+                    <DurationHours>0.1</DurationHours>
+                    <BlocksSpecialist>true</BlocksSpecialist>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+            
+
+            <RequiredRoomTags>
+                <Tag>deprecated_lab</Tag>
+                <Tag>microbiology_lab</Tag>
+            </RequiredRoomTags>
+            
+            <AnimationSetupSitting>
+                <AnimationNameIn>move_start_upper_limb</AnimationNameIn>
+                <AnimationNameOut>move_end_upper_limb</AnimationNameOut>
+            </AnimationSetupSitting>
+            <DressLevel>FULL</DressLevel>
+            <Biohazard>true</Biohazard>
+            <Priority>20</Priority>
+            <FallbackLabDepartmentRef>DPT_LAB</FallbackLabDepartmentRef>
+        </Procedure>
+        <ExaminationType>EXAMINATION</ExaminationType>
+        <Cost>50</Cost>
+        <IconIndex>1663</IconIndex>
+		<CustomIconBigAssetRef>ASSET_OR_EXM_ICON001_LARGE</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_OR_EXM_ICON001_SMALL</CustomIconSmallAssetRef>
+        <DurationHours>0</DurationHours>
+    </GameDBExamination>
+	
 	<!-- ### Radiography Tests ### -->
 	<!-- ######################### -->
 	<!-- Mammogram
