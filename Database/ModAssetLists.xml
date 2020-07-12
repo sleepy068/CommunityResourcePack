@@ -1962,114 +1962,168 @@ This section handles adding custom examination icons to the game. -->
 	
 <!-- #### Content from Otorhinolaryngology (ENT) #### -->
 	
-<GameDBAsset ID="ASSET_OR_SYM_ICON002_LARGE"> <!-- Neck Injury -->
+<GameDBAsset ID="ASSET_CRP_SYM_ICON002_LARGE"> <!-- Neck Injury -->
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/sym_jm_larynx_trauma1a.png</File> 
 </GameDBAsset>
 
-<GameDBAsset ID="ASSET_OR_SYM_ICON002_SMALL">   
+<GameDBAsset ID="ASSET_CRP_SYM_ICON002_SMALL">   
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/sym_jm_larynx_trauma1b.png</File> 
 </GameDBAsset>
 	
-<GameDBAsset ID="ASSET_OR_SYM_ICON004_LARGE"> <!-- Dry Mouth -->
+<GameDBAsset ID="ASSET_CRP_SYM_ICON004_LARGE"> <!-- Dry Mouth -->
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/sym_jm_dry_mouth1a.png</File> 
 </GameDBAsset>
 
-<GameDBAsset ID="ASSET_OR_SYM_ICON004_SMALL">   
+<GameDBAsset ID="ASSET_CRP_SYM_ICON004_SMALL">   
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/sym_jm_dry_mouth1b.png</File> 
 </GameDBAsset>
 
-<GameDBAsset ID="ASSET_OR_SYM_ICON007_LARGE"> <!-- Pseudomembrane -->
+<GameDBAsset ID="ASSET_CRP_SYM_ICON007_LARGE"> <!-- Pseudomembrane -->
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/sym_jm_mucus1a.png</File> 
 </GameDBAsset>
 
-<GameDBAsset ID="ASSET_OR_SYM_ICON007_SMALL">   
+<GameDBAsset ID="ASSET_CRP_SYM_ICON007_SMALL">   
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/sym_jm_mucus1b.png</File> 
 </GameDBAsset>
 
-<GameDBAsset ID="ASSET_OR_SYM_ICON008_LARGE"> <!-- Nasal Polyps -->
+<GameDBAsset ID="ASSET_CRP_SYM_ICON008_LARGE"> <!-- Nasal Polyps -->
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/sym_jm_nasalpolyps1a.png</File> 
 </GameDBAsset>
 
-<GameDBAsset ID="ASSET_OR_SYM_ICON008_SMALL">   
+<GameDBAsset ID="ASSET_CRP_SYM_ICON008_SMALL">   
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/sym_jm_nasalpolyps1b.png</File> 
 </GameDBAsset>
 
-<GameDBAsset ID="ASSET_OR_SYM_ICON009_LARGE"> <!-- Nasal Drip -->
+<GameDBAsset ID="ASSET_CRP_SYM_ICON009_LARGE"> <!-- Nasal Drip -->
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/sym_jm_runnynose1a.png</File> 
 </GameDBAsset>
 
-<GameDBAsset ID="ASSET_OR_SYM_ICON009_SMALL">   
+<GameDBAsset ID="ASSET_CRP_SYM_ICON009_SMALL">   
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/sym_jm_runnynose1b.png</File> 
 </GameDBAsset>
 	
-<GameDBAsset ID="ASSET_OR_SYM_ICON011_LARGE"> <!-- Swollen Neck -->
+<GameDBAsset ID="ASSET_CRP_SYM_ICON011_LARGE"> <!-- Swollen Neck -->
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/sym_jm_swollen_neck1a.png</File> 
 </GameDBAsset>
 
-<GameDBAsset ID="ASSET_OR_SYM_ICON011_SMALL">   
+<GameDBAsset ID="ASSET_CRP_SYM_ICON011_SMALL">   
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/sym_jm_swollen_neck1b.png</File> 
 </GameDBAsset>
 
-<GameDBAsset ID="ASSET_OR_SYM_ICON012_LARGE"> <!-- Sinus Findings -->
+<GameDBAsset ID="ASSET_CRP_SYM_ICON012_LARGE"> <!-- Sinus Findings -->
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/sym_jm_sinus_findings1a.png</File> 
 </GameDBAsset>
 
-<GameDBAsset ID="ASSET_OR_SYM_ICON012_SMALL">   
+<GameDBAsset ID="ASSET_CRP_SYM_ICON012_SMALL">   
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/sym_jm_sinus_findings1b.png</File> 
 </GameDBAsset>
 
-<GameDBAsset ID="ASSET_OR_SYM_ICON013_LARGE"> <!-- Hemorrhagic Vocal Polyp -->
+<GameDBAsset ID="ASSET_CRP_SYM_ICON013_LARGE"> <!-- Hemorrhagic Vocal Polyp -->
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/sym_jm_hemorrhagic_vpolyp1a.png</File> 
 </GameDBAsset>
 
-<GameDBAsset ID="ASSET_OR_SYM_ICON013_SMALL">   
+<GameDBAsset ID="ASSET_CRP_SYM_ICON013_SMALL">   
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/sym_jm_hemorrhagic_vpolyp1b.png</File> 
 </GameDBAsset>
 
-<GameDBAsset ID="ASSET_OR_SYM_ICON014_LARGE"> <!-- Mouth Drainage -->
+<GameDBAsset ID="ASSET_CRP_SYM_ICON014_LARGE"> <!-- Mouth Drainage -->
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/sym_jm_mouth_drainage1a.png</File> 
 </GameDBAsset>
 
-<GameDBAsset ID="ASSET_OR_SYM_ICON014_SMALL">   
+<GameDBAsset ID="ASSET_CRP_SYM_ICON014_SMALL">   
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/sym_jm_mouth_drainage1b.png</File> 
 </GameDBAsset>
 
-<GameDBAsset ID="ASSET_OR_SYM_ICON015_LARGE"> <!-- Lump in throat -->
+<GameDBAsset ID="ASSET_CRP_SYM_ICON015_LARGE"> <!-- Lump in throat -->
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/sym_jm_lump_in_throat1a.png</File> 
 </GameDBAsset>
 
-<GameDBAsset ID="ASSET_OR_SYM_ICON015_SMALL">   
+<GameDBAsset ID="ASSET_CRP_SYM_ICON015_SMALL">   
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/sym_jm_lump_in_throat1b.png</File> 
 </GameDBAsset>
 	
-<GameDBAsset ID="ASSET_OR_SYM_ICON018_LARGE"> <!-- Ear Pressure -->
+<GameDBAsset ID="ASSET_CRP_SYM_ICON018_LARGE"> <!-- Ear Pressure -->
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/sym_jm_ear_pressure1a.png</File> 
 </GameDBAsset>
 
-<GameDBAsset ID="ASSET_OR_SYM_ICON018_SMALL">   
+<GameDBAsset ID="ASSET_CRP_SYM_ICON018_SMALL">   
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/sym_jm_ear_pressure1b.png</File> 
 </GameDBAsset>
+	
+<!-- #### Treatment #### -->
+	
+<GameDBAsset ID="ASSET_CRP_TRT_ICON001_LARGE"> <!-- Adenoidectomy -->
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_jm_adenoidectomy1a.png</File> 
+</GameDBAsset>
 
+<GameDBAsset ID="ASSET_CRP_TRT_ICON001_SMALL">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_jm_adenoidectomy1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_CRP_TRT_ICON002_LARGE"> <!-- LOTS -->
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_jm_lots1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_CRP_TRT_ICON002_SMALL">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_jm_lots1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_CRP_TRT_ICON003_LARGE"> <!-- Vestibular Nerve Surgery and Nerve Transplant -->
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_jm_nerve_surgery1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_CRP_TRT_ICON003_SMALL">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_jm_nerve_surgery1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_CRP_TRT_ICON004_LARGE"> <!-- Papilloma Removal Surgery -->
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_jm_papilloma_removal_surgery1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_CRP_TRT_ICON004_SMALL">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_jm_papilloma_removal_surgery1b.png</File> 
+</GameDBAsset>
+	
+<!-- #### Examination #### -->
+
+<GameDBAsset ID="ASSET_CRP_EXM_ICON001_LARGE"> <!-- Swab -->
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/exm_jm_swab1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_CRP_EXM_ICON001_SMALL">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/exm_jm_swab1b.png</File> 
+</GameDBAsset>
+	
 </Database>
