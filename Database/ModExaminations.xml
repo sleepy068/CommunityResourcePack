@@ -1032,8 +1032,8 @@
         <ExaminationType>EXAMINATION</ExaminationType>
         <Cost>50</Cost>
         <IconIndex>1663</IconIndex>
-		<CustomIconBigAssetRef>ASSET_OR_EXM_ICON001_LARGE</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_OR_EXM_ICON001_SMALL</CustomIconSmallAssetRef>
+		<CustomIconBigAssetRef>ASSET_CRP_EXM_ICON001_LARGE</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_CRP_EXM_ICON001_SMALL</CustomIconSmallAssetRef>
         <DurationHours>0</DurationHours>
         <LabTestingExaminationRef>EXM_JM_SPUTUM_CULTURE_TESTING</LabTestingExaminationRef>
     </GameDBExamination>
@@ -1098,8 +1098,8 @@
         <ExaminationType>EXAMINATION</ExaminationType>
         <Cost>50</Cost>
         <IconIndex>1663</IconIndex>
-		<CustomIconBigAssetRef>ASSET_OR_EXM_ICON001_LARGE</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_OR_EXM_ICON001_SMALL</CustomIconSmallAssetRef>
+		<CustomIconBigAssetRef>ASSET_CRP_EXM_ICON001_LARGE</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_CRP_EXM_ICON001_SMALL</CustomIconSmallAssetRef>
         <DurationHours>0</DurationHours>
     </GameDBExamination>
 	
