@@ -1828,7 +1828,201 @@
 		<LocID>SYM_CRP_COLONOFIND_DESC</LocID>                   
 		<Text>Testing has reported unusual colon findings. Further tests or results from the biopsy will help determine if the findings are cause for concern.</Text>  
 	</GameDBLocalizedString>
-	
+		
+	<!-- ### ### -->
+	<!-- ######################################## Content for ENT Added Below ######################################## -->
+	<!-- ### Always seperate localisation for new versions for translators ### -->
+		
+		<GameDBLocalizedString>      
+		 <LocID>SYM_JM_NECK_INJURY</LocID>                 
+		 <Text>Neck injury</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+		 <LocID>SYM_JM_NECK_INJURY_DESCRIPTION</LocID>     
+		 <Text>The patient experienced a neck injury. </Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+		 <LocID>SYM_JM_SWOLLEN_NECK</LocID>                 
+		 <Text>Swollen neck</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+		 <LocID>SYM_JM_SWOLLEN_NECK_DESCRIPTION</LocID>     
+		 <Text>The patient has a swollen neck. </Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>
+		 <LocID>SYM_JM_MOUTH_DRAINAGE</LocID>                 
+		 <Text>Mouth Drainage</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>    
+		 <LocID>SYM_JM_MOUTH_DRAINAGE_DESCRIPTION</LocID>     
+		 <Text>The patient has unidentified fluids coming from the mouth.</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>
+		 <LocID>SYM_JM_DRY_MOUTH</LocID>                 
+		 <Text>Dry Mouth</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>  
+		 <LocID>SYM_JM_DRY_MOUTH_DESCRIPTION</LocID>     
+		 <Text>The patient's mouth is dry.</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>
+		 <LocID>SYM_JM_HYPOSALIVATION</LocID>                 
+		 <Text>Hyposalivation</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+		 <LocID>SYM_JM_HYPOSALIVATION_DESCRIPTION</LocID>    
+		 <Text>The patient's mouth isn't producing saliva that much, causes the patint's mouth to be dry.</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>
+		 <LocID>SYM_JM_SIALOLITHIASIS</LocID>                 
+		 <Text>Sialolithiasis</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>     
+		 <LocID>SYM_JM_SIALOLITHIASIS_DESCRIPTION</LocID>     
+		 <Text>Sialolithiasis is the medical term for salivary gland stones. These stones, or calculi, are mostly composed of calcium, but they also contain magnesium, potassium, and ammonium. Your mouth has three salivary glands that can develop stones: parotid, submandibular, sublingual, and minor salivary glands.</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>    
+		 <LocID>SYM_JM_PSEUDOMEMBRANE</LocID>                 
+		 <Text>Pseudomembrane</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>     
+		 <LocID>SYM_JM_PSEUDOMEMBRANE_DESCRIPTION</LocID>     
+		 <Text>A pseudomembrane is a false membrane in the eye or throat that sometimes develops during infections and inflammations. It typically covers the conjunctiva, or the white part of the eyes, and can be very uncomfortable, and a pseudomembrane also develops when the patient has Diphtheria. </Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString> 
+		 <LocID>SYM_JM_VOCAL_POLYP_HEMORRHAGE</LocID>                 
+		 <Text>Hemorrhagic Vocal Polyp</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>    
+		 <LocID>SYM_JM_VOCAL_POLYP_HEMORRHAGE_DESCRIPTION</LocID>     
+		 <Text>A Vocal Polyp has hemorrhaged in the patient</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>     
+		 <LocID>SYM_JM_LUMP_IN_THROAT</LocID>                 
+		 <Text>Lump in Throat</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>  
+		 <LocID>SYM_JM_LUMP_IN_THROAT_DESCRIPTION</LocID>     
+		 <Text>A lump in the throat has been found in the patient</Text>  
+		</GameDBLocalizedString>
+
+	        <GameDBLocalizedString>      
+		 <LocID>SYM_JM_PNEUMONIA</LocID>                 
+		 <Text>Pneumonia</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+		 <LocID>SYM_JM_PNEUMONIA_DESCRIPTION</LocID>     
+		 <Text>Pneumonia is an infection that inflames the air sacs in one or both lungs. The air sacs may fill with fluid or pus, causing cough with phlegm or pus, fever, chills, and difficulty breathing. A variety of organisms, including bacteria, viruses and fungi, can cause pneumonia.Without treating bacterial pneumonia it can lead to complications like respiratory failure. </Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+		 <LocID>SYM_JM_ARDS</LocID>                 
+		 <Text>Acute Respiratory Distress Syndrome (ARDS)</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+		 <LocID>SYM_JM_ARDS_DESCRIPTION</LocID>     
+		 <Text>Acute respiratory distress syndrome (ARDS) is a type of respiratory failure characterized by rapid onset of widespread inflammation in the lungs. Symptoms include shortness of breath, rapid breathing, and bluish skin coloration. </Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>     
+		 <LocID>SYM_JM_STRIDOR</LocID>                 
+		 <Text>Stridor</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>     
+		 <LocID>SYM_JM_STRIDOR_DESCRIPTION</LocID>     
+		 <Text>Stridor is a high-pitched, wheezing sound caused by disrupted airflow. Stridor may also be called musical breathing or extrathoracic airway obstruction. Airflow is usually disrupted by a blockage in the larynx (voice box) or trachea (windpipe). Stridor affects children more often than adults.</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>    
+		 <LocID>SYM_JM_DECREASED_PITCH_AND_LOUDNESS</LocID>                 
+		 <Text>Decreased Pitch and Loudness</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>   
+		 <LocID>SYM_JM_DECREASED_PITCH_AND_LOUDNESS_DESCRIPTION</LocID>     
+		 <Text>The patient has decreased pitch range and loudness</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>  
+		 <LocID>SYM_JM_EAR_PRESSURE</LocID>                 
+		 <Text>Pressure in the Ears</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>    
+		 <LocID>SYM_JM_EAR_PRESSURE_DESCRIPTION</LocID>     
+		 <Text>The patient feels like they have pressure in their ears or their ears feel full.</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString> 
+		 <LocID>SYM_JM_NASAL_POLYP</LocID>                 
+		 <Text>Nasal polyps</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+		 <LocID>SYM_JM_NASAL_POLYPS_DESCRIPTION</LocID>     
+		 <Text>Nasal polyps are soft, painless, noncancerous growths on the lining of your nasal passages or sinuses. They hang down like teardrops or grapes. They result from chronic inflammation. They either can be treated with saline spray or surgery.</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+		 <LocID>SYM_JM_SINUS_FINDINGS</LocID>                               
+		 <Text>Nasal Findings</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+		 <LocID>SYM_JM_SINUS_FINDINGS_DESCRIPTION</LocID>                               
+		 <Text>Nasal findings has been found by a CT.</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>    
+		 <LocID>SYM_JM_NASAL_DRAINAGE</LocID>                               
+		 <Text>Nasal Discharge</Text>  
+		</GameDBLocalizedString>
+			
+	        <GameDBLocalizedString>    
+		 <LocID>SYM_JM_NASAL_DRAINAGE_DESCRIPTION</LocID>                               
+		 <Text>The patient has unidentified fluids coming from the nose.</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+		 <LocID>SYM_JM_NASAL_DRIP</LocID>                 
+		 <Text>Post nasal drip</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+		 <LocID>SYM_JM_NASAL_DRIP_DESCRIPTION</LocID>     
+		 <Text>Post nasal drip is mucus from your nose and it drips harmlessly down the back of your throat, and you swallow it. </Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+		 <LocID>SYM_JM_INFLAMMED_RH</LocID>                 
+		 <Text>Inflammed nasal cavities</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+		 <LocID>SYM_JM_INFLAMMED_RH_DESCRIPTION</LocID>     
+		 <Text>The patient's nasal cavity is is inflammed. </Text>  
+		</GameDBLocalizedString>
+		
 	</LocalizedStrings>
 	</GameDBStringTable>
 </Database>
