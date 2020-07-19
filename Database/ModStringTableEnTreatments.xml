@@ -435,36 +435,44 @@
 	<!-- ### Always seperate localisation for new versions for translators ### -->
 
 	<GameDBLocalizedString>      
-	<LocID>TRT_JM_INTUBATION</LocID>                        	
+	<LocID>TRT_CRP_INTUBATION</LocID>                        	
 	<Text>Intubation</Text>  
 	</GameDBLocalizedString>
 	
 	<GameDBLocalizedString>      
-	<LocID>TRT_JM_INTUBATION_DESC</LocID>                                    	
+	<LocID>TRT_CRP_INTUBATION_DESC</LocID>                                    	
 	<Text>Intubation is the process of inserting a tube, called an endotracheal tube (ET), through the mouth and then into the airway. This is done so that a patient can be placed on a ventilator to assist with breathing during anesthesia, sedation, or severe illness.\n\nRequired room: Otorhinolaryngology Diagnostic Unit / Otorhinolaryngology Doctor's Office / ICU / Observation Room</Text>  
 	</GameDBLocalizedString>
 		
 	<GameDBLocalizedString>    
-	<LocID>TRT_JM_CORTICOSTEROID_NASAL_SPRAY</LocID>                        	
+	<LocID>TRT_CRP_CORTICOSTEROID_NASAL_SPRAY</LocID>                        	
 	<Text>Corticosteroid nasal spray</Text>  
 	</GameDBLocalizedString>
 	
 	<GameDBLocalizedString>    
-	<LocID>TRT_JM_CORTICOSTEROID_NASAL_SPRAY_DESC</LocID>                                    	
+	<LocID>TRT_CRP_CORTICOSTEROID_NASAL_SPRAY_DESC</LocID>                                    	
 	<Text>Steroid nasal sprays, also called corticosteroid nasal sprays, are anti-inflammatory medicines that you spray into your nose.They can be used to treat a range of conditions, including hay fever, sinusitis, non-allergic rhinitis and nasal polyps.Some steroid nasal sprays are available to buy from pharmacies and shops, while others are only available on prescription. Steroid nasal drops are also available. \n\nRequired room: Otorhinolaryngology Diagnostic Unit / Otorhinolaryngology Doctor's Office / ICU / Observation Room</Text>  
 	</GameDBLocalizedString>
 		
 	<GameDBLocalizedString>      
-	<LocID>TRT_JM_VOCAL_THERAPY</LocID>                                    	
+	<LocID>TRT_CRP_VOCAL_THERAPY</LocID>                                    	
 	<Text>Vocal Therapy</Text>  
 	</GameDBLocalizedString>
 
 	<GameDBLocalizedString>      
-	<LocID>TRT_JM_VOCAL_THERAPY_DESC</LocID>                        	
+	<LocID>TRT_CRP_VOCAL_THERAPY_DESC</LocID>                        	
 	<Text>Voice therapy is a program designed to reduce hoarseness through guided change in vocal behaviors and lifestyle changes. Voice therapy consists of a variety of tasks designed to eliminate harmful vocal behavior, shape healthy vocal behavior, and assist in vocal fold wound healing after surgery or injury.</Text>  
 	</GameDBLocalizedString>
 		
-	
+	<GameDBLocalizedString>      
+	<LocID>TRT_CRP_PRS</LocID>                                    	
+	<Text>Papilloma Removal Surgery</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>     
+	<LocID>TRT_CRP_PRS_DESCRIPTION</LocID>                        	
+	<Text>Papilloma Removal Surgery is a removal of papillomas (Tumour like growths caused by HPV) to prevent or treat existing conditions.  \n\nRequired room: Operating room at *** dpt.</Text>  
+	</GameDBLocalizedString>
 	
 	
 	</LocalizedStrings>
