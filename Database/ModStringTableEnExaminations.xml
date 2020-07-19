@@ -350,22 +350,22 @@
 			<!-- ### Always seperate localisation for new versions for translators ### -->
 		
 		        <GameDBLocalizedString>  
-			<LocID>EXM_JM_SPUTUM_CULTURE_SAMPLING</LocID>
+			<LocID>EXM_CRP_SPUTUM_CULTURE_SAMPLING</LocID>
 			<Text>Sputum Sampling </Text> 
 			</GameDBLocalizedString>
 			
 			<GameDBLocalizedString>  
-			<LocID>EXM_JM_SPUTUM_CULTURE_SAMPLING_DESCRIPTION</LocID>  
+			<LocID>EXM_CRP_SPUTUM_CULTURE_SAMPLING_DESCRIPTION</LocID>  
 			<Text>A sputum culture is a test to detect and identify bacteria or fungi that infect the lungs or breathing passages. Sputum is a thick fluid produced in the lungs and in the adjacent airways. ... If no bacteria or fungi grow, the culture is negative. \n\nRequired room: Hematology Lab</Text> 
 			</GameDBLocalizedString>
 			
                         <GameDBLocalizedString>  
-			<LocID>EXM_JM_SPUTUM_CULTURE_TESTING</LocID>
+			<LocID>EXM_CRP_SPUTUM_CULTURE_TESTING</LocID>
 			<Text>Sputum Culture</Text> 
 			</GameDBLocalizedString>
 			
 			<GameDBLocalizedString>
-			<LocID>EXM_JM_SPUTUM_CULTURE_TESTING_DESCRIPTION</LocID>  
+			<LocID>EXM_CRP_SPUTUM_CULTURE_TESTING_DESCRIPTION</LocID>  
 			<Text>The sampling of sputum for a Sputum Culture. \n\nRequired room: Hematology Lab</Text> 
 			</GameDBLocalizedString>
 
