@@ -6,6 +6,7 @@
 
         <Contributors>
             <Name>Bowelas</Name>
+	    <Name>Idhelmchen</Name> <!-- ENT translation -->
         </Contributors>
 
         <LocalizedStrings>
@@ -315,6 +316,28 @@
 			<GameDBLocalizedString>      
 			<LocID>EXM_CRP_LYMPHBIOPSY_TEST_DESC</LocID>                                      
 			<Text>Die Lymphknotenbiopsie ist ein Test, bei dem ein Lymphknoten oder ein Stück eines Lymphknotens zur Untersuchung unter einem Mikroskop entfernt wird. Eine Lymphknotenbiopsie kann helfen, festzustellen, ob der Patient eine Infektion, eine Immunerkrankung oder Krebs hat.</Text>  
+			</GameDBLocalizedString>
+		
+		        <!-- ENT -->
+		
+		        <GameDBLocalizedString>  
+			<LocID>EXM_JM_SPUTUM_CULTURE_SAMPLING</LocID>
+			<Text>Sputum-Probenahme</Text> 
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>  
+			<LocID>EXM_JM_SPUTUM_CULTURE_SAMPLING_DESCRIPTION</LocID>  
+			<Text>Eine Sputumkultur ist ein Test zum Nachweis und zur Identifizierung von Bakterien oder Pilzen, die die Lunge oder die Atemwege infizieren. Sputum ist eine dicke Flüssigkeit, die in der Lunge und in den angrenzenden Atemwegen produziert wird. ... Wenn keine Bakterien oder Pilze wachsen, ist die Kultur negativ. \ n \ n Erforderlicher Raum: Hämatologielabor</Text> 
+			</GameDBLocalizedString>
+			
+                        <GameDBLocalizedString> 
+			<LocID>EXM_JM_SPUTUM_CULTURE_TESTING</LocID>
+			<Text>Sputum Kultur</Text> 
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>   
+			<LocID>EXM_JM_SPUTUM_CULTURE_TESTING_DESCRIPTION</LocID>  
+			<Text>Die Probenahme von Sputum für eine Sputumkultur. \ n \ n Erforderlicher Raum: Hämatologielabor</Text> 
 			</GameDBLocalizedString>
 
 </LocalizedStrings>
