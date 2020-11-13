@@ -12,7 +12,7 @@ Symptom Changes:
 Changed Examination for SYM_CRP_COLONOFIND from EXM_CRP_COLONOSCOPY_BIOPSY_SAMPLE to EXM_CRP_COLONOSCOPY (The old exam did not work how it was intended, was suppose to find during sampling)
 
 Bug Fixes:
-Fixed issue with room requipments of Epipen (TRT_CRP_EPIPEN)(Should be able to be used anywhere now, as intended)
+Fixed issue with room requirements of Epipen (TRT_CRP_EPIPEN)(Should be able to be used anywhere now, as intended)
 
 
 
