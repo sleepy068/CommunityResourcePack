@@ -1,0 +1,31 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_ES_ADDON_CRP_EXAMINATIONS">
+
+        <LanguageCode>es</LanguageCode>
+        <LanguageNameLocalized>Spanish</LanguageNameLocalized>
+
+        <Contributors>
+			<Name>Parmeno75</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+
+<!-- ### ### -->
+	<!-- ######################################## Content From OBGYN ######################################## -->
+	<!-- ### ### -->			      			
+			
+			<GameDBLocalizedString>	<LocID>EXM_CRP_SEIN</LocID>								<Text>Exploración de las mamas </Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>EXM_CRP_SEIN_DESCRIPTION</LocID>					<Text>Inspección visual y palpación de las mamas.</Text></GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>EXM_CRP_ECHO_PELV</LocID>						<Text>Sonografía pélvica</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>EXM_CRP_ECHO_PELV_DESCRIPTION</LocID>			<Text>Sonografía del área pélvica.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>EXM_CRP_FCU_SAMPLING</LocID>						<Text>Muestra de Papanicolaou</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>EXM_CRP_FCU_TESTING</LocID>						<Text>Análisis de Papanicolaou </Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>EXM_CRP_FCU_DESCRIPTION</LocID>					<Text>Un método para la detección temprana del cáncer, especialmente del cuello uterino, que implica la tinción de las células extraidas mediante una técnica especial que detecta el tejido enfermo.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>EXM_CRP_HGPO_SAMPLING</LocID>					<Text>Prueba de torelancia a la glucosa (OGTT)</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>EXM_CRP_HGPO_TESTING</LocID>						<Text>Análisis de tolerancia a la glucosa (OGTT)</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>EXM_CRP_HGPO_DESCRIPTION</LocID>					<Text>El test de tolerancia a la glucosa, también conocido como el test oral de tolerancia a la glucosa (OGTT), mide la respuesta de tu organismo al azúcar (glucosa).</Text>	</GameDBLocalizedString>
+			
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

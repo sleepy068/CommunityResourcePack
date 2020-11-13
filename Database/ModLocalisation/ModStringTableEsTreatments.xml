@@ -1,0 +1,35 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_ES_ADDON_CRP_TREATMENTS">
+
+        <LanguageCode>es</LanguageCode>
+        <LanguageNameLocalized>Spanish</LanguageNameLocalized>
+
+        <Contributors>
+			<Name>Parmeno75</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+			
+	<!-- ### ### -->
+	<!-- ######################################## Content From OBGYN ######################################## -->
+	<!-- ### ### -->			
+			
+			<GameDBLocalizedString>	<LocID>TRT_CRP_ANTI_ACNEE</LocID>										<Text>Anti-acneico</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CRP_ANTI_ACNEE_DESCRIPTION</LocID>							<Text>Fármaco usado para tratar diversos tipos y formas de acné.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CRP_OP</LocID>												<Text>Cápsula de Estradiol-Progesterona</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CRP_OP_DESCRIPTION</LocID>									<Text>Este medicacmento contiene 2 hormonas femeninas: estrógeno y progestina.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CRP_METFORMINE</LocID>										<Text>Fármaco antidiabético</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CRP_METFORMINE_DESCRIPTION</LocID>							<Text>Fármacos que reducen la resistencia a la insulina.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CRP_ANTI_ANDROGEN</LocID>									<Text>Antiandrógenos</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CRP_ANTI_ANDROGEN_DESCRIPTION</LocID>						<Text>Los agentes antiandrógenos bloquean los receptores de andrógenos, inhibiendo así los efectos de las hormonas sexuales masculinas.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CRP_PROGESTATIF</LocID>										<Text>Progestágenos</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CRP_PROGESTATIF_DESCRIPTION</LocID>							<Text>Un esteroide progestacional natural o sintético.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CRP_OESTROGENOTHERAPIE</LocID>								<Text>Terapia de reemplazo de estrógenos</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CRP_OESTROGENOTHERAPIE_DESCRIPTION</LocID>					<Text>Terapia de reemplazo hormonal que implica la administración de estrógenos sin progestina.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CRP_SURVEILLANCE</LocID>										<Text>Atención médica</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CRP_SURVEILLANCE_DESCRIPTION</LocID>							<Text>La provisión de lo que es necesario para la salud y el bienestar de una persona por parte de un médico, enfermera u otro profesional de la salud.</Text>	</GameDBLocalizedString>
+			
+			
+			</LocalizedStrings>
+    </GameDBStringTable>
+</Database>

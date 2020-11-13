@@ -7,7 +7,22 @@
 	These exams have been added by their original developers to be used by any modder that wishes for these to be
 	apart of their mod. Simply add this mod as a dependency and reference them.
 	It is recommended that modders avoid using the same naming convention used by this mod EXM_CRP_*NAME* to help
-	prevent conflicts with their own mods. -->
+	prevent conflicts with their own mods. 
+	
+	Dont forget to check the room tags, we can change these to anything required but you can just copy these if need be. E.G.
+	They will generally be tagged from the author that created them. We have added a CRP tag to every treatment that may need it.
+	<Tag>CRP_MOD</Tag>
+	
+	<RequiredRoomTags>
+		<Tag>observation</Tag>
+		<Tag>icu</Tag>	
+		<Tag>gyneco_office</Tag>	
+		<Tag>gyneco_inpatient_office</Tag>
+		<Tag>receipt</Tag>
+	</RequiredRoomTags>
+	-->
+	
+	
 	<!-- ### Topical Treatments (Creams, foams, gels, lotions, and ointments) ### -->
 	<!-- ######################################################################### -->
 	
@@ -39,6 +54,7 @@
         </Procedure>
 		
         <TreatmentType>RECEIPT</TreatmentType>
+		<PharmacyPickup>true</PharmacyPickup>
         <Cost>50</Cost>
         <DurationHours>0</DurationHours>
 		<IconIndex>2021</IconIndex>
@@ -133,6 +149,7 @@
         </Procedure>
 		
         <TreatmentType>RECEIPT</TreatmentType>
+		<PharmacyPickup>true</PharmacyPickup>
         <Cost>50</Cost>
         <DurationHours>0</DurationHours>
 		<IconIndex>2021</IconIndex>
@@ -141,6 +158,78 @@
         <CustomIconSmallAssetRef>ASSET_CRP_TRT_ICON_032</CustomIconSmallAssetRef>
 		
     </GameDBTreatment>
+
+	<!-- Anti-acne Cream 
+	TAGS: 
+	DESC:  -->
+	<GameDBTreatment ID="TRT_CRP_ANTI_ACNEE">
+        <AbbreviationLocID>TRT_CRP_ANTI_ACNEE_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>receipt</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <RequiredRoomTags>
+				<Tag>observation</Tag>
+                <Tag>icu</Tag>	
+				<Tag>gyneco_office</Tag>	
+				<Tag>gyneco_inpatient_office</Tag>
+				<Tag>CRP_MOD</Tag>
+				<Tag>receipt</Tag>
+            </RequiredRoomTags>
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+		<PharmacyPickup>true</PharmacyPickup>
+        <Cost>50</Cost>
+        <IconIndex>1861</IconIndex>
+        <DurationHours>0</DurationHours>
+    </GameDBTreatment>
+
+	<!-- Moisturizer cream
+	TAGS: 
+	DESC: Crème hydratante -->
+	<GameDBTreatment ID="TRT_CRP_MOISTURIZER_CREAM">
+        <AbbreviationLocID>TRT_CRP_MOISTURIZER_CREAM_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>receipt</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <RequiredRoomTags>
+				<Tag>observation</Tag>
+                <Tag>icu</Tag>	
+				<Tag>receipt</Tag>
+            </RequiredRoomTags>
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+		<PharmacyPickup>true</PharmacyPickup>
+        <Cost>50</Cost>
+        <IconIndex>2021</IconIndex>
+        <DurationHours>0</DurationHours>
+    </GameDBTreatment>
+
 	
 	<!-- ### Oral Treatments (Tablets, pills) ### -->
 	<!-- ######################################## -->
@@ -173,6 +262,7 @@
         </Procedure>
 		
         <TreatmentType>RECEIPT</TreatmentType>
+		<PharmacyPickup>true</PharmacyPickup>
         <Cost>50</Cost>
         <DurationHours>0</DurationHours>
 		<IconIndex>2021</IconIndex>
@@ -210,6 +300,7 @@
         </Procedure>
 		
         <TreatmentType>RECEIPT</TreatmentType>
+		<PharmacyPickup>true</PharmacyPickup>
         <Cost>50</Cost>
         <DurationHours>0</DurationHours>
 		<IconIndex>1159</IconIndex>
@@ -219,7 +310,7 @@
 		
     </GameDBTreatment>
 	
-	<!-- Mitotane
+	<!-- Mitotane = adrenal cytotoxic agent (agent cytotoxique surrénalien)
 	TAGS: 
 	DESC:  -->
 	<GameDBTreatment ID="TRT_CRP_MITOTANE">
@@ -247,6 +338,7 @@
         </Procedure>
 		
         <TreatmentType>RECEIPT</TreatmentType>
+		<PharmacyPickup>true</PharmacyPickup>
         <Cost>50</Cost>
         <DurationHours>0</DurationHours>
 		<IconIndex>2021</IconIndex>
@@ -256,7 +348,7 @@
 		
     </GameDBTreatment>
 	
-	<!-- Spironolactone
+	<!-- Spironolactone =  Potassium-sparing diuretic (diurétique épargneur de potassium)
 	TAGS: 
 	DESC:  -->
 	<GameDBTreatment ID="TRT_CRP_SPIRONOLACTONE">
@@ -284,6 +376,7 @@
         </Procedure>
 		
         <TreatmentType>RECEIPT</TreatmentType>
+		<PharmacyPickup>true</PharmacyPickup>
         <Cost>50</Cost>
         <DurationHours>0</DurationHours>
 		<IconIndex>2021</IconIndex>
@@ -321,6 +414,7 @@
         </Procedure>
 		
         <TreatmentType>RECEIPT</TreatmentType>
+		<PharmacyPickup>true</PharmacyPickup>
         <Cost>50</Cost>
         <DurationHours>0</DurationHours>
 		<IconIndex>2021</IconIndex>
@@ -358,6 +452,7 @@
         </Procedure>
 		
         <TreatmentType>RECEIPT</TreatmentType>
+		<PharmacyPickup>true</PharmacyPickup>
         <Cost>50</Cost>
         <DurationHours>0</DurationHours>
 		<IconIndex>2021</IconIndex>
@@ -395,6 +490,7 @@
         </Procedure>
 		
         <TreatmentType>RECEIPT</TreatmentType>
+		<PharmacyPickup>true</PharmacyPickup>
         <Cost>50</Cost>
         <DurationHours>0</DurationHours>
 		<IconIndex>2021</IconIndex>
@@ -404,7 +500,7 @@
 		
     </GameDBTreatment>
 	
-	<!-- Tamoxifen
+	<!-- Tamoxifen =  anti-estrogène
 	TAGS: 
 	DESC:  -->
 	<GameDBTreatment ID="TRT_CRP_TAMOXIFEN">
@@ -432,6 +528,7 @@
         </Procedure>
 		
         <TreatmentType>RECEIPT</TreatmentType>
+		<PharmacyPickup>true</PharmacyPickup>
         <Cost>50</Cost>
         <DurationHours>0</DurationHours>
 		<IconIndex>2021</IconIndex>
@@ -469,6 +566,7 @@
         </Procedure>
 		
         <TreatmentType>RECEIPT</TreatmentType>
+		<PharmacyPickup>true</PharmacyPickup>
         <Cost>50</Cost>
         <DurationHours>0</DurationHours>
 		<IconIndex>2021</IconIndex>
@@ -506,6 +604,7 @@
         </Procedure>
 		
         <TreatmentType>RECEIPT</TreatmentType>
+		<PharmacyPickup>true</PharmacyPickup>
         <Cost>50</Cost>
         <DurationHours>0</DurationHours>
 		<IconIndex>2021</IconIndex>
@@ -543,6 +642,7 @@
         </Procedure>
 		
         <TreatmentType>RECEIPT</TreatmentType>
+		<PharmacyPickup>true</PharmacyPickup>
         <Cost>50</Cost>
         <DurationHours>0</DurationHours>
 		<IconIndex>2021</IconIndex>
@@ -551,9 +651,393 @@
         <CustomIconSmallAssetRef>ASSET_CRP_TRT_ICON_044</CustomIconSmallAssetRef>
 		
     </GameDBTreatment>
-        <!-- ### Hospitalisation Treatments (Intubation, Dialysis) ### -->
-	<!-- ######################################################### -->
+
+	<!-- Estrogen-progestogen pill
+	TAGS: 
+	DESC:  -->
+	<GameDBTreatment ID="TRT_CRP_OP">
+        <AbbreviationLocID>TRT_CRP_OP_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>receipt</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <RequiredRoomTags>
+				<Tag>observation</Tag>
+                <Tag>icu</Tag>	
+				<Tag>gyneco_office</Tag>	
+				<Tag>gyneco_inpatient_office</Tag>
+				<Tag>CRP_MOD</Tag>
+				<Tag>receipt</Tag>
+            </RequiredRoomTags>
+			
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+		<PharmacyPickup>true</PharmacyPickup>
+        <Cost>50</Cost>
+        <IconIndex>1883</IconIndex>
+        <DurationHours>0</DurationHours>
+    </GameDBTreatment>
+
+	<!-- anti-diabete pill
+	TAGS: ADO
+	DESC:  -->
+	<GameDBTreatment ID="TRT_CRP_METFORMINE">
+        <AbbreviationLocID>TRT_CRP_METFORMINE_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>receipt</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <RequiredRoomTags>
+				<Tag>observation</Tag>
+                <Tag>icu</Tag>	
+				<Tag>gyneco_office</Tag>	
+				<Tag>gyneco_inpatient_office</Tag>
+				<Tag>CRP_MOD</Tag>
+				<Tag>receipt</Tag>
+            </RequiredRoomTags>
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+		<PharmacyPickup>true</PharmacyPickup>
+        <Cost>50</Cost>
+        <IconIndex>1861</IconIndex>
+        <DurationHours>0</DurationHours>
+    </GameDBTreatment>
+
+	<!-- Anti-androgen pill
+	TAGS: 
+	DESC: -->
+	<GameDBTreatment ID="TRT_CRP_ANTI_ANDROGEN"> <!-- Normal -->
+        <AbbreviationLocID>TRT_CRP_ANTI_ANDROGEN_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+				<SkillRef>SKILL_DOC_SPEC_INTERNAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>receipt</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <RequiredRoomTags>
+				<Tag>observation</Tag>
+                <Tag>icu</Tag>	
+				<Tag>gyneco_office</Tag>	
+				<Tag>gyneco_inpatient_office</Tag>
+				<Tag>CRP_MOD</Tag>
+				<Tag>receipt</Tag>
+            </RequiredRoomTags>
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+		<PharmacyPickup>true</PharmacyPickup>
+        <Cost>50</Cost>
+        <IconIndex>1861</IconIndex>
+        <DurationHours>0</DurationHours>
+    </GameDBTreatment>
+
+	<!-- Progestin pill
+	TAGS: 
+	DESC: -->
+	<GameDBTreatment ID="TRT_CRP_PROGESTATIF"> <!-- Normal -->
+        <AbbreviationLocID>TRT_CRP_PROGESTATIF_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+				<SkillRef>SKILL_DOC_SPEC_INTERNAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>receipt</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <RequiredRoomTags>
+				<Tag>observation</Tag>
+                <Tag>icu</Tag>	
+				<Tag>gyneco_office</Tag>	
+				<Tag>gyneco_inpatient_office</Tag>
+				<Tag>CRP_MOD</Tag>
+				<Tag>receipt</Tag>
+            </RequiredRoomTags>
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+		<PharmacyPickup>true</PharmacyPickup>
+        <Cost>50</Cost>
+        <IconIndex>1883</IconIndex>
+        <DurationHours>0</DurationHours>
+    </GameDBTreatment>
+
+	<!-- Estrogen therapy
+	TAGS: 
+	DESC: -->
+	<GameDBTreatment ID="TRT_CRP_OESTROGENOTHERAPIE"> <!-- Normal -->
+        <AbbreviationLocID>TRT_CRP_OESTROGENOTHERAPIE_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+				<SkillRef>SKILL_DOC_SPEC_INTERNAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>receipt</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <RequiredRoomTags>
+				<Tag>observation</Tag>
+                <Tag>icu</Tag>	
+				<Tag>gyneco_office</Tag>	
+				<Tag>gyneco_inpatient_office</Tag>
+				<Tag>CRP_MOD</Tag>
+				<Tag>receipt</Tag>
+            </RequiredRoomTags>
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+		<PharmacyPickup>true</PharmacyPickup>
+        <Cost>100</Cost>
+        <IconIndex>1861</IconIndex>
+        <DurationHours>0</DurationHours>
+    </GameDBTreatment>
+
+	<!-- Iron chelator
+	TAGS: 
+	DESC: -->
+	<GameDBTreatment ID="TRT_CRP_CHELATEUR_FER">
+        <AbbreviationLocID>TRT_CRP_CHELATEUR_FER_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredDoctorQualificationList>
+				<SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>receipt</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <RequiredRoomTags>
+				<Tag>observation</Tag>
+                <Tag>icu</Tag>
+				<Tag>receipt</Tag>
+				<Tag>specialized_office</Tag>	
+				<Tag>internal_medicine_office</Tag>	
+				<Tag>any_inpatient_office</Tag>
+            </RequiredRoomTags>
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+		<PharmacyPickup>true</PharmacyPickup>
+        <Cost>100</Cost>
+        <IconIndex>1883</IconIndex>
+        <DurationHours>0</DurationHours>
+    </GameDBTreatment>
+
+	<!-- Immunosuppressor
+	TAGS: 
+	DESC:  -->
+	<GameDBTreatment ID="TRT_CRP_IMMUNOSUPRR"> <!-- Normal -->
+        <AbbreviationLocID>TRT_CRP_IMMUNOSUPRR_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredDoctorQualificationList>
+				<SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>receipt</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <RequiredRoomTags>
+				<Tag>observation</Tag>
+                <Tag>icu</Tag>	
+				<Tag>any_inpatient_office</Tag>	
+				<Tag>receipt</Tag>
+            </RequiredRoomTags>
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+				<PharmacyPickup>true</PharmacyPickup>
+        <Cost>500</Cost>
+        <IconIndex>1905</IconIndex>
+        <DurationHours>0</DurationHours>
+    </GameDBTreatment>
+
+    <!-- ### Nasal and Ear Treatments (Ear Drops, Nasal Sprays)  ### -->
+	<!-- ########################################################### -->
 	
+	<!-- Corticosteroid Nasal Spray 
+	TAGS: Nasal Spray, Spray, Nose, Steroids, Medicine 
+	DESC:   -->
+    <GameDBTreatment ID="TRT_CRP_CORTICOSTEROID_NASAL_SPRAY"> 
+        <AbbreviationLocID>TRT_CRP_CORTICOSTEROID_NASAL_SPRAY_DESC</AbbreviationLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+			
+			<RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredSkillsToPrescribe>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>receipt</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+
+            <RequiredRoomTags>
+                <Tag>receipt</Tag>
+            </RequiredRoomTags>
+
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+
+            <DressLevel>FULL</DressLevel>
+            <DressLevelAfter>FULL</DressLevelAfter>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+		<PharmacyPickup>true</PharmacyPickup>
+        <Cost>100</Cost>
+        <IconIndex>1885</IconIndex>
+        <DurationHours>0</DurationHours>
+    </GameDBTreatment>
+	
+	<!-- Corticosteroid Nasal Spray 
+	TAGS: Nasal Spray, Spray, Nose, Saline, Medicine 
+	DESC:   -->
+	<GameDBTreatment ID="TRT_CRP_SALINE_NASAL_SPRAY"> <!-- Otorhinolaryngology Version -->
+        <AbbreviationLocID>TRT_CRP_SALINE_NASAL_SPRAY_DESC</AbbreviationLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+			
+			<RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredSkillsToPrescribe>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>receipt</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+
+            <RequiredRoomTags>
+                <Tag>receipt</Tag>
+            </RequiredRoomTags>
+
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+
+            <DressLevel>FULL</DressLevel>
+            <DressLevelAfter>FULL</DressLevelAfter>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+		<PharmacyPickup>true</PharmacyPickup>
+        <Cost>120</Cost>
+        <IconIndex>1885</IconIndex>
+        <DurationHours>0</DurationHours>
+    </GameDBTreatment>
+	
+	<!-- ### Non-medicinal Treatments (CPAP, Vocal Therapy, Intubation)  ### -->
+	<!-- ########################################################### -->
+	
+	<!-- Vocal Therapy 
+	TAGS: Voice, Larynx, Therapy, Non-Medicine 
+	DESC:   -->
+	<GameDBTreatment ID="TRT_CRP_VOCAL_THERAPY">
+    <AbbreviationLocID>TRT_CRP_VOCAL_THERAPY_DESC</AbbreviationLocID>
+    <DiscomfortLevel>Low</DiscomfortLevel>
+    <Procedure>
+        <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+        <RequiredSkillsToPrescribe>
+        <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+        </RequiredSkillsToPrescribe>
+
+        <RequiredDoctorQualificationList>
+        <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+        </RequiredDoctorQualificationList>
+
+        <RequiredEquipmentList>
+        <RequiredEquipment>
+        <Tag>receipt</Tag>
+        </RequiredEquipment>
+        </RequiredEquipmentList>
+
+
+        <RequiredRoomTags>
+        <Tag>receipt</Tag>
+        </RequiredRoomTags>
+
+        <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+        <Cost>300</Cost>
+        <IconIndex>1685</IconIndex>
+        <DurationHours>0</DurationHours>
+    </GameDBTreatment>
+	
+	<!-- Intubation 
+	TAGS: Non-Medicine, Hospitalisation, Pipe, Icu, Trauma
+	DESC:   -->
 	<GameDBTreatment ID="TRT_CRP_INTUBATION">
         <AbbreviationLocID>TRT_CRP_INTUBATION_DESC</AbbreviationLocID>
         <DiscomfortLevel>High</DiscomfortLevel>
@@ -589,9 +1073,9 @@
         <DurationHours>0</DurationHours>
     </GameDBTreatment>
 	
-	<!-- ### Machinary required Treatments (CPAP, Artificial Ventilation) ### -->
-	<!-- #################################################################### -->
-	
+	<!-- CPAP (Continuous Positive Airway Machine) 
+	TAGS: Sleep, Airway, Machine, Pipe, Breathe, Non-Medicine 
+	DESC:   -->
 	<GameDBTreatment ID="TRT_CRP_CPAP"> 
     <AbbreviationLocID>TRT_CRP_CPAP_DESC</AbbreviationLocID>
     <DiscomfortLevel>Medium</DiscomfortLevel>
@@ -612,10 +1096,7 @@
         </RequiredEquipment>
         </RequiredEquipmentList>
 
-        <!--RequiredRoomTypeList>
-        <RequiredRoomTypeRef>ROOM_TYPE_OTOR_OFFICE</RequiredRoomTypeRef>
-        <RequiredRoomTypeRef>ROOM_TYPE_INPATIENT_OT_OFFICE</RequiredRoomTypeRef>
-        </RequiredRoomTypeList-->
+
         <RequiredRoomTags>
         <Tag>receipt</Tag>
         </RequiredRoomTags>
@@ -627,164 +1108,54 @@
         <IconIndex>1979</IconIndex>
         <DurationHours>0</DurationHours>
     </GameDBTreatment>
-	
-	<!-- ### Nasal and Ear Treatments (Nasal Spray, Ear Drops) ### -->
-	<!-- ######################################################### -->
-	
-	<GameDBTreatment ID="TRT_CRP_CORTICOSTEROID_NASAL_SPRAY"> <!-- Otorhinolaryngology Version -->
-        <AbbreviationLocID>TRT_CRP_CORTICOSTEROID_NASAL_SPRAY_DESC</AbbreviationLocID>
-        <DiscomfortLevel>None</DiscomfortLevel>
-        <Procedure>
-            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
-			
-			<RequiredSkillsToPrescribe>
-                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
-            </RequiredSkillsToPrescribe>
 
-            <RequiredDoctorQualificationList>
-                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
-            </RequiredDoctorQualificationList>
-
-            <RequiredEquipmentList>
-                <RequiredEquipment>
-                    <Tag>receipt</Tag>
-                </RequiredEquipment>
-            </RequiredEquipmentList>
-
-            <!--RequiredRoomTypeList>
-			    <RequiredRoomTypeRef>ROOM_TYPE_INPATIENT_WARD</RequiredRoomTypeRef>
-				<RequiredRoomTypeRef>ROOM_TYPE_HIGH_PRIORITY_INPATIENT_WARD</RequiredRoomTypeRef>
-                <RequiredRoomTypeRef>ROOM_TYPE_INPATIENT_GS_OFFICE</RequiredRoomTypeRef>
-                <RequiredRoomTypeRef>ROOM_TYPE_INPATIENT_IM_OFFICE</RequiredRoomTypeRef>
-                <RequiredRoomTypeRef>ROOM_TYPE_INPATIENT_OT_OFFICE</RequiredRoomTypeRef>
-                <RequiredRoomTypeRef>ROOM_TYPE_INPATIENT_CARDIOLOGY_OFFICE</RequiredRoomTypeRef>
-                <RequiredRoomTypeRef>ROOM_TYPE_INPATIENT_NEUROLOGY_OFFICE</RequiredRoomTypeRef>
-            </RequiredRoomTypeList-->
-            <RequiredRoomTags>
-                <Tag>receipt</Tag>
-            </RequiredRoomTags>
-
-            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
-
-            <DressLevel>FULL</DressLevel>
-            <DressLevelAfter>FULL</DressLevelAfter>
-        </Procedure>
-        <TreatmentType>RECEIPT</TreatmentType>
-		<PharmacyPickup>true</PharmacyPickup>
-        <Cost>100</Cost>
-        <IconIndex>1885</IconIndex>
-        <DurationHours>0</DurationHours>
-    </GameDBTreatment>
-	
-	<GameDBTreatment ID="TRT_CRP_SALINE_NASAL_SPRAY"> <!-- Otorhinolaryngology Version -->
-        <AbbreviationLocID>TRT_CRP_SALINE_NASAL_SPRAY_DESC</AbbreviationLocID>
-        <DiscomfortLevel>None</DiscomfortLevel>
-        <Procedure>
-            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
-			
-			<RequiredSkillsToPrescribe>
-                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
-            </RequiredSkillsToPrescribe>
-
-            <RequiredDoctorQualificationList>
-                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
-            </RequiredDoctorQualificationList>
-
-            <RequiredEquipmentList>
-                <RequiredEquipment>
-                    <Tag>receipt</Tag>
-                </RequiredEquipment>
-            </RequiredEquipmentList>
-
-            <!--RequiredRoomTypeList>
-			    <RequiredRoomTypeRef>ROOM_TYPE_INPATIENT_WARD</RequiredRoomTypeRef>
-				<RequiredRoomTypeRef>ROOM_TYPE_HIGH_PRIORITY_INPATIENT_WARD</RequiredRoomTypeRef>
-                <RequiredRoomTypeRef>ROOM_TYPE_INPATIENT_GS_OFFICE</RequiredRoomTypeRef>
-                <RequiredRoomTypeRef>ROOM_TYPE_INPATIENT_IM_OFFICE</RequiredRoomTypeRef>
-                <RequiredRoomTypeRef>ROOM_TYPE_INPATIENT_OT_OFFICE</RequiredRoomTypeRef>
-                <RequiredRoomTypeRef>ROOM_TYPE_INPATIENT_CARDIOLOGY_OFFICE</RequiredRoomTypeRef>
-                <RequiredRoomTypeRef>ROOM_TYPE_INPATIENT_NEUROLOGY_OFFICE</RequiredRoomTypeRef>
-            </RequiredRoomTypeList-->
-            <RequiredRoomTags>
-                <Tag>receipt</Tag>
-            </RequiredRoomTags>
-
-            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
-
-            <DressLevel>FULL</DressLevel>
-            <DressLevelAfter>FULL</DressLevelAfter>
-        </Procedure>
-        <TreatmentType>RECEIPT</TreatmentType>
-		<PharmacyPickup>true</PharmacyPickup>
-        <Cost>120</Cost>
-        <IconIndex>1885</IconIndex>
-        <DurationHours>0</DurationHours>
-    </GameDBTreatment>
-	
 	<!-- ### Injection Treatments (Intramuscular or direct to bloodstream) ### -->
 	<!-- ##################################################################### -->
 	
-	<!-- Epipen
+	<!-- Epipen = Adrenaline
 	TAGS: 
 	DESC:  -->
 	<GameDBTreatment ID="TRT_CRP_EPIPEN">
         <AbbreviationLocID>TRT_CRP_EPIPEN_DESC</AbbreviationLocID>
         <DiscomfortLevel>Positive</DiscomfortLevel>
         <Procedure>
-            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+			<StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
 
-            <RequiredDoctorQualificationList>
-                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
-            </RequiredDoctorQualificationList>
+			<RequiredSkillsToPrescribe>
+				<SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+			</RequiredSkillsToPrescribe>
 
-            <RequiredEquipmentList>
-                <RequiredEquipment>
-                    <Tag>sit_exam</Tag>
-                </RequiredEquipment>
-                <RequiredEquipment>
-                    <Tag>doc_equipment</Tag>
-                </RequiredEquipment>
-				<RequiredEquipment>
-                    <Tag>clean_hands</Tag>
-                </RequiredEquipment>
-            </RequiredEquipmentList>
+			<RequiredDoctorQualificationList>
+				<SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+			</RequiredDoctorQualificationList>
 
-            <RequiredRoomTags>
-				<Tag>examinations_basic_equipment</Tag>
-				<Tag>any_inpatient_office</Tag>
-                <Tag>icu</Tag>
-                <Tag>trauma_center</Tag>
-                <Tag>observation</Tag>
-                <Tag>ward</Tag>
-            </RequiredRoomTags>
+			<RequiredEquipmentList>
+				<RequiredRoomTags>
+					<Tag>receipt</Tag>
+				</RequiredRoomTags>
+			</RequiredEquipmentList>
 
-            <ProcedureScript>ProcedureScriptTreatmentProcedure</ProcedureScript>
-
-            <AnimationSetupSitting>
-                <AnimationNameIn>stand_press_bandage_hand_in</AnimationNameIn>
-                <AnimationNameIdle>stand_press_bandage_hand_idle</AnimationNameIdle>
-                <AnimationNameOut>stand_press_bandage_hand_out</AnimationNameOut>
-            </AnimationSetupSitting>
-            <AnimationSetupLying>
-                <AnimationNameIn>stand_treatment_in</AnimationNameIn>
-                <AnimationNameIdle>stand_treatment_idle</AnimationNameIdle>
-                <AnimationNameOut>stand_treatment_out</AnimationNameOut>
-            </AnimationSetupLying>
-
-            <DressLevel>FULL</DressLevel>
-            <DressLevelAfter>FULL</DressLevelAfter>
+			<RequiredRoomTags>
+				<Tag>receipt</Tag>
+			</RequiredRoomTags>
+				
+			<ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
         </Procedure>
-        <TreatmentType>PROCEDURE</TreatmentType>
-        <Cost>50</Cost>
 		
-		<CustomIconBigAssetRef>ASSET_CRP_TRT_ICON_009</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_CRP_TRT_ICON_010</CustomIconSmallAssetRef>
+        <TreatmentType>RECEIPT</TreatmentType>
+		<PharmacyPickup>false</PharmacyPickup>
+        <Cost>150</Cost>
+        <DurationHours>0</DurationHours>
+		<IconIndex>2021</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_ONC_TRT_ICON_009</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ONC_TRT_ICON_010</CustomIconSmallAssetRef>
 		
         <IconIndex>1961</IconIndex>
         <DurationHours>0</DurationHours>
     </GameDBTreatment>
 	
-	<!-- Octreotide
+	<!-- Octreotide = Somatostatine 
 	TAGS: 
 	DESC:  -->
 	<GameDBTreatment ID="TRT_CRP_OCTREOTIDE_INJECTION">
@@ -843,6 +1214,127 @@
         <IconIndex>1961</IconIndex>
         <DurationHours>0</DurationHours>
     </GameDBTreatment>
+
+	<!-- Auto-graft
+	TAGS: 
+	DESC:   -->
+	<GameDBTreatment ID="TRT_CRP_AUTOGRAFT">
+        <AbbreviationLocID>TRT_CRP_AUTOGRAFT_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>Positive</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>sit_exam</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>doc_equipment</Tag>
+                </RequiredEquipment>
+				<RequiredEquipment>
+                    <Tag>clean_hands</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <RequiredRoomTags>
+				<Tag>examinations_basic_equipment</Tag>
+				<Tag>any_inpatient_office</Tag>
+                <Tag>icu</Tag>
+                <Tag>trauma_center</Tag>
+                <Tag>observation</Tag>
+                <Tag>ward</Tag>
+            </RequiredRoomTags>
+
+            <ProcedureScript>ProcedureScriptTreatmentProcedure</ProcedureScript>
+
+            <AnimationSetupSitting>
+                <AnimationNameIn>stand_press_bandage_hand_in</AnimationNameIn>
+                <AnimationNameIdle>stand_press_bandage_hand_idle</AnimationNameIdle>
+                <AnimationNameOut>stand_press_bandage_hand_out</AnimationNameOut>
+            </AnimationSetupSitting>
+            <AnimationSetupLying>
+                <AnimationNameIn>stand_treatment_in</AnimationNameIn>
+                <AnimationNameIdle>stand_treatment_idle</AnimationNameIdle>
+                <AnimationNameOut>stand_treatment_out</AnimationNameOut>
+            </AnimationSetupLying>
+
+            <DressLevel>FULL</DressLevel>
+            <DressLevelAfter>FULL</DressLevelAfter>
+        </Procedure>
+        <TreatmentType>PROCEDURE</TreatmentType>
+        <Cost>50</Cost>
+		
+		<CustomIconBigAssetRef>ASSET_MOREDG_ICON_TTT1</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_MOREDG_ICON_TTT1_SMALL</CustomIconSmallAssetRef>
+		
+        <IconIndex>1961</IconIndex>
+        <DurationHours>0</DurationHours>
+    </GameDBTreatment>
+
+	<!-- Allo-graft
+	TAGS: 
+	DESC:   -->
+	<GameDBTreatment ID="TRT_CRP_ALLOGRAFT">
+        <AbbreviationLocID>TRT_CRP_ALLOGRAFT_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>Positive</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>sit_exam</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>doc_equipment</Tag>
+                </RequiredEquipment>
+				<RequiredEquipment>
+                    <Tag>clean_hands</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <RequiredRoomTags>
+				<Tag>examinations_basic_equipment</Tag>
+				<Tag>any_inpatient_office</Tag>
+                <Tag>icu</Tag>
+                <Tag>trauma_center</Tag>
+                <Tag>observation</Tag>
+                <Tag>ward</Tag>
+            </RequiredRoomTags>
+
+            <ProcedureScript>ProcedureScriptTreatmentProcedure</ProcedureScript>
+
+            <AnimationSetupSitting>
+                <AnimationNameIn>stand_press_bandage_hand_in</AnimationNameIn>
+                <AnimationNameIdle>stand_press_bandage_hand_idle</AnimationNameIdle>
+                <AnimationNameOut>stand_press_bandage_hand_out</AnimationNameOut>
+            </AnimationSetupSitting>
+            <AnimationSetupLying>
+                <AnimationNameIn>stand_treatment_in</AnimationNameIn>
+                <AnimationNameIdle>stand_treatment_idle</AnimationNameIdle>
+                <AnimationNameOut>stand_treatment_out</AnimationNameOut>
+            </AnimationSetupLying>
+
+            <DressLevel>FULL</DressLevel>
+            <DressLevelAfter>FULL</DressLevelAfter>
+        </Procedure>
+        <TreatmentType>PROCEDURE</TreatmentType>
+        <Cost>50</Cost>
+		
+		<CustomIconBigAssetRef>ASSET_MOREDG_ICON_TTT2</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_MOREDG_ICON_TTT2_SMALL</CustomIconSmallAssetRef>
+		
+        <IconIndex>1961</IconIndex>
+        <DurationHours>0</DurationHours>
+    </GameDBTreatment>
+
 
 	<!-- ### Intravenous Treatments ### -->
 	<!-- ############################## -->
@@ -935,7 +1427,7 @@
         <AllowedWithAnyHospitalization>true</AllowedWithAnyHospitalization>
     </GameDBTreatment>
 
-	<!-- Methotrexate
+	<!-- Methotrexate = folic acid antagonist (antagoniste de l'acide folique)
 	TAGS: 
 	DESC:  -->
 	<GameDBTreatment ID="TRT_CRP_METHOTREXATE">
@@ -981,7 +1473,7 @@
         <AllowedWithAnyHospitalization>true</AllowedWithAnyHospitalization>
     </GameDBTreatment>
 	
-	<!-- Alemtuzumab
+	<!-- Alemtuzumab = humanized IgG1 kappa monoclonal antibody (anticorps monoclonal IgG1 kappa humanisé)
 	TAGS: 
 	DESC:  -->
 	<GameDBTreatment ID="TRT_CRP_ALEMTUZUMAB">
@@ -1073,7 +1565,7 @@
         <AllowedWithAnyHospitalization>true</AllowedWithAnyHospitalization>
     </GameDBTreatment>
 
-	<!-- Rituximab
+	<!-- Rituximab =  monoclonal antibody (Anticorps monoclonal)
 	TAGS: 
 	DESC:  -->
 	<GameDBTreatment ID="TRT_CRP_RITUXIMAB">
@@ -1119,7 +1611,7 @@
         <AllowedWithAnyHospitalization>true</AllowedWithAnyHospitalization>
     </GameDBTreatment>
 
-	<!-- Gemcitabine
+	<!-- Gemcitabine = pyrimidine analogs (analogues de la pyrimidine)
 	TAGS: 
 	DESC:  -->
 	<GameDBTreatment ID="TRT_CRP_GEMCITABINE">
@@ -1165,47 +1657,304 @@
         <AllowedWithAnyHospitalization>true</AllowedWithAnyHospitalization>
     </GameDBTreatment>
 
-	<!-- ### Advice, Non-Medicinal Therapies or Monitoring Treatments ### -->
-	<!-- ####################################### -->
-	
-	<GameDBTreatment ID="TRT_CRP_VOCAL_THERAPY">
-    <AbbreviationLocID>TRT_CRP_VOCAL_THERAPY_DESC</AbbreviationLocID>
-    <DiscomfortLevel>Low</DiscomfortLevel>
-    <Procedure>
-        <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+	<!-- KCl -->
+	<GameDBTreatment ID="TRT_CRP_KCL"> <!-- chlorure de potassium -->
+        <AbbreviationLocID>TRT_CRP_KCL_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
 
-        <RequiredSkillsToPrescribe>
-        <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
-        </RequiredSkillsToPrescribe>
+            <RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+            </RequiredSkillsToPrescribe>
 
-        <RequiredDoctorQualificationList>
-        <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
-        </RequiredDoctorQualificationList>
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+            </RequiredDoctorQualificationList>
 
-        <RequiredEquipmentList>
-        <RequiredEquipment>
-        <Tag>receipt</Tag>
-        </RequiredEquipment>
-        </RequiredEquipmentList>
+            <RequiredRoomTags>
+				<Tag>observation</Tag>
+                <Tag>icu</Tag>	
+				<Tag>specialized_office</Tag>	
+				<Tag>cardiology_office</Tag>
+				<Tag>any_inpatient_office</Tag>
+				<Tag>CRP_MOD</Tag>
+				<Tag>receipt</Tag>
+            </RequiredRoomTags>
 
-
-        <RequiredRoomTags>
-        <Tag>receipt</Tag>
-        </RequiredRoomTags>
-
-        <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+            <AnimationSetupSitting>
+                <AnimationNameIn>stand_press_bandage_hand_in</AnimationNameIn>
+                <AnimationNameIdle>stand_press_bandage_hand_idle</AnimationNameIdle>
+                <AnimationNameOut>stand_press_bandage_hand_out</AnimationNameOut>
+            </AnimationSetupSitting>
+            <DressLevel>FULL</DressLevel>
+            <DressLevelAfter>FULL</DressLevelAfter>
         </Procedure>
         <TreatmentType>RECEIPT</TreatmentType>
-        <Cost>800</Cost>
-        <IconIndex>1685</IconIndex>
+        <ReceiptType>IV_BAG</ReceiptType>
+        <Cost>100</Cost>
+        <IconIndex>1951</IconIndex>
         <DurationHours>0</DurationHours>
+        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
+        <AllowedWithAnyHospitalization>true</AllowedWithAnyHospitalization>
+
     </GameDBTreatment>
+
+	<!-- Glucose IV -->
+	<GameDBTreatment ID="TRT_CRP_GLUCOSE_IV">
+        <AbbreviationLocID>TRT_CRP_GLUCOSE_IV_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+            </RequiredSkillsToPrescribe>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredRoomTags>
+				<Tag>observation</Tag>
+                <Tag>icu</Tag>	
+				<Tag>specialized_office</Tag>	
+				<Tag>cardiology_office</Tag>
+				<Tag>any_inpatient_office</Tag>
+				<Tag>receipt</Tag>
+            </RequiredRoomTags>
+
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+            <AnimationSetupSitting>
+                <AnimationNameIn>stand_press_bandage_hand_in</AnimationNameIn>
+                <AnimationNameIdle>stand_press_bandage_hand_idle</AnimationNameIdle>
+                <AnimationNameOut>stand_press_bandage_hand_out</AnimationNameOut>
+            </AnimationSetupSitting>
+            <DressLevel>FULL</DressLevel>
+            <DressLevelAfter>FULL</DressLevelAfter>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+        <ReceiptType>IV_BAG</ReceiptType>
+        <Cost>100</Cost>
+        <IconIndex>1951</IconIndex>
+        <DurationHours>0</DurationHours>
+        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
+        <AllowedWithAnyHospitalization>true</AllowedWithAnyHospitalization>
+
+    </GameDBTreatment>
+
+	<!-- Hydrocortisone -->
+	<GameDBTreatment ID="TRT_CRP_HYDROCORTISONE">
+        <AbbreviationLocID>TRT_CRP_HYDROCORTISONE_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+            </RequiredSkillsToPrescribe>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredRoomTags>
+				<Tag>observation</Tag>
+                <Tag>icu</Tag>	
+				<Tag>specialized_office</Tag>	
+				<Tag>cardiology_office</Tag>
+				<Tag>any_inpatient_office</Tag>
+				<Tag>receipt</Tag>
+            </RequiredRoomTags>
+
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+            <AnimationSetupSitting>
+                <AnimationNameIn>stand_press_bandage_hand_in</AnimationNameIn>
+                <AnimationNameIdle>stand_press_bandage_hand_idle</AnimationNameIdle>
+                <AnimationNameOut>stand_press_bandage_hand_out</AnimationNameOut>
+            </AnimationSetupSitting>
+            <DressLevel>FULL</DressLevel>
+            <DressLevelAfter>FULL</DressLevelAfter>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+        <ReceiptType>IV_BAG</ReceiptType>
+        <Cost>100</Cost>
+        <IconIndex>1951</IconIndex>
+        <DurationHours>0</DurationHours>
+        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
+        <AllowedWithAnyHospitalization>true</AllowedWithAnyHospitalization>
+
+    </GameDBTreatment>
+
+	<!-- Sclerotherapy -->
+	<GameDBTreatment ID="TRT_CRP_SCLEROTHERAPIE">
+        <AbbreviationLocID>TRT_CRP_SCLEROTHERAPIE_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+            </RequiredSkillsToPrescribe>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredRoomTags>
+				<Tag>observation</Tag>
+                <Tag>icu</Tag>	
+				<Tag>specialized_office</Tag>	
+				<Tag>internal_medicine_office</Tag>
+				<Tag>any_inpatient_office</Tag>
+				<Tag>receipt</Tag>
+            </RequiredRoomTags>
+
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+            <AnimationSetupSitting>
+                <AnimationNameIn>stand_press_bandage_hand_in</AnimationNameIn>
+                <AnimationNameIdle>stand_press_bandage_hand_idle</AnimationNameIdle>
+                <AnimationNameOut>stand_press_bandage_hand_out</AnimationNameOut>
+            </AnimationSetupSitting>
+            <DressLevel>FULL</DressLevel>
+            <DressLevelAfter>FULL</DressLevelAfter>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+        <ReceiptType>IV_BAG</ReceiptType>
+        <Cost>100</Cost>
+        <IconIndex>1951</IconIndex>
+        <DurationHours>0</DurationHours>
+        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
+        <AllowedWithAnyHospitalization>true</AllowedWithAnyHospitalization>
+    </GameDBTreatment>
+	
+	<!-- Intravenous Antifungals  (Butch)  -->
+	 <GameDBTreatment ID="TRT_CRP_INTRAVENOUS_ANTIFUNGALS">
+        <AbbreviationLocID>TRT_CRP_INTRAVENOUS_ANTIFUNGALS_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredSkillsToPrescribe>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>
+            <RequiredRoomTags>
+				<Tag>observation</Tag>
+                <Tag>icu</Tag>	
+				<Tag>specialized_office</Tag>	
+				<Tag>internal_medicine_office</Tag>
+				<Tag>any_inpatient_office</Tag>
+				<Tag>receipt</Tag>
+            </RequiredRoomTags>
+
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+
+           
+            <AnimationSetupSitting>
+                <AnimationNameIn>stand_press_bandage_hand_in</AnimationNameIn>
+                <AnimationNameIdle>stand_press_bandage_hand_idle</AnimationNameIdle>
+                <AnimationNameOut>stand_press_bandage_hand_out</AnimationNameOut>
+            </AnimationSetupSitting>
+
+            <DressLevel>FULL</DressLevel>
+            <DressLevelAfter>FULL</DressLevelAfter>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+        <ReceiptType>IV_BAG</ReceiptType>
+        <Cost>50</Cost>
+        <IconIndex>1947</IconIndex>
+        <DurationHours>0</DurationHours>
+        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
+        <AllowedWithAnyHospitalization>true</AllowedWithAnyHospitalization>
+    </GameDBTreatment>
+
+	<!-- IV Proton Pump Inhibitor 
+	TAGS: 
+	DESC: Use in gastrointestinal bleeding -->
+    <GameDBTreatment ID="TRT_CRP_IPP_IV">
+        <AbbreviationLocID>TRT_CRP_IPP_IV_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredSkillsToPrescribe>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredRoomTags>
+                <Tag>receipt</Tag>
+            </RequiredRoomTags>
+
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+        <ReceiptType>IV_BAG</ReceiptType>
+        <IconIndex>2069</IconIndex>
+        <DurationHours>0</DurationHours>
+        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
+        <AllowedWithAnyHospitalization>true</AllowedWithAnyHospitalization>
+    </GameDBTreatment>
+
+	<GameDBTreatment ID="TRT_CRP_INTRAVENOUS_IMMUNOGLOBULIN">
+        <AbbreviationLocID>TRT_INTRAVENOUS_IMMUNOGLOBULIN_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef> 
+            </RequiredSkillsToPrescribe>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+                <!--<SkillRef>SKILL_DOC_SPEC_GENERAL_GYNECOLOGUE</SkillRef>-->				
+            </RequiredDoctorQualificationList>
+
+            <RequiredRoomTags>
+                <Tag>any_office</Tag>
+				<Tag>specialized_office</Tag>
+                <Tag>icu</Tag>
+                <Tag>any_inpatient_office</Tag>	
+            </RequiredRoomTags>
+
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+        <ReceiptType>IV_BAG</ReceiptType>
+        <Cost>50</Cost>
+        <IconIndex>2067</IconIndex>
+        <DurationHours>0</DurationHours>
+        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
+        <AllowedWithAnyHospitalization>true</AllowedWithAnyHospitalization>
+    </GameDBTreatment>
+
+
+	<!-- ### Advice or Monitoring Treatments ### -->
+	<!-- ####################################### -->
 	
 	<!-- Oncologist Advice
 	TAGS: oncology, advice, prescribe, prescription, receipt
 	DESC: Patient care advice concerning cancer -->
-	<GameDBTreatment ID="TRT_SL_DOCTORS_ADVICE">
-        <AbbreviationLocID>TRT_SL_DOCTORS_ADVICE_DESC</AbbreviationLocID>
+	<GameDBTreatment ID="TRT_CRP_DOCTORS_ADVICE">
+        <AbbreviationLocID>TRT_CRP_DOCTORS_ADVICE_DESC</AbbreviationLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
         <Procedure>
         <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
@@ -1235,11 +1984,11 @@
         <DurationHours>0</DurationHours>
     </GameDBTreatment>
 	
-	<!-- Name
+	<!-- Active Monitoring
 	TAGS: 
 	DESC:  -->
-	<GameDBTreatment ID="TRT_SL_ACTIVE_MONITOR">
-        <AbbreviationLocID>TRT_SL_ACTIVE_MONITOR_DESC</AbbreviationLocID>
+	<GameDBTreatment ID="TRT_CRP_ACTIVE_MONITOR">
+        <AbbreviationLocID>TRT_CRP_ACTIVE_MONITOR_DESC</AbbreviationLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
         <Procedure>
         <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
@@ -1273,14 +2022,49 @@
         <DurationHours>0</DurationHours>
     </GameDBTreatment>
 
+	<!-- Medical supervision
+	TAGS: 
+	DESC:  -->
+    <GameDBTreatment ID="TRT_CRP_SURVEILLANCE">
+        <AbbreviationLocID>TRT_CRP_SURVEILLANCE_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>
+            
+            <RequiredRoomTags>
+                <Tag>receipt</Tag>
+            </RequiredRoomTags>
+
+            <ProcedureScript>ProcedureScriptTreatmentPrescription</ProcedureScript>
+
+            <AnimationSetupSitting>
+                <AnimationNameIn>sit_doc_recommendation_in</AnimationNameIn>
+                <AnimationNameIdle>sit_doc_recommendation_idle</AnimationNameIdle>
+                <AnimationNameOut>sit_doc_recommendation_out</AnimationNameOut>
+            </AnimationSetupSitting>
+
+            <DressLevel>FULL</DressLevel>
+            <DressLevelAfter>FULL</DressLevelAfter>
+        </Procedure>
+        <TreatmentType>PRESCRIPTION</TreatmentType>
+        <Cost>100</Cost>
+        <IconIndex>1901</IconIndex>
+        <DurationHours>0</DurationHours>
+    </GameDBTreatment>
+
+
 	<!-- ### Complication Treatments ### -->
 	<!-- ############################### -->
 	
 	<!-- Name
 	TAGS: 
 	DESC:  -->
-	<GameDBTreatment ID="TRT_SL_INCISION_AND_DRAINAGE">
-        <AbbreviationLocID>TRT_SL_INCISION_AND_DRAINAGE_DESC</AbbreviationLocID>
+	<GameDBTreatment ID="TRT_CRP_INCISION_AND_DRAINAGE">
+        <AbbreviationLocID>TRT_CRP_INCISION_AND_DRAINAGE_DESC</AbbreviationLocID>
         <DiscomfortLevel>High</DiscomfortLevel>
         <Procedure>
             <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
@@ -1301,18 +2085,9 @@
                 </RequiredEquipment>
             </RequiredEquipmentList>
 
-            <!--RequiredRoomTypeList>
-                <RequiredRoomTypeRef>ROOM_TYPE_INPATIENT_GS_OFFICE</RequiredRoomTypeRef>
-                <RequiredRoomTypeRef>ROOM_TYPE_INPATIENT_IM_OFFICE</RequiredRoomTypeRef>
-                <RequiredRoomTypeRef>ROOM_TYPE_INPATIENT_OT_OFFICE</RequiredRoomTypeRef>
-                <RequiredRoomTypeRef>ROOM_TYPE_INPATIENT_CARDIOLOGY_OFFICE</RequiredRoomTypeRef>
-                <RequiredRoomTypeRef>ROOM_TYPE_INPATIENT_NEUROLOGY_OFFICE</RequiredRoomTypeRef>
-                <RequiredRoomTypeRef>ROOM_TYPE_INTENSIVE_CARE_UNIT</RequiredRoomTypeRef>
-                <RequiredRoomTypeRef>ROOM_TYPE_DOCTORS_OFFICE</RequiredRoomTypeRef>
-                <RequiredRoomTypeRef>ROOM_TYPE_ER_OBSERVATION_ROOM</RequiredRoomTypeRef>
-            </RequiredRoomTypeList-->
             <RequiredRoomTags>
-				<Tag>CRPo_office</Tag>
+				<Tag>any_office</Tag>
+				<Tag>CRP_MOD</Tag>
                 <Tag>any_inpatient_office</Tag>
                 <Tag>observation</Tag>
                 <Tag>icu</Tag>                
@@ -1339,5 +2114,130 @@
         <IconIndex>1977</IconIndex>
         <DurationHours>0</DurationHours>
     </GameDBTreatment>
+	
+	<!-- Bronchoscopic Therapy   (Butch) 
+	Tag: Airway, Bleeding, Lungs, Foreign Object, Stent Insertion, Tracheal Intubation, Tracheostomy 
+	Desc:                                                                                           -->
+		<GameDBTreatment ID="TRT_CRP_BRONCHOSCOPIC_THERAPY">
+        <AbbreviationLocID>TRT_CRP_BRONCHOSCOPIC_THERAPY_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>DEFAULT_ROOMS</StaffSelectionRules>
+
+            <RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_SPEC_INTERNAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+            </RequiredSkillsToPrescribe>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_SPEC_INTERNAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>sit_exam</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>thoracentesis</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>clean_hands</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>mobile_workstation</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <RequiredRoomTags>
+                <Tag>im_unique_office</Tag>
+            </RequiredRoomTags>
+
+            <ProcedureScript>ProcedureScriptTreatmentProcedure</ProcedureScript>
+
+            <AnimationSetupSitting>
+                <AnimationNameIn>stand_treatment_in</AnimationNameIn> <!--TODO tempAnim-->
+                <AnimationNameIdle>stand_treatment_idle</AnimationNameIdle>
+                <AnimationNameOut>stand_treatment_out</AnimationNameOut>
+            </AnimationSetupSitting>
+            <AnimationSetupLying>
+                <AnimationNameIn>stand_treatment_in</AnimationNameIn>
+                <AnimationNameIdle>stand_treatment_idle</AnimationNameIdle>
+                <AnimationNameOut>stand_treatment_out</AnimationNameOut>
+            </AnimationSetupLying>
+
+            <DressLevel>HALF</DressLevel>
+            <DressLevelAfter>FULL</DressLevelAfter>
+            <RequiredMobileWorkStationEquipmentSwitch>true</RequiredMobileWorkStationEquipmentSwitch>
+            <DetachedDepartmentRef>DPT_INTERNAL_MEDICINE_DEPARTMENT</DetachedDepartmentRef>
+        </Procedure>
+        <IconIndex>2286</IconIndex>
+        <TreatmentType>PROCEDURE</TreatmentType>
+        <DurationHours>1</DurationHours>
+        <SuccessRatePercent>100</SuccessRatePercent>
+        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</HospitalizationTreatmentRef>
+    </GameDBTreatment>
+
+	<!-- ### Radiological Treatments ### -->
+	<!-- ############################### -->
+
+	<!-- Endovascular Embolization
+	TAGS: 
+	DESC:  -->
+    <GameDBTreatment ID="TRT_CRP_RADIO_EMBOLISATION">
+        <AbbreviationLocID>TRT_CRP_RADIO_EMBOLISATION_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel><!--TODO for test only-->
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredSkillsToPrescribe>
+
+            <RequiredStatLabQualificationRef>SKILL_LAB_SPECIALIST_SPEC_RADIOLOGY</RequiredStatLabQualificationRef>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>radiology_bed_head</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>radiology_bed_legs</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>angio_panel</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>angio_viewer</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>angiography_scan</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>doc_equipment</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <RequiredRoomTags>
+                <Tag>room_angiography</Tag>
+            </RequiredRoomTags>
+
+            <ProcedureScript>ProcedureScriptExaminationAngiography</ProcedureScript>
+
+            <AnimationSetupLying>
+                <AnimationNameIn>move_start_upper_limb</AnimationNameIn> <!--todo make new animation for angiography scan-->
+                <AnimationNameOut>move_end_upper_limb</AnimationNameOut>
+            </AnimationSetupLying>
+
+            <DressLevel>HALF</DressLevel>
+            <DressLevelAfter>FULL</DressLevelAfter>
+<!--            <DetachedDepartmentRef>DPT_GENERAL_SURGERY_DEPARTMENT</DetachedDepartmentRef>	-->
+            <FallbackLabDepartmentRef>DPT_RADIOLOGY</FallbackLabDepartmentRef>
+        </Procedure>
+        <TreatmentType>PROCEDURE</TreatmentType>
+        <IconIndex>1941</IconIndex>
+        <DurationHours>1</DurationHours>
+        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
+        <AllowedWithAnyHospitalization>true</AllowedWithAnyHospitalization>
+    </GameDBTreatment>
+
 	
 </Database>

@@ -1,7 +1,31 @@
 ﻿<Database>
- 
-    <GameDBTreatment ID="TRT_***_MOHS_MICROGRAPHIC_SURGERY"> <!-- $1250 -->
-        <AbbreviationLocID>TRT_***_MOHS_MICROGRAPHIC_SURGERY_DESC</AbbreviationLocID>
+	<!-- Community Resource Pack -->
+	<!-- 
+	Surgeries are tricky to share, since they are department skill specific, CRP cannot make surgeries available for public use in a
+	linkable format. Instead, I've commented out the surgeries below so that you can add them to your own mods if you'd like.
+	Simply replace the *** with your naming structure, e.g. TRT_ONCO_WIDE_LOCAL_EXCISION and replace the **** in the skills with the relevant
+	other skills for your department mod, e.g. Oncologist (SKILL_DOC_SPEC_ONCO) or Surgical Oncologist (SKILL_DOC_SPEC_ONCO_SURGERY).
+	
+	Don't forget to copy the localisation unless you wish to make your own.
+	
+	We recommend you use Notepad++ to view this document, use ALT+2 (With notepad++) to collaspe the document into viewing format.
+	TAGS have been set up to help the user search for related exams. Using Ctrl+F you should be able to find 
+	exams using some of these tags (general terms used to describe the exam you are after).
+	These exams have been added by their original developers to be used by any modder that wishes for these to be
+	apart of their mod. Simply add this mod as a dependency and reference them.
+	It is recommended that modders avoid using the same naming convention used by this mod TRT_CRP_*NAME* to help
+	prevent conflicts with their own mods. -->
+	<!-- Name
+	TAGS: 
+	DESC:  -->
+	
+    <!-- Wide Local Excision
+	TAGS: Surgery, skin, lesion, oncology, general surgery
+	DESC: A wide local excision (WLE) is a surgical procedure to remove a small area of diseased or problematic tissue with a margin of normal tissue. This procedure is commonly performed on the breast and to skin lesions, but can be used on any area of the body.
+	COPY FROM HERE VVV
+	
+    <GameDBTreatment ID="TRT_***_WIDE_LOCAL_EXCISION">
+        <AbbreviationLocID>TRT_***__WIDE_LOCAL_EXCISION_DESC</AbbreviationLocID>
         <DiscomfortLevel>Medium</DiscomfortLevel>
         <Procedure>
             <StaffSelectionRules>DEFAULT_ROOMS</StaffSelectionRules>
@@ -13,7 +37,6 @@
                 <SkillRef>SKILL_DOC_SPEC_****_SURGERY</SkillRef>
                 <SkillRef>SKILL_DOC_SPEC_ANESTHESIOLOGY</SkillRef>
 
-                <!-- needs to be last so the anesthesiologist doesn't get selected as assistant-->
                 <SkillRef>SKILL_DOC_SPEC_****</SkillRef>
             </RequiredDoctorQualificationList>
 
@@ -71,52 +94,52 @@
 
             <RequiredEquipmentList>
                 <RequiredEquipment>
-                    <Tag>operating_table_head</Tag><!--0-->
+                    <Tag>operating_table_head</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>operating_table_legs</Tag><!--1-->
+                    <Tag>operating_table_legs</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--2-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--3-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--4-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--5-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--6-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--7-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>warming_cabinet</Tag><!--8-->
+                    <Tag>warming_cabinet</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>doc_equipment</Tag><!--9-->
+                    <Tag>doc_equipment</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>surgery_instruments</Tag><!--10-->
+                    <Tag>surgery_instruments</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>electrocautery_machine</Tag><!--11-->
+                    <Tag>electrocautery_machine</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>stool</Tag><!--12-->
+                    <Tag>stool</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>anesthetic_machine</Tag><!--13-->
+                    <Tag>anesthetic_machine</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>defibrillator</Tag><!--14-->
+                    <Tag>defibrillator</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>succion_machine</Tag><!--15-->
+                    <Tag>succion_machine</Tag>
                 </RequiredEquipment>
             </RequiredEquipmentList>
 
@@ -131,7 +154,15 @@
 
     </GameDBTreatment>
 	
-	<GameDBTreatment ID="TRT_***_LAPAROSCOPIC_SURGERY"> <!-- $1425 -->
+	END COPY HERE ^^^
+	-->
+	
+	<!-- Laparoscopic Surgery
+	TAGS: Surgery, abdomen, stomach, flank, side, internal medicine, general surgery, laparoscope
+	DESC: Laparoscopy is an operation performed in the abdomen or pelvis using small incisions with the aid of a camera.
+	COPY FROM HERE VVV
+	
+	<GameDBTreatment ID="TRT_***_LAPAROSCOPIC_SURGERY"> 
         <AbbreviationLocID>TRT_***_LAPAROSCOPIC_SURGERY_DESC</AbbreviationLocID>
         <DiscomfortLevel>Medium</DiscomfortLevel>
         <Procedure>
@@ -144,7 +175,6 @@
                 <SkillRef>SKILL_DOC_SPEC_****_SURGERY</SkillRef>
                 <SkillRef>SKILL_DOC_SPEC_ANESTHESIOLOGY</SkillRef>
 
-                <!-- needs to be last so the anesthesiologist doesn't get selected as assistant-->
                 <SkillRef>SKILL_DOC_SPEC_****</SkillRef>
             </RequiredDoctorQualificationList>
 
@@ -197,52 +227,52 @@
 
             <RequiredEquipmentList>
                 <RequiredEquipment>
-                    <Tag>operating_table_head</Tag><!--0-->
+                    <Tag>operating_table_head</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>operating_table_legs</Tag><!--1-->
+                    <Tag>operating_table_legs</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--2-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--3-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--4-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--5-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--6-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--7-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>warming_cabinet</Tag><!--8-->
+                    <Tag>warming_cabinet</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>doc_equipment</Tag><!--9-->
+                    <Tag>doc_equipment</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>surgery_instruments</Tag><!--10-->
+                    <Tag>surgery_instruments</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>electrocautery_machine</Tag><!--11-->
+                    <Tag>electrocautery_machine</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>stool</Tag><!--12-->
+                    <Tag>stool</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>anesthetic_machine</Tag><!--13-->
+                    <Tag>anesthetic_machine</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>defibrillator</Tag><!--14-->
+                    <Tag>defibrillator</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>succion_machine</Tag><!--15-->
+                    <Tag>succion_machine</Tag>
                 </RequiredEquipment>
             </RequiredEquipmentList>
 
@@ -257,7 +287,16 @@
 
     </GameDBTreatment>
 	
-	<GameDBTreatment ID="TRT_***_LOBECTOMY_SURGERY"> <!-- $1870 -->
+	END COPY HERE ^^^
+	-->
+	
+	<!-- Lobectomy Surgery
+	TAGS: Surgery, lung, brain, thyroid, side, internal medicine, general surgery
+	DESC: Lobectomy means surgical excision of a lobe. This may refer to a lobe of the lung, a lobe of the thyroid (hemithyroidectomy), or a lobe of the brain (as in anterior temporal lobectomy).
+	LOCAL: Pulmonary Lobectomy (The other definitions will need to be made)
+	COPY FROM HERE VVV
+	
+	<GameDBTreatment ID="TRT_***_LOBECTOMY_SURGERY">
         <AbbreviationLocID>TRT_***_LOBECTOMY_SURGERY_DESC</AbbreviationLocID>
         <DiscomfortLevel>High</DiscomfortLevel>
         <Procedure>
@@ -270,7 +309,6 @@
                 <SkillRef>SKILL_DOC_SPEC_****_SURGERY</SkillRef>
                 <SkillRef>SKILL_DOC_SPEC_ANESTHESIOLOGY</SkillRef>
 
-                <!-- needs to be last so the anesthesiologist doesn't get selected as assistant-->
                 <SkillRef>SKILL_DOC_SPEC_****</SkillRef>
             </RequiredDoctorQualificationList>
 
@@ -328,52 +366,52 @@
 
             <RequiredEquipmentList>
                 <RequiredEquipment>
-                    <Tag>operating_table_head</Tag><!--0-->
+                    <Tag>operating_table_head</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>operating_table_legs</Tag><!--1-->
+                    <Tag>operating_table_legs</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--2-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--3-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--4-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--5-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--6-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--7-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>warming_cabinet</Tag><!--8-->
+                    <Tag>warming_cabinet</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>doc_equipment</Tag><!--9-->
+                    <Tag>doc_equipment</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>surgery_instruments</Tag><!--10-->
+                    <Tag>surgery_instruments</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>electrocautery_machine</Tag><!--11-->
+                    <Tag>electrocautery_machine</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>stool</Tag><!--12-->
+                    <Tag>stool</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>anesthetic_machine</Tag><!--13-->
+                    <Tag>anesthetic_machine</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>defibrillator</Tag><!--14-->
+                    <Tag>defibrillator</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>succion_machine</Tag><!--15-->
+                    <Tag>succion_machine</Tag>
                 </RequiredEquipment>
             </RequiredEquipmentList>
 
@@ -387,8 +425,15 @@
         <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</HospitalizationTreatmentRef>
 
     </GameDBTreatment>
+	END COPY HERE ^^^
+	-->
 
-	<GameDBTreatment ID="TRT_***_ENDOVASCULAR_EMBOLISATION"> <!-- $- -->
+	<!-- Endovascular Embolisation
+	TAGS: invasive, surgery, blood vessel, blocking, blood flow
+	DESC: Endovascular embolization (EE) is an invasive surgical procedure. It's used to treat abnormal blood vessels found in your brain, as well as other areas of your body. This procedure is an alternative to open surgery. It blocks blood vessels to cut off blood flow to an affected area.
+	COPY FROM HERE VVV
+	
+	<GameDBTreatment ID="TRT_***_ENDOVASCULAR_EMBOLISATION">
         <AbbreviationLocID>TRT_***_ENDOVASCULAR_EMBOLISATION_DESC</AbbreviationLocID>
         <DiscomfortLevel>High</DiscomfortLevel>
         <Procedure>
@@ -401,7 +446,6 @@
                 <SkillRef>SKILL_DOC_SPEC_****_SURGERY</SkillRef>
                 <SkillRef>SKILL_DOC_SPEC_ANESTHESIOLOGY</SkillRef>
 
-                <!-- needs to be last so the anesthesiologist doesn't get selected as assistant-->
                 <SkillRef>SKILL_DOC_SPEC_****</SkillRef>
             </RequiredDoctorQualificationList>
 
@@ -464,52 +508,52 @@
 
             <RequiredEquipmentList>
                 <RequiredEquipment>
-                    <Tag>operating_table_head</Tag><!--0-->
+                    <Tag>operating_table_head</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>operating_table_legs</Tag><!--1-->
+                    <Tag>operating_table_legs</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--2-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--3-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--4-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--5-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--6-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--7-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>warming_cabinet</Tag><!--8-->
+                    <Tag>warming_cabinet</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>doc_equipment</Tag><!--9-->
+                    <Tag>doc_equipment</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>surgery_instruments</Tag><!--10-->
+                    <Tag>surgery_instruments</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>electrocautery_machine</Tag><!--11-->
+                    <Tag>electrocautery_machine</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>stool</Tag><!--12-->
+                    <Tag>stool</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>anesthetic_machine</Tag><!--13-->
+                    <Tag>anesthetic_machine</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>defibrillator</Tag><!--14-->
+                    <Tag>defibrillator</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>succion_machine</Tag><!--15-->
+                    <Tag>succion_machine</Tag>
                 </RequiredEquipment>
             </RequiredEquipmentList>
 
@@ -523,8 +567,15 @@
         <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</HospitalizationTreatmentRef>
 
     </GameDBTreatment>
+	END COPY HERE ^^^
+	-->
+
+	<!-- Nerve Reconstructive Surgery
+	TAGS: Nerve, 
+	DESC: Surgical nerve repair involves exploration of the injured nerve and removal of injured tissue or scar from the nerve endings. After that, a nerve can be directly reconnected if there is enough length on the ends to allow for a good quality repair without tension.
+	COPY FROM HERE VVV
 	
-	<GameDBTreatment ID="TRT_***_NERVE_DECOM_SURGERY"> <!-- $- -->
+	<GameDBTreatment ID="TRT_***_NERVE_DECOM_SURGERY">
         <AbbreviationLocID>TRT_***_NERVE_DECOM_SURGERY_DESC</AbbreviationLocID>
         <DiscomfortLevel>Medium</DiscomfortLevel>
         <Procedure>
@@ -537,7 +588,6 @@
                 <SkillRef>SKILL_DOC_SPEC_NEURO_SURGERY</SkillRef>
                 <SkillRef>SKILL_DOC_SPEC_ANESTHESIOLOGY</SkillRef>
 
-                <!-- needs to be last so the anesthesiologist doesn't get selected as assistant-->
                 <SkillRef>SKILL_DOC_SPEC_NEUROLOGY</SkillRef>
             </RequiredDoctorQualificationList>
 
@@ -595,52 +645,52 @@
 
             <RequiredEquipmentList>
                 <RequiredEquipment>
-                    <Tag>operating_table_head</Tag><!--0-->
+                    <Tag>operating_table_head</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>operating_table_legs</Tag><!--1-->
+                    <Tag>operating_table_legs</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--2-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--3-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--4-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--5-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--6-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--7-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>warming_cabinet</Tag><!--8-->
+                    <Tag>warming_cabinet</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>doc_equipment</Tag><!--9-->
+                    <Tag>doc_equipment</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>surgery_instruments</Tag><!--10-->
+                    <Tag>surgery_instruments</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>electrocautery_machine</Tag><!--11-->
+                    <Tag>electrocautery_machine</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>stool</Tag><!--12-->
+                    <Tag>stool</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>anesthetic_machine</Tag><!--13-->
+                    <Tag>anesthetic_machine</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>defibrillator</Tag><!--14-->
+                    <Tag>defibrillator</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>succion_machine</Tag><!--15-->
+                    <Tag>succion_machine</Tag>
                 </RequiredEquipment>
             </RequiredEquipmentList>
 
@@ -654,8 +704,15 @@
         <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
 
     </GameDBTreatment>
+	END COPY HERE ^^^
+	-->
 	
-	<GameDBTreatment ID="TRT_***_POLYPECTOMY"> <!-- $1200 -->
+	<!-- Polypectomy
+	TAGS: 
+	DESC: 
+	COPY FROM HERE VVV
+	
+	<GameDBTreatment ID="TRT_***_POLYPECTOMY">
         <AbbreviationLocID>TRT_***_POLYPECTOMY_DESC</AbbreviationLocID>
         <DiscomfortLevel>Medium</DiscomfortLevel>
         <Procedure>
@@ -668,7 +725,7 @@
                 <SkillRef>SKILL_DOC_SPEC_****_SURGERY</SkillRef>
                 <SkillRef>SKILL_DOC_SPEC_ANESTHESIOLOGY</SkillRef>
 
-                <!-- needs to be last so the anesthesiologist doesn't get selected as assistant-->
+                
                 <SkillRef>SKILL_DOC_SPEC_****</SkillRef>
             </RequiredDoctorQualificationList>
 
@@ -725,52 +782,52 @@
 
             <RequiredEquipmentList>
                 <RequiredEquipment>
-                    <Tag>operating_table_head</Tag><!--0-->
+                    <Tag>operating_table_head</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>operating_table_legs</Tag><!--1-->
+                    <Tag>operating_table_legs</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--2-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--3-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--4-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--5-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--6-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--7-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>warming_cabinet</Tag><!--8-->
+                    <Tag>warming_cabinet</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>doc_equipment</Tag><!--9-->
+                    <Tag>doc_equipment</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>surgery_instruments</Tag><!--10-->
+                    <Tag>surgery_instruments</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>electrocautery_machine</Tag><!--11-->
+                    <Tag>electrocautery_machine</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>stool</Tag><!--12-->
+                    <Tag>stool</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>anesthetic_machine</Tag><!--13-->
+                    <Tag>anesthetic_machine</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>defibrillator</Tag><!--14-->
+                    <Tag>defibrillator</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>succion_machine</Tag><!--15-->
+                    <Tag>succion_machine</Tag>
                 </RequiredEquipment>
             </RequiredEquipmentList>
 
@@ -784,8 +841,15 @@
         <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
 
     </GameDBTreatment>
+	END COPY HERE ^^^
+	-->
 
-	<GameDBTreatment ID="TRT_***_PARTIAL_COLECTOMY"> <!-- $2650 -->
+	<!-- Partial Colectomy
+	TAGS: 
+	DESC: 
+	COPY FROM HERE VVV
+	
+	<GameDBTreatment ID="TRT_***_PARTIAL_COLECTOMY">
         <AbbreviationLocID>TRT_***_PARTIAL_COLECTOMY_DESC</AbbreviationLocID>
         <DiscomfortLevel>High</DiscomfortLevel>
         <Procedure>
@@ -798,7 +862,7 @@
                 <SkillRef>SKILL_DOC_SPEC_****_SURGERY</SkillRef>
                 <SkillRef>SKILL_DOC_SPEC_ANESTHESIOLOGY</SkillRef>
 
-                <!-- needs to be last so the anesthesiologist doesn't get selected as assistant-->
+                
                 <SkillRef>SKILL_DOC_SPEC_****</SkillRef>
             </RequiredDoctorQualificationList>
 
@@ -860,52 +924,52 @@
 
             <RequiredEquipmentList>
                 <RequiredEquipment>
-                    <Tag>operating_table_head</Tag><!--0-->
+                    <Tag>operating_table_head</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>operating_table_legs</Tag><!--1-->
+                    <Tag>operating_table_legs</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--2-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--3-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--4-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--5-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--6-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--7-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>warming_cabinet</Tag><!--8-->
+                    <Tag>warming_cabinet</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>doc_equipment</Tag><!--9-->
+                    <Tag>doc_equipment</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>surgery_instruments</Tag><!--10-->
+                    <Tag>surgery_instruments</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>electrocautery_machine</Tag><!--11-->
+                    <Tag>electrocautery_machine</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>stool</Tag><!--12-->
+                    <Tag>stool</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>anesthetic_machine</Tag><!--13-->
+                    <Tag>anesthetic_machine</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>defibrillator</Tag><!--14-->
+                    <Tag>defibrillator</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>succion_machine</Tag><!--15-->
+                    <Tag>succion_machine</Tag>
                 </RequiredEquipment>
             </RequiredEquipmentList>
 
@@ -919,8 +983,15 @@
         <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
 
     </GameDBTreatment>
+	END COPY HERE ^^^
+	-->
 	
-	<GameDBTreatment ID="TRT_***_ADRENALECTOMY"> <!-- $2885 -->
+	<!-- Adrenalectomy
+	TAGS: 
+	DESC: 
+	COPY FROM HERE VVV
+	
+	<GameDBTreatment ID="TRT_***_ADRENALECTOMY">
         <AbbreviationLocID>TRT_***_ADRENALECTOMY_DESC</AbbreviationLocID>
         <DiscomfortLevel>High</DiscomfortLevel>
         <Procedure>
@@ -933,7 +1004,7 @@
                 <SkillRef>SKILL_DOC_SPEC_****_SURGERY</SkillRef>
                 <SkillRef>SKILL_DOC_SPEC_ANESTHESIOLOGY</SkillRef>
 
-                <!-- needs to be last so the anesthesiologist doesn't get selected as assistant-->
+                
                 <SkillRef>SKILL_DOC_SPEC_****</SkillRef>
             </RequiredDoctorQualificationList>
 
@@ -995,52 +1066,52 @@
 
             <RequiredEquipmentList>
                 <RequiredEquipment>
-                    <Tag>operating_table_head</Tag><!--0-->
+                    <Tag>operating_table_head</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>operating_table_legs</Tag><!--1-->
+                    <Tag>operating_table_legs</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--2-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--3-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--4-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--5-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--6-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--7-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>warming_cabinet</Tag><!--8-->
+                    <Tag>warming_cabinet</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>doc_equipment</Tag><!--9-->
+                    <Tag>doc_equipment</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>surgery_instruments</Tag><!--10-->
+                    <Tag>surgery_instruments</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>electrocautery_machine</Tag><!--11-->
+                    <Tag>electrocautery_machine</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>stool</Tag><!--12-->
+                    <Tag>stool</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>anesthetic_machine</Tag><!--13-->
+                    <Tag>anesthetic_machine</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>defibrillator</Tag><!--14-->
+                    <Tag>defibrillator</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>succion_machine</Tag><!--15-->
+                    <Tag>succion_machine</Tag>
                 </RequiredEquipment>
             </RequiredEquipmentList>
 
@@ -1054,8 +1125,15 @@
         <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
 
     </GameDBTreatment>
+	END COPY HERE ^^^
+	-->
 
-	<GameDBTreatment ID="TRT_***_SPLENECTOMY"> <!-- $- -->
+	<!-- Splenectomy
+	TAGS: 
+	DESC: 
+	COPY FROM HERE VVV
+	
+	<GameDBTreatment ID="TRT_***_SPLENECTOMY">
         <AbbreviationLocID>TRT_***_SPLENECTOMY_DESC</AbbreviationLocID>
         <DiscomfortLevel>High</DiscomfortLevel>
         <Procedure>
@@ -1068,7 +1146,7 @@
                 <SkillRef>SKILL_DOC_SPEC_****_SURGERY</SkillRef>
                 <SkillRef>SKILL_DOC_SPEC_ANESTHESIOLOGY</SkillRef>
 
-                <!-- needs to be last so the anesthesiologist doesn't get selected as assistant-->
+                
                 <SkillRef>SKILL_DOC_SPEC_****</SkillRef>
             </RequiredDoctorQualificationList>
 
@@ -1130,52 +1208,52 @@
 
             <RequiredEquipmentList>
                 <RequiredEquipment>
-                    <Tag>operating_table_head</Tag><!--0-->
+                    <Tag>operating_table_head</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>operating_table_legs</Tag><!--1-->
+                    <Tag>operating_table_legs</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--2-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--3-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--4-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--5-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--6-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--7-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>warming_cabinet</Tag><!--8-->
+                    <Tag>warming_cabinet</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>doc_equipment</Tag><!--9-->
+                    <Tag>doc_equipment</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>surgery_instruments</Tag><!--10-->
+                    <Tag>surgery_instruments</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>electrocautery_machine</Tag><!--11-->
+                    <Tag>electrocautery_machine</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>stool</Tag><!--12-->
+                    <Tag>stool</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>anesthetic_machine</Tag><!--13-->
+                    <Tag>anesthetic_machine</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>defibrillator</Tag><!--14-->
+                    <Tag>defibrillator</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>succion_machine</Tag><!--15-->
+                    <Tag>succion_machine</Tag>
                 </RequiredEquipment>
             </RequiredEquipmentList>
 
@@ -1189,8 +1267,15 @@
         <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</HospitalizationTreatmentRef>
 
     </GameDBTreatment>
-
-	<GameDBTreatment ID="TRT_***_SEG_MASTECTOMY"> <!-- $1700 -->
+	END COPY HERE ^^^
+	-->
+	
+	<!-- Partial Mastectomy
+	TAGS: 
+	DESC: 
+	COPY FROM HERE VVV
+	
+	<GameDBTreatment ID="TRT_***_SEG_MASTECTOMY">
         <AbbreviationLocID>TRT_***_SEG_MASTECTOMY_DESC</AbbreviationLocID>
         <DiscomfortLevel>High</DiscomfortLevel>
         <Procedure>
@@ -1203,7 +1288,7 @@
                 <SkillRef>SKILL_DOC_SPEC_****_SURGERY</SkillRef>
                 <SkillRef>SKILL_DOC_SPEC_ANESTHESIOLOGY</SkillRef>
 
-                <!-- needs to be last so the anesthesiologist doesn't get selected as assistant-->
+                
                 <SkillRef>SKILL_DOC_SPEC_****</SkillRef>
             </RequiredDoctorQualificationList>
 
@@ -1261,52 +1346,52 @@
 
             <RequiredEquipmentList>
                 <RequiredEquipment>
-                    <Tag>operating_table_head</Tag><!--0-->
+                    <Tag>operating_table_head</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>operating_table_legs</Tag><!--1-->
+                    <Tag>operating_table_legs</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--2-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--3-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--4-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--5-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--6-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--7-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>warming_cabinet</Tag><!--8-->
+                    <Tag>warming_cabinet</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>doc_equipment</Tag><!--9-->
+                    <Tag>doc_equipment</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>surgery_instruments</Tag><!--10-->
+                    <Tag>surgery_instruments</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>electrocautery_machine</Tag><!--11-->
+                    <Tag>electrocautery_machine</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>stool</Tag><!--12-->
+                    <Tag>stool</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>anesthetic_machine</Tag><!--13-->
+                    <Tag>anesthetic_machine</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>defibrillator</Tag><!--14-->
+                    <Tag>defibrillator</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>succion_machine</Tag><!--15-->
+                    <Tag>succion_machine</Tag>
                 </RequiredEquipment>
             </RequiredEquipmentList>
 
@@ -1320,8 +1405,15 @@
         <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
 
     </GameDBTreatment>
- 
-	<GameDBTreatment ID="TRT_***_DEBULKING"> <!-- NEURO (Variable) -->
+	END COPY HERE ^^^
+	-->
+	
+	<!-- Surgical Debulking
+	TAGS: 
+	DESC: 
+	COPY FROM HERE VVV
+	
+	<GameDBTreatment ID="TRT_***_DEBULKING">
         <AbbreviationLocID>TRT_***_DEBULKING_DESC</AbbreviationLocID>
         <DiscomfortLevel>High</DiscomfortLevel>
         <Procedure>
@@ -1335,7 +1427,7 @@
                 <SkillRef>SKILL_DOC_SPEC_NEURO_SURGERY</SkillRef>
                 <SkillRef>SKILL_DOC_SPEC_ANESTHESIOLOGY</SkillRef>
 
-                <!-- needs to be last so the anesthesiologist doesn't get selected as assistant-->
+                
                 <SkillRef>SKILL_DOC_SPEC_NEUROLOGY</SkillRef>
             </RequiredDoctorQualificationList>
 
@@ -1392,52 +1484,52 @@
 
             <RequiredEquipmentList>
                 <RequiredEquipment>
-                    <Tag>operating_table_head</Tag><!--0-->
+                    <Tag>operating_table_head</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>operating_table_legs</Tag><!--1-->
+                    <Tag>operating_table_legs</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--2-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--3-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--4-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--5-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--6-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--7-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>warming_cabinet</Tag><!--8-->
+                    <Tag>warming_cabinet</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>doc_equipment</Tag><!--9-->
+                    <Tag>doc_equipment</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>surgery_instruments</Tag><!--10-->
+                    <Tag>surgery_instruments</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>electrocautery_machine</Tag><!--11-->
+                    <Tag>electrocautery_machine</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>stool</Tag><!--12-->
+                    <Tag>stool</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>anesthetic_machine</Tag><!--13-->
+                    <Tag>anesthetic_machine</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>defibrillator</Tag><!--14-->
+                    <Tag>defibrillator</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>succion_machine</Tag><!--15-->
+                    <Tag>succion_machine</Tag>
                 </RequiredEquipment>
             </RequiredEquipmentList>
 
@@ -1452,9 +1544,14 @@
         <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</HospitalizationTreatmentRef>
 
     </GameDBTreatment>
+	END COPY HERE ^^^
+	-->
 	
-	<!-- Gross-Total Resection Craniotomy -->
-	<GameDBTreatment ID="TRT_***_GTR"> <!-- NEURO (Variable) -->
+	<!-- Gross-Total Resection Craniotomy
+	TAGS: 
+	DESC: 
+	COPY FROM HERE VVV
+	<GameDBTreatment ID="TRT_***_GTR">
         <AbbreviationLocID>TRT_***_GTR_DESC</AbbreviationLocID>
         <DiscomfortLevel>High</DiscomfortLevel>
         <Procedure>
@@ -1468,7 +1565,7 @@
                 <SkillRef>SKILL_DOC_SPEC_NEURO_SURGERY</SkillRef>
                 <SkillRef>SKILL_DOC_SPEC_ANESTHESIOLOGY</SkillRef>
 
-                <!-- needs to be last so the anesthesiologist doesn't get selected as assistant-->
+                
                 <SkillRef>SKILL_DOC_SPEC_NEUROLOGY</SkillRef>
             </RequiredDoctorQualificationList>
 
@@ -1525,52 +1622,52 @@
 
             <RequiredEquipmentList>
                 <RequiredEquipment>
-                    <Tag>operating_table_head</Tag><!--0-->
+                    <Tag>operating_table_head</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>operating_table_legs</Tag><!--1-->
+                    <Tag>operating_table_legs</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--2-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--3-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--4-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--5-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--6-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--7-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>warming_cabinet</Tag><!--8-->
+                    <Tag>warming_cabinet</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>doc_equipment</Tag><!--9-->
+                    <Tag>doc_equipment</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>surgery_instruments</Tag><!--10-->
+                    <Tag>surgery_instruments</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>electrocautery_machine</Tag><!--11-->
+                    <Tag>electrocautery_machine</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>stool</Tag><!--12-->
+                    <Tag>stool</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>anesthetic_machine</Tag><!--13-->
+                    <Tag>anesthetic_machine</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>defibrillator</Tag><!--14-->
+                    <Tag>defibrillator</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>succion_machine</Tag><!--15-->
+                    <Tag>succion_machine</Tag>
                 </RequiredEquipment>
             </RequiredEquipmentList>
 
@@ -1585,9 +1682,14 @@
         <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</HospitalizationTreatmentRef>
 
     </GameDBTreatment>
+	END COPY HERE ^^^
+	-->
 	
-	<!-- Unilateral Salpingo-Oophorectomy -->
-	<GameDBTreatment ID="TRT_***_UNI_SALOOPH"> <!-- $1950 -->
+	<!-- Unilateral Salpingo-Oophorectomy
+	TAGS: 
+	DESC: 
+	COPY FROM HERE VVV
+	<GameDBTreatment ID="TRT_***_UNI_SALOOPH">
         <AbbreviationLocID>TRT_***_UNI_SALOOPH_DESC</AbbreviationLocID>
         <DiscomfortLevel>High</DiscomfortLevel>
         <Procedure>
@@ -1600,7 +1702,7 @@
                 <SkillRef>SKILL_DOC_SPEC_****_SURGERY</SkillRef>
                 <SkillRef>SKILL_DOC_SPEC_ANESTHESIOLOGY</SkillRef>
 
-                <!-- needs to be last so the anesthesiologist doesn't get selected as assistant-->
+                
                 <SkillRef>SKILL_DOC_SPEC_****</SkillRef>
             </RequiredDoctorQualificationList>
 
@@ -1662,52 +1764,52 @@
 
             <RequiredEquipmentList>
                 <RequiredEquipment>
-                    <Tag>operating_table_head</Tag><!--0-->
+                    <Tag>operating_table_head</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>operating_table_legs</Tag><!--1-->
+                    <Tag>operating_table_legs</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--2-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--3-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--4-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--5-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--6-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--7-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>warming_cabinet</Tag><!--8-->
+                    <Tag>warming_cabinet</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>doc_equipment</Tag><!--9-->
+                    <Tag>doc_equipment</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>surgery_instruments</Tag><!--10-->
+                    <Tag>surgery_instruments</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>electrocautery_machine</Tag><!--11-->
+                    <Tag>electrocautery_machine</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>stool</Tag><!--12-->
+                    <Tag>stool</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>anesthetic_machine</Tag><!--13-->
+                    <Tag>anesthetic_machine</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>defibrillator</Tag><!--14-->
+                    <Tag>defibrillator</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>succion_machine</Tag><!--15-->
+                    <Tag>succion_machine</Tag>
                 </RequiredEquipment>
             </RequiredEquipmentList>
 
@@ -1721,9 +1823,14 @@
         <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
 
     </GameDBTreatment>
+	END COPY HERE ^^^
+	-->
 	
-	<!-- Radical Prostatectomy -->
-	<GameDBTreatment ID="TRT_***_RAD_PROS"> <!-- $2120 -->
+	<!-- Radical Prostatectomy
+	TAGS: 
+	DESC: 
+	COPY FROM HERE VVV
+	<GameDBTreatment ID="TRT_***_RAD_PROS">
         <AbbreviationLocID>TRT_***_RAD_PROS_DESC</AbbreviationLocID>
         <DiscomfortLevel>High</DiscomfortLevel>
         <Procedure>
@@ -1736,7 +1843,7 @@
                 <SkillRef>SKILL_DOC_SPEC_****_SURGERY</SkillRef>
                 <SkillRef>SKILL_DOC_SPEC_ANESTHESIOLOGY</SkillRef>
 
-                <!-- needs to be last so the anesthesiologist doesn't get selected as assistant-->
+                
                 <SkillRef>SKILL_DOC_SPEC_****</SkillRef>
             </RequiredDoctorQualificationList>
 
@@ -1803,52 +1910,52 @@
 
             <RequiredEquipmentList>
                 <RequiredEquipment>
-                    <Tag>operating_table_head</Tag><!--0-->
+                    <Tag>operating_table_head</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>operating_table_legs</Tag><!--1-->
+                    <Tag>operating_table_legs</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--2-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--3-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--4-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--5-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--6-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--7-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>warming_cabinet</Tag><!--8-->
+                    <Tag>warming_cabinet</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>doc_equipment</Tag><!--9-->
+                    <Tag>doc_equipment</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>surgery_instruments</Tag><!--10-->
+                    <Tag>surgery_instruments</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>electrocautery_machine</Tag><!--11-->
+                    <Tag>electrocautery_machine</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>stool</Tag><!--12-->
+                    <Tag>stool</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>anesthetic_machine</Tag><!--13-->
+                    <Tag>anesthetic_machine</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>defibrillator</Tag><!--14-->
+                    <Tag>defibrillator</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>succion_machine</Tag><!--15-->
+                    <Tag>succion_machine</Tag>
                 </RequiredEquipment>
             </RequiredEquipmentList>
 
@@ -1862,9 +1969,14 @@
         <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
 
     </GameDBTreatment>
+	END COPY HERE ^^^
+	-->
 	
-	<!-- Parathyroidectomy -->
-	<GameDBTreatment ID="TRT_***_PARATHY"> <!-- $- -->
+	<!-- Parathyroidectomy
+	TAGS: 
+	DESC: 
+	COPY FROM HERE VVV
+	<GameDBTreatment ID="TRT_***_PARATHY">
         <AbbreviationLocID>TRT_***_PARATHY_DESC</AbbreviationLocID>
         <DiscomfortLevel>High</DiscomfortLevel>
         <Procedure>
@@ -1877,7 +1989,7 @@
                 <SkillRef>SKILL_DOC_SPEC_****_SURGERY</SkillRef>
                 <SkillRef>SKILL_DOC_SPEC_ANESTHESIOLOGY</SkillRef>
 
-                <!-- needs to be last so the anesthesiologist doesn't get selected as assistant-->
+                
                 <SkillRef>SKILL_DOC_SPEC_****</SkillRef>
             </RequiredDoctorQualificationList>
 
@@ -1939,52 +2051,52 @@
 
             <RequiredEquipmentList>
                 <RequiredEquipment>
-                    <Tag>operating_table_head</Tag><!--0-->
+                    <Tag>operating_table_head</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>operating_table_legs</Tag><!--1-->
+                    <Tag>operating_table_legs</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--2-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--3-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--4-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--5-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--6-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--7-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>warming_cabinet</Tag><!--8-->
+                    <Tag>warming_cabinet</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>doc_equipment</Tag><!--9-->
+                    <Tag>doc_equipment</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>surgery_instruments</Tag><!--10-->
+                    <Tag>surgery_instruments</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>electrocautery_machine</Tag><!--11-->
+                    <Tag>electrocautery_machine</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>stool</Tag><!--12-->
+                    <Tag>stool</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>anesthetic_machine</Tag><!--13-->
+                    <Tag>anesthetic_machine</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>defibrillator</Tag><!--14-->
+                    <Tag>defibrillator</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>succion_machine</Tag><!--15-->
+                    <Tag>succion_machine</Tag>
                 </RequiredEquipment>
             </RequiredEquipmentList>
 
@@ -1998,9 +2110,14 @@
         <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
 
     </GameDBTreatment>
+	END COPY HERE ^^^
+	-->
 	
-	<!-- Segmentectomy  -->
-	<GameDBTreatment ID="TRT_***_SEGMENTECTOMY"> <!-- $1650 -->
+	<!-- Segmentectomy
+	TAGS: 
+	DESC: 
+	COPY FROM HERE VVV
+	<GameDBTreatment ID="TRT_***_SEGMENTECTOMY">
         <AbbreviationLocID>TRT_***_SEGMENTECTOMY_DESC</AbbreviationLocID>
         <DiscomfortLevel>High</DiscomfortLevel>
         <Procedure>
@@ -2013,7 +2130,7 @@
                 <SkillRef>SKILL_DOC_SPEC_****_SURGERY</SkillRef>
                 <SkillRef>SKILL_DOC_SPEC_ANESTHESIOLOGY</SkillRef>
 
-                <!-- needs to be last so the anesthesiologist doesn't get selected as assistant-->
+                
                 <SkillRef>SKILL_DOC_SPEC_****</SkillRef>
             </RequiredDoctorQualificationList>
 
@@ -2075,52 +2192,52 @@
 
             <RequiredEquipmentList>
                 <RequiredEquipment>
-                    <Tag>operating_table_head</Tag><!--0-->
+                    <Tag>operating_table_head</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>operating_table_legs</Tag><!--1-->
+                    <Tag>operating_table_legs</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--2-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--3-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubbing_sink</Tag><!--4-->
+                    <Tag>scrubbing_sink</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--5-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--6-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>scrubs_shelf</Tag><!--7-->
+                    <Tag>scrubs_shelf</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>warming_cabinet</Tag><!--8-->
+                    <Tag>warming_cabinet</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>doc_equipment</Tag><!--9-->
+                    <Tag>doc_equipment</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>surgery_instruments</Tag><!--10-->
+                    <Tag>surgery_instruments</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>electrocautery_machine</Tag><!--11-->
+                    <Tag>electrocautery_machine</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>stool</Tag><!--12-->
+                    <Tag>stool</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>anesthetic_machine</Tag><!--13-->
+                    <Tag>anesthetic_machine</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>defibrillator</Tag><!--14-->
+                    <Tag>defibrillator</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
-                    <Tag>succion_machine</Tag><!--15-->
+                    <Tag>succion_machine</Tag>
                 </RequiredEquipment>
             </RequiredEquipmentList>
 
@@ -2134,8 +2251,159 @@
         <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
 
     </GameDBTreatment>
-	 
-    <!-- Papiloma Removal Surgery -->
+	END COPY HERE ^^^
+	-->
+	
+	<!-- Functional Endoscopic Sinus Surgery
+	TAGS: 
+	DESC: 
+	COPY FROM HERE VVV
+	<GameDBTreatment ID="TRT_***_FESS">
+        <AbbreviationLocID>TRT_***_FESS_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>DEFAULT_ROOMS</StaffSelectionRules>
+
+            <RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_SPEC_****</SkillRef>
+            </RequiredSkillsToPrescribe>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_SPEC_****_SURGERY</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_ANESTHESIOLOGY</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_****</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredDoctorRoles>
+                <RoleRef>EMPL_ROLE_SURGERY</RoleRef>
+                <RoleRef>EMPL_ROLE_SURGERY_ANESTHESIOLOGY</RoleRef>
+                <RoleRef>EMPL_ROLE_SURGERY_ASSIST</RoleRef>
+            </RequiredDoctorRoles>
+
+            <RequiredNurseQualificationList>
+                <SkillRef>SKILL_NURSE_SPEC_MEDICAL_SURGERY</SkillRef>
+                <SkillRef>SKILL_NURSE_SPEC_MEDICAL_SURGERY</SkillRef>
+            </RequiredNurseQualificationList>
+
+            <RequiredNurseRoles>
+                <RoleRef>EMPL_ROLE_SURGERY_NURSE</RoleRef>
+                <RoleRef>EMPL_ROLE_SURGERY_NURSE</RoleRef>
+            </RequiredNurseRoles>
+
+            <RequiredRoomTags>
+                <Tag>operating_room</Tag>
+            </RequiredRoomTags>
+
+            <BedPositionsStaff>
+                <MainSurgeonPosition>HEAD_LEFT</MainSurgeonPosition>
+                <SurgeonAsistantPosition>HEAD_RIGHT</SurgeonAsistantPosition>
+                <AnesthesiologistPosition>NONE</AnesthesiologistPosition>
+                <SurgeryNursePosition>FEET_LEFT_UP</SurgeryNursePosition>
+                <AssistantNursePosition>FEET_RIGHT_UP</AssistantNursePosition>
+            </BedPositionsStaff>
+
+            <Complications>
+			    <Complication>
+                    <SymptomRef>SYM_CRP_NERVE_DAMAGE</SymptomRef>
+                    <ProbabilityPercent>3</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+                <Complication>
+                    <SymptomRef>SYM_BRAIN_SWELLING</SymptomRef>
+                    <ProbabilityPercent>10</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>5</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+                <Complication>
+                    <SymptomRef>SYM_WOUND_INFECTION</SymptomRef>
+                    <ProbabilityPercent>10</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>5</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+                <Complication>
+                    <SymptomRef>SYM_CRP_ABSCESS</SymptomRef>
+                    <ProbabilityPercent>10</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>5</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+                <Complication>
+                    <SymptomRef>SYM_BLEEDING_FROM_THE_WOUND</SymptomRef>
+                    <ProbabilityPercent>10</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>5</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_CRP_ANAPHYLACTIC_SHOCK</SymptomRef>
+                    <ProbabilityPercent>4</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				
+            </Complications>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>operating_table_head</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>operating_table_legs</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubbing_sink</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubbing_sink</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubbing_sink</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubs_shelf</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubs_shelf</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubs_shelf</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>warming_cabinet</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>doc_equipment</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>surgery_instruments</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>electrocautery_machine</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>stool</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>anesthetic_machine</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>defibrillator</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>succion_machine</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <ProcedureScript>ProcedureScriptTreatmentSurgery</ProcedureScript>
+            <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+            <EquipmentFromAnyDepartment>true</EquipmentFromAnyDepartment>
+        </Procedure>
+        <TreatmentType>SURGERY</TreatmentType>
+        <Cost>100</Cost>
+        <IconIndex>1995</IconIndex>
+        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
+
+    </GameDBTreatment>
+	END COPY HERE ^^^
+	-->
+	
+	<!-- Papiloma Removal Surgery
+	TAGS: 
+	DESC: 
+	COPY FROM HERE VVV
 	<GameDBTreatment ID="TRT_***_PRS">
         <AbbreviationLocID>TRT_***_PRS_DESCRIPTION</AbbreviationLocID>
         <DiscomfortLevel>High</DiscomfortLevel>
@@ -2196,15 +2464,15 @@
                     <ProbabilityPercent>10</ProbabilityPercent>
                     <ProbabilityPercentMaxSkillLevel>5</ProbabilityPercentMaxSkillLevel>
                 </Complication>
-		<Complication>
+				<Complication>
                     <SymptomRef>SYM_CRP_ANAPHYLACTIC_SHOCK</SymptomRef>
                     <ProbabilityPercent>4</ProbabilityPercent>
                     <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
                 </Complication>
-		<Complication>
+				<Complication>
                     <SymptomRef>SYM_CRP_NERVE_DAMAGE</SymptomRef>
-                    <ProbabilityPercent>3</ProbabilityPercent>
-                    <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
+                    <ProbabilityPercent>4</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
                 </Complication>
             </Complications>
 
@@ -2271,6 +2539,350 @@
         <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
 
     </GameDBTreatment>
+	END COPY HERE ^^^
+	-->
+	
+	<!-- Carbon Dioxide Laser Surgery
+	TAGS:
+	DESC:
+	<GameDBTreatment ID="TRT_***_CDLS">
+        <AbbreviationLocID>TRT_***_LOTS_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>DEFAULT_ROOMS</StaffSelectionRules>
+
+            <RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_SPEC_***</SkillRef>
+            </RequiredSkillsToPrescribe>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_SPEC_***_SURGERY</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_ANESTHESIOLOGY</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_***</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredDoctorRoles>
+                <RoleRef>EMPL_ROLE_SURGERY</RoleRef>
+                <RoleRef>EMPL_ROLE_SURGERY_ANESTHESIOLOGY</RoleRef>
+                <RoleRef>EMPL_ROLE_SURGERY_ASSIST</RoleRef>
+            </RequiredDoctorRoles>
+
+            <RequiredNurseQualificationList>
+                <SkillRef>SKILL_NURSE_SPEC_MEDICAL_SURGERY</SkillRef>
+                <SkillRef>SKILL_NURSE_SPEC_MEDICAL_SURGERY</SkillRef>
+            </RequiredNurseQualificationList>
+
+            <RequiredNurseRoles>
+                <RoleRef>EMPL_ROLE_SURGERY_NURSE</RoleRef>
+                <RoleRef>EMPL_ROLE_SURGERY_NURSE</RoleRef>
+            </RequiredNurseRoles>
+
+            <RequiredRoomTags>
+                <Tag>operating_room</Tag>
+            </RequiredRoomTags>
+
+            <BedPositionsStaff>
+                <MainSurgeonPosition>HEAD_LEFT</MainSurgeonPosition>
+                <SurgeonAsistantPosition>HEAD_RIGHT</SurgeonAsistantPosition>
+                <AnesthesiologistPosition>NONE</AnesthesiologistPosition>
+                <SurgeryNursePosition>FEET_LEFT_UP</SurgeryNursePosition>
+                <AssistantNursePosition>FEET_RIGHT_UP</AssistantNursePosition>
+            </BedPositionsStaff>
+
+            <Complications>
+                <Complication>
+                    <SymptomRef>SYM_WOUND_INFECTION</SymptomRef>
+                    <ProbabilityPercent>10</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>5</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_CRP_ANAPHYLACTIC_SHOCK</SymptomRef>
+                    <ProbabilityPercent>4</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_CRP_NERVE_DAMAGE</SymptomRef>
+                    <ProbabilityPercent>4</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+                <Complication>
+                    <SymptomRef>SYM_CRP_ABSCESS</SymptomRef>
+                    <ProbabilityPercent>10</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>5</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+                <Complication>
+                    <SymptomRef>SYM_BLEEDING_FROM_THE_WOUND</SymptomRef>
+                    <ProbabilityPercent>10</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>5</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+            </Complications>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>operating_table_head</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>operating_table_legs</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubbing_sink</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubbing_sink</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubbing_sink</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubs_shelf</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubs_shelf</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubs_shelf</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>warming_cabinet</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>doc_equipment</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>surgery_instruments</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>electrocautery_machine</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>stool</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>anesthetic_machine</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>defibrillator</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>succion_machine</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <ProcedureScript>ProcedureScriptTreatmentSurgery</ProcedureScript>
+            <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+            <EquipmentFromAnyDepartment>true</EquipmentFromAnyDepartment>
+        </Procedure>
+        <TreatmentType>SURGERY</TreatmentType>
+        <Cost>2000</Cost>
+        <IconIndex>1995</IconIndex>
+        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
+
+    </GameDBTreatment>
+	END COPY HERE ^^^
+	-->
+	
+	<!--
+	Surgical Sharp Debridement (Butch)
+	TAGS: Gangrene, Infection, General Surgery, Wound
+	DESC: Debridment is the removal of dead (necrotic) or infected skin tissue to help a wound heal. It’s also done to remove foreign material from tissue.
+	
+	<GameDBTreatment ID="TRT_***_SURGICAL_SHARP_DEBRIDEMENT">
+        <AbbreviationLocID>TRT_***_SURGICAL_SHARP_DEBRIDEMENT_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>DEFAULT_ROOMS</StaffSelectionRules>
+            <RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_SPEC_****</SkillRef>
+            </RequiredSkillsToPrescribe>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_SPEC_****</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_ANESTHESIOLOGY</SkillRef>
+
+                
+                <SkillRef>SKILL_DOC_SPEC_****</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredDoctorRoles>
+                <RoleRef>EMPL_ROLE_SURGERY</RoleRef>
+                <RoleRef>EMPL_ROLE_SURGERY_ANESTHESIOLOGY</RoleRef>
+                <RoleRef>EMPL_ROLE_SURGERY_ASSIST</RoleRef>
+            </RequiredDoctorRoles>
+
+            <RequiredNurseQualificationList>
+                <SkillRef>SKILL_NURSE_SPEC_MEDICAL_SURGERY</SkillRef>
+                <SkillRef>SKILL_NURSE_SPEC_MEDICAL_SURGERY</SkillRef>
+            </RequiredNurseQualificationList>
+
+            <RequiredNurseRoles>
+                <RoleRef>EMPL_ROLE_SURGERY_NURSE</RoleRef>
+                <RoleRef>EMPL_ROLE_SURGERY_NURSE</RoleRef>
+            </RequiredNurseRoles>
+
+            <RequiredRoomTypeList>
+                <RequiredRoomTypeRef>ROOM_TYPE_OPERATING_ROOM</RequiredRoomTypeRef>
+            </RequiredRoomTypeList>
+
+            <BedPositionsStaff>
+                <MainSurgeonPosition>BODY_LEFT</MainSurgeonPosition>
+                <SurgeonAsistantPosition>BODY_RIGHT</SurgeonAsistantPosition>
+                <AnesthesiologistPosition>NONE</AnesthesiologistPosition>
+                <SurgeryNursePosition>FEET_LEFT</SurgeryNursePosition>
+                <AssistantNursePosition>FEET_RIGHT</AssistantNursePosition>
+            </BedPositionsStaff>
+
+            <Complications>
+                <Complication>
+                    <SymptomRef>SYM_CRP_ABSCESS</SymptomRef>
+                    <ProbabilityPercent>10</ProbabilityPercent>
+                </Complication>
+                <Complication>
+                    <SymptomRef>SYM_WOUND_INFECTION</SymptomRef>
+                    <ProbabilityPercent>10</ProbabilityPercent>
+                </Complication>
+                
+                <Complication>
+                    <SymptomRef>SYM_SEPSIS</SymptomRef>
+                    <ProbabilityPercent>10</ProbabilityPercent>
+                </Complication>
+            </Complications>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>operating_table_head</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>operating_table_legs</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubbing_sink</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubbing_sink</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubbing_sink</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubs_shelf</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubs_shelf</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubs_shelf</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>warming_cabinet</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>doc_equipment</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>surgery_instruments</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>electrocautery_machine</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>stool</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>anesthetic_machine</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>defibrillator</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>succion_machine</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <ProcedureScript>ProcedureScriptTreatmentSurgery</ProcedureScript>
+            <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+            <EquipmentFromAnyDepartment>true</EquipmentFromAnyDepartment>
+        </Procedure>
+        <TreatmentType>SURGERY</TreatmentType>
+        <Cost>100</Cost>
+        <IconIndex>1945</IconIndex>
+        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</HospitalizationTreatmentRef>
+
+    </GameDBTreatment>
+	
+	-->
+	
+	<!--
+	Transsphenoidal Surgery   (Butch) 
+	<GameDBTreatment ID="TRT_***_TRANSSPHENOIDAL_SURGERY">
+        <AbbreviationLocID>TRT_***_TRANSSPHENOIDAL_SURGERY_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>DEFAULT_ROOMS</StaffSelectionRules>
+
+            <RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_SPEC_****</SkillRef>
+            </RequiredSkillsToPrescribe>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_SPEC_****</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_ANESTHESIOLOGY</SkillRef>
+
+                <SkillRef>SKILL_DOC_SPEC_INTERNAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredDoctorRoles>
+                <RoleRef>EMPL_ROLE_SURGERY</RoleRef>
+                <RoleRef>EMPL_ROLE_SURGERY_ANESTHESIOLOGY</RoleRef>
+                <RoleRef>EMPL_ROLE_SURGERY_ASSIST</RoleRef>
+            </RequiredDoctorRoles>
+
+            <RequiredNurseQualificationList>
+                <SkillRef>SKILL_NURSE_SPEC_MEDICAL_SURGERY</SkillRef>
+                <SkillRef>SKILL_NURSE_SPEC_MEDICAL_SURGERY</SkillRef>
+            </RequiredNurseQualificationList>
+
+            <RequiredNurseRoles>
+                <RoleRef>EMPL_ROLE_SURGERY_NURSE</RoleRef>
+                <RoleRef>EMPL_ROLE_SURGERY_NURSE</RoleRef>
+            </RequiredNurseRoles>
+
+            <RequiredRoomTypeList>
+                <RequiredRoomTypeRef>ROOM_TYPE_OPERATING_ROOM</RequiredRoomTypeRef>
+            </RequiredRoomTypeList>
+
+            <BedPositionsStaff>
+                <MainSurgeonPosition>BODY_LEFT</MainSurgeonPosition>
+                <SurgeonAsistantPosition>BODY_RIGHT</SurgeonAsistantPosition>
+                <AnesthesiologistPosition>NONE</AnesthesiologistPosition>
+                <SurgeryNursePosition>FEET_LEFT</SurgeryNursePosition>
+                <AssistantNursePosition>FEET_RIGHT</AssistantNursePosition>
+            </BedPositionsStaff>
+
+            <Complications>
+                <Complication>
+                    <SymptomRef>SYM_WOUND_INFECTION</SymptomRef>
+                    <ProbabilityPercent>10</ProbabilityPercent>
+                </Complication>
+				 <Complication>
+                    <SymptomRef>SYM_SEPSIS</SymptomRef>
+                    <ProbabilityPercent>10</ProbabilityPercent>
+                </Complication>
+            </Complications>
+
+            <RequiredEquipmentList>
+            </RequiredEquipmentList>
+
+            <ProcedureScript>ProcedureScriptTreatmentSurgeryLaparoEndo</ProcedureScript>
+            <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+            <EquipmentFromAnyDepartment>true</EquipmentFromAnyDepartment>
+        </Procedure>
+        <TreatmentType>SURGERY</TreatmentType>
+        <Cost>100</Cost>
+        <IconIndex>1941</IconIndex>
+        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
+
+    </GameDBTreatment>
+	-->
 	
 </Database>
   

@@ -1,0 +1,2317 @@
+<Database>
+	<GameDBStringTable ID="LOC_EN_ADDON_CRP_SYMPTOMS">
+	<LanguageCode>en</LanguageCode>
+	<LanguageNameLocalized>English</LanguageNameLocalized>
+	<Contributors>
+	<Name>Sleepy068</Name>
+	<Name>MacNaab</Name>
+	<Name>James</Name>
+	</Contributors>
+
+	<LocalizedStrings>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_ACTINIC_KERATOSIS</LocID>                               
+		<Text>Actinic Keratosis</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_ACTINIC_KERATOSIS_DESC</LocID>                   
+		<Text>Actinic keratosis is a rough, scaly patch on the skin that develops from years of exposure to the sun.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_NODULE_SKIN</LocID>                               
+		<Text>Nodule on the skin</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_NODULE_SKIN_DESC</LocID>                   
+		<Text>A small, shiny bump or nodule on the skin</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_PERINEURAL_INVASION</LocID>                               
+		<Text>Perineural Invasion</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_PERINEURAL_INVASION_DESC</LocID>                   
+		<Text>Perineural invasion, abbreviated PNI, refers to the invasion of cancer to the space surrounding a nerve.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_METASTASIZED_CANCER</LocID>                               
+		<Text>Metastatic Cancer</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_METASTASIZED_CANCER_DESC</LocID>                   
+		<Text>Metastatic cancer is cancer that spreads from its site of origin to another part of the body.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CHRONIC_WOUND</LocID>                               
+		<Text>Chronic Wound</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CHRONIC_WOUND_DESC</LocID>                   
+		<Text>Chronic wounds are sores that don’t heal within about three months. They can start small and might scab over again and again, but they don’t get better.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_ABNORMAL_MOLE</LocID>                               
+		<Text>Abnormal Mole</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_ABNORMAL_MOLE_DESC</LocID>                   
+		<Text>A mole with an uneven border, unusual color, or change in growth.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_HIGH_EPLVL</LocID>                               
+		<Text>High Epinephrine Levels</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_HIGH_EPLVL_DESC</LocID>                   
+		<Text>The patient has elevated blood levels of epinephrine (adrenaline). Adrenaline is normally produced by both the adrenal glands and a small number of neurons in the medulla oblongata. </Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_HIGH_NEPLVL</LocID>                               
+		<Text>High Norepinephrine Levels</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_HIGH_NEPLVL_DESC</LocID>                   
+		<Text>The patient has elevated blood levels of norepinephrine (noradrenaline). Norepinephrine is a naturally occurring chemical in the body that acts as both a stress hormone and neurotransmitter. It's released into the blood as a stress hormone when the brain perceives that a stressful event has occurred. </Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SEIZURES</LocID>                               
+		<Text>Seizures</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SEIZURES_DESC</LocID>                   
+		<Text>A seizure is a sudden, uncontrolled electrical disturbance in the brain. It can cause changes in your behavior, movements or feelings, and in levels of consciousness.</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_HEMOPTYSIS1</LocID>                               
+		<Text>Mild Hemoptysis</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_HEMOPTYSIS1_DESC</LocID>                   
+		<Text>Hemoptysis is the coughing up of blood or blood-stained mucus from the bronchi, larynx, trachea, or lungs. In other words, it is the airway bleeding. This can occur with lung cancer, infections such as tuberculosis, bronchitis, or pneumonia, and certain cardiovascular conditions.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_NERVE_DAMAGE</LocID>                               
+		<Text>Postoperative Neuropathic Pain</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_NERVE_DAMAGE_DESC</LocID>                   
+		<Text>Postoperative neuropathic pain (PONP) can develop if nerves were damaged during a surgery. Damaged nerves cannot correctly transmit signals from various parts of the body to the brain. Instead, these signals become exaggerated, causing chronic pain that may persist for months or even years.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_HIGH_CEALVL</LocID>                               
+		<Text>High Carcinoembryonic Antigen Levels</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_HIGH_CEALVL_DESC</LocID>                   
+		<Text>The patient has elevated blood levels of carcinoembryonic antigen. A high level of CEA can be a sign of certain types of cancers. These include cancers of the colon and rectum, prostate, ovary, lung, thyroid, or liver. High CEA levels may also be a sign of some noncancerous conditions, such as cirrhosis, noncancerous breast disease, and emphysema.</Text> 
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_POLYPS</LocID>                               
+		<Text>Colorectal Polyp</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_POLYPS_DESC</LocID>                   
+		<Text>A polyp is a growth of tissue on the lining of the colon and rectum that projects into the intestines. People with colon polyps usually have no symptoms. Most colon polyps are harmless, though some types can become cancerous.</Text> 
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_HYPONATREMIA</LocID>                               
+		<Text>Hyponatremia</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_HYPONATREMIA_DESC</LocID>                   
+		<Text>Hyponatremia occurs when the concentration of sodium in your blood is abnormally low. Sodium is an electrolyte, and it helps regulate the amount of water that's in and around your cells.</Text> 
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_HYPERGLYCEMIA</LocID>                               
+		<Text>Hyperglycemia</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_HYPERGLYCEMIA_DESC</LocID>                   
+		<Text>Hyperglycemia is the technical term for high blood glucose (blood sugar). High blood sugar happens when the body has too little insulin or when the body can't use insulin properly.</Text> 
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_HYPERCORTISOL</LocID>                               
+		<Text>Hypercortisolism</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_HYPERCORTISOL_DESC</LocID>                   
+		<Text>Cushing's syndrome, also called hypercortisolism, is a rare endocrine disorder caused by chronic exposure of the body's tissues to excess levels of cortisol - a hormone naturally produced by the adrenal gland.</Text> 
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_HYPERALDOSTERONISM</LocID>                               
+		<Text>Hyperaldosteronism</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_HYPERALDOSTERONISM_DESC</LocID>                   
+		<Text>Hyperaldosteronism is a disease in which the adrenal gland(s) make too much aldosterone which leads to hypertension (high blood pressure) and low blood potassium levels. Primary hyperaldosteronism can be caused by either hyperactivity in one adrenal gland (unilateral disease) or both (bilateral disease).</Text> 
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_LARGE_LYMPHNODE</LocID>                               
+		<Text>Lymphadenitis</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_LARGE_LYMPHNODE_DESC</LocID>                   
+		<Text>Lymphadenitis (Swollen Lymph Nodes) is when Lymph nodes become swollen in response to illness, infection, or stress. Swollen lymph nodes are one sign that your lymphatic system is working to rid your body of the responsible agents. Immune system glands usually enlarge in response to a bacterial or viral infection, but sudden swelling of many lymph nodes may indicate cancer.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_ELAVATED_5HIAA</LocID>                               
+		<Text>5-HIAA High Urine Levels</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_ELAVATED_5HIAA_DESC</LocID>                   
+		<Text>The patient has elevated levels of 5-HIAA (5-hydroxyindoleacetic acid) in their urine. Serotonin, measured in urine as 5 hydroxyindoleacetic acid (5HIAA). Elevated levels of 5HIAA is correlated with carcinoid syndrome and carcinoid crises. Prolonged exposure of the heart valves to high levels of serotonin is associated with complications of the disease.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CGA_BL_DETECTED</LocID>                               
+		<Text>Chromogranin-A High Blood Levels</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CGA_BL_DETECTED_DESC</LocID>                   
+		<Text>The patient has elevated levels of the tumor marker Chromogranin-A in their blood. Chromogranin A (CgA) is a general marker associated with all carcinoid tumors. It is a protein produced by tumor cells and released. Chromogranin A is associated with other hormones and may be involved in their regulation. There is a normal level of Chromogranin A in the blood, and the range currently is roughly less than 39ng/L.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CARCINOID_CRISIS</LocID>                               
+		<Text>Carcinoid Crisis</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CARCINOID_CRISIS_DESC</LocID>                   
+		<Text>Carcinoid crisis is a life-threatening form of carcinoid syndrome that results from the release of an overwhelming amount of biologically active compounds from the tumor that may be triggered by extreme stress, tumor manipulation (biopsy or surgery) or by anesthesia.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_ANAPHYLACTIC_SHOCK</LocID>                               
+		<Text>Anaphylactic Shock</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_ANAPHYLACTIC_SHOCK_DESC</LocID>                   
+		<Text>Anaphylactic shock is a rare but severe allergic reaction that can be deadly if you don't treat it right away. It's most often caused by an allergy to food, insect bites, or certain medications. A shot of a drug called epinephrine is needed immediately.</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_UNUSUAL_INFECT</LocID>                               
+		<Text>Unusual Infection</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_UNUSUAL_INFECT_DESC</LocID>                   
+		<Text>An infection that has an unknown cause or exhibits properties that are unusual.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_FREQUENT_INFECT</LocID>                               
+		<Text>Frequent Infections</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_FREQUENT_INFECT_DESC</LocID>                   
+		<Text>Frequent infections are infections that are too great in number, too severe, or too long lasting. Frequent or recurrent infections can occur because the body isn’t producing enough white blood cells to keep the immune system working properly.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_LYMPHOCYTOSIS</LocID>                               
+		<Text>Lymphocytosis</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_LYMPHOCYTOSIS_DESC</LocID>                   
+		<Text>Lymphocytosis is a higher-than-normal amount of lymphocytes, a subtype of white blood cells, in the body. Lymphocytes are part of your immune system and work to fight off infections.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_PETECHIAE</LocID>                               
+		<Text>Petechiae</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_PETECHIAE_DESC</LocID>                   
+		<Text>Petechiae are tiny, circular, non-raised patches that appear on the skin or in a mucous or serous membrane. They occur as the result of bleeding under the skin.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLEEDING_GUM</LocID>                               
+		<Text>Bleeding Gums</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLEEDING_GUM_DESC</LocID>                   
+		<Text>Bleeding gums are the most common symptom of gum disease. But it can also point to other health problems. Occasional bleeding of the gums can be caused by brushing your teeth too vigorously or wearing dentures that don’t fit correctly. Frequent gum bleeding may also indicate more serious problems.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_HIGH_TCOUNT</LocID>                               
+		<Text>High T-Cell Count</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_HIGH_TCOUNT_DESC</LocID>                   
+		<Text>A high T cell count can be due to: infectious mononucleosis, also known as mono or “the kissing disease” acute lymphocytic leukemia (ALL), a type of cancer that affects the WBCs. multiple myeloma, a type of cancer that affects the plasma cells in bone marrow.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_RC_APLASIA</LocID>                               
+		<Text>Red Cell Aplasia</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_RC_APLASIA_DESC</LocID>                   
+		<Text>Pure red cell aplasia (PRCA) or erythroblastopenia refers to a type of anemia affecting the precursors to red blood cells but not to white blood cells. In PRCA, the bone marrow ceases to produce red blood cells. There are multiple etiologies that can cause PRCA.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CHRONIC_NEUT</LocID>                               
+		<Text>Neutropenia</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CHRONIC_NEUT_DESC</LocID>                   
+		<Text>Neutropenia is when a person has a low level of neutrophils. Neutrophils are a type of white blood cell. All white blood cells help the body fight infection. Neutrophils fight infection by destroying harmful bacteria and fungi (yeast) that invade the body. Neutrophils are made in the bone marrow.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SPLENOMEGALY</LocID>                               
+		<Text>Splenomegaly</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SPLENOMEGALY_DESC</LocID>                   
+		<Text>Splenomegaly is a condition that occurs when your spleen becomes enlarged. It’s also commonly referred to as enlarged spleen or spleen enlargement.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_RUP_SPLENOMEGALY</LocID>                               
+		<Text>Ruptured Spleen</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_RUP_SPLENOMEGALY_DESC</LocID>                   
+		<Text>A ruptured spleen is an emergency medical condition that occurs when the capsule-like covering of the spleen breaks open, pouring blood into your abdominal area. Depending on the size of the rupture, a large amount of internal bleeding can occur.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_HEPATOMEGALY</LocID>                               
+		<Text>Hepatomegaly</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_HEPATOMEGALY_DESC</LocID>                   
+		<Text>Hepatomegaly is when you have an abnormally large liver. It's often a sign of a serious health concern.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_THROMBOCYTOPENIA</LocID>                               
+		<Text>Thrombocytopenia</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_THROMBOCYTOPENIA_DESC</LocID>                   
+		<Text>Thrombocytopenia is a condition in which you have a low blood platelet count. Platelets (thrombocytes) are colorless blood cells that help blood clot. Platelets stop bleeding by clumping and forming plugs in blood vessel injuries.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_02</LocID>                               
+		<Text>PML-RARA Defect Detected</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_02_DESC</LocID>                   
+		<Text>APL cells have a very specific abnormality called a “balanced translocation,” in which parts of the chromosomes 15 and 17 are swapped over. This results in the formation of an abnormal fusion gene known as “PML/RARα.” This mutated gene causes many of the features of the disease.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_FISH_POSLESION</LocID>                               
+		<Text>FISH-Positive Lesion</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_FISH_POSLESION_DESC</LocID>                   
+		<Text>The patient's lesion has been tested and FISH examinations have confirmed it is malignant.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_01</LocID>                               
+		<Text>Philadelphia Defect Detected</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_01_DESC</LocID>                   
+		<Text>The Philadelphia chromosome or Philadelphia translocation (Ph) is a specific genetic abnormality in chromosome 22 of leukemia cancer cells (particularly chronic myeloid leukemia (CML) cells). The chromosomal defect in the Philadelphia chromosome is a reciprocal translocation, in which parts of two chromosomes, 9 and 22, swap places. The presence of this translocation is a highly sensitive test for CML, since most cases of CML are positive.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SM_P_001</LocID>                               
+		<Text>Myeloperoxidase (MPO) Positive</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SM_P_001_DESC</LocID>                   
+		<Text>Myeloperoxidase is a lysosomal enzyme, located in the azurophilic granules of the neutrophils and its precursors, eosinophils and monocytes. This staining is mainly used to differentiate acute myeloid leukaemia from acute lymphoblastic leukaemia.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SM_P_002</LocID>                               
+		<Text>Sudan Black B Positive</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SM_P_002_DESC</LocID>                   
+		<Text>Solvent Black 3 is an azo dye. It is nonfluorescent, relatively thermostable lysochrome (fat-soluble dye) diazo dye used for staining of neutral triglycerides and lipids on frozen sections and some lipoproteins on paraffin sections. In the laboratory, Solvent Black 3 is used for Sudan staining. In differentiating haematological disorders it will stain myeloblasts but not lymphoblasts.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_03</LocID>                               
+		<Text>IDH1/IDH2 Mutation Detected</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_03_DESC</LocID>                   
+		<Text>Isocitrate dehydrogenase (IDH) is a key enzyme involved in the conversion of isocitrate to α-ketoglutarate (α-KG) in the tricarboxylic acid (TCA) cycle. IDH mutation produces a neomorphic enzyme, which can lead to the abnormal accumulation of R-2-HG and promotes leukemogenesis. IDH mutation occurs in 20% of acute myeloid leukemia (AML) patients, mainly including IDH1 R132, IDH2 R140, and IDH2 R172.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_04</LocID>                               
+		<Text>BCR-ABL Fusion Gene Detected</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_04_DESC</LocID>                   
+		<Text>BCR-ABL is a mutation that is formed by the combination of two genes, known as BCR and ABL. It's sometimes called a fusion gene. The BCR gene is normally on chromosome number 22. The ABL gene is normally on chromosome number 9. The BCR-ABL mutation happens when pieces of BCR and ABL genes break off and switch places.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_05</LocID>                               
+		<Text>Trisomy 8 Gene Detected</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_05_DESC</LocID>                   
+		<Text>Trisomy 8, also known as Warkany syndrome 2, is a human chromosomal disorder caused by having three copies (trisomy) of chromosome 8. It can appear with or without mosaicism. The term "mosaic" indicates that some cells contain the extra chromosome while others do not.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_06</LocID>                               
+		<Text>Trisomy 9 Gene Detected</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_06_DESC</LocID>                   
+		<Text>Mosaic trisomy 9 is a rare chromosomal disorder in which the entire 9th chromosome appears three times (trisomy) rather than twice in some cells of the body. The term "mosaic" indicates that some cells contain the extra chromosome 9, while others have the typical chromosomal pair.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_07</LocID>                               
+		<Text>Philadelphia Chromosome Duplication</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_07_DESC</LocID>                   
+		<Text>Duplication of the defective chromosome, Philadelphia Chromosome, has been detected. This can occur in more advanced stages of Chronic Myeloid Leukaemia.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLA_HIGH1</LocID>                               
+		<Text>Elevated Blast Cell Count</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLA_HIGH1_DESC</LocID>                   
+		<Text>Blasts are precursors to the mature, circulating blood cells such as neutrophils, monocytes, lymphocytes and erythrocytes.  Blasts are usually found in low numbers in the bone marrow.  They are not usually found in significant numbers in the blood. Testing has detected an elevated level of blasts in the patients blood (between 5 to 19%).</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLA_HIGH2</LocID>                               
+		<Text>High Blast Cell Count</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLA_HIGH2_DESC</LocID>                   
+		<Text>Blasts are precursors to the mature, circulating blood cells such as neutrophils, monocytes, lymphocytes and erythrocytes.  Blasts are usually found in low numbers in the bone marrow.  They are not usually found in significant numbers in the blood. Testing has detected a high level of blasts in the patients blood (above 20%).</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLA_HIGH3</LocID>                               
+		<Text>Very High Blast Cell Count</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLA_HIGH3_DESC</LocID>                   
+		<Text>Blasts are precursors to the mature, circulating blood cells such as neutrophils, monocytes, lymphocytes and erythrocytes.  Blasts are usually found in low numbers in the bone marrow.  They are not usually found in significant numbers in the blood. Testing has detected a very high level of blasts in the patients blood (above 30%). At this level, the blast cells crowd out normal white blood cells making them far less effective.</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD10_BRIGHT</LocID>                               
+		<Text>Neprilysin (CD10) Bright Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD10_BRIGHT_DESC</LocID>                   
+		<Text>Neprilysin, also known as membrane metallo-endopeptidase, neutral endopeptidase, cluster of differentiation 10, and common acute lymphoblastic leukemia antigen is an enzyme that in humans is encoded by the MME gene. Identified in common acute lymphoblastic leukemia as a cancer specific antigen, CD10 is a cell surface ectoenzyme widely expressed on different types of cells.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD10_NEG</LocID>                               
+		<Text>Neprilysin (CD10) Negative Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD10_NEG_DESC</LocID>                   
+		<Text>Neprilysin, also known as membrane metallo-endopeptidase, neutral endopeptidase, cluster of differentiation 10, and common acute lymphoblastic leukemia antigen is an enzyme that in humans is encoded by the MME gene. Identified in common acute lymphoblastic leukemia as a cancer specific antigen, CD10 is a cell surface ectoenzyme widely expressed on different types of cells.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD19_BRIGHT</LocID>                               
+		<Text>CD19 Antigen Bright Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD19_BRIGHT_DESC</LocID>                   
+		<Text>B-lymphocyte antigen CD19, also known as CD19 molecule, B-Lymphocyte Surface Antigen B4, T-Cell Surface Antigen Leu-12 and CVID3 is a transmembrane protein that in humans is encoded by the gene CD19. In humans, CD19 is expressed in all B lineage cells, except for plasma cells, and in follicular dendritic cells.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD19_NEG</LocID>                               
+		<Text>CD19 Antigen Negative Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD19_NEG_DESC</LocID>                   
+		<Text>B-lymphocyte antigen CD19, also known as CD19 molecule, B-Lymphocyte Surface Antigen B4, T-Cell Surface Antigen Leu-12 and CVID3 is a transmembrane protein that in humans is encoded by the gene CD19. In humans, CD19 is expressed in all B lineage cells, except for plasma cells, and in follicular dendritic cells.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD20_DIM</LocID>                               
+		<Text>CD20 Antigen Dim Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD20_DIM_DESC</LocID>                   
+		<Text>B-lymphocyte antigen CD20 or CD20 is expressed on the surface of all B-cells beginning at the pro-B phase and progressively increasing in concentration until maturity. CD20 is a membrane-embedded surface molecule which plays a role in the development and differentiation of B-cells into plasma cells.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD20_BRIGHT</LocID>                               
+		<Text>CD20 Antigen Bright Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD20_BRIGHT_DESC</LocID>                   
+		<Text>B-lymphocyte antigen CD20 or CD20 is expressed on the surface of all B-cells beginning at the pro-B phase and progressively increasing in concentration until maturity. CD20 is a membrane-embedded surface molecule which plays a role in the development and differentiation of B-cells into plasma cells.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_TDT_BRIGHT</LocID>                               
+		<Text>TdT Antigen Bright Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_TDT_BRIGHT_DESC</LocID>                   
+		<Text>Terminal deoxynucleotidyl transferase (TdT), also known as DNA nucleotidylexotransferase (DNTT) or terminal transferase, is a specialized DNA polymerase expressed in immature, pre-B, pre-T lymphoid cells, and acute lymphoblastic leukemia/lymphoma cells.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_TDT_NEG</LocID>                               
+		<Text>TdT Antigen Negative Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_TDT_NEG_DESC</LocID>                   
+		<Text>Terminal deoxynucleotidyl transferase (TdT), also known as DNA nucleotidylexotransferase (DNTT) or terminal transferase, is a specialized DNA polymerase expressed in immature, pre-B, pre-T lymphoid cells, and acute lymphoblastic leukemia/lymphoma cells.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD22_DIM</LocID>                               
+		<Text>CD22 Antigen Dim Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD22_DIM_DESC</LocID>                   
+		<Text>CD22, or cluster of differentiation-22, is a molecule belonging to the SIGLEC family of lectins. It is found on the surface of mature B cells and to a lesser extent on some immature B cells. CD22 is a sugar binding transmembrane protein, which specifically binds sialic acid with an immunoglobulin (Ig) domain located at its N-terminus. The presence of Ig domains makes CD22 a member of the immunoglobulin superfamily. CD22 functions as an inhibitory receptor for B cell receptor (BCR) signaling.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD22_BRIGHT</LocID>                               
+		<Text>CD22 Antigen Bright Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD22_BRIGHT_DESC</LocID>                   
+		<Text>CD22, or cluster of differentiation-22, is a molecule belonging to the SIGLEC family of lectins. It is found on the surface of mature B cells and to a lesser extent on some immature B cells. CD22 is a sugar binding transmembrane protein, which specifically binds sialic acid with an immunoglobulin (Ig) domain located at its N-terminus. The presence of Ig domains makes CD22 a member of the immunoglobulin superfamily. CD22 functions as an inhibitory receptor for B cell receptor (BCR) signaling.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD23_BRIGHT</LocID>                               
+		<Text>Fc epsilon RII (CD23) Bright Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD23_BRIGHT_DESC</LocID>                   
+		<Text>CD23, also known as Fc epsilon RII, or FcεRII, is the "low-affinity" receptor for IgE, an antibody isotype involved in allergy and resistance to parasites, and is important in regulation of IgE levels. Unlike many of the antibody receptors, CD23 is a C-type lectin. CD23 antigen is a cell surface protein considered important in the differentiation of chronic lymphocytic leukemia.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD34_BRIGHT</LocID>                               
+		<Text>CD34 Antigen Bright Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD34_BRIGHT_DESC</LocID>                   
+		<Text>The CD34 protein is a member of a family of single-pass transmembrane sialomucin proteins that show expression on early hematopoietic and vascular-associated tissue. CD34 is also an important adhesion molecule and is required for T cells to enter lymph nodes. It is expressed on lymph node endothelia, whereas the L-selectin to which it binds is on the T cell.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD79a_BRIGHT</LocID>                               
+		<Text>CD79a Antigen Bright Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD79a_BRIGHT_DESC</LocID>                   
+		<Text>Cluster of differentiation CD79A also known as B-cell antigen receptor complex-associated protein alpha chain and MB-1 membrane glycoprotein, is a protein that in humans is encoded by the CD79A gene. CD79a plays multiple and diverse roles in B cell development and function. The CD79a/b heterodimer associates non-covalently with the immunoglobulin heavy chain through its transmembrane region, thus forming the BCR along with the immunoglobulin light chain and the pre-BCR when associated with the surrogate light chain in developing B cells.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD79b_NEG</LocID>                               
+		<Text>CD79b Antigen Negative Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD79b_NEG_DESC</LocID>                   
+		<Text>CD79b molecule, immunoglobulin-associated beta, also known as CD79B (Cluster of Differentiation 79B), is a human gene. The CD79a/b heterodimer associates non-covalently with the immunoglobulin heavy chain through its transmembrane region, thus forming the BCR along with the immunoglobulin light chain and the pre-BCR when associated with the surrogate light chain in developing B cells.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD11c_BRIGHT</LocID>                               
+		<Text>Integrin alpha X (CD11c) Bright Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD11c_BRIGHT_DESC</LocID>                   
+		<Text>CD11c, also known as Integrin, alpha X (complement component 3 receptor 4 subunit) (ITGAX), is a gene that encodes for CD11c. CD11c is a type I transmembrane protein that is expressed on monocytes, granulocytes, a subset of B cells, dendritic cells, and macrophages and may be demonstrated on B-cell chronic lymphocytic leukemia, marginal zone lymphomas, and hairy cell leukemia.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD25_BRIGHT</LocID>                               
+		<Text>IL2RA (CD25) Bright Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD25_BRIGHT_DESC</LocID>                   
+		<Text>Interleukin-2 receptor alpha chain (also called CD25) is a protein that in humans is encoded by the IL2RA gene. The interleukin 2 (IL2) receptor alpha (IL2RA) and beta (IL2RB) chains, together with the common gamma chain (IL2RG), constitute the high-affinity IL2 receptor. IL2RA is expressed in most B-cell neoplasms, some acute nonlymphocytic leukemias, neuroblastomas, mastocytosis and tumor infiltrating lymphocytes. It functions as the receptor for HTLV-1 and is consequently expressed on neoplastic cells in adult T cell lymphoma/leukemia.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD25_NEG</LocID>                               
+		<Text>IL2RA (CD25) Negative Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD25_NEG_DESC</LocID>                   
+		<Text>Interleukin-2 receptor alpha chain (also called CD25) is a protein that in humans is encoded by the IL2RA gene. The interleukin 2 (IL2) receptor alpha (IL2RA) and beta (IL2RB) chains, together with the common gamma chain (IL2RG), constitute the high-affinity IL2 receptor. IL2RA is expressed in most B-cell neoplasms, some acute nonlymphocytic leukemias, neuroblastomas, mastocytosis and tumor infiltrating lymphocytes. It functions as the receptor for HTLV-1 and is consequently expressed on neoplastic cells in adult T cell lymphoma/leukemia.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD103_BRIGHT</LocID>                               
+		<Text>ITGAE (CD103) Bright Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD103_BRIGHT_DESC</LocID>                   
+		<Text>Integrin, alpha E also known as CD103 is an integrin protein that in human is encoded by the ITGAE gene. CD103 is expressed widely on intraepithelial lymphocyte (IEL) T cells (both αβ T cells and γδ T cells) and on some peripheral regulatory T cells (Tregs). It is useful in identifying hairy cell leukemia which is positive for this marker in contrast to most other hematologic malignancies which are negative for CD103 except enteropathy-associated T cell lymphoma.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD123_DIM</LocID>                               
+		<Text>Interleukin-3 Receptor (CD123) Dim Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD123_DIM_DESC</LocID>                   
+		<Text>The interleukin-3 receptor (CD123) is a molecule found on cells which helps transmit the signal of interleukin-3, a soluble cytokine important in the immune system. The receptor, found on pluripotent progenitor cells, induces tyrosine phosphorylation within the cell and promotes proliferation and differentiation within the hematopoietic cell lines. CD123 is expressed across acute myeloid leukemia (AML) subtypes, including leukemic stem cells.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD123_BRIGHT</LocID>                               
+		<Text>Interleukin-3 Receptor (CD123) Bright Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD123_BRIGHT_DESC</LocID>                   
+		<Text>The interleukin-3 receptor (CD123) is a molecule found on cells which helps transmit the signal of interleukin-3, a soluble cytokine important in the immune system. The receptor, found on pluripotent progenitor cells, induces tyrosine phosphorylation within the cell and promotes proliferation and differentiation within the hematopoietic cell lines. CD123 is expressed across acute myeloid leukemia (AML) subtypes, including leukemic stem cells.</Text>  
+	</GameDBLocalizedString>
+	
+		<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD123_NEG</LocID>                               
+		<Text>Interleukin-3 Receptor (CD123) Negative Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD123_NEG_DESC</LocID>                   
+		<Text>The interleukin-3 receptor (CD123) is a molecule found on cells which helps transmit the signal of interleukin-3, a soluble cytokine important in the immune system. The receptor, found on pluripotent progenitor cells, induces tyrosine phosphorylation within the cell and promotes proliferation and differentiation within the hematopoietic cell lines. CD123 is expressed across acute myeloid leukemia (AML) subtypes, including leukemic stem cells.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD1a_BRIGHT</LocID>                               
+		<Text>CD1a Antigen Bright Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD1a_BRIGHT_DESC</LocID>                   
+		<Text>CD1a (Cluster of Differentiation 1a) is a human protein encoded by the CD1A gene. This gene encodes a member of the CD1 family of transmembrane glycoproteins, which are structurally related to the major histocompatibility complex (MHC) proteins and form heterodimers with beta-2-microglobulin. The CD1 proteins mediate the presentation of primarily lipid and glycolipid antigens of self or microbial origin to T cells.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD1a_NEG</LocID>                               
+		<Text>CD1a Antigen Negative Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD1a_NEG_DESC</LocID>                   
+		<Text>CD1a (Cluster of Differentiation 1a) is a human protein encoded by the CD1A gene. This gene encodes a member of the CD1 family of transmembrane glycoproteins, which are structurally related to the major histocompatibility complex (MHC) proteins and form heterodimers with beta-2-microglobulin. The CD1 proteins mediate the presentation of primarily lipid and glycolipid antigens of self or microbial origin to T cells.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD5_BRIGHT</LocID>                               
+		<Text>CD5 Antigen Bright Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD5_BRIGHT_DESC</LocID>                   
+		<Text>CD5 is a cluster of differentiation expressed on the surface of T cells (various species) and in a subset of murine B cells known as B-1a. The expression of this receptor in human B cells has been a controversial topic and up to date there is no consensus regarding the role of this receptor as a marker of human B cells. CD5 is a good immunohistochemical marker for T-cells, although not as sensitive as CD3. About 76% of T-cell neoplasms are reported to express CD5, and it is also found in chronic lymphocytic leukemia and mantle cell lymphoma (both being B cell malignancies), that do not express CD3. It is commonly lost in cutaneous T-cell lymphoma, and its absence can be used as an indicator of malignancy in this condition.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD7_BRIGHT</LocID>                               
+		<Text>CD7 Antigen Bright Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD7_BRIGHT_DESC</LocID>                   
+		<Text>CD7 (Cluster of Differentiation 7) is a protein that in humans is encoded by the CD7 gene. This gene encodes a transmembrane protein which is a member of the immunoglobulin superfamily. This protein is found on thymocytes and mature T cells. It plays an essential role in T-cell interactions and also in T-cell/B-cell interaction during early lymphoid development. This gene encodes a transmembrane protein which is a member of the immunoglobulin superfamily. This protein is found on thymocytes and mature T cells. It plays an essential role in T-cell interactions and also in T-cell/B-cell interaction during early lymphoid development.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD13_BRIGHT</LocID>                               
+		<Text>Aminopeptidase N (CD13) Bright Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD13_BRIGHT_DESC</LocID>                   
+		<Text>Membrane alanyl aminopeptidase (EC 3.4.11.2) also known as alanyl aminopeptidase (AAP) or aminopeptidase N (AP-N) is an enzyme that in humans is encoded by the ANPEP gene. Aminopeptidase N is located in the small-intestinal and renal microvillar membrane, and also in other plasma membranes. In the small intestine aminopeptidase N plays a role in the final digestion of peptides generated from hydrolysis of proteins by gastric and pancreatic proteases. Its function in proximal tubular epithelial cells and other cell types is less clear. Defects in this gene appear to be a cause of various types of leukemia or lymphoma.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD15_BRIGHT</LocID>                               
+		<Text>Sialyl-Lewis X (CD15) Bright Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD15_BRIGHT_DESC</LocID>                   
+		<Text>Sialyl LewisX (sLeX) also known as cluster of differentiation 15s (CD15s) or stage-specific embryonic antigen 1 (SSEA-1), is a tetrasaccharide carbohydrate which is usually attached to O-glycans on the surface of cells. It is known to play a vital role in cell-to-cell recognition processes. It is also the means by which an egg attracts sperm; first, to stick to it, then bond with it and eventually form a zygote. Sialyl-Lewisx mediates phagocytosis and chemotaxis, found on neutrophils; expressed in patients with Hodgkin disease, some B-cell chronic lymphocytic leukemias, acute lymphoblastic leukemias, and most acute nonlymphocytic leukemias. CD15 is present on almost all Reed–Sternberg cells, including their rare mononuclear variants, and, as such, can be used in immunohistochemistry to identify the presence of such cells in biopsies.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD33_BRIGHT</LocID>                               
+		<Text>Siglec-3 (CD33) Bright Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD33_BRIGHT_DESC</LocID>                   
+		<Text>CD33 or Siglec-3 (sialic acid binding Ig-like lectin 3, SIGLEC3, SIGLEC-3, gp67, p67) is a transmembrane receptor expressed on cells of myeloid lineage. It is usually considered myeloid-specific, but it can also be found on some lymphoid cells. CD33 can be stimulated by any molecule with sialic acid residues such as glycoproteins or glycolipids. Upon binding, the immunoreceptor tyrosine-based inhibition motif (ITIM) of CD33, present on the cytosolic portion of the protein, is phosphorylated and acts as a docking site for Src homology 2 (SH2) domain-containing proteins like SHP phosphatases. This results in a cascade that inhibits phagocytosis in the cell.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD117_BRIGHT</LocID>                               
+		<Text>Proto-O c-KIT (CD117) Bright Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD117_BRIGHT_DESC</LocID>                   
+		<Text>Proto-oncogene c-KIT, also known as tyrosine-protein kinase KIT, CD117 or mast/stem cell growth factor receptor, is a receptor tyrosine kinase protein that in humans is encoded by the KIT gene. KIT is an important cell surface marker used to identify certain types of hematopoietic (blood) progenitors in the bone marrow. To be specific, hematopoietic stem cells (HSC), multipotent progenitors (MPP), and common myeloid progenitors (CMP) express high levels of KIT. Common lymphoid progenitors (CLP) express low surface levels of KIT. Antibodies to KIT are widely used in immunohistochemistry to help distinguish particular types of tumour in histological tissue sections. It is used primarily in the diagnosis of GISTs, which are positive for KIT, but negative for markers such as desmin and S-100, which are positive in smooth muscle and neural tumors, which have a similar appearance.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD117_NEG</LocID>                               
+		<Text>Proto-O c-KIT (CD117) Negative Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD117_NEG_DESC</LocID>                   
+		<Text>Proto-oncogene c-KIT, also known as tyrosine-protein kinase KIT, CD117 or mast/stem cell growth factor receptor, is a receptor tyrosine kinase protein that in humans is encoded by the KIT gene. KIT is an important cell surface marker used to identify certain types of hematopoietic (blood) progenitors in the bone marrow. To be specific, hematopoietic stem cells (HSC), multipotent progenitors (MPP), and common myeloid progenitors (CMP) express high levels of KIT. Common lymphoid progenitors (CLP) express low surface levels of KIT. Antibodies to KIT are widely used in immunohistochemistry to help distinguish particular types of tumour in histological tissue sections. It is used primarily in the diagnosis of GISTs, which are positive for KIT, but negative for markers such as desmin and S-100, which are positive in smooth muscle and neural tumors, which have a similar appearance.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD38_BRIGHT</LocID>                               
+		<Text>Cyclic ADP RH (CD38) Bright Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD38_BRIGHT_DESC</LocID>                   
+		<Text>CD38, also known as cyclic ADP ribose hydrolase is a glycoprotein found on the surface of many immune cells, including CD4⁺, CD8⁺, B lymphocytes and natural killer cells. CD38 also functions in cell adhesion, signal transduction and calcium signaling. The loss of CD38 function is associated with impaired immune responses, metabolic disturbances, and behavioral modifications including social amnesia. The CD38 protein is a marker of cell activation. It has been connected to HIV infection, leukemias, myelomas, solid tumors, type II diabetes mellitus and bone metabolism, as well as some genetically determined conditions.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD38_DIM</LocID>                               
+		<Text>Cyclic ADP RH (CD38) Dim Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD38_DIM_DESC</LocID>                   
+		<Text>CD38, also known as cyclic ADP ribose hydrolase is a glycoprotein found on the surface of many immune cells, including CD4⁺, CD8⁺, B lymphocytes and natural killer cells. CD38 also functions in cell adhesion, signal transduction and calcium signaling. The loss of CD38 function is associated with impaired immune responses, metabolic disturbances, and behavioral modifications including social amnesia. The CD38 protein is a marker of cell activation. It has been connected to HIV infection, leukemias, myelomas, solid tumors, type II diabetes mellitus and bone metabolism, as well as some genetically determined conditions.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD43_BRIGHT</LocID>                               
+		<Text>Leukosialin (CD43) Bright Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD43_BRIGHT_DESC</LocID>                   
+		<Text>Leukosialin also known as sialophorin or CD43 (cluster of differentiation 43) is a transmembrane cell surface protein that in humans is encoded by the SPN (sialophorin) gene. Defects in the CD43 molecule are associated with the development of Wiskott-Aldrich syndrome. Using immunohistochemistry, CD43 can be demonstrated in the paracortical T-cells of healthy lymph nodes and tonsils; it is also positive in a range of lymphoid and myeloid tumours. Although it is present in over 90% of T-cell lymphomas, it is generally less effective at demonstrating this condition than is CD3 antigen. However, it may be useful as part of a panel to demonstrate B-cell lymphoblastic lymphoma, since the malignant cells in this condition are often CD43 positive, and may be difficult to stain with other antibodies.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD8_BRIGHT</LocID>                               
+		<Text>CD8 Antigen Bright Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD8_BRIGHT_DESC</LocID>                   
+		<Text>CD8 (cluster of differentiation 8) is a transmembrane glycoprotein that serves as a co-receptor for the T cell receptor (TCR). Like the TCR, CD8 binds to a major histocompatibility complex (MHC) molecule, but is specific for the class I MHC protein. The CD8 co-receptor is predominantly expressed on the surface of cytotoxic T cells, but can also be found on natural killer cells, cortical thymocytes, and dendritic cells. The CD8 molecule is a marker for cytotoxic T cell population. It is expressed in T cell lymphoblastic lymphoma and hypo-pigmented mycosis fungoides.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD3_BRIGHT</LocID>                               
+		<Text>CD3 Antigen Bright Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD3_BRIGHT_DESC</LocID>                   
+		<Text>In immunology, the CD3 (cluster of differentiation 3) T cell co-receptor helps to activate both the cytotoxic T cell (CD8+ naive T cells) and also T helper cells (CD4+ naive T cells). CD3 is initially expressed in the cytoplasm of pro-thymocytes, the stem cells from which T-cells arise in the thymus. The pro-thymocytes differentiate into common thymocytes, and then into medullary thymocytes, and it is at this latter stage that CD3 antigen begins to migrate to the cell membrane. The antigen is found bound to the membranes of all mature T-cells, and in virtually no other cell type, although it does appear to be present in small amounts in Purkinje cells. This high specificity, combined with the presence of CD3 at all stages of T-cell development, makes it a useful immunohistochemical marker for T-cells in tissue sections. The antigen remains present in almost all T-cell lymphomas and leukaemias, and can therefore be used to distinguish them from superficially similar B-cell and myeloid neoplasms.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD3_NEG</LocID>                               
+		<Text>CD3 Antigen Negative Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD3_NEG_DESC</LocID>                   
+		<Text>In immunology, the CD3 (cluster of differentiation 3) T cell co-receptor helps to activate both the cytotoxic T cell (CD8+ naive T cells) and also T helper cells (CD4+ naive T cells). CD3 is initially expressed in the cytoplasm of pro-thymocytes, the stem cells from which T-cells arise in the thymus. The pro-thymocytes differentiate into common thymocytes, and then into medullary thymocytes, and it is at this latter stage that CD3 antigen begins to migrate to the cell membrane. The antigen is found bound to the membranes of all mature T-cells, and in virtually no other cell type, although it does appear to be present in small amounts in Purkinje cells. This high specificity, combined with the presence of CD3 at all stages of T-cell development, makes it a useful immunohistochemical marker for T-cells in tissue sections. The antigen remains present in almost all T-cell lymphomas and leukaemias, and can therefore be used to distinguish them from superficially similar B-cell and myeloid neoplasms.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD16_BRIGHT</LocID>                               
+		<Text>FcγRIII (CD16) Bright Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD16_BRIGHT_DESC</LocID>                   
+		<Text>CD16, also known as FcγRIII, is a cluster of differentiation molecule found on the surface of natural killer cells, neutrophils, monocytes, and macrophages. CD16 has been identified as Fc receptors FcγRIIIa and FcγRIIIb, which participate in signal transduction. These receptors bind to the Fc portion of IgG antibodies, which then activates antibody-dependent cell-mediated cytotoxicity (ADCC) in human NK cells. CD16 is required for ADCC processes carried out by human monocytes. In humans, monocytes expressing CD16 have a variety of ADCC capabilities in the presence of specific antibodies, and can kill primary leukemic cells, cancer cell lines, and cells infected with hepatitis B virus. In addition, CD16 is able to mediate the direct killing of some virally infected and cancer cells without antibodies.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD56_BRIGHT</LocID>                               
+		<Text>NC Adhesion Molecule (CD56) Bright Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD56_BRIGHT_DESC</LocID>                   
+		<Text>Neural cell adhesion molecule (NCAM), also called CD56, is a homophilic binding glycoprotein expressed on the surface of neurons, glia and skeletal muscle. Although CD56 is often considered a marker of neural lineage commitment due to its discovery site, CD56 expression is also found in, among others, the hematopoietic system. Here, the expression of CD56 is most stringently associated with, but certainly not limited to, natural killer cells. In anatomic pathology, pathologists make use of CD56 immunohistochemistry to recognize certain tumors. Tumors that are CD56-positive are myeloma, myeloid leukemia, neuroendocrine tumors, Wilms' tumor, neuroblastoma, extranodal NK/T-cell lymphoma, nasal type, pancreatic acinar cell carcinoma, pheochromocytoma, paraganglioma, small cell lung carcinoma, and the Ewing's sarcoma family of tumors.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_HLADR_BRIGHT</LocID>                               
+		<Text>HLA-DR Bright Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_HLADR_BRIGHT_DESC</LocID>                   
+		<Text>HLA-DR is an MHC class II cell surface receptor encoded by the human leukocyte antigen complex on chromosome 6 region 6p21.31. The complex of HLA-DR and peptide, generally between 9 and 30 amino acids in length, constitutes a ligand for the T-cell receptor.</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_PANCYTOPENIA</LocID>                               
+		<Text>Pancytopenia</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_PANCYTOPENIA_DESC</LocID>                   
+		<Text>Pancytopenia is a condition that occurs when a person has low counts for all three types of blood cells: red blood cells, white blood cells, and platelets. Pancytopenia is usually due to a problem with the bone marrow that produces the blood cells. However, there can be several different underlying causes.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_HAIRYCELL</LocID>                               
+		<Text>Hairy Looking Cell</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_HAIRYCELL_DESC</LocID>                   
+		<Text>Hairy cells are abnormal white blood cells with hair-like projections of cytoplasm. They are a staple sign of Hairy cell leukemia.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SM_P_003</LocID>                               
+		<Text>TRAP Enzyme Detected</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SM_P_003_DESC</LocID>                   
+		<Text>Tartrate-resistant acid phosphatase (TRAP or TRAPase), also called acid phosphatase 5, tartrate resistant (ACP5), is a glycosylated monomeric metalloprotein enzyme expressed in mammals. It has a molecular weight of approximately 35kDa, a basic isoelectric point (7.6–9.5), and optimal activity in acidic conditions.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_08</LocID>                               
+		<Text>BRAF V600E Mutation Detected</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_08_DESC</LocID>                   
+		<Text>The B-Raf proto-oncogene (BRAF) encodes a cytoplasmic serine/threonine kinase with a key role in regulating the mitogen-activated protein kinase signal transduction pathway. An activating missense mutation in codon 600 of exon 15 (V600E) of BRAF gene has been identified in multiple neoplasms including melanoma, colorectal carcinoma, papillary thyroid carcinoma, hairy cell leukemia, and Langerhans cell histiocytosis.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_09</LocID>                               
+		<Text>IGHV Hypermutation Detected</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_09_DESC</LocID>                   
+		<Text>Ig heavy chain V-III region VH26 is a protein that in humans is encoded by the IGHV@ gene. IGHV is the immunoglobulin heavy chain variable region genes; in B-cell neoplasms like chronic lymphocytic leukemia, mutations of IGHV are associated with better responses to some treatments and with prolonged survival. Approximately 80 to 90 percent of HCL patients have a hypermutation in immunoglobulin heavy chain variable gene. </Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_10</LocID>                               
+		<Text>Deletion Chromosome 17p13 Detected</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_10_DESC</LocID>                   
+		<Text>Testing has detected Chromosome 17p13 is deleted from the patient's tested cells.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_NECROSIS</LocID>                               
+		<Text>Necrosis</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_NECROSIS_DESC</LocID>                   
+		<Text>Necrosis is a form of cell injury which results in the premature death of cells in living tissue by autolysis.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_LPT1</LocID>                               
+		<Text>Large Primary Tumour Detected</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_LPT1_DESC</LocID>                   
+		<Text>Testing has detected a Large Primary Tumour within the patient, this can sometimes be sign that the cancer is in a more advanced state.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BREAST_LUMP</LocID>                               
+		<Text>Breast Lump</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BREAST_LUMP_DESC</LocID>                   
+		<Text>A breast lump is a localized swelling, protuberance, bulge, or bump in the breast that feels different from the breast tissue around it.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BREAST_DISCH</LocID>                               
+		<Text>Breast Discharge</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BREAST_DISCH_DESC</LocID>                   
+		<Text>Nipple discharge is the release of fluid from the nipple. It is a very common breast symptom and in most cases is part of the normal function of the breast rather than being caused by a problem.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SORE_NIPPLE</LocID>                               
+		<Text>Sore Nipple</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SORE_NIPPLE_DESC</LocID>                   
+		<Text>Nipple pain is pain that occurs in the breast tissue around the area of the nipple. Nipple pain can be associated with other symptoms and signs that may include breast pain, nipple discharge, breast lump or mass, itching, or skin changes. Breast cancer typically does not cause nipple pain or breast pain.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BREAST_SCHANGE</LocID>                               
+		<Text>Breast Shape Changes</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BREAST_SCHANGE_DESC</LocID>                   
+		<Text>The patient has experienced a change in the shape or size of their breasts.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BREAST_DIMP</LocID>                               
+		<Text>Breast Dimpling</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BREAST_DIMP_DESC</LocID>                   
+		<Text>Also known as peau d'orange, dimpling of the breast causes the skin to look like the pitting and uneven skin of an orange. Sometimes, the skin can also be red and inflamed.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BREAST_PAIN</LocID>                               
+		<Text>Breast Pain</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BREAST_PAIN_DESC</LocID>                   
+		<Text>Tightness, tenderness or sharp pain in one or both breasts that occurs commonly and usually doesn't mean anything is seriously wrong.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SUS_CALC</LocID>                               
+		<Text>Suspicious Calcifications</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SUS_CALC_DESC</LocID>                   
+		<Text>Breast calcifications are small calcium deposits that develop in a woman's breast tissue. They are very common and are usually benign (noncancerous). Breast calcifications are more common in women, but can also be found in men. In some instances, certain types of breast calcifications may suggest early breast cancer.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_IRR_BMASS</LocID>                               
+		<Text>Irregular Breast Density</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_IRR_BMASS_DESC</LocID>                   
+		<Text>A potential abnormality on a mammogram might be called a nodule, mass, lump, density, or distortion. A mass (lump) that has an irregular border or a starburst appearance (spiculated) might be cancerous.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CMA_CA153</LocID>                               
+		<Text>Cancer Antigen 15-3 High Blood Levels</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CMA_CA153_DESC</LocID>                   
+		<Text>Cancer antigen 15-3 (CA15-3) is a protein made by a variety of cells, particularly breast cancer cells. The protein moves into the blood, where it can be measured. CA15-3 levels are higher than normal in most women with breast cancer that has spread to other parts of the body (called metastatic breast cancer). Not all types of breast cancer will cause CA 15-3 levels to rise, as some types of cancer cells don’t over-produce the antigen.</Text>  
+	</GameDBLocalizedString>
+	
+		<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CMA_CA2729</LocID>                               
+		<Text>Cancer Antigen 27-29 High Blood Levels</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CMA_CA2729_DESC</LocID>                   
+		<Text>Cancer Antigen 27-29 is one of several antigens that doctors use as tumor markers for breast cancer. These markers tend to increase whenever cancer is present. The CA 27.29 test is primarily used to monitor metastatic breast cancer and less commonly to detect recurrence in people previously treated for early-stage breast cancer.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_11</LocID>                               
+		<Text>BRCA1 Faulty Gene Findings</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_11_DESC</LocID>                   
+		<Text>BRCA1/2 is a human tumor suppressor gene (also known as a caretaker gene) and is responsible for repairing DNA. BRCA1 and BRCA2 are unrelated proteins, but both are normally expressed in the cells of breast and other tissue, where they help repair damaged DNA, or destroy cells if DNA cannot be repaired. Women who carry a fault in BRCA1 or BRCA2 have a high lifetime risk of breast cancer, estimated to be in the range of 30-60%, and a lifetime ovarian cancer risk of about 20%. They can benefit from measures for prevention and early detection of cancers. Men who carry a fault in BRCA1 or BRCA2 may be at some increased risk of prostate cancer and male breast cancer.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_HRM_01</LocID>                               
+		<Text>Estrogen Receptor Positive</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_HRM_01_DESC</LocID>                   
+		<Text>A cancer is called estrogen-receptor-positive (or ER+) if it has receptors for estrogen. This suggests that the cancer cells, like normal breast cells, may receive signals from estrogen that could promote their growth.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_HRM_02</LocID>                               
+		<Text>Progesterone Receptor Positive</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_HRM_02_DESC</LocID>                   
+		<Text>The cancer is progesterone-receptor-positive (PR+) if it has progesterone receptors. Again, this means that the cancer cells may receive signals from progesterone that could promote their growth.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD340_NEG</LocID>                               
+		<Text>HER2/neu (CD340) Negative Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD340_NEG_DESC</LocID>                   
+		<Text>Receptor tyrosine-protein kinase erbB-2, also known as CD340, proto-oncogene Neu, Erbb2, or ERBB2, is a protein that in humans is encoded by the ERBB2 gene. ERBB is abbreviated from erythroblastic oncogene B, a gene isolated from avian genome. It is also frequently called HER2 or HER2/neu. HER2 is a member of the human epidermal growth factor receptor (HER/EGFR/ERBB) family. Amplification or over-expression of this oncogene has been shown to play an important role in the development and progression of certain aggressive types of breast cancer. In recent years the protein has become an important biomarker and target of therapy for approximately 30% of breast cancer patients.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD340_POS</LocID>                               
+		<Text>HER2/neu (CD340) Positive Mutation</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD340_POS_DESC</LocID>                   
+		<Text>Receptor tyrosine-protein kinase erbB-2, also known as CD340, proto-oncogene Neu, Erbb2, or ERBB2, is a protein that in humans is encoded by the ERBB2 gene. ERBB is abbreviated from erythroblastic oncogene B, a gene isolated from avian genome. It is also frequently called HER2 or HER2/neu. HER2 is a member of the human epidermal growth factor receptor (HER/EGFR/ERBB) family. Amplification or over-expression of this oncogene has been shown to play an important role in the development and progression of certain aggressive types of breast cancer. In recent years the protein has become an important biomarker and target of therapy for approximately 30% of breast cancer patients.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SPEC_MARG</LocID>                               
+		<Text>Spiculated Margins</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SPEC_MARG_DESC</LocID>                   
+		<Text>Spiculated margins are a true diagnostic feature of malignancy. Strands of tissue are seen radiating out from an ill-defined mass, producing a stellate appearance.</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD44v6_BRIGHT</LocID>                               
+		<Text>CD44v6 Antigen Bright Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD44v6_BRIGHT_DESC</LocID>                   
+		<Text>CD44v6 is an isoform of the CD44 family of transmembrane glycoproteins. High CD44v6 expression in epithelial cancer correlates with tumor growth, invasion, metastasis, and recurrence. CD44v6 is a co-receptor of the receptor tyrosine kinases c-Met, RON and VEGFR-2.</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_12</LocID>                               
+		<Text>GATA3 Mutation Findings</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_12_DESC</LocID>                   
+		<Text>GATA3 is a transcription factor that in humans is encoded by the GATA3 gene. The GATA3 transcription factor is critical for the embryonic development of various tissues as well as for inflammatory and humoral immune responses and the proper functioning of the endothelium of blood vessels. Immuocytochemical analysis of GATA3 protein in breast cells is a valuable marker for diagnosing primary breast cancer, being tested as positive in up to 94% of cases.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_HEMOPTYSIS2</LocID>                               
+		<Text>Severe Hemoptysis</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_HEMOPTYSIS2_DESC</LocID>                   
+		<Text>Hemoptysis is the coughing up of blood or blood-stained mucus from the bronchi, larynx, trachea, or lungs. In other words, it is the airway bleeding. This can occur with lung cancer, infections such as tuberculosis, bronchitis, or pneumonia, and certain cardiovascular conditions.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_INC_INTRAPRE</LocID>                               
+		<Text>Increased Intracranial Pressure</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_INC_INTRAPRE_DESC</LocID>                   
+		<Text>Increased intracranial pressure (ICP) is a rise in pressure around your brain. It may be due to an increase in the amount of fluid surrounding your brain. For example, there may be an increased amount of the cerebrospinal fluid that naturally cushions your brain or an increase in blood in the brain due to an injury or a ruptured tumor.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BRAIN_ABW</LocID>                               
+		<Text>Abnormal Brain Wave Patterns</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BRAIN_ABW_DESC</LocID>                   
+		<Text>EEG has detected abnormal brain wave patterns. Spikes, sharp waves, or spike-wave complexes occurring with consistent localization are observed sometimes early in the course of brain tumors. However, they are more common either as early findings of slowly growing neoplasms associated with seizures or later after focal slowing has developed.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_LPT2</LocID>                               
+		<Text>Abnormal Mass Detected</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_LPT2_DESC</LocID>                   
+		<Text>Testing has detected an abnormal mass within the patient, further testing is required to identify malignancy, type or progression.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_13</LocID>                               
+		<Text>Neurofibromatosis Type I (NF-1) Findings</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_13_DESC</LocID>                   
+		<Text>Neurofibromatosis type I (NF-1) is a complex multi-system human disorder caused by the mutation of a gene on chromosome 17 that is responsible for production of a protein called neurofibromin which is needed for normal function in many human cell types. Approximately 10% of patients with neurofibromatosis I (NFI) patients will have central nervous system (CNS) tumors. The most common of these are hypothalamic-optic gliomas, followed by brainstem and cerebellar pilocytic astrocytomas.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_EGB</LocID>                               
+		<Text>Eosinophilic Granular Bodies</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_EGB_DESC</LocID>                   
+		<Text>The frequent presence of eosinophilic granular bodies is often a useful clue in deterring a higher grade neoplasm toward a lower grade tumor, such as a pleomorphic xanthoastrocytoma (PXA) or a pilocytic astrocytoma.</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_ABSCESS</LocID>                               
+		<Text>Abscess</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_FND</LocID>                   
+		<Text>Focal Neurologic Deficit</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_FND_DESC</LocID>                               
+		<Text>A focal neurologic deficit is a problem with nerve, spinal cord, or brain function. It affects a specific location, such as the left side of the face, right arm, or even a small area such as the tongue. Speech, vision, and hearing problems are also considered focal neurological deficits.</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CMD</LocID>                   
+		<Text>Calcified Mineral Deposits</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CMD_DESC</LocID>                               
+		<Text>Brain stones or cerebral calculi are defined as large solid intracranial calcifications. While considered by many to be benign, these calcium phosphate deposits or "brain stones" can become large and are associated with neurological symptoms that range from seizures to parkinsonian symptoms. Dystrophic calcifications are most commonly seen in areas of brain injury such as trauma, surgery, stroke and radiation treatment.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_DYSPHASIA</LocID>                   
+		<Text>Dysphasia</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_14</LocID>                   
+		<Text>Li-Fraumeni Syndrome (LFS)</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_14_DESC</LocID>                               
+		<Text>Li-Fraumeni syndrome (LFS) is an inherited familial predisposition to a wide range of certain, often rare, cancers. This is due to a change (mutation) in a tumor suppressor gene known as TP53.</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_DYSPHASIA_DESC</LocID>                               
+		<Text>Dysphasia is a language disorder marked by deficiency in the generation of speech, and sometimes also in its comprehension, due to brain disease or damage.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_MCRO_CYSTS</LocID>                   
+		<Text>Microcysts</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_MCRO_CYSTS_DESC</LocID>                               
+		<Text>A microcyst is simply a very small cyst. Cysts are an abnormal, usually noncancerous growth filled with liquid or a semisolid substance, sometimes causing pain.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_KI67_LLI</LocID>                               
+		<Text>Antigen KI-67 Low Labeling Index</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_KI67_LLI_DESC</LocID>                   
+		<Text>Antigen KI-67 also known as Ki-67 or MKI67 is a protein that in humans is encoded by the MKI67 gene (antigen identified by monoclonal antibody Ki-67). Ki-67 is an excellent marker to determine the growth fraction of a given cell population. The fraction of Ki-67-positive tumor cells (the Ki-67 labeling index) is often correlated with the clinical course of cancer.</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_KI67_BLI</LocID>                               
+		<Text>Antigen KI-67 Brisk Labeling Index</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_15</LocID>                               
+		<Text>Loss of Heterozygosity</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_15_DESC</LocID>                   
+		<Text>Loss of heterozygosity on chromosome arm 10q is the most frequent gene alteration for both primary and secondary glioblastomas; it occurs in 60-90% of cases. This mutation appears to be specific for glioblastoma multiforme and is found rarely in other tumor grades. This mutation is associated with poor survival. LOH at 10q plus 1 or 2 of the additional gene mutations appear to be frequent alterations and are most likely major players in the development of glioblastomas.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_16</LocID>                               
+		<Text>Overexpression of PDGFR</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_16_DESC</LocID>                   
+		<Text>Platelet-derived growth factor (PDGF) is one among numerous growth factors that regulate cell growth and division. In particular, PDGF plays a significant role in blood vessel formation, the growth of blood vessels from already-existing blood vessel tissue, mitogenesis, i.e. proliferation, of mesenchymal cells. In Oncology, the PDGF gene acts as a major mitogen for glial cells by binding to the PDGF receptor (PDGFR). Amplification or overexpression of PDGFR is typical in the pathway leading to secondary glioblastomas.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_017</LocID>                               
+		<Text>IDH1/IDH2 Mutation Negative</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_DYSPAREUNIA</LocID>                   
+		<Text>Dyspareunia (Female)</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_DYSPAREUNIA_DESC</LocID>                               
+		<Text>Painful intercourse can occur for reasons that range from structural problems to psychological concerns. Many women have painful intercourse at some point in their lives. The medical term for painful intercourse is dyspareunia, defined as persistent or recurrent genital pain that occurs just before, during or after intercourse.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CMA_CA125</LocID>                   
+		<Text>Cancer Antigen 125 High Blood Levels</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CMA_CA125_DESC</LocID>                               
+		<Text>CA-125 also known as mucin 16 or MUC16 is a protein that in humans is encoded by the MUC16 gene. MUC16 is a member of the mucin family glycoproteins. A CA 125 test measures the amount of the protein CA 125 (cancer antigen 125) in your blood. A CA 125 test may be used to monitor certain cancers during and after treatment. In some cases, a CA 125 test may be used to look for early signs of ovarian cancer in people with a very high risk of the disease. The amount of CA-125 is higher with ovarian cancer. In premenopausal women, many other illnesses or diseases besides cancer can cause higher levels of CA-125.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_EARLY_SAT</LocID>                               
+		<Text>Early Satiety</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_EARLY_SAT_DESC</LocID>                   
+		<Text>Early satiety is the inability to eat a full meal or feeling full after only a small amount of food.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_PMPB</LocID>                               
+		<Text>Postmenopausal Bleeding</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_PMPB_DESC</LocID>                   
+		<Text>Postmenopausal bleeding (PMB) is defined as bleeding that occurs after 1 year of amenorrhea in a woman who is not receiving hormone therapy (HT). Women on continuous progesterone and oestrogen hormone therapy can expect to have irregular vaginal bleeding, especially for the first 6 months. There can be several causes of postmenopausal bleeding. The most common causes are: inflammation and thinning of the vaginal lining (atrophic vaginitis) or womb lining (endometrial atrophy) – caused by lower oestrogen levels.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_IRR_MNS</LocID>                               
+		<Text>Irregular Menstruation</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_IRR_MNS_DESC</LocID>                   
+		<Text>Missed, delayed or erratic periods or abnormal bleeding patterns. Irregular menstruation can have causes that aren't due to underlying disease. Examples include family history of irregular menstruation, menopause or menarche, physical stress, psychological stress, smoking or medication side effects.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_APM</LocID>                               
+		<Text>Abnormal Pelvic Mass Detected</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_APM_DESC</LocID>                   
+		<Text>A pelvic mass is an enlargement or swelling in the pelvic region. Most pelvic masses are discovered during routine gynecologic or physical examinations. Pelvic masses may originate from either the gynecologic organs, such as the cervix, uterus, uterine adnexa, or from other pelvic organs, such as the intestines, bladder, ureters, and renal organs. There are many gynecologic problems that can result in a pelvic mass. Additionally, there are other diseases that may also result in a pelvic mass. Most are benign conditions, such as an Ovarian Cyst, while others can be related to gynecologic cancer.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_OVAR_CYST</LocID>                               
+		<Text>Ovarian Cysts</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_OVAR_CYST_DESC</LocID>                   
+		<Text>Ovarian cysts are fluid-filled sacs or pockets in an ovary or on its surface. Most ovarian cysts don't cause symptoms. In some cases, menstrual irregularities, pain during intercourse or irregular bowel movements can occur. Most ovarian cysts are harmless and often clear up on their own without treatment.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SM_P_004</LocID>                               
+		<Text>Micropapillary Invasion Pattern</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SM_P_004_DESC</LocID>                   
+		<Text>A micropapillary pattern is defined as a pattern showing micropapillary structures without a fibrovascular core. It is well known that the presence of a micropapillary pattern leads to a poorer prognosis in ovary, breast and bladder cancer.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SM_P_005</LocID>                               
+		<Text>Psammoma Body</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SM_P_005_DESC</LocID>                   
+		<Text>Psammoma bodies are round microscopic calcific collections. Psammoma bodies are a common finding in well-differentiated serous carcinoma and they may be found in association with malignant glandular cells detected with cervicovaginal cytology.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_18</LocID>                               
+		<Text>BRAF V599E Mutation Detected</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_18_DESC</LocID>                   
+		<Text>The B-Raf proto-oncogene (BRAF) encodes a cytoplasmic serine/threonine kinase with a key role in regulating the mitogen-activated protein kinase signal transduction pathway. Mutations in the BRAF-gene are found in benign and malignant melanocytic lesions, >90% being a V599E mutation. This mutation results in constitutively active kinase function and increased colony formation in vitro.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_ASCITES</LocID>                               
+		<Text>Ascites</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_ASCITES_DESC</LocID>                   
+		<Text>Abdominal swelling caused by accumulation of fluid, most often related to liver disease.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_PLEURAL_EFFUSION</LocID>                               
+		<Text>Pleural Effusion</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_PLEURAL_EFFUSION_DESC</LocID>                   
+		<Text>Pleural effusion, sometimes referred to as “water on the lungs,” is the build-up of excess fluid between the layers of the pleura outside the lungs. The pleura are thin membranes that line the lungs and the inside of the chest cavity and act to lubricate and facilitate breathing.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD146_BRIGHT</LocID>                               
+		<Text>MCAM (CD146) Bright Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD146_BRIGHT_DESC</LocID>                   
+		<Text>Melanoma cell adhesion molecule (MCAM) is a cell adhesion molecule that is abnormally expressed in a variety of tumours and is closely associated with tumour metastasis.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CK7_BRIGHT</LocID>                               
+		<Text>Keratin 7 (CK7) Bright Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CK7_BRIGHT_DESC</LocID>                   
+		<Text>Keratin, type II cytoskeletal 7 also known as cytokeratin-7 (CK-7) or keratin-7 (K7) or sarcolectin (SCL) is a protein that in humans is encoded by the KRT7 gene. Keratin-7 is found in simple glandular epithelia, and in transitional epithelium. Epithelial cells of the lung and breast both contain keratin-7, but some other glandular epithelia, such as those of the colon and prostate, do not. Because the keratin-7 antigen is found in both healthy and neoplastic cells, antibodies to CK7 can be used in immunohistochemistry to distinguish ovarian and transitional cell carcinomas from colonic and prostate cancers, respectively. It is commonly used together with CK20 when making such diagnoses.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CK7_NEG</LocID>                               
+		<Text>Keratin 7 (CK7) Negative Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CK7_NEG_DESC</LocID>                   
+		<Text>Keratin, type II cytoskeletal 7 also known as cytokeratin-7 (CK-7) or keratin-7 (K7) or sarcolectin (SCL) is a protein that in humans is encoded by the KRT7 gene. Keratin-7 is found in simple glandular epithelia, and in transitional epithelium. Epithelial cells of the lung and breast both contain keratin-7, but some other glandular epithelia, such as those of the colon and prostate, do not. Because the keratin-7 antigen is found in both healthy and neoplastic cells, antibodies to CK7 can be used in immunohistochemistry to distinguish ovarian and transitional cell carcinomas from colonic and prostate cancers, respectively. It is commonly used together with CK20 when making such diagnoses.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CK20_BRIGHT</LocID>                               
+		<Text>Keratin 20 (CK20) Bright Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CK20_BRIGHT_DESC</LocID>                   
+		<Text>Keratin 20, often abbreviated CK20, is a protein that in humans is encoded by the KRT20 gene. In immunohistochemistry, antibodies to CK20 can be used to identify a range of adenocarcinoma arising from epithelia that normally contain the CK20 protein. For example, the protein is commonly found in colorectal cancer, transitional cell carcinomas and in Merkel cell carcinoma, but is absent in lung cancer, prostate cancer, and non-mucinous ovarian cancer. It is often used in combination with antibodies to CK7 to distinguish different types of glandular tumour.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CK20_NEG</LocID>                               
+		<Text>Keratin 20 (CK20) Negative Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CK20_NEG_DESC</LocID>                   
+		<Text>Keratin 20, often abbreviated CK20, is a protein that in humans is encoded by the KRT20 gene. In immunohistochemistry, antibodies to CK20 can be used to identify a range of adenocarcinoma arising from epithelia that normally contain the CK20 protein. For example, the protein is commonly found in colorectal cancer, transitional cell carcinomas and in Merkel cell carcinoma, but is absent in lung cancer, prostate cancer, and non-mucinous ovarian cancer. It is often used in combination with antibodies to CK7 to distinguish different types of glandular tumour.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_17</LocID>                               
+		<Text>IDH1/IDH2 Negative Findings</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_17_DESC</LocID>                   
+		<Text>Isocitrate dehydrogenase (IDH) is a key enzyme involved in the conversion of isocitrate to α-ketoglutarate (α-KG) in the tricarboxylic acid (TCA) cycle. IDH mutation produces a neomorphic enzyme, which can lead to the abnormal accumulation of R-2-HG and promotes leukemogenesis. IDH mutation occurs in 20% of acute myeloid leukemia (AML) patients, mainly including IDH1 R132, IDH2 R140, and IDH2 R172.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_PSA_BL_DETECTED</LocID>                               
+		<Text>Prostate Specific Antigen High Levels</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_PSA_BL_DETECTED_DESC</LocID>                   
+		<Text>Prostate specific antigen (PSA) is a glycoprotein produced solely by the prostate. Its function is to liquefy semen. Small amounts leak into the bloodstream, where it can be measured. Prostate specific antigen is tissue-specific but not cancer-specific. Elevated levels can occur in men with benign prostatic hypertrophy (BPH), prostatitis, urinary tract infection or prostatic infarction.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_DYSORGASMIA</LocID>                   
+		<Text>Dysorgasmia</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_DYSORGASMIA_DESC</LocID>                               
+		<Text>Dysorgasmia is defined as a painful orgasm, but without any prior pain during sexual intercourse. The pain is often a cramping sensation in the pelvis, buttock or abdomen.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_APM1</LocID>                               
+		<Text>Abnormal Prostate Findings</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_APM1_DESC</LocID>                   
+		<Text>Testing has found abnormalities with the patient's prostate.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_DIFF_URINE</LocID>                               
+		<Text>Urinary Retention</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_DIFF_URINE_DESC</LocID>                   
+		<Text>Difficulty urinating and completely emptying the bladder. Urinary retention can have causes that aren't due to underlying disease. Examples include holding in urine intentionally or medication side effects.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_NIGHT_URGE</LocID>                               
+		<Text>Frequent Urination at Night</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_NIGHT_URGE_DESC</LocID>                   
+		<Text>A frequent need to get up and go to the bathroom to urinate at night is called nocturia. It differs from enuresis, or bedwetting, in which the person does not arouse from sleep, but the bladder empties anyway. Nocturia is a common cause of sleep loss, especially among older adults.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_UAS_PCA3</LocID>                               
+		<Text>Prostate Cancer Antigen 3 High Levels</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_UAS_PCA3_DESC</LocID>                   
+		<Text>Prostate cancer antigen 3 (PCA3) is highly expressed in prostatic tumors. Testing has returned high urine levels of PCA3.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_UAS_PCA3</LocID>                               
+		<Text>Prostate Cancer Antigen 3 High Levels</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_UAS_PCA3_DESC</LocID>                   
+		<Text>Prostate cancer antigen 3 (PCA3) is highly expressed in prostatic tumors. Testing has returned high urine levels of PCA3.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_ED</LocID>                               
+		<Text>Erectile Dysfunction</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_ED_DESC</LocID>                   
+		<Text>Erectile dysfunction (ED) is the inability to get or keep an erection firm enough to have sexual intercourse. It's sometimes referred to as impotence, although this term is now used less often. Occasional ED isn't uncommon. Many men experience it during times of stress. Erectile dysfunction following radical prostatectomy for clinically localized prostate cancer is a known potential complication of the surgery.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_HEMATOSPERMIA</LocID>                               
+		<Text>Hematospermia</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_HEMATOSPERMIA_DESC</LocID>                   
+		<Text>Hematospermia is defined as blood in the semen. While often perceived as having little significance, blood in the ejaculate can cause great concern to the men who experience it. The condition is common, with many episodes going unnoticed; therefore, the prevalence of hematospermia remains unknown.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_HYPERCALCEMIA</LocID>                               
+		<Text>Hypercalcemia</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_HYPERCALCEMIA_DESC</LocID>                   
+		<Text>Hypercalcemia is a condition in which the calcium level in your blood is above normal. Hypercalcaemia is most often caused by overactivity in the four tiny glands in the neck (parathyroid glands) or from cancer. Extra calcium in the blood affects many bodily systems.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SEVERE_HYPERCALCEMIA</LocID>                               
+		<Text>Severe Hypercalcemia</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SEVERE_HYPERCALCEMIA_DESC</LocID>                   
+		<Text>Severe hypercalcemia is a medical emergency requiring urgent treatment. Hypercalcemia is a condition in which the calcium level in your blood is above normal. Rarely, severe hypercalcemia can interfere with your heart function, causing palpitations and fainting, indications of cardiac arrhythmia, and other heart problems.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD13_NEG</LocID>                               
+		<Text>Aminopeptidase N (CD13) Negative Expression</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD30_BRIGHT</LocID>                   
+		<Text>CD30 Antigen Bright Expression</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD30_BRIGHT_DESC</LocID>                               
+		<Text>CD30, also known as TNFRSF8, is a cell membrane protein of the tumor necrosis factor receptor family and tumor marker. This receptor is expressed by activated, but not by resting, T and B cells. TRAF2 and TRAF5 can interact with this receptor, and mediate the signal transduction that leads to the activation of NF-kappaB. CD30 is associated with anaplastic large cell lymphoma. It is expressed in embryonal carcinoma but not in seminoma and is thus a useful marker in distinguishing between these germ cell tumors. CD30 and CD15 are also expressed on Reed-Sternberg cells typical for Hodgkin's lymphoma.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD45_BRIGHT</LocID>                               
+		<Text>PTPRC (CD45) Bright Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD45_BRIGHT_DESC</LocID>                   
+		<Text>Protein tyrosine phosphatase, receptor type, C also known as PTPRC is an enzyme that, in humans, is encoded by the PTPRC gene. PTPRC is also known as CD45 antigen (CD stands for cluster of differentiation), which was originally called leukocyte common antigen (LCA). CD45 is a pan-leukocyte protein with tyrosine phosphatase activity involved in the regulation of signal transduction in hematopoiesis. CD45 does not colocalize with lipid rafts on murine and human non-transformed hematopoietic cells, but CD45 positioning within lipid rafts is modified during their oncogenic transformation to acute myeloid leukemia.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_19</LocID>                               
+		<Text>IGH-BCL2 Translocation</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_19_DESC</LocID>                   
+		<Text>The hallmark of Follicular lymphoma (FL) is the aberrant translocation t(14; 18)(q32; q21) involving the IgH locus on chromosome 14 and BCL2 gene on chromosome 18.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_20</LocID>                               
+		<Text>BCL6 (3q27) Hypermutation</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_20_DESC</LocID>                   
+		<Text>B-cell lymphoma 6 protein is a protein that in humans is encoded by the BCL6 gene. Like BCL2, BCL3, BCL5, BCL7A, BCL9 and BCL10, it has clinical significance in lymphoma. The protein encoded by this gene is an evolutionarily conserved zinc finger transcription factor and contains an N-terminal POZ/BTB domain. This protein acts as a sequence-specific repressor of transcription and has been shown to modulate the STAT-dependent Interleukin 4 (IL-4) responses of B cells. This protein can interact with several corepressor complexes to inhibit transcription. This gene is found to be frequently translocated and hypermutated in diffuse large B cell lymphoma (DLBCL).</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_BLC2_BRIGHT</LocID>                               
+		<Text>BCL2 Bright Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_BLC2_BRIGHT_DESC</LocID>                   
+		<Text>Bcl-2 (B-cell lymphoma 2), encoded in humans by the BCL2 gene, is the founding member of the Bcl-2 family of regulator proteins that regulate cell death (apoptosis), by either inhibiting (anti-apoptotic) or inducing (pro-apoptotic) apoptosis. Antibodies to Bcl-2 can be used with immunohistochemistry to identify cells containing the antigen. In healthy tissue, these antibodies react with B-cells in the mantle zone, as well as some T-cells. However, positive cells increase considerably in follicular lymphoma, as well as many other forms of cancer. In some cases, the presence or absence of Bcl-2 staining in biopsies may be significant for the patient's prognosis or likelihood of relapse.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BL_DGP</LocID>                               
+		<Text>Diffuse Growth Pattern</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BL_DGP_DESC</LocID>                   
+		<Text>Vaguely nodular and/or diffuse cellular growth pattern.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_ABNORMAL_NODULE</LocID>                               
+		<Text>Abnormally Coloured Nodule</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_ABNORMAL_NODULE_DESC</LocID>                   
+		<Text>The patient has a nodule (a lump) on the skin that has a strange red/violet colour.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_MCP_VIR</LocID>                               
+		<Text>Merkel Cell Polyomavirus Findings</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_MCP_VIR_DESC</LocID>                   
+		<Text>Merkel cell polyomavirus (MCV or MCPyV) was first described in January 2008 in Pittsburgh, Pennsylvania. It was the first example of a human viral pathogen discovered using unbiased metagenomic next-generation sequencing with a technique called digital transcriptome subtraction. MCV is one of seven currently known human oncoviruses. Detection of the virus is still at a research phase and is generally not available as a clinical test. Detection of viral DNA is performed by PCR or FISH.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_MCP_VIR_EL</LocID>                               
+		<Text>Electron Microscope MCV Findings</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_MCP_VIR_EL_DESC</LocID>                   
+		<Text>Transmission electron microscopy of MCV VLP at ×50,000 magnification shows characteristic polyomaviral icosahedral capsid structures. This evidence points towards Merkel cell polyomavirus or MCV, which is one of seven currently known human oncoviruses. </Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SM_P_006</LocID>                               
+		<Text>Cyclin D1 Overproduction</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SM_P_006_DESC</LocID>                   
+		<Text>Cyclin D1 is a protein that regulates entry of the cell into cell cycle. It drives the transition between G0 and G1 phase. In normal tissues, basal epithelial cells, endothelial cells, and stromal cells are often cyclin D1 positive, as these cells are going through the cell cycle. As a result of a translocation involving the cyclin D1 gene and IgH, t(11;14), the vast majority of mantle cell lymphomas overexpress cyclin D1. This is a useful feature in the classification of low-grade B-cell lymphomas.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_21</LocID>                               
+		<Text>IGH/CCND1 Translocation Findings</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_21_DESC</LocID>                   
+		<Text>IGH gene rearrangements are considered to be one of the classical cytogenetic gene aberrations associated with numerous cancers. The molecular hallmark of MCL, t(11;14)(q13;q32) (IGH/CCND1), results in deregulation and overexpression of the G1-phase cell cycle gene, CCND1 (encoding cyclin D1), mediated by enhancer elements found throughout the IGH locus.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BL_SPC</LocID>                               
+		<Text>Salt-and-Pepper Chromatin</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BL_SPC_DESC</LocID>                   
+		<Text>In pathology, salt-and-pepper chromatin, also salt-and-pepper nuclei and stippled chromatin, refers to cell nuclei that demonstrate granular chromatin (on light microscopy). Salt-and-pepper chromatin is typically seen in endocrine tumours such as medullary thyroid carcinoma, neuroendocrine tumours and pheochromocytoma.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BL_LSAC</LocID>                               
+		<Text>Large Anaplastic Cells</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BL_LSAC_DESC</LocID>                   
+		<Text>Anaplastic cells display marked pleomorphism (variability). The nuclei are characteristically extremely hyperchromatic (darkly stained) and large. The nuclear-cytoplasmic ratio may approach 1:1 instead of the normal 1:4 or 1:6. Giant cells that are considerably larger than their neighbors may be formed and possess either one enormous nucleus or several nuclei (syncytia). Anaplastic nuclei are variable and bizarre in size and shape.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SM_P_007</LocID>                               
+		<Text>Thyroid Transcription Factor 1 Positive</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SM_P_007_DESC</LocID>                   
+		<Text>NK2 homeobox 1 (NKX2-1), also known as thyroid transcription factor 1 (TTF-1), is a protein which in humans is encoded by the NKX2-1 gene. TTF-1 positive cells are found in the lung as type II pneumocytes and club cells. In the thyroid, follicular and parafollicular cells are also positive for TTF-1. For lung cancers, adenocarcinomas are usually positive, while squamous cell carcinomas and large cell carcinomas are rarely positive. Small cell carcinomas (of any primary site) are usually positive. TTF1 is more than merely a clinical marker of lung adenocarcinoma. It plays an active role in sustaining lung cancer cells in view of the experimental observation that it is mutated in lung cancer.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_IS_001</LocID>                               
+		<Text>Tumor Protein P63 Bright Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_IS_001_DESC</LocID>                   
+		<Text>Tumor protein p63, typically referred to as p63, also known as transformation-related protein 63 is a protein that in humans is encoded by the TP63 (also known as the p63) gene. P63 immunostaining has utility for head and neck squamous cell carcinomas, differentiating prostatic adenocarcinoma (the most common type of prostate cancer) and benign prostatic tissue. </Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_HYPERTROPHIC_PO</LocID>                               
+		<Text>Hypertrophic Pulmonary Osteoarthropathy</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_HYPERTROPHIC_PO_DESC</LocID>                   
+		<Text>Hypertrophic pulmonary osteoarthropathy (HPO) is a rare paraneoplastic syndrome that is frequently associated with lung cancer. Hypertrophic osteoarthropathy (HOA) is a clinical syndrome of clubbing of the fingers and toes, enlargement of the extremities, and painful, swollen joints. This condition is characterized by symmetric periostitis involving the radius and fibula and, to a lesser extent, the femur, humerus, metacarpals, and metatarsals.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD44_BRIGHT</LocID>                               
+		<Text>CD44 Antigen Bright Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD44_BRIGHT_DESC</LocID>                   
+		<Text>The CD44 antigen is a cell-surface glycoprotein involved in cell–cell interactions, cell adhesion and migration. In humans, the CD44 antigen is encoded by the CD44 gene on Chromosome 11. CD44 is a cell surface adhesion receptor that is highly expressed in many cancers and regulates metastasis via recruitment of CD44 to the cell surface. Its interaction with appropriate extracellular matrix ligands promotes the migration and invasion processes involved in metastases.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_22</LocID>                               
+		<Text>EGFR Mutation Over-Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_22_DESC</LocID>                   
+		<Text>The epidermal growth factor receptor (EGFR; ErbB-1; HER1 in humans) is a transmembrane protein that is a receptor for members of the epidermal growth factor family (EGF family) of extracellular protein ligands. Mutations that lead to EGFR overexpression (known as upregulation or amplification) have been associated with a number of cancers, including adenocarcinoma of the lung (40% of cases), anal cancers, glioblastoma (50%) and epithelian tumors of the head and neck (80-100%). These somatic mutations involving EGFR lead to its constant activation, which produces uncontrolled cell division.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD274_BRIGHT</LocID>                               
+		<Text>PD-L1 (CD274) Bright Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CM_CD274_BRIGHT_DESC</LocID>                   
+		<Text>Programmed death-ligand 1 (PD-L1) also known as cluster of differentiation 274 (CD274) or B7 homolog 1 (B7-H1) is a protein that in humans is encoded by the CD274 gene. Programmed death-ligand 1 (PD-L1) is a 40kDa type 1 transmembrane protein that has been speculated to play a major role in suppressing the adaptive arm of immune system during particular events such as pregnancy, tissue allografts, autoimmune disease and other disease states such as hepatitis.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_IS_002</LocID>                               
+		<Text>Tumor Protein P53 Abnormal Expression</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_IS_002_DESC</LocID>                   
+		<Text>Tumor protein p53, also known as p53, cellular tumor antigen p53 (UniProt name), tumor suppressor p53 is any isoform of a protein encoded by homologous genes in various organisms, such as TP53 (humans) and Trp53 (mice). This homolog (originally thought to be, and often spoken of as, a single protein) is crucial in multicellular organisms, where it prevents cancer formation, and thus functions as a tumor suppressor. The TP53 gene can also be modified by mutagens (chemicals, radiation, or viruses), increasing the likelihood for uncontrolled cell division.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BL_HISRC</LocID>                               
+		<Text>Signet Ring Cell Morphology</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BL_HISRC_DESC</LocID>                   
+		<Text>In histology, a signet ring cell is a cell with a large vacuole, the malignant type is seen predominantly in carcinomas. Signet ring cells are most frequently associated with various forms of cancer. By definition, a 50% or greater (High) signet-ring-cell component is required for a colorectal carcinoma to be designated as a signet-ring-cell colorectal carcinoma.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_23</LocID>                               
+		<Text>High-Degree Microsatellite Instability</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_23_DESC</LocID>                   
+		<Text>Microsatellite instability (MSI) is the condition of genetic hypermutability (predisposition to mutation) that results from impaired DNA mismatch repair (MMR). The presence of MSI represents phenotypic evidence that MMR is not functioning normally. MMR corrects errors that spontaneously occur during DNA replication, such as single base mismatches or short insertions and deletions. The proteins involved in MMR correct polymerase errors by forming a complex that binds to the mismatched section of DNA, excises the error, and inserts the correct sequence in its place. Cells with abnormally functioning MMR are unable to correct errors that occur during DNA replication and consequently accumulate errors. Microsatellite instability is associated with many forms of cancer but is most prevalent in associations with colon cancers.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SM_P_008</LocID>                               
+		<Text>Mucin 4 Highly Expressed</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SM_P_008_DESC</LocID>                   
+		<Text>Mucin 4 (MUC 4) is a mucin protein that in humans is encoded by the MUC4 gene. Like other mucins, MUC-4 is a high-molecular weight glycoprotein. The major constituents of mucus, the viscous secretion that covers epithelial surfaces such as those in the trachea, colon, and cervix, are highly glycosylated proteins called mucins. These glycoproteins play important roles in the protection of the epithelial cells and have been implicated in epithelial renewal and differentiation. MUC-4 has been found to play various roles in the progression of cancer, particularly due to its signaling and anti-adhesive properties which contribute to tumor development and metastasis.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_24</LocID>                               
+		<Text>CDH1 (CD324) Mutation Findings</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CDF_T_24_DESC</LocID>                   
+		<Text>Cadherin-1 also known as CAM 120/80 or epithelial cadherin (E-cadherin) or uvomorulin is a protein that in humans is encoded by the CDH1 gene. CDH1 has also been designated as CD324 (cluster of differentiation 324). It is a tumor suppressor gene. Loss of E-cadherin function or expression has been implicated in cancer progression and metastasis. E-cadherin downregulation decreases the strength of cellular adhesion within a tissue, resulting in an increase in cellular motility. This in turn may allow cancer cells to cross the basement membrane and invade surrounding tissues.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_COLONOFIND</LocID>                               
+		<Text>Colonoscopic Findings</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_COLONOFIND_DESC</LocID>                   
+		<Text>Testing has reported unusual colon findings. Further tests or results from the biopsy will help determine if the findings are cause for concern.</Text>  
+	</GameDBLocalizedString>
+
+	<!-- ### ### -->
+	<!-- ######################################## Content for V0.13.2a Added Below ######################################## -->
+	<!-- ### ### -->
+
+
+
+
+
+	<!-- ### ### -->
+	<!-- ######################################## Content From OBGYN ######################################## -->
+	<!-- ### ### -->
+
+			<GameDBLocalizedString>	<LocID>SYM_CRP_RH-</LocID>								<Text>Anti-erythrocyte alloimmunization</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_RH-_DESCRIPTION</LocID>					<Text>Alloimmunization is defined as an immune response to foreign antigens after exposure to genetically different cells or tissues.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_METRORRAGIE</LocID>						<Text>Metrorrhagia</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_METRORRAGIE_DESCRIPTION</LocID>			<Text>Blood loss occurring outside menstrual periods.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_RETARD_REGLE</LocID>						<Text>Late period</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_RETARD_REGLE_DESCRIPTION</LocID>			<Text>Periods is delayed.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_GROSSESSE</LocID>						<Text>Pregnancy</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_GROSSESSE_DESCRIPTION</LocID>			<Text>The state of being pregnant.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HEMOPERITOINE</LocID>					<Text>Hemoperitoneum</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HEMOPERITOINE_DESCRIPTION</LocID>		<Text>Hemoperitoneum (sometimes also hematoperitoneum) is the presence of blood in the peritoneal cavity.</Text>	</GameDBLocalizedString>			
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HYPERANDROGEN</LocID>					<Text>Biological hyperandrogenism</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HYPERANDROGEN_DESCRIPTION</LocID>		<Text>High levels of androgens in females.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_SEBORRHEE</LocID>						<Text>Seborrhea</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_SEBORRHEE_DESCRIPTION</LocID>			<Text>Abnormally increased secretion and discharge of sebum.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HIRSUTISME</LocID>						<Text>Hirsutism</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HIRSUTISME_DESCRIPTION</LocID>			<Text>Excessive body hair in women on parts of the body where hair is normally absent or minimal.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_ACNE</LocID>								<Text>Acne</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_ACNE_DESCRIPTION</LocID>					<Text>A disorder of the skin caused by inflammation of the skin glands and hair follicles. A form found chiefly in adolescents and marked by pimples especially on the face.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_ACANTHOSIS_NIGRICANS</LocID>				<Text>Acanthosis nigricans</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_ACANTHOSIS_NIGRICANS_DESCRIPTION</LocID>	<Text>A skin condition that is marked by dark discoloration and velvety thickening of the skin especially of body folds or creases (as of the armpit, groin, or neck) and that is often associated with obesity, insulin resistance, hormonal irregularity, or medication use but may rarely occur as a sign of cancer (as of the stomach or liver).</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_AMENORRHEE</LocID>						<Text>Amenorrhea </Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_AMENORRHEE_DESCRIPTION</LocID>			<Text>Abnormal absence or suppression of menses.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_BOUFFEE_VASOMOTRICE</LocID>				<Text>Flushing</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_BOUFFEE_VASOMOTRICE_DESCRIPTION</LocID>	<Text>Flushing is to become markedly red in the face and often other areas of the skin, from various physiological conditions.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_SECHERESSE_VAGIN</LocID>					<Text>Vaginal dryness</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_SECHERESSE_VAGIN_DESCRIPTION</LocID>		<Text>Vaginal dryness is the result of decreased levels of estrogen.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_DYSMENORRHEE</LocID>						<Text>Dysmenorrhea</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_DYSMENORRHEE_DESCRIPTION</LocID>			<Text>Painful menstruation.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_MENORRAGIE</LocID>						<Text>Menorrhagia</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_MENORRAGIE_DESCRIPTION</LocID>			<Text>Abnormally profuse menstrual flow.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_POLLAKIURIE</LocID>						<Text>pollakiuria</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_POLLAKIURIE_DESCRIPTION</LocID>			<Text>Abnormally frequent urination.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_LEUCORRHEE</LocID>						<Text>Leukorrhea</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_LEUCORRHEE_DESCRIPTION</LocID>			<Text>A whitish viscid discharge from the vagina resulting from inflammation or congestion of the mucous membrane.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_ULCERATION_GENITAL</LocID>				<Text>Genital ulcer</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_ULCERATION_GENITAL_DESCRIPTION</LocID>	<Text>Genital ulcers, defined as single or multiple vesicular, ulcerative or erosive lesions of the genital tract, with or without inguinal lymphadenopathy, should lead to consideration of sexually transmitted infection.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_CHANCRE_SYPHILIS</LocID>					<Text>Syphilitic chancre</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_CHANCRE_SYPHILIS_DESCRIPTION</LocID>		<Text>The primary sore of syphilis, a painless indurated, eroded papule, occurring at the site of entry of the infection.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_PREMATURE</LocID>						<Text>Preterm</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_PREMATURE_DESCRIPTION</LocID>			<Text>Of, relating to, being, or brought forth by premature birth.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HPV_HR</LocID>							<Text>High-risk HPV</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HPV_HR_DESCRIPTION</LocID>				<Text>High-risk HPV can cause normal cells to become abnormal. These abnormal cells can lead to cancer over time. High-risk HPV most often affects cells in the cervix, but it can also cause cancer in the vagina, vulva, anus, penis, mouth, and throat.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_DOULEUR_PELV</LocID>						<Text>Pelvic pain</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_DOULEUR_PELV_DESCRIPTION</LocID>			<Text>Pain in the pelvic area.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_COL_ROUGE</LocID>						<Text>Red cervix</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_COL_ROUGE_DESCRIPTION</LocID>			<Text>Red cervix at examination.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_VEGETATION_KYSTE</LocID>					<Text>Extracystic vegetation</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_VEGETATION_KYSTE_DESCRIPTION</LocID>		<Text>Vegetation shown on an ultrasound image.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_TUMEFACTION</LocID>						<Text>Breast swelling</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_TUMEFACTION_DESCRIPTION</LocID>			<Text>Abnormally enlargement of breast.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_MASSE_HOMOGENE</LocID>					<Text>Homogenous mass</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_MASSE_HOMOGENE_DESCRIPTION</LocID>		<Text>Homogenous mass shown on an ultrasound image.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_CONTRACTION_UTERINE</LocID>				<Text>Contracted pelvis</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_CONTRACTION_UTERINE_DESCRIPTION</LocID>	<Text>It is a pelvis in which one or more of its diameters is reduced so that it interferes with the normal mechanism of labour.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_ODEUR_VAGINALE</LocID>					<Text>Vaginal odor</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_ODEUR_VAGINALE_DESCRIPTION</LocID>		<Text>A strong "fishy" smell vaginal odor.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_POST_PARTUM</LocID>						<Text>Post-partum</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_POST_PARTUM_DESCRIPTION</LocID>			<Text>Following childbirth or the birth of young.</Text>	</GameDBLocalizedString>
+<!-- v2.0 -->
+			<GameDBLocalizedString>	<LocID>SYM_CRP_AXILLARY_LYMPH_NODES</LocID>								<Text>Axillary Lymph Nodes</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_INGUINAL_LYMPH_NODES</LocID>								<Text>Inguinal Lymph Nodes</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_SUPRACLAVICULAR_LYMPH_NODES</LocID>						<Text>Supraclavicular Lymph Nodes</Text>	</GameDBLocalizedString>
+
+
+	<!-- ### ### -->
+	<!-- ######################################## Content From MoreDG ######################################## -->
+	<!-- ### ### -->	
+
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HYPOKALIEMIE</LocID>										<Text>Hypokalemia</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HYPOKALIEMIE_DESCRIPTION</LocID>							<Text>Hypokalemia is a low level of potassium (K+) in the blood serum.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HYPERKALIEMIE</LocID>									<Text>Hyperkalemia</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HYPERKALIEMIE_DESCRIPTION</LocID>						<Text>Hyperkalemia is an elevated level of potassium (K+) in the blood.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_OAP</LocID>												<Text>Pulmonary edema</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_OAP_DESCRIPTION</LocID>									<Text>Pulmonary edema is fluid accumulation in the tissue and air spaces of the lungs.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_ABOLITION_POULS</LocID>									<Text>No pulse</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_ABOLITION_POULS_DESCRIPTION</LocID>						<Text>There is no perceived pulse to a member.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_MARBRURE</LocID>											<Text>Livedo reticularis</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_MARBRURE_DESCRIPTION</LocID>								<Text>Livedo reticularis is a common skin finding consisting of a mottled reticulated vascular pattern that appears as a lace-like purplish discoloration of the skin. The discoloration is caused by swelling of the venules owing to obstruction of capillaries by small blood clots.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_POUL_HYPERPULSE</LocID>									<Text>Bounding Pulse</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_POUL_HYPERPULSE_DESCRIPTION</LocID>						<Text>A bounding pulse signifies high pulse pressure. It may be due to low peripheral resistance, increased cardiac output, increased stroke volume or decreased distensibility of the arterial system.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_TURJESCENCE_JUGULAIRE</LocID>							<Text>JVD</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_TURJESCENCE_JUGULAIRE_DESCRIPTION</LocID>				<Text>Jugular vein distention (JVD) occurs when the pressure inside the vena cava increases and appears as a bulge running down the right side of a person’s neck.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_REFLUX_HJ</LocID>										<Text>AJR</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_REFLUX_HJ_DESCRIPTION</LocID>							<Text>The abdominojugular reflux (AJR) sign is useful in diagnosing right ventricular failure, but is often performed and interpreted incorrectly.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HEPATALGIE</LocID>										<Text>Hepatalgia</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HEPATALGIE_DESCRIPTION</LocID>							<Text>A painful liver.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_SOUFFLE_ABDOMINAL</LocID>								<Text>Abdominal murmur</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_SOUFFLE_ABDOMINAL_DESCRIPTION</LocID>					<Text>The presence of an abdominal murmur may reflect the existence of an aneurysm of the abdominal aorta or a narrowing of the renal arteries.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_SOUFFLE_VASCULAIRE</LocID>								<Text>Vascular murmur</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_SOUFFLE_VASCULAIRE_DESCRIPTION</LocID>					<Text></Text>	</GameDBLocalizedString>
+<!-- v0.02 -->
+			<GameDBLocalizedString>	<LocID>SYM_CRP_MACROGLOSSIA</LocID>											<Text>Macroglossia</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_MACROGLOSSIA_DESCRIPTION</LocID>								<Text>Abnormal increase in tongue volume.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HYPOGLYCEMIA</LocID>											<Text>Hypoglycemia</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HYPOGLYCEMIA_DESCRIPTION</LocID>								<Text>Low blood glucose.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_GYNECOMASTIA</LocID>											<Text>Gynecomastia</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_GYNECOMASTIA_DESCRIPTION</LocID>								<Text>Abnormal increase in breast volume in men.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_ATROPHIE_TESTICULE</LocID>									<Text>Testicular atrophy</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_ATROPHIE_TESTICULE_DESCRIPTION</LocID>						<Text>Decrease in testicle size.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_DRY_SKIN</LocID>												<Text>Xerosis</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_DRY_SKIN_DESCRIPTION</LocID>									<Text>Dry skin is skin that has lost its protective fatty layer and becomes dehydrated.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HYPERPRL</LocID>												<Text>Hyperprolactinemia</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HYPERPRL_DESCRIPTION</LocID>									<Text>Abnormal increase in plasma prolactin concentration.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_INSUFFISANCE_SR_AIGUE</LocID>								<Text>Acute adrenal insufficiency</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_INSUFFISANCE_SR_AIGUE_DESCRIPTION</LocID>					<Text>A primary adrenal insufficiency caused by a sudden defective production of adrenal steroids.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HYPOCALCEMIA</LocID>											<Text>Hypocalcemia</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HYPOCALCEMIA_DESCRIPTION</LocID>								<Text>Hypocalcemia is an abnormal drop in the level of calcium in the blood.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_THROMBOCYTOSE</LocID>										<Text>Thrombocytosis</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_THROMBOCYTOSE_DESCRIPTION</LocID>							<Text>Thrombocytosis is a condition in which there is an excessive number of platelets in the blood.</Text>	</GameDBLocalizedString>
+<!-- v0.03 -->
+			<GameDBLocalizedString>	<LocID>SYM_CRP_MED_APLASIA</LocID>										<Text>Bone aplasia</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_MED_APLASIA_DESCRIPTION</LocID>							<Text>Bone marrow aplasia refers to those hematologic conditions that are caused by a marked reduction and/or defect in the pluripotent or committed stem cells, or the failure of the bone marrow microenvironment to support hematopoiesis.</Text>	</GameDBLocalizedString>
+<!-- v0.03.2 -->
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HEPATITIS</LocID>									<Text>Hepatitis</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HEPATITIS_DESCRIPTION</LocID>						<Text>Liver inflammation.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_TELANGIECTASIS</LocID>								<Text>Telangiectasia</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_TELANGIECTASIS_DESCRIPTION</LocID>					<Text>Telangiectasias, also known as spider veins, are small dilated blood vessels that can occur near the surface of the skin or mucous membranes, measuring between 0.5 and 1 millimeter in diameter. These dilated blood vessels can develop anywhere on the body but are commonly seen on the face around the nose, cheeks and chin.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_SURCHARGE_FER</LocID>								<Text>Iron overload</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_SURCHARGE_FER_DESCRIPTION</LocID>					<Text>Iron overload or hemochromatosis indicates accumulation of iron in the body from any cause.</Text>	</GameDBLocalizedString>
+<!-- v0.03.3 -->
+			<GameDBLocalizedString>	<LocID>SYM_CRP_REJET_GREFFE</LocID>									<Text>Transplant rejection</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_REJET_GREFFE_DESCRIPTION</LocID>						<Text>The patient is in the process of rejection of his transplant, which corresponds to the destruction of the graft transplanted into an organism, due to an immune response directed against him.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HEMORRAGIE_DIG_HAUTE</LocID>							<Text>UDH</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HEMORRAGIE_DIG_HAUTE_DESCRIPTION</LocID>				<Text>During an upper digestive hemorrhage (UDH), the bleeding occurs upstream of the Treitz ligament (oesophagus, stomach and duodenum).</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HEMORRAGIE_DIG_BASSE</LocID>							<Text>LDH</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HEMORRAGIE_DIG_BASSE_DESCRIPTION</LocID>				<Text>In a lower digestive hemorrhage (LDH), blood loss originates downstream from the Treitz ligament (small intestine, colon, rectum and anus).</Text>	</GameDBLocalizedString>
+		
+
+	<!-- ### ### -->
+	<!-- ######################################## Content From COMPLICATIONS ######################################## -->
+	<!-- ### ### -->	
+	
+			<GameDBLocalizedString>	<LocID>SYM_CRP_PERITONITE</LocID>						<Text>Peritonitis</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_ENDOCARDITIS</LocID>						<Text>Endocarditis</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_DIABETES_SECONDARY</LocID>				<Text>Diabetes secondary</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_CARPAL_TUNNEL</LocID>					<Text>Carpal tunnel</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HEART_ATTACK</LocID>						<Text>Acute myocardial infarction</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_STK</LocID>								<Text>Stroke</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_TAR</LocID>								<Text>Aortic Rupture</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_THROMBOSIS</LocID>						<Text>Thrombosis</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_ARF_FONCTION</LocID>						<Text>Acute functional renal failure</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_ARF_ORGANIC</LocID>						<Text>Acute organic renal failure</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_GALLSTONES</LocID>						<Text>Gallstones</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HTAP</LocID>								<Text>Pulmonary hypertension</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HEMOLYSE</LocID>							<Text>Hemolyse</Text>	</GameDBLocalizedString>
+			
+			
+			
+			<!-- ### ### -->
+	<!-- ######################################## Content From Butch ######################################## -->
+	<!-- ### ### -->
+	
+	
+	<GameDBLocalizedString>      <LocID>SYM_CRP_ABDOMINAL_STRIAE</LocID>                               <Text>Abdominal Striae</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_ABDOMINAL_STRIAE_DESCRIPTION</LocID>                   <Text>The patient has wide purple colored stretch marks on their abdomen.</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_ACID_REFLUX</LocID>                                    <Text>Acid Reflux</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_ACID_REFLUX_DESCRIPTION</LocID>                        <Text>The patient's stomach contents flow back into the oesophagus resulting in unpleasant symptoms such as heartburn and the taste of acid in the mouth.</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_ADRENAL_HEMMORHAGE</LocID>                             <Text>Adrenal Hemmorhage</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_ADRENAL_HEMMORHAGE_DESCRIPTION</LocID>                 <Text>A CT scan shows evidence of bleeding from the adrenal glands. This is a strong indicator of an adrenal crisis requiring immediate emergency treatment!</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_HYPERPIGMENTATION</LocID>                              <Text>Hyperpigmentation</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_HYPERPIGMENTATION_DESCRIPTION</LocID>                  <Text>Hyperpigmentation is the darkening of an area of skin or nails caused by increased melanin.</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_CARDIAC_VALVULAR_VEGETATIONS</LocID>                   <Text>Cardiac Valvular Vegetations</Text>  </GameDBLocalizedString>
+    <GameDBLocalizedString>      <LocID>SYM_CRP_CARDIAC_VALVULAR_VEGETATIONS_DESCRIPTION</LocID>       <Text>Echocardiography has revealed cardiac valve vegetations. A cardiac vegetation is an abnormal growth on the valves of the heart that is typically made up of fibrin and platelets.</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_CALCINOSIS</LocID>                                     <Text>Calcinosis</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_CALCINOSIS_DESCRIPTION</LocID>                         <Text>The patient has deposition of calcium in lumps under the skin.</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_CLUBBING</LocID>                                       <Text>Digital Clubbing</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_CLUBBING_DESCRIPTION</LocID>                           <Text>Digital clubbing is a clinically descriptive term, referring to the bulbous uniform swelling of the soft tissue of the terminal phalanx of a digit (fingers or toes) with subsequent loss of the normal angle between the nail and the nail bed.</Text>  </GameDBLocalizedString>	
+	<GameDBLocalizedString>      <LocID>SYM_CRP_CUSHINGOID_FACIES</LocID>                              <Text>Cushingoid Facies</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_CUSHINGOID_FACIES_DESCRIPTION</LocID>                  <Text>The face has a rounded moon-like appearance due to fat deposits on the side of the face. This is often associated with Cushing's syndrome (elevated serum cortisol) or long term corticosteroid treatment.</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_DORSOCERVICAL_FAT_PAD</LocID>                          <Text>Dorsocervical Fat Pad</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_DORSOCERVICAL_FAT_PAD_DESCRIPTION</LocID>              <Text>The patient has a hump on the upper back between the shoulder blades in an area of fat accumulation on the back of the neck. This is sometimes referred to as a "buffalo hump".</Text>  </GameDBLocalizedString>	
+	<GameDBLocalizedString>      <LocID>SYM_CRP_ERYTHEMA_NODOSUM</LocID>                               <Text>Erythema Nodosum</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_ERYTHEMA_NODOSUM_DESCRIPTION</LocID>                   <Text>Erythema nodosum is an inflammatory condition characterized by inflammation of the fat cells under the skin, resulting in tender red nodules or lumps that are usually seen on both shins.</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_FRONTAL_BOSSING</LocID>                                <Text>Frontal Bossing</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_FRONTAL_BOSSING_DESCRIPTION</LocID>                    <Text>Frontal bossing is the development of an unusually pronounced forehead which may also be associated with a heavier than normal brow ridge. It is caused by enlargement of the frontal bone, often in conjunction with abnormal enlargement of other facial bones, skull, mandible, and bones of the hands and feet.</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_FUNGEMIA</LocID>                                       <Text>Fungemia</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_FUNGEMIA_DESCRIPTION</LocID>                           <Text>Fungemia is the presence of fungi or yeasts in the blood.</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_GALACTORRHEA</LocID>                                   <Text>Galactorrhea</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_GALACTORRHEA_DESCRIPTION</LocID>                       <Text>The patient has spontaneous flow of milk from the breast, unassociated with childbirth or nursing. Galactorrhea can take place as a result of dysregulation of certain hormones.</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_GROUND_GLASS_OPACITIES</LocID>                         <Text>Ground-glass opactities seen on high resolution CT scan.</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_GROUND_GLASS_OPACITIES_DESCRIPTION</LocID>             <Text>A CT scan finding that indicates a partial filling of air spaces in the lungs by exudate or transudate, as well as interstitial thickening or partial collapse of lung alveoli.</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_SECONDARY_RAYNAUDS</LocID>                             <Text>Secondary Raynaud's Disease</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_SECONDARY_RAYNAUDS_DESCRIPTION</LocID>                 <Text>A medical condition in which spasm of arteries causes episodes of reduced blood flow. The fingers are typically involved. The episodes result in the affected part turning white and then blue. In this patient, it is likely due to an underlying condition.</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_SKIN_TAGS</LocID>                                      <Text>Skin tags</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_SKIN_TAGS_DESCRIPTION</LocID>                          <Text>The patient has acrochorda (skin tags), small benign tumors that forms primarily in areas where the skin forms creases, such as the neck, armpit and groin. They may also occur on the face, usually on the eyelids.</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_KOILONYCHIA</LocID>                                    <Text>Koilonychia</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_KOILONYCHIA_DESCRIPTION</LocID>                        <Text>Koilonychia, also known as spoon nails is a nail disease that can be a sign of anemia, especially iron-deficiency anemia. It refers to abnormally thin nails (usually of the hand) which have lost their convexity, becoming flat or even concave in shape. </Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_SCLERODACTYLY</LocID>                                  <Text>Sclerodactyly</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_SCLERODACTYLY_DESCRIPTION</LocID>                      <Text>Sclerodactyly is a localized thickening and tightness of the skin of the fingers or toes.</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_DIGITAL_ULCERS</LocID>                                 <Text>Digital Ulcers</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_DIGITAL_ULCERS_DESCRIPTION</LocID>                     <Text>The patient has damaged and sore  skin on their fingers and toes.</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_APTHOUS_ULCERS</LocID>                                 <Text>Apthous Ulcers</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_APTHOUS_ULCERS_DESCRIPTION</LocID>                     <Text>Oral examination has revealed the presence of apthous ulcers. These are recurrent round or oval sores inside the mouth on an area where the skin is not tightly bound to the underlying bone, such as on the inside of the lips and cheeks or underneath the tongue.</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_DECREASED_DLCO</LocID>                                 <Text>Decreased diffusion capacity of the lungs</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_DECREASED_DLCO_DESCRIPTION</LocID>                     <Text>The ability of oxygen to travel from the alveoli in the lungs to the bloodstream is reduced due to underlying lung disease. </Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_NONCASEATING_GRANULOMAS</LocID>                        <Text>Noncaseating Granulomas</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_NONCASEATING_GRANULOMAS_DESCRIPTION</LocID>            <Text>A collection of immune cells known as macrophages have aggregated to form an area of inflammation (visualized under a microscope) known as a granuloma. Granulomas form when the immune system attempts to wall off substances it perceives as foreign but is unable to eliminate.</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_NECROTIZING_GRANULOMAS</LocID>                         <Text>Necrotizing Granulomas</Text>  </GameDBLocalizedString>		   
+    <GameDBLocalizedString>      <LocID>SYM_CRP_NECROTIZING_GRANULOMAS_DESCRIPTION</LocID>             <Text>A collection of immune cells known as macrophages have aggregated to form an area of inflammation (visualized under a microscope) known as a granuloma. Granulomas form when the immune system attempts to wall off substances it perceives as foreign but is unable to eliminate.</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_PERICARDITIS</LocID>                                   <Text>Pericarditis</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_PERICARDITIS_DESCRIPTION</LocID>                       <Text>CT scan has revealed a swollen and irritated pericardium (inflammation of the sac that the heart lies in).</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_PITUITARY_ADENOMA</LocID>                              <Text>Pituitary Adenoma detected</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_PITUITARY_ADENOMA_DESCRIPTION</LocID>                  <Text>A tumor of the Pituitary gland (in the brain) has been detected. Depending on the size of the tumor, it may present with visual field defects due to compression of the optic chiasm.</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_PODAGRA</LocID>                                        <Text>Podagra</Text>  </GameDBLocalizedString>   
+    <GameDBLocalizedString>      <LocID>SYM_CRP_PODAGRA_DESCRIPTION</LocID>                            <Text>The patient has a very tender, red, swollen 1st metatarsophalangeal joint (the joint between the foot and big toe). This is known as podagra and is a common manifestation of acute gout.</Text>  </GameDBLocalizedString> 
+	<GameDBLocalizedString>      <LocID>SYM_CRP_PROGNATHISM</LocID>                                    <Text>Prognathism</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_PROGNATHISM_DESCRIPTION</LocID>                        <Text>Prognathism is an extension or bulging out (protrusion) of the lower jaw.</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_PROPTOSIS</LocID>                                      <Text>Proptosis</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_PROPTOSIS_DESCRIPTION</LocID>                          <Text>The patient has abnormal protrusion or displacement of the eyes.</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_PULMONARY_FIBROSIS</LocID>                             <Text>Pulomnary Fibrosis</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_PULMONARY_FIBROSIS_DESCRIPTION</LocID>                 <Text>Excess fibrous connective has accumulated in the lungs leading to thickening of the walls.</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_PULMONARY_HEMORRHAGE</LocID>                           <Text>Pulomnary Hemorrhage</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_PULMONARY_HEMORRHAGE_DESCRIPTION</LocID>               <Text>Pulmonary hemorrhage is an acute bleeding from the lungs, upper respiratory tract, the trachea and the alveoli.</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_RESTRICTIVE_PFT</LocID>                                <Text>Restrictive Ventilatory Defect</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_RESTRICTIVE_PFT_DESCRIPTION</LocID>                    <Text>Spirometry shows a restrictive lung disease pattern.</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_TOPHACEOUS_DEPOSITS</LocID>                            <Text>Tophaceous Deposits</Text>  </GameDBLocalizedString>
+    <GameDBLocalizedString>      <LocID>SYM_CRP_TOPHACEOUS_DEPOSITS_DESCRIPTION</LocID>                <Text>The patient has deposits of crystalline uric acid and other substances in cartilage tissue, tendons, and soft tissues. </Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_LUNG_NODULE</LocID>                                    <Text>Lung Nodules</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_LUNG_NODULE</LocID>                                    <Text>Chest X-ray has revealed the presence of lung nodules; these are small 'spots' that can represent benign tumors such as granulomas or less commonly malignant cancer. </Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_TACHYPNEA</LocID>                                      <Text>Tachypnea</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_TACHYPNEA_DESCRIPTION</LocID>                          <Text>The patient has abnormally rapid breathing.</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_ATYPICAL_PNEUMONIA</LocID>                             <Text>Atypical Pneumonic findings</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_ATYPICAL_PNEUMONIA_DESCRIPTION</LocID>                 <Text>The X-ray findings together with the physical examination and overall clinical picture of the patient suggests a diagnosis of an atypical pneumonia. </Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_ELEVATED_TRANSFERRIN_SATURATION</LocID>                <Text>Elevated Transferrin Saturation</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_ELEVATED_TRANSFERRIN_SATURATION_DESCRIPTION</LocID>    <Text>Blood tests show abnormalities of iron metabolism</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_UREMIA</LocID>                                         <Text>Uremia</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_UREMIA_DESCRIPTION</LocID>                             <Text>Uremia is the condition of having high levels of urea in the blood. Urea is one of the primary components of urine.</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_ANTINUCLEAR_ANTIBODIES</LocID>                         <Text>Antinuclear antibodies detected</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_ANTINUCLEAR_ANTIBODIES_DESCRIPTION</LocID>             <Text>Serology has detected the presence of Antinuclear antibodies.</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_BRONCHOALVEOLAR_LAVAGE_LYMPHOCYTOSIS</LocID>                       <Text>Bronchoalveolar Lavage Lymphocytosis</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_BRONCHOALVEOLAR_LAVAGE_LYMPHOCYTOSIS_DESCRIPTION</LocID>           <Text>The fluid collected from BAL has revealed a significantly elevated amount of lymphocytes (white blood cells).</Text>  </GameDBLocalizedString>		
+	<GameDBLocalizedString>      <LocID>SYM_CRP_HYPERTRICHOSIS</LocID>                                 <Text>Hypertrichosis</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_HYPERTRICHOSIS_DESCRIPTION</LocID>                     <Text>Hypertrichosis is an abnormal amount of hair growth over the body.</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_HYPOALBUMINEMIA</LocID>                                <Text>Hypoalbuminemia</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_HYPOALBUMINEMIA_DESCRIPTION</LocID>                    <Text>Blood tests show low levels of Albumin in the blood. Albumin is a protein found in the blood that transports hormones, fatty acids, and other compounds, buffers pH, and maintains oncotic pressure, among other functions.</Text>  </GameDBLocalizedString>		
+	<GameDBLocalizedString>      <LocID>SYM_CRP_GANGRENE</LocID>                                       <Text>Gangrene</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_GANGRENE_DESCRIPTION</LocID>                           <Text>Physical examination reveals gangrene. Loss of blood supply to the affected areas has led to tissue death which has a dry, purple-blue blackish appearance.</Text>  </GameDBLocalizedString>		
+	<GameDBLocalizedString>      <LocID>SYM_CRP_VENOUS_THROMBOEMBOLISM</LocID>                         <Text>Venous Thromboembolism</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_VENOUS_THROMBOEMBOLISM_DESCRIPTION</LocID>             <Text>Venous thromboembolism is a condition in which a blood clot forms most often in the deep veins of the leg, groin or arm and travels in the circulation, lodging in the lungs</Text>  </GameDBLocalizedString>		
+	<GameDBLocalizedString>      <LocID>SYM_CRP_SPLINTER_HEMORRHAGES</LocID>                           <Text>Splinter Hemorrhages</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>SYM_CRP_SPLINTER_HEMORRHAGES_DESCRIPTION</LocID>               <Text>The patient has tiny blood clots that run vertically under the nails.</Text>  </GameDBLocalizedString>
+    <GameDBLocalizedString>      <LocID>SYM_CRP_WIDELY_SPACED_TEETH</LocID>                            <Text>Wide Spacing of the Teeth</Text>  </GameDBLocalizedString>
+    <GameDBLocalizedString>      <LocID>SYM_CRP_WIDELY_SPACED_TEETH_DESCRIPTION</LocID>                <Text>The patient's teeth are widely spaced and separated by large gaps.</Text>  </GameDBLocalizedString>
+
+
+	
+	<!-- ### ### -->
+	<!-- ######################################## Content From ENT ######################################## -->
+	<!-- ### ### -->
+	
+	    <GameDBLocalizedString>      
+		 <LocID>SYM_CRP_SEVERE_PAIN</LocID>                 
+		 <Text>Severe pain</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+		 <LocID>SYM_CRP_SEVERE_PAIN_DESCRIPTION</LocID>     
+		 <Text>Patient is experiencing intense amount of pain. </Text>  
+		</GameDBLocalizedString>
+	
+	    <GameDBLocalizedString>  
+		 <LocID>SYM_CRP_EAR_PRESSURE</LocID>                 
+		 <Text>Pressure in the Ears</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>     
+		 <LocID>SYM_CRP_EAR_PRESSURE_DESCRIPTION</LocID>     
+		 <Text>The patient feels like they have pressure in their ears or their ears feel full.</Text>  
+		</GameDBLocalizedString>
+	
+	    <GameDBLocalizedString>      
+		 <LocID>SYM_CRP_SNORE</LocID>                 
+		 <Text>Snoring</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+		 <LocID>SYM_CRP_SNORE_DESCRIPTION</LocID>     
+		 <Text>Snoring is the action or fact of making a snorting or grunting sound while asleep, It's caused by Obstructive Sleep Apnea. </Text>  
+		</GameDBLocalizedString>
+	
+	    <GameDBLocalizedString>   
+		 <LocID>SYM_CRP_NASAL_POLYP</LocID>                 
+		 <Text>Nasal polyps</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+		 <LocID>SYM_CRP_NASAL_POLYPS_DESCRIPTION</LocID>     
+		 <Text>Nasal polyps are soft, painless, noncancerous growths on the lining of your nasal passages or sinuses. They hang down like teardrops or grapes. They result from chronic inflammation. They either can be treated with saline spray or surgery.</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+		 <LocID>SYM_CRP_SINUS_FINDINGS</LocID>                               
+		 <Text>Nasal Findings</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+		 <LocID>SYM_JM_SINUS_FINDINGS_DESCRIPTION</LocID>                               
+		 <Text>Nasal findings has been found by a CT.</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+		 <LocID>SYM_CRP_NASAL_DRIP</LocID>                 
+		 <Text>Post nasal drip</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+		 <LocID>SYM_CRP_NASAL_DRIP_DESCRIPTION</LocID>     
+		 <Text>Post nasal drip is mucus from your nose and it drips harmlessly down the back of your throat, and you swallow it. </Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+		 <LocID>SYM_CRP_INFLAMMED_RH</LocID>                 
+		 <Text>Inflammed nasal cavities</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+		 <LocID>SYM_CRP_INFLAMMED_RH_DESCRIPTION</LocID>     
+		 <Text>The patient's nasal cavity is is inflammed. </Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+		 <LocID>SYM_CRP_INFLAMMED_SINUSES</LocID>                 
+		 <Text>Inflamed Sinuses</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+		 <LocID>SYM_CRP_INFLAMMED_SINUSES_DESCRIPTION</LocID>     
+		 <Text>Inflamed mucous tissue lining that covers the sinuses. </Text>  
+		</GameDBLocalizedString>
+	
+	    <GameDBLocalizedString>     
+		 <LocID>SYM_CRP_NASAL_DRAINAGE</LocID>                               
+		 <Text>Nasal Discharge</Text>  
+		</GameDBLocalizedString>
+			
+	    <GameDBLocalizedString>     
+		 <LocID>SYM_CRP_NASAL_DRAINAGE_DESCRIPTION</LocID>                               
+		 <Text>The patient has unidentified fluids coming from the nose.</Text>  
+		</GameDBLocalizedString>
+	
+	    <GameDBLocalizedString>      
+		 <LocID>SYM_CRP_NECK_INJURY</LocID>                 
+		 <Text>Neck injury</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+		 <LocID>SYM_CRP_NECK_INJURY_DESCRIPTION</LocID>     
+		 <Text>The patient experienced a neck injury. </Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+		 <LocID>SYM_CRP_SWOLLEN_NECK</LocID>                 
+		 <Text>Swollen neck</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+		 <LocID>SYM_CRP_SWOLLEN_NECK_DESCRIPTION</LocID>     
+		 <Text>The patient has a swollen neck. </Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString> 
+		 <LocID>SYM_CRP_MOUTH_DRAINAGE</LocID>                 
+		 <Text>Mouth Drainage</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>     
+		 <LocID>SYM_CRP_MOUTH_DRAINAGE_DESCRIPTION</LocID>     
+		 <Text>The patient has unidentified fluids coming from the mouth.</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString> 
+		 <LocID>SYM_CRP_DRY_MOUTH</LocID>                 
+		 <Text>Xerostomia</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>    
+		 <LocID>SYM_CRP_DRY_MOUTH_DESCRIPTION</LocID>     
+		 <Text>Xerostomia means dry mouth, the petients mouth is dry.</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString> 
+		 <LocID>SYM_CRP_HYPOSALIVATION</LocID>                 
+		 <Text>Hyposalivation</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+		 <LocID>SYM_CRP_HYPOSALIVATION_DESCRIPTION</LocID>    
+		 <Text>The patient's mouth isn't producing saliva that much, causes the patint's mouth to be dry.</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString> 
+		 <LocID>SYM_CRP_SIALOLITHIASIS</LocID>                 
+		 <Text>Sialolithiasis</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>       
+		 <LocID>SYM_CRP_SIALOLITHIASIS_DESCRIPTION</LocID>     
+		 <Text>Sialolithiasis is the medical term for salivary gland stones. These stones, or calculi, are mostly composed of calcium, but they also contain magnesium, potassium, and ammonium. Your mouth has three salivary glands that can develop stones: parotid, submandibular, sublingual, and minor salivary glands.</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>       
+		 <LocID>SYM_CRP_PSEUDOMEMBRANE</LocID>                 
+		 <Text>Pseudomembrane</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>        
+		 <LocID>SYM_CRP_PSEUDOMEMBRANE_DESCRIPTION</LocID>     
+		 <Text>A pseudomembrane is a false membrane in the eye or throat that sometimes develops during infections and inflammations. It typically covers the conjunctiva, or the white part of the eyes, and can be very uncomfortable, and a pseudomembrane also usually develops when the patient has Diphtheria. </Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>       
+		 <LocID>SYM_CRP_VOCAL_POLYP_HEMORRHAGE</LocID>                 
+		 <Text>Hemorrhagic Vocal Polyp</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+		 <LocID>SYM_CRP_VOCAL_POLYP_HEMORRHAGE_DESCRIPTION</LocID>     
+		 <Text>A Vocal Polyp has hemorrhaged in the patient</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>       
+		 <LocID>SYM_CRP_LUMP_IN_THROAT</LocID>                 
+		 <Text>Lump in Throat</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>       
+		 <LocID>SYM_CRP_LUMP_IN_THROAT_DESCRIPTION</LocID>     
+		 <Text>A lump in the throat has been found in the patient</Text>  
+		</GameDBLocalizedString>
+	
+	    <GameDBLocalizedString>      
+		 <LocID>SYM_CRP_PNEUMONIA</LocID>                 
+		 <Text>Pneumonia</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+		 <LocID>SYM_CRP_PNEUMONIA_DESCRIPTION</LocID>     
+		 <Text>Pneumonia is an infection that inflames the air sacs in one or both lungs. The air sacs may fill with fluid or pus, causing cough with phlegm or pus, fever, chills, and difficulty breathing. A variety of organisms, including bacteria, viruses and fungi, can cause pneumonia.Without treating bacterial pneumonia it can lead to complications like respiratory failure. </Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+		 <LocID>SYM_CRP_ARDS</LocID>                 
+		 <Text>Acute Respiratory Distress Syndrome (ARDS)</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+		 <LocID>SYM_CRP_ARDS_DESCRIPTION</LocID>     
+		 <Text>Acute respiratory distress syndrome (ARDS) is a type of respiratory failure characterized by rapid onset of widespread inflammation in the lungs. Symptoms include shortness of breath, rapid breathing, and bluish skin coloration. </Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      <!-- New -->
+		 <LocID>SYM_CRP_STRIDOR</LocID>                 
+		 <Text>Stridor</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      <!-- New --> 
+		 <LocID>SYM_CRP_STRIDOR_DESCRIPTION</LocID>     
+		 <Text>Stridor is a high-pitched, wheezing sound caused by disrupted airflow. Stridor may also be called musical breathing or extrathoracic airway obstruction. Airflow is usually disrupted by a blockage in the larynx (voice box) or trachea (windpipe). Stridor affects children more often than adults.</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      <!-- New -->
+		 <LocID>SYM_CRP_DECREASED_PITCH_AND_LOUDNESS</LocID>                 
+		 <Text>Decreased Pitch and Loudness</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      <!-- New --> 
+		 <LocID>SYM_CRP_DECREASED_PITCH_AND_LOUDNESS_DESCRIPTION</LocID>     
+		 <Text>The patient has decreased pitch range and loudness</Text>  
+		</GameDBLocalizedString>
+	
+	</LocalizedStrings>
+	</GameDBStringTable>
+</Database>

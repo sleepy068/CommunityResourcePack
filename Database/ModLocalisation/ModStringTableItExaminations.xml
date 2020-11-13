@@ -1,0 +1,365 @@
+<Database>
+    <GameDBStringTable ID="LOC_IT_ADDON_CRP_EXAMINATIONS">
+
+        <LanguageCode>it</LanguageCode>
+        <LanguageNameLocalized>Italian</LanguageNameLocalized>   
+
+        <Contributors>
+            <Name>Jerry76</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- Examinations -->
+            <GameDBLocalizedString>      
+			<LocID>EXM_CRP_CCBT</LocID>                                      
+			<Text>Catecolamine plasmatiche - campionamento</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_CCBT_DESC</LocID>                                      
+			<Text>I test delle catecolamine plasmatiche misurano la quantità di catecolamine nel corpo. “Catecolamine” è un termine generico per gli ormoni dopamina, noradrenalina ed epinefrina.</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_CCBT_TEST</LocID>                                      
+			<Text>Catecolamine plasmatiche - analisi</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_CCBT_TEST_DESC</LocID>                                      
+			<Text>I test delle catecolamine plasmatiche misurano la quantità di catecolamine nel corpo. “Catecolamine” è un termine generico per gli ormoni dopamina, noradrenalina ed epinefrina.</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_CEA</LocID>                                      
+			<Text>Test CEA</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_CEA_DESC</LocID>                                      
+			<Text>Il test dell'antigene carcino embrionario (CEA) è un esame del sangue usato per aiutare a diagnosticare e gestire alcuni tipi di tumori. Il test CEA è utilizzato soprattutto per i tumori dell'intestino crasso e del retto. Il CEA test misura la quantità di CEA nel sangue. Un'elevata quantità di CEA nel corpo, dopo un trattamento o un intervento chirurgico per il cancro, suggerisce che il cancro non è scomparso. Può anche significare che si è diffuso in altre parti del corpo.</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_CEA_TEST</LocID>                                      
+			<Text>Test CEA</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_CEA_TEST_DESC</LocID>                                      
+			<Text>Il test dell'antigene carcino embrionario (CEA) è un esame del sangue usato per aiutare a diagnosticare e gestire alcuni tipi di tumori. Il test CEA è utilizzato soprattutto per i tumori dell'intestino crasso e del retto. Il CEA test misura la quantità di CEA nel sangue. Un'elevata quantità di CEA nel corpo, dopo un trattamento o un intervento chirurgico per il cancro, suggerisce che il cancro non è scomparso. Può anche significare che si è diffuso in altre parti del corpo.</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_COLONOSCOPY</LocID>                                      
+			<Text>Colonoscopia</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_COLONOSCOPY_DESC</LocID>                                      
+			<Text>Una colonscopia è una procedura medica che viene eseguita per cercare il cancro, i polipi del colon o altre anomalie all'interno dell'intestino. La colonscopia viene eseguita utilizzando uno strumento chiamato colonscopio (un tipo di endoscopio): un tubo lungo, sottile e flessibile contenente una telecamera e una luce.</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_5HIAA</LocID>                                      
+			<Text>Test 5-HIAA</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_5HIAA_DESC</LocID>                                      
+			<Text>Test delle urine per verificare la quantità di 5-HIAA (acido 5-idrossindoleacetico), un prodotto della degradazione della serotonina. La serotonina, un neurotrasmettitore coinvolto nel comportamento e nella depressione, è prodotta da alcuni NET (Tumori neuroendocrini).</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_5HIAA_TEST</LocID>                                      
+			<Text>Test 5-HIAA</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_5HIAA_TEST_DESC</LocID>                                      
+			<Text>Test delle urine per verificare la quantità di 5-HIAA (acido 5-idrossindoleacetico), un prodotto della degradazione della serotonina. La serotonina, un neurotrasmettitore coinvolto nel comportamento e nella depressione, è prodotta da alcuni NET (Tumori neuroendocrini).</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_CHRAB</LocID>                                      
+			<Text>Dosaggio Cromogranina A</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_CHRAB_DESC</LocID>                                      
+			<Text>L'esame del sangue con cromogranina A (CgA) viene utilizzato come marker tumorale per diagnosticare i tumori carcinoidi. Può anche essere usato per rilevare la presenza di altri tumori derivanti da cellule neuroendocrine.</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_CHRAB_TEST</LocID>                                      
+			<Text>Dosaggio Cromogranina A</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_CHRAB_TEST_DESC</LocID>                                      
+			<Text>L'esame del sangue con cromogranina A (CgA) viene utilizzato come marker tumorale per diagnosticare i tumori carcinoidi. Può anche essere usato per rilevare la presenza di altri tumori derivanti da cellule neuroendocrine.</Text>  
+			</GameDBLocalizedString>
+
+                        <GameDBLocalizedString>      
+			<LocID>EXM_CRP_BONEBIOPSY_SAMPLE</LocID>                                      
+			<Text>Biopsia del midollo osseo - campionamento</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_BONEBIOPSY_SAMPLE_DESC</LocID>                                      
+			<Text>La biopsia del midollo osseo raccoglie un campione di nucleo cilindrico che preserva la struttura del midollo. Il campione prelevato viene valutato da uno specialista per determinare la cellularità, il volume delle cellule viene confrontato con il volume di altri componenti del midollo osseo, se i diversi lignaggi cellulari sono presenti in numero adeguato e se vi sono infiltrati anomali nel midollo.</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_BONEBIOPSY_TEST</LocID>                                      
+			<Text>Biopsia del midollo osseo - analisi</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_BONEBIOPSY_TEST_DESC</LocID>                                      
+			<Text>La biopsia del midollo osseo raccoglie un campione di nucleo cilindrico che preserva la struttura del midollo. Il campione prelevato viene valutato da uno specialista per determinare la cellularità, il volume delle cellule viene confrontato con il volume di altri componenti del midollo osseo, se i diversi lignaggi cellulari sono presenti in numero adeguato e se vi sono infiltrati anomali nel midollo.</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_FLOWCYT</LocID>                                      
+			<Text>Citometria a flusso - campionamento</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_FLOWCYT_DESC</LocID>                                      
+			<Text>La citometria a flusso è una tecnica utilizzata per rilevare e misurare le caratteristiche fisiche e chimiche di una popolazione di cellule o particelle. Un campione contenente cellule o particelle viene sospeso in un fluido e iniettato nello strumento del citometro a flusso.</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_FLOWCYT_TEST</LocID>                                      
+			<Text>Citometria a flusso - analisi</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_FLOWCYT_TEST_DESC</LocID>                                      
+			<Text>La citometria a flusso è una tecnica utilizzata per rilevare e misurare le caratteristiche fisiche e chimiche di una popolazione di cellule o particelle. Un campione contenente cellule o particelle viene sospeso in un fluido e iniettato nello strumento del citometro a flusso.</Text>  
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_CBC_SAMPLING</LocID>                                      
+			<Text>EC (Oncologia) - campionamento</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_BLOOD_SMEAR_SAMPLE</LocID>                                      
+			<Text>Striscio di sangue - campionamento</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_BLOOD_SMEAR_SAMPLE_DESC</LocID>                                      
+			<Text>Una pellicola di sangue - o striscio di sangue periferico - è un sottile strato di sangue spalmato su un vetrino da microscopio colorato, in modo da consentire l'esame microscopico delle varie cellule del sangue.</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_BLOOD_SMEAR_TEST</LocID>                                      
+			<Text>Striscio di sangue - analisi</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_BLOOD_SMEAR_TEST_DESC</LocID>                                      
+			<Text>Una pellicola di sangue - o striscio di sangue periferico - è un sottile strato di sangue spalmato su un vetrino da microscopio colorato, in modo da consentire l'esame microscopico delle varie cellule del sangue.</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_LIVER_FT_SAMPLING</LocID>                                      
+			<Text>Test funzionalità epatica - campionamento</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_LIVER_FT_SAMPLING_DESC</LocID>                                      
+			<Text>I test di funzionalità epatica (chiamati anche LFT) sono esami del sangue che possono fornire informazioni sul funzionamento del fegato. Testano i livelli di un certo numero di proteine ​​ed enzimi che vengono prodotti dalle cellule del fegato o rilasciati nel sangue quando le cellule del fegato sono danneggiate.</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_LIVER_FT_TEST</LocID>                                      
+			<Text>Test di funzionalità epatica - analisi</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_LIVER_FT_TEST_DESC</LocID>                                      
+			<Text>I test di funzionalità epatica (chiamati anche LFT) sono esami del sangue che possono fornire informazioni sul funzionamento del fegato. Testano i livelli di un certo numero di proteine ​​ed enzimi che vengono prodotti dalle cellule del fegato o rilasciati nel sangue quando le cellule del fegato sono danneggiate.</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_FISH_SAMPLE</LocID>                                      
+			<Text>F.I.S.H. - campionamento</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_FISH_SAMPLE_DESC</LocID>                                      
+			<Text>L'ibridazione a fluorescenza in sito (FISH) è una tecnica citogenetica molecolare che utilizza sonde fluorescenti che si legano solo a quelle parti di una sequenza di acido nucleico con un alto grado di complementarità della sequenza. E' stato sviluppato da ricercatori biomedici all'inizio degli anni '80[1] per rilevare e localizzare la presenza o l'assenza di sequenze specifiche di DNA sui cromosomi. La microscopia a fluorescenza può essere utilizzata per scoprire dove la sonda fluorescente è legata ai cromosomi. FISH viene spesso utilizzato per trovare caratteristiche specifiche nel DNA da utilizzare nella consulenza genetica, nella medicina e nell'identificazione delle specie.[2] FISH può anche essere usato per rilevare e localizzare specifici target di RNA (mRNA, lncRNA e miRNA) in cellule, cellule tumorali circolanti e campioni di tessuto.</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_FISH_TEST</LocID>                                      
+			<Text>F.I.S.H. - analisi</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_FISH_TEST_DESC</LocID>                                      
+			<Text>L'ibridazione a fluorescenza in sito (FISH) è una tecnica citogenetica molecolare che utilizza sonde fluorescenti che si legano solo a quelle parti di una sequenza di acido nucleico con un alto grado di complementarità della sequenza. E' stato sviluppato da ricercatori biomedici all'inizio degli anni '80[1] per rilevare e localizzare la presenza o l'assenza di sequenze specifiche di DNA sui cromosomi. La microscopia a fluorescenza può essere utilizzata per scoprire dove la sonda fluorescente è legata ai cromosomi. FISH viene spesso utilizzato per trovare caratteristiche specifiche nel DNA da utilizzare nella consulenza genetica, nella medicina e nell'identificazione delle specie.[2] FISH può anche essere usato per rilevare e localizzare specifici target di RNA (mRNA, lncRNA e miRNA) in cellule, cellule tumorali circolanti e campioni di tessuto.</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_IV_STAINING_SAMPLE</LocID>                                      
+			<Text>Colorazione in vitro - campionamento</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_IV_STAINING_SAMPLE_DESC</LocID>                                      
+			<Text>La colorazione è una tecnica utilizzata per migliorare il contrasto nei campioni, generalmente a livello microscopico. Macchie e coloranti sono spesso usati in istologia (lo studio dei tessuti al microscopio) e nei campi medici di istopatologia, ematologia e citopatologia che si concentrano sullo studio e diagnosticano la malattia a livello microscopico. Le macchie possono essere utilizzate per definire i tessuti biologici (evidenziando, ad esempio, le fibre muscolari o il tessuto connettivo), le popolazioni cellulari (classificando diverse cellule del sangue) o organelli all'interno delle singole cellule.</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_IV_STAINING_TEST</LocID>                                      
+			<Text>Colorazione in vitro - analisi</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_IV_STAINING_TEST_DESC</LocID>                                      
+			<Text>La colorazione è una tecnica utilizzata per migliorare il contrasto nei campioni, generalmente a livello microscopico. Macchie e coloranti sono spesso usati in istologia (lo studio dei tessuti al microscopio) e nei campi medici di istopatologia, ematologia e citopatologia che si concentrano sullo studio e diagnosticano la malattia a livello microscopico. Le macchie possono essere utilizzate per definire i tessuti biologici (evidenziando, ad esempio, le fibre muscolari o il tessuto connettivo), le popolazioni cellulari (classificando diverse cellule del sangue) o organelli all'interno delle singole cellule.</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_X_RAY_MAMMOGRAM</LocID>                                      
+			<Text>Mammografia</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_X_RAY_MAMMOGRAM_DESC</LocID>                                      
+			<Text>Una mammografia è una radiografia del tessuto mammario che può trovare cambiamenti troppo piccoli, per essere avvertiti durante un esame fisico. \n\nStanza richiesta: Sala radiologica</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_FNA_SAMPLE</LocID>                                      
+			<Text>Agobiopsia - campionamento</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_FNA_SAMPLE_DESC</LocID>                                      
+			<Text>L'agobiopsia è una procedura di biopsia più rapida e meno dolorosa per rimuovere campioni di tessuti, cellule o liquidi. Nell'agobiopsia, un ago sottile viene inserito in un'area di tessuto o fluido corporeo che appare anormale. Come con altri tipi di biopsie, il campione raccolto, durante questa procedura, può aiutare a fare una diagnosi o a escludere condizioni come il cancro. \n\nLaboratorio richiesto: Istologia</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_FNA_TEST</LocID>                                      
+			<Text>Agobiopsia - analisi</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_FNA_TEST_DESC</LocID>                                      
+			<Text>L'agobiopsia è una procedura di biopsia più rapida e meno dolorosa per rimuovere campioni di tessuti, cellule o liquidi. Nell'agobiopsia, un ago sottile viene inserito in un'area di tessuto o fluido corporeo che appare anormale. Come con altri tipi di biopsie, il campione raccolto, durante questa procedura, può essere utilizzato per supportare una diagnosi.</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_EMICRO_SAMPLE</LocID>                                      
+			<Text>Microscopio elettronico - campionamento</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_EMICRO_SAMPLE_DESC</LocID>                                      
+			<Text>La microscopia elettronica diagnostica è un importante strumento diagnostico per lo screening dei tessuti umani ad alto ingrandimento (livello ultrastrutturale). Ai fini diagnostici i tessuti solidi vengono preparati per TEM (Microscopio elettronico a trasmissione) allo stesso modo degli altri tessuti biologici, vengono fissati in glutaraldeide e tetrossido di osmio, quindi disidratati e incorporati in resina epossidica. \n\nLaboratorio richiesto: Istologia</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_EMICRO_TEST</LocID>                                      
+			<Text>Microscopio elettronico - analisi</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_EMICRO_TEST_DESC</LocID>                                      
+			<Text>La microscopia elettronica diagnostica è un importante strumento diagnostico per lo screening dei tessuti umani ad alto ingrandimento (livello ultrastrutturale). Ai fini diagnostici i tessuti solidi vengono preparati per TEM (Microscopio elettronico a trasmissione) allo stesso modo degli altri tessuti biologici, vengono fissati in glutaraldeide e tetrossido di osmio, quindi disidratati e incorporati in resina epossidica.</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_PELVIC_EXAM</LocID>                                      
+			<Text>Esame pelvico</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_PELVIC_EXAM_DESC</LocID>                                      
+			<Text>Un esame pelvico è l'esame visivo e fisico di un medico, degli organi riproduttivi di una donna. Durante l'esame, il medico ispeziona la vagina, la cervice, le tube di Falloppio, la vulva, le ovaie e l'utero.</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_DRE_EXAM</LocID>                                      
+			<Text>Esplorazione digito-rettale (DRE)</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_DRE_EXAM_DESC</LocID>                                      
+			<Text>L'esplorazione digito-rettale (DRE) è un test per uomini e donne. Consente a un medico di controllare il retto inferiore, il bacino e il basso ventre per il cancro e altri problemi di salute, come il cancro alla prostata.</Text>  
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_MINERALT_SAMPLE</LocID>                                      
+			<Text>Mineralogramma - campionamento</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_MINERALT_SAMPLE_DESC</LocID>                                      
+			<Text>Il mineralogramma comprende il test del sangue per cinque minerali e viene utilizzato per rilevare carenze o sovraesposizione (tossicità) attraverso lo spettro minerale. Questo pannello include i livelli di test dei seguenti cinque minerali: calcio, rame, magnesio, manganese e zinco. \n\nLaboratorio richiesto: Ematologia</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_MINERALT_TEST</LocID>                                      
+			<Text>Mineralogramma - analisi</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_MINERALT_TEST_DESC</LocID>                                      
+			<Text>Il mineralogramma comprende il test del sangue per cinque minerali e viene utilizzato per rilevare carenze o sovraesposizione (tossicità) attraverso lo spettro minerale. Questo pannello include i livelli di test dei seguenti cinque minerali: calcio, rame, magnesio, manganese e zinco.</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_LYMPHBIOPSY_SAMPLE</LocID>                                      
+			<Text>Biopsia linfonodale - campionamento</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_LYMPHBIOPSY_SAMPLE_DESC</LocID>                                      
+			<Text>La biopsia del linfonodo è un test in cui un linfonodo o un pezzo di un linfonodo viene rimosso per l'esame al microscopio. Una biopsia del linfonodo può aiutare a determinare se il paziente ha un'infezione, un disturbo immunitario o un cancro. \n\nLaboratorio richiesto: Istologia</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_LYMPHBIOPSY_TEST</LocID>                                      
+			<Text>Biopsia linfonodale - analisi</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_LYMPHBIOPSY_TEST_DESC</LocID>                                      
+			<Text>La biopsia del linfonodo è un test in cui un linfonodo o un pezzo di un linfonodo viene rimosso per l'esame al microscopio. Una biopsia del linfonodo può aiutare a determinare se il paziente ha un'infezione, un disturbo immunitario o un cancro.</Text>  
+			</GameDBLocalizedString>
+
+	<!-- ### ### -->
+	<!-- ######################################## Content From OBGYN ######################################## -->
+	<!-- ### ### -->
+
+			<GameDBLocalizedString>	<LocID>EXM_CRP_SEIN</LocID>								<Text>Esame del seno</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>EXM_CRP_SEIN_DESCRIPTION</LocID>					<Text>Ispezione visiva e palpazione del seno.</Text></GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>EXM_CRP_ECHO_PELV</LocID>						<Text>Ecografia pelvica</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>EXM_CRP_ECHO_PELV_DESCRIPTION</LocID>			<Text>Ecografia della zona pelvica.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>EXM_CRP_FCU_SAMPLING</LocID>						<Text>Pap Test - campionamento</Text>	               </GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>EXM_CRP_FCU_TESTING</LocID>						<Text>Pap Test - esame</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>EXM_CRP_FCU_DESCRIPTION</LocID>					<Text>Un metodo per la diagnosi precoce del cancro, in particolare della cervice uterina, che prevede la colorazione delle cellule esfoliate utilizzando una tecnica speciale che differenzia il tessuto malato.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>EXM_CRP_HGPO_SAMPLING</LocID>					<Text>OGTT - campionamento</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>EXM_CRP_HGPO_TESTING</LocID>						<Text>OGTT - esame</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>EXM_CRP_HGPO_DESCRIPTION</LocID>					<Text>Il test di tolleranza al glucosio, noto anche come test di tolleranza al glucosio orale (OGTT), misura la risposta del tuo corpo allo zucchero (glucosio).</Text>	</GameDBLocalizedString>
+
+	<!-- ### ### -->
+	<!-- ######################################## Content From MoreDG ######################################## -->
+	<!-- ### ### -->
+<!-- v0.02 -->
+			<GameDBLocalizedString>	<LocID>EXM_CRP_SCINTIGRAPHIE</LocID>						<Text>Scintigrafia</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>EXM_CRP_SCINTIGRAPHIE_DESCRIPTION</LocID>			<Text>La scintigrafia (da scintilla), nota anche come scansione gamma, è un test diagnostico di medicina nucleare, nel quale vengono assunti radioisotopi combinati a farmaci che viaggiano verso uno specifico organo o tessuto (radiofarmaci) e la loro radiazione gamma viene catturata da rilevatori esterni (camere gamma) per formare immagini bidimensionali, in maniera analoga all'acquisizione di radiografie.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>EXM_CRP_ELISA_SAMPLING</LocID>						<Text>ELISA</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>EXM_CRP_ELISA_TESTING</LocID>						<Text>ELISA - Test</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>EXM_CRP_ELISA_DESCRIPTION</LocID>					<Text>La saggiatura immunoassorbente enzimo-correlata (ELISA) è una comune saggiatura in biochimica analitica. La saggiatura utilizza un saggio immunitario enzimico a fase solida (EIA) per rivelare la presenza di un legante (solitamente una proteina) in un campione liquido, usanto anticorpi diretti contro la proteina da misurare. ELISA è stata utilizzata come strumento diagnostico in medicina, fitopatologia e nelle biotecnologie, così come strumento di controllo della qualità in diversi settori industriali. Nella versione più semplice di ELISA, gli antigeni del campione sono esposti su di una superficie. Di seguito, sulla stessa superficie viene applicato un anticorpo corrispondente, così che possa legarsi all'antigene. Questo anticorpo è legato ad un enzima, e nella fase finale viene aggiunta una sostanza contenente il substrato dell'enzima stesso. La reazione conseguente produce un segnale tangibile, il più delle volte un cambiamento cromatico.</Text>	</GameDBLocalizedString>
+
+</LocalizedStrings>
+</GameDBStringTable>
+</Database>

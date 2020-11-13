@@ -1959,10 +1959,83 @@ This section handles adding custom examination icons to the game. -->
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/exm_sl_biopsyX1b.png</File> 
 </GameDBAsset>
+
+	<!-- ### ### -->
+	<!-- ######################################## Content From OBGYN ######################################## -->
+	<!-- ### ### -->
+
+	<GameDBAsset ID="ASSET_GYNECO_ICON_E2"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_exam_icon_02.png</File> </GameDBAsset>			<!-- Examen mammaire -->
+	<GameDBAsset ID="ASSET_GYNECO_ICON_E2_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_exam_icon_02_small.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_GYNECO_ICON_E4"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_exam_icon_04.png</File> </GameDBAsset>			<!-- FCU -->
+	<GameDBAsset ID="ASSET_GYNECO_ICON_E4_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_exam_icon_04_small.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_GYNECO_ICON_E5"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_exam_icon_05.png</File> </GameDBAsset>			<!-- Examen mammaire -->
+	<GameDBAsset ID="ASSET_GYNECO_ICON_E5_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_exam_icon_05_small.png</File> </GameDBAsset>
+
+	<GameDBAsset ID="ASSET_GYNECO_ICON_DG7"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_dg_icon_07.png</File> </GameDBAsset>			<!-- Grossesse -->
+	<GameDBAsset ID="ASSET_GYNECO_ICON_DG7_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_dg_icon_07_small.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_GYNECO_ICON_DG10"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_dg_icon_10.png</File> </GameDBAsset>			<!-- K Col / Utérus -->
+	<GameDBAsset ID="ASSET_GYNECO_ICON_DG10_SMALL"> 			   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_dg_icon_10_small.png</File> </GameDBAsset>
+
+	<GameDBAsset ID="ASSET_GYNECO_ICON_S1"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_01.png</File> </GameDBAsset>			<!-- Retard  -->
+	<GameDBAsset ID="ASSET_GYNECO_ICON_S1_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_01_small.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_GYNECO_ICON_S2"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_02.png</File> </GameDBAsset>			<!-- RH  -->
+	<GameDBAsset ID="ASSET_GYNECO_ICON_S2_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_02_small.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_GYNECO_ICON_S3"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_03.png</File> </GameDBAsset>			<!-- Hirsutisme  -->
+	<GameDBAsset ID="ASSET_GYNECO_ICON_S3_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_03_small.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_GYNECO_ICON_S4"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_04.png</File> </GameDBAsset>			<!-- Leucorrhee  -->
+	<GameDBAsset ID="ASSET_GYNECO_ICON_S4_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_04_small.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_GYNECO_ICON_S5"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_05.png</File> </GameDBAsset>			<!-- Prémat  -->
+	<GameDBAsset ID="ASSET_GYNECO_ICON_S5_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_05_small.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_GYNECO_ICON_S7"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_07.png</File> </GameDBAsset>			<!-- Postpartum  -->
+	<GameDBAsset ID="ASSET_GYNECO_ICON_S7_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_07_small.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_GYNECO_ICON_S9"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_09.png</File> </GameDBAsset>			<!-- Douleur pelv -->
+	<GameDBAsset ID="ASSET_GYNECO_ICON_S9_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_09_small.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_GYNECO_ICON_S10"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_10.png</File> </GameDBAsset>			<!-- Odeur vagin -->
+	<GameDBAsset ID="ASSET_GYNECO_ICON_S10_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_10_small.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_GYNECO_ICON_S11"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_11.png</File> </GameDBAsset>			<!-- Infection découvert -->
+	<GameDBAsset ID="ASSET_GYNECO_ICON_S11_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_11_small.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_GYNECO_ICON_S12"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_12.png</File> </GameDBAsset>			<!-- Echo  -->
+	<GameDBAsset ID="ASSET_GYNECO_ICON_S12_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_12_small.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_GYNECO_ICON_S13"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_13.png</File> </GameDBAsset>			<!-- Ulceration gen  -->
+	<GameDBAsset ID="ASSET_GYNECO_ICON_S13_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_13_small.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_GYNECO_ICON_S14"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_14.png</File> </GameDBAsset>			<!-- Meno / Metro R  -->
+	<GameDBAsset ID="ASSET_GYNECO_ICON_S14_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_14_small.png</File> </GameDBAsset>
+
+	<!-- ### ### -->
+	<!-- ######################################## Content From MoreDG ######################################## -->
+	<!-- ### ### -->
 	
-<!-- #### Content from Otorhinolaryngology (ENT) #### -->
+	<GameDBAsset ID="ASSET_MOREDG_ICON_DG2"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  	<File>MOD_ROOT/mod_moredg_dg_icon_02.png</File> </GameDBAsset>			<!-- Tr du rythme  -->
+	<GameDBAsset ID="ASSET_MOREDG_ICON_DG2_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  	<File>MOD_ROOT/mod_moredg_dg_icon_02.png</File> </GameDBAsset>
+
+	<GameDBAsset ID="ASSET_MOREDG_ICON_S1"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 				<File>MOD_ROOT/mod_moredg_s_icon_01.png</File> </GameDBAsset>			<!--  HyperKaliémie -->
+	<GameDBAsset ID="ASSET_MOREDG_ICON_S1_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 				<File>MOD_ROOT/mod_moredg_s_icon_01_small.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_MOREDG_ICON_S2"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 				<File>MOD_ROOT/mod_moredg_s_icon_02.png</File> </GameDBAsset>			<!--  HypoKaliémie -->
+	<GameDBAsset ID="ASSET_MOREDG_ICON_S2_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 				<File>MOD_ROOT/mod_moredg_s_icon_02_small.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_MOREDG_ICON_S3"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 				<File>MOD_ROOT/mod_moredg_s_icon_03.png</File> </GameDBAsset>			<!--  OAP -->
+	<GameDBAsset ID="ASSET_MOREDG_ICON_S3_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 				<File>MOD_ROOT/mod_moredg_s_icon_03_small.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_MOREDG_ICON_S4"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 				<File>MOD_ROOT/mod_moredg_s_icon_04.png</File> </GameDBAsset>			<!--  Macroglossie -->
+	<GameDBAsset ID="ASSET_MOREDG_ICON_S4_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 				<File>MOD_ROOT/mod_moredg_s_icon_04_small.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_MOREDG_ICON_S5"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 				<File>MOD_ROOT/mod_moredg_s_icon_05.png</File> </GameDBAsset>			<!--  Gynecomastie -->
+	<GameDBAsset ID="ASSET_MOREDG_ICON_S5_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 				<File>MOD_ROOT/mod_moredg_s_icon_05_small.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_MOREDG_ICON_S6"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 				<File>MOD_ROOT/mod_moredg_s_icon_06.png</File> </GameDBAsset>			<!--  Atrophie testicule -->
+	<GameDBAsset ID="ASSET_MOREDG_ICON_S6_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 				<File>MOD_ROOT/mod_moredg_s_icon_06_small.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_MOREDG_ICON_S11"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 				<File>MOD_ROOT/mod_moredg_s_icon_11.png</File> </GameDBAsset>			<!--  Télangiectasie -->
+	<GameDBAsset ID="ASSET_MOREDG_ICON_S11_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 				<File>MOD_ROOT/mod_moredg_s_icon_11_small.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_MOREDG_ICON_S12"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 				<File>MOD_ROOT/mod_moredg_s_icon_12.png</File> </GameDBAsset>			<!--  Rejet greffe -->
+	<GameDBAsset ID="ASSET_MOREDG_ICON_S12_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 				<File>MOD_ROOT/mod_moredg_s_icon_12_small.png</File> </GameDBAsset>
 	
-<GameDBAsset ID="ASSET_OR_SYM_ICON002_LARGE"> <!-- Neck Injury -->
+	<GameDBAsset ID="ASSET_MOREDG_ICON_TTT1"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			 	 <File>MOD_ROOT/mod_moredg_ttt_icon_01.png</File> </GameDBAsset>		<!-- Autogreffe  -->
+	<GameDBAsset ID="ASSET_MOREDG_ICON_TTT1_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  	 <File>MOD_ROOT/mod_moredg_ttt_icon_01_small.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_MOREDG_ICON_TTT2"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			 	 <File>MOD_ROOT/mod_moredg_ttt_icon_02.png</File> </GameDBAsset>		<!-- Allogreffe  -->
+	<GameDBAsset ID="ASSET_MOREDG_ICON_TTT2_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  	 <File>MOD_ROOT/mod_moredg_ttt_icon_02_small.png</File> </GameDBAsset>
+
+	<!-- ### ### -->
+	<!-- ######################################## Content From ENT / Otorhinolaryngology ######################################## -->
+	<!-- #################################### Odd number due to removal of Main Symptom Icon #################################### -->
+	<!-- ### ### -->
+	
+<GameDBAsset ID="ASSET_OR_SYM_ICON002_LARGE"> <!-- Laceration of the Larynx -->
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/sym_jm_larynx_trauma1a.png</File> 
 </GameDBAsset>
@@ -1971,7 +2044,7 @@ This section handles adding custom examination icons to the game. -->
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/sym_jm_larynx_trauma1b.png</File> 
 </GameDBAsset>
-	
+
 <GameDBAsset ID="ASSET_OR_SYM_ICON004_LARGE"> <!-- Dry Mouth -->
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/sym_jm_dry_mouth1a.png</File> 
@@ -2011,7 +2084,7 @@ This section handles adding custom examination icons to the game. -->
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/sym_jm_runnynose1b.png</File> 
 </GameDBAsset>
-	
+
 <GameDBAsset ID="ASSET_OR_SYM_ICON011_LARGE"> <!-- Swollen Neck -->
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/sym_jm_swollen_neck1a.png</File> 
@@ -2061,7 +2134,7 @@ This section handles adding custom examination icons to the game. -->
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/sym_jm_lump_in_throat1b.png</File> 
 </GameDBAsset>
-	
+
 <GameDBAsset ID="ASSET_OR_SYM_ICON018_LARGE"> <!-- Ear Pressure -->
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/sym_jm_ear_pressure1a.png</File> 
@@ -2071,29 +2144,17 @@ This section handles adding custom examination icons to the game. -->
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/sym_jm_ear_pressure1b.png</File> 
 </GameDBAsset>
+
+<GameDBAsset ID="ASSET_OR_SYM_ICON019_LARGE"> <!-- Snoring (Thanks Sleepy!) -->
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_nseptal1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_OR_SYM_ICON019_SMALL">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_nseptal1b.png</File> 
+</GameDBAsset>
 	
-<!-- #### Treatment #### -->
-	
-<GameDBAsset ID="ASSET_OR_TRT_ICON001_LARGE"> <!-- Adenoidectomy -->
-	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
-	<File>MOD_ROOT/trt_jm_adenoidectomy1a.png</File> 
-</GameDBAsset>
-
-<GameDBAsset ID="ASSET_OR_TRT_ICON001_SMALL">   
-	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
-	<File>MOD_ROOT/trt_jm_adenoidectomy1b.png</File> 
-</GameDBAsset>
-
-<GameDBAsset ID="ASSET_OR_TRT_ICON002_LARGE"> <!-- LOTS -->
-	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
-	<File>MOD_ROOT/trt_jm_lots1a.png</File> 
-</GameDBAsset>
-
-<GameDBAsset ID="ASSET_OR_TRT_ICON002_SMALL">   
-	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
-	<File>MOD_ROOT/trt_jm_lots1b.png</File> 
-</GameDBAsset>
-
 <GameDBAsset ID="ASSET_OR_TRT_ICON003_LARGE"> <!-- Vestibular Nerve Surgery and Nerve Transplant -->
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/trt_jm_nerve_surgery1a.png</File> 
@@ -2104,6 +2165,7 @@ This section handles adding custom examination icons to the game. -->
 	<File>MOD_ROOT/trt_jm_nerve_surgery1b.png</File> 
 </GameDBAsset>
 
+<!-- Treatments -->
 <GameDBAsset ID="ASSET_OR_TRT_ICON004_LARGE"> <!-- Papilloma Removal Surgery -->
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/trt_jm_papilloma_removal_surgery1a.png</File> 
@@ -2113,8 +2175,8 @@ This section handles adding custom examination icons to the game. -->
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/trt_jm_papilloma_removal_surgery1b.png</File> 
 </GameDBAsset>
-	
-<!-- #### Examination #### -->
+
+<!-- Exams -->
 
 <GameDBAsset ID="ASSET_OR_EXM_ICON001_LARGE"> <!-- Swab -->
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
@@ -2125,5 +2187,6 @@ This section handles adding custom examination icons to the game. -->
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/exm_jm_swab1b.png</File> 
 </GameDBAsset>
+	
 	
 </Database>
