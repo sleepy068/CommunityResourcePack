@@ -27,6 +27,7 @@
 			<GameDBLocalizedString>	<LocID>TRT_CRP_OESTROGENOTHERAPIE_DESCRIPTION</LocID>					<Text>Terapia de reposição hormonal envolvendo a administração de estrogênio sem progestina.</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TRT_CRP_SURVEILLANCE</LocID>										<Text>Cuidados médicos</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TRT_CRP_SURVEILLANCE_DESCRIPTION</LocID>							<Text>A provisão do que é necessário para a saúde e o bem-estar de uma pessoa por um médico, enfermeiro ou outro profissional de saúde.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CRP_INTRAVENOUS_IMMUNOGLOBULIN</LocID>                          <Text>Imunoglobulina IV</Text>  </GameDBLocalizedString>
 
 	<!-- ### ### -->
 	<!-- ######################################## Content From MoreDG ######################################## -->

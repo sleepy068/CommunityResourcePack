@@ -382,6 +382,8 @@
 	<Text>R-CHOP is een combinatiebehandeling die wordt gebruikt om non-Hodgkin-lymfoom (NHL) te behandelen. R-CHOP bevat vijf geneesmiddelen voor chemotherapie: rituximab (Rituxan) cyclofosfamide. doxorubicinehydrochloride, vincristine en prednisolon.\n\nBenodigde ruimte: verpleegafdeling in oncologie departement</Text>  
 	</GameDBLocalizedString>
 	
+	            <GameDBLocalizedString>      <LocID>TRT_CRP_INTRAVENOUS_IMMUNOGLOBULIN</LocID> 					<Text>IV immunoglobulin</Text>  </GameDBLocalizedString>
+
 	</LocalizedStrings>
 	</GameDBStringTable>
 </Database>

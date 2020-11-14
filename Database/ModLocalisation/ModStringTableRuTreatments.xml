@@ -448,6 +448,7 @@
 			<GameDBLocalizedString>	<LocID>TRT_CRP_OESTROGENOTHERAPIE_DESCRIPTION</LocID>					<Text>Заместительная гормональная терапия, включающая введение эстрогена без прогестина.</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TRT_CRP_SURVEILLANCE</LocID>										<Text>Медицинская помощь</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TRT_CRP_SURVEILLANCE_DESCRIPTION</LocID>							<Text>Комплекс медицинских услуг, направленных на сохранение, укрепление и восстановление здоровья пациента, предоставленных врачом, медсестрой или другим медицинским работником.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CRP_INTRAVENOUS_IMMUNOGLOBULIN</LocID>                          <Text>Иммуноглобулин (ВВ)</Text>  </GameDBLocalizedString>
 			
 	<!-- ### ### -->
 	<!-- ######################################## Content From MoreDG ######################################## -->

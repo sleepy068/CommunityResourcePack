@@ -448,6 +448,7 @@
 			<GameDBLocalizedString>	<LocID>TRT_CRP_OESTROGENOTHERAPIE_DESCRIPTION</LocID>					<Text>Hormonalna terapia zastępcza polegająca na podawaniu estrogenu bez progestyny.</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TRT_CRP_SURVEILLANCE</LocID>										<Text>Opieka Medyczna</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TRT_CRP_SURVEILLANCE_DESCRIPTION</LocID>							<Text>Zapewnienie niezbędnego zdrowia i dobrego samopoczucia przez lekarza, pielęgniarkę lub innego pracownika służby zdrowia.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CRP_INTRAVENOUS_IMMUNOGLOBULIN</LocID>                          <Text>Kroplówka z immunoglobuliną</Text>  </GameDBLocalizedString>
 
 	<!-- ### ### -->
 	<!-- ######################################## Content From MoreDG ######################################## -->

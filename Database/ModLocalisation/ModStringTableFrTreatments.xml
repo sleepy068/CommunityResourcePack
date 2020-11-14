@@ -420,6 +420,7 @@
 			<GameDBLocalizedString>	<LocID>TRT_CRP_OESTROGENOTHERAPIE_DESCRIPTION</LocID>					<Text>Emploi thérapeutique des oestrogènes naturels ou de synthèse.</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TRT_CRP_SURVEILLANCE</LocID>											<Text>Surveillance médicale</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TRT_CRP_SURVEILLANCE_DESCRIPTION</LocID>								<Text>Surveillance de la maladie de manière chronique.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CRP_INTRAVENOUS_IMMUNOGLOBULIN</LocID>				<Text>Immunoglobuline (IV)</Text>	</GameDBLocalizedString>
 				
 	
 	<!-- ### ### -->

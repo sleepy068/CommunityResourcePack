@@ -1925,7 +1925,6 @@
 
             <RequiredDoctorQualificationList>
                 <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
-                <!--<SkillRef>SKILL_DOC_SPEC_GENERAL_GYNECOLOGUE</SkillRef>-->				
             </RequiredDoctorQualificationList>
 
             <RequiredRoomTags>
