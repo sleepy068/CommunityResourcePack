@@ -877,12 +877,12 @@
 	
 	<GameDBLocalizedString>      
 		<LocID>SYM_CRP_PANCYTOPENIA</LocID>                               
-		<Text>Pancytopenia</Text>  
+		<Text>Pancytopenie</Text>  
 	</GameDBLocalizedString>
             
 	<GameDBLocalizedString>      
 		<LocID>SYM_CRP_PANCYTOPENIA_DESC</LocID>                   
-		<Text>Pancytopenia is a condition that occurs when a person has low counts for all three types of blood cells: red blood cells, white blood cells, and platelets. Pancytopenia is usually due to a problem with the bone marrow that produces the blood cells. However, there can be several different underlying causes.</Text>  
+		<Text>La pancytopénie est un état morbide dans lequel il y a réduction des trois paramètres de l'hémogramme : l'anémie (hémoglobine), la thrombopénie (plaquettes) et la leucopénie (globules blancs)</Text>  
 	</GameDBLocalizedString>
 	
 	<GameDBLocalizedString>      
