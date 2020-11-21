@@ -6,6 +6,7 @@
 
         <Contributors>
 			<Name>Parmeno75</Name>
+			<Name>Srmojon</Name>
         </Contributors>
 
         <LocalizedStrings>
@@ -28,7 +29,39 @@
 			<GameDBLocalizedString>	<LocID>TRT_CRP_OESTROGENOTHERAPIE_DESCRIPTION</LocID>					<Text>Terapia de reemplazo hormonal que implica la administración de estrógenos sin progestina.</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TRT_CRP_SURVEILLANCE</LocID>										<Text>Atención médica</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TRT_CRP_SURVEILLANCE_DESCRIPTION</LocID>							<Text>La provisión de lo que es necesario para la salud y el bienestar de una persona por parte de un médico, enfermera u otro profesional de la salud.</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_CRP_INTRAVENOUS_IMMUNOGLOBULIN</LocID>                          <Text>Immunoglobulina IV</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_CRP_INTRAVENOUS_IMMUNOGLOBULIN</LocID>                       <Text>Immunoglobulina IV</Text>  </GameDBLocalizedString>
+
+	<!-- ### ### -->
+	<!-- ######################################## Content From MoreDG ######################################## -->
+	<!-- ### ### -->
+
+<!-- +++  v0.01  +++ -->		
+			<GameDBLocalizedString>	<LocID>TRT_CRP_KCL</LocID>												<Text>Sal de Potasio</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CRP_KCL_DESCRIPTION</LocID>									<Text>El más utilizado es el cloruro de potasio en forma microencapsulada. Es un suplemento de potasio oral.</Text>	</GameDBLocalizedString>
+<!-- +++  v0.02  +++ -->	
+			<GameDBLocalizedString>	<LocID>TRT_CRP_MOISTURIZER_CREAM</LocID>										<Text>Crema hidratante</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CRP_MOISTURIZER_CREAM_DESCRIPTION</LocID>							<Text>Es una preparación cosmética utilizada para prevenir la sequedad de la piel.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CRP_GLUCOSE_IV</LocID>												<Text>Infusión de Glucosa</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CRP_GLUCOSE_IV_DESCRIPTION</LocID>									<Text>Infusión de glucosa intravenosa.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CRP_HYDROCORTISONE</LocID>											<Text>Hidrocortisona</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CRP_HYDROCORTISONE_DESCRIPTION</LocID>								<Text>La Hidrocortisona es el nombre de la hormona de cortisol cuando se suministra como medicamento.</Text>	</GameDBLocalizedString>
+<!-- +++  v0.03  +++ -->		
+			<GameDBLocalizedString>	<LocID>TRT_CRP_AUTOGRAFT</LocID>								<Text>Autoinjerto</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CRP_AUTOGRAFT_DESCRIPTION</LocID>					<Text>Es el injerto de tejido de un punto a otro del cuerpo del mismo individuo.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CRP_ALLOGRAFT</LocID>								<Text>Aloinjerto</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CRP_ALLOGRAFT_DESCRIPTION</LocID>					<Text>Es el injerto de tejido de un donante de la misma especie que el receptor pero que no es genéticamente idéntico.</Text>	</GameDBLocalizedString>
+<!-- +++  v0.03.2  +++ -->	
+			<GameDBLocalizedString>	<LocID>TRT_CRP_CHELATEUR_FER</LocID>								<Text>Quelantes de hierro</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CRP_CHELATEUR_FER_DESCRIPTION</LocID>					<Text>El objetivo de la terapia de quelación del hierro es prevenir la lesión celular mediada por el hierro.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CRP_SCLEROTHERAPIE</LocID>								<Text>Escleroterapia</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CRP_SCLEROTHERAPIE_DESCRIPTION</LocID>					<Text>Es el tratamiento de los vasos sanguíneos varicosos mediante la inyección de un irritante que causa inflamación, coagulación de la sangre y estrechamiento de la pared de los vasos sanguíneos.</Text>	</GameDBLocalizedString>
+<!-- +++  v0.03.3  +++ -->		
+			<GameDBLocalizedString>	<LocID>TRT_CRP_IMMUNOSUPRR</LocID>										<Text>Fármacos inmunosupresores</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CRP_IMMUNOSUPRR_DESCRIPTION</LocID>							<Text>Los fármacos inmunosupresores, también conocidos como medicamentos antirrechazo, son fármacos que inhiben o previenen la actividad del sistema inmunológico.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CRP_IPP_IV</LocID>											<Text>PPI Intravenoso</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CRP_IPP_IV_DESCRIPTION</LocID>								<Text>El tratamiento con un inhibidor de la bomba de protones de dosis alta antes de la gastroscopia disminuye la necesidad de una hemostasia endoscópica.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CRP_RADIO_EMBOLISATION</LocID>								<Text>Embolización endovascular</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CRP_RADIO_EMBOLISATION_DESCRIPTION</LocID>					<Text>En la embolización endovascular se inserta un catéter en una arteria de la pierna y se inyecta un agente embolizante de manera que se puedan observar los vasos sanguíneos en las imágenes de rayos X.</Text>	</GameDBLocalizedString>
 			
 			
 			</LocalizedStrings>

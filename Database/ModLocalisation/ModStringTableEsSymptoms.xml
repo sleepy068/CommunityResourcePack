@@ -7,6 +7,7 @@
         <Contributors>
 			<Name>Parmeno75</Name>
 			<Name>DrkTemplar</Name>
+			<Name>Srmojon</Name>
         </Contributors>
 
         <LocalizedStrings>
@@ -88,6 +89,72 @@
 			<GameDBLocalizedString>	<LocID>SYM_CRP_STK</LocID>								<Text>Ictus</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>SYM_CRP_TAR</LocID>								<Text>Rotura de aorta</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>SYM_CRP_THROMBOSIS</LocID>						<Text>Tromboflebitis</Text>	</GameDBLocalizedString>
+
+	<!-- ### ### -->
+	<!-- ######################################## Content From MoreDG ######################################## -->
+	<!-- ### ### -->
+<!-- +++  v0.01  +++ -->
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HYPOKALIEMIE</LocID>										<Text>Hipopotasemia</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HYPOKALIEMIE_DESCRIPTION</LocID>							<Text>La hipopotasemia es un nivel bajo de potasio (K+) en el suero sanguíneo.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HYPERKALIEMIE</LocID>									<Text>Hiperpotasemia</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HYPERKALIEMIE_DESCRIPTION</LocID>						<Text>La hipopotasemia es un nivel alto de potasio (K+) en el suero sanguíneo.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_OAP</LocID>												<Text>Edema pulmonar</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_OAP_DESCRIPTION</LocID>									<Text>El edema pulmonar es la acumulación de líquido en los tejidos y las bolsas de aire de los pulmones.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_ABOLITION_POULS</LocID>									<Text>Sin pulso</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_ABOLITION_POULS_DESCRIPTION</LocID>						<Text>No se percibe pulso en el miembro.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_MARBRURE</LocID>											<Text>Livedo reticularis</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_MARBRURE_DESCRIPTION</LocID>								<Text>La livedo reticularis es un hallazgo cutáneo común que consiste en un patrón vascular reticulado, similar a una red con bordes definidos, que hace parecer a la piel moteada y violácea. La decoloración violácea es causada por la inflamación de las vénulas debido a la obstrucción de los capilares por pequeños coágulos de sangre.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_POUL_HYPERPULSE</LocID>									<Text>Pulso hiperpulsátil</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_POUL_HYPERPULSE_DESCRIPTION</LocID>						<Text>Hiperpulsatilidad pulpar</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_TURJESCENCE_JUGULAIRE</LocID>							<Text>JVD</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_TURJESCENCE_JUGULAIRE_DESCRIPTION</LocID>				<Text>La distensión de la vena yugular (JVD) ocurre cuando la presión dentro de la vena cava aumenta y aparece un bulto por el lado derecho del cuello de la persona.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_REFLUX_HJ</LocID>										<Text>AJR</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_REFLUX_HJ_DESCRIPTION</LocID>							<Text>El signo del reflujo abdominoyugular (AJR) es útil para diagnosticar la insuficiencia ventricular derecha, pero a menudo se realiza e interpreta de manera incorrecta.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HEPATALGIE</LocID>										<Text>Hepatalgia</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HEPATALGIE_DESCRIPTION</LocID>							<Text>Un hígado doloroso.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_SOUFFLE_ABDOMINAL</LocID>								<Text>Soplo abdominal</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_SOUFFLE_ABDOMINAL_DESCRIPTION</LocID>					<Text>La presencia de un soplo abdominal puede reflejar la existencia de un aneurisma de la aorta abdominal o un estrechamiento de las arterias renales.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_SOUFFLE_VASCULAIRE</LocID>								<Text>Soplo vascular</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_SOUFFLE_VASCULAIRE_DESCRIPTION</LocID>					<Text>Soplo producido en una estructura vascular, arterial o venosa.</Text>	</GameDBLocalizedString>
+<!-- +++ v0.02 +++ -->
+			<GameDBLocalizedString>	<LocID>SYM_CRP_MACROGLOSSIA</LocID>											<Text>Macroglosia</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_MACROGLOSSIA_DESCRIPTION</LocID>								<Text>Aumento anormal del volumen de la lengua.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HYPOGLYCEMIA</LocID>											<Text>Hipoglucemia</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HYPOGLYCEMIA_DESCRIPTION</LocID>								<Text>Glucosa en sangre baja.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_GYNECOMASTIA</LocID>											<Text>Ginecomastia</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_GYNECOMASTIA_DESCRIPTION</LocID>								<Text>Aumento anormal del volumen de los senos en los hombres.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_ATROPHIE_TESTICULE</LocID>									<Text>Atrofia testicular</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_ATROPHIE_TESTICULE_DESCRIPTION</LocID>						<Text>Disminución del tamaño de los testículos.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_DRY_SKIN</LocID>												<Text>Xerosis</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_DRY_SKIN_DESCRIPTION</LocID>									<Text>La piel seca es la piel que ha perdido su capa grasa protectora y se deshidrata.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HYPERPRL</LocID>												<Text>Hiperprolactinemia</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HYPERPRL_DESCRIPTION</LocID>									<Text>Aumento anormal de la concentración plasmática de la prolactina.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_INSUFFISANCE_SR_AIGUE</LocID>								<Text>Insuficiencia suprarrenal aguda</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_INSUFFISANCE_SR_AIGUE_DESCRIPTION</LocID>					<Text>Es una insuficiencia suprarrenal primaria causada por una producción defectuosa de esteroides suprarrenales.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HYPOCALCEMIA</LocID>											<Text>Hipocalcemia</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HYPOCALCEMIA_DESCRIPTION</LocID>								<Text>La hipocalcemia es una disminución anormal del nivel de calcio en la sangre.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_THROMBOCYTOSE</LocID>										<Text>Trombocitosis</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_THROMBOCYTOSE_DESCRIPTION</LocID>							<Text>La trombocitosis es una afección en la que hay una cantidad excesiva de plaquetas en la sangre.</Text>	</GameDBLocalizedString>
+<!-- +++ v0.03 +++ -->
+			<GameDBLocalizedString>	<LocID>SYM_CRP_GALLSTONES</LocID>										<Text>Colelitiasis</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HTAP</LocID>												<Text>Hipertensión pulmonar</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HEMOLYSE</LocID>											<Text>Hemólisis</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_MED_APLASIA</LocID>										<Text>Aplasia ósea</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_MED_APLASIA_DESCRIPTION</LocID>							<Text>La aplasia de la médula ósea se refiere a aquellas afecciones hematológicas que son causadas por una marcada reducción y/o defecto en las células madre pluripotentes, o la falla del microambiente de la médula ósea para apoyar la hematopoyesis.</Text>	</GameDBLocalizedString>
+<!-- +++ v0.03.2 +++ -->
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HEPATITIS</LocID>									<Text>Hepatitis</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HEPATITIS_DESCRIPTION</LocID>						<Text>Inflamación del hígado.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_TELANGIECTASIS</LocID>								<Text>Telangiectasia</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_TELANGIECTASIS_DESCRIPTION</LocID>					<Text>Las elangiectasias, también conocidas como arañas vasculares, son pequeños vasos sanguíneos dilatados que pueden aparecer cerca de la superficie de la piel o de las membranas mucosas y miden entre 0,5 y 1 milímetro de diámetro. Estos vasos sanguíneos dilatados pueden desarrollarse en cualquier parte del cuerpo, pero comúnmente se ven en la cara alrededor de la nariz, las mejillas y el mentón.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_SURCHARGE_FER</LocID>								<Text>Sobrecarga de hierro</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_SURCHARGE_FER_DESCRIPTION</LocID>					<Text>La sobrecarga de hierro o hemocromatosis indica la acumulación de hierro en el cuerpo por cualquier causa.</Text>	</GameDBLocalizedString>
+<!-- +++ v0.03.3 +++ -->
+			<GameDBLocalizedString>	<LocID>SYM_CRP_REJET_GREFFE</LocID>									<Text>Rechazo de trasplante</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_REJET_GREFFE_DESCRIPTION</LocID>						<Text>El paciente se encuentra en proceso de rechazo de su trasplante, lo que corresponde a la destrucción del injerto trasplantado a un organismo, debido a una respuesta inmunitaria dirigida contra él.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HEMORRAGIE_DIG_HAUTE</LocID>							<Text>HDA</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HEMORRAGIE_DIG_HAUTE_DESCRIPTION</LocID>				<Text>Durante una hemorragia digestiva alta (HDA), el sangrado se encuentra por encima del ángulo de Treitz (esófago, estómago y duodeno).</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HEMORRAGIE_DIG_BASSE</LocID>							<Text>HDB</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CRP_HEMORRAGIE_DIG_BASSE_DESCRIPTION</LocID>				<Text>En una hemorragia digestiva baja (HDB), la pérdida de sangre se origina más allá del ligamento de Treitz (intestino delgado, colon, recto y ano).</Text>	</GameDBLocalizedString>
 
 		</LocalizedStrings>
     </GameDBStringTable>
