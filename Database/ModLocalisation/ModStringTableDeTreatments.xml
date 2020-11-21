@@ -417,6 +417,7 @@
 			<GameDBLocalizedString>	<LocID>TRT_CRP_OESTROGENOTHERAPIE_DESCRIPTION</LocID>					<Text>Hormonersatztherapie, bei der Östrogen ohne Gestagen verabreicht wird.</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TRT_CRP_SURVEILLANCE</LocID>										<Text>Medizinische Versorgung</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TRT_CRP_SURVEILLANCE_DESCRIPTION</LocID>							<Text>Die Bereitstellung dessen, was für die Gesundheit und das Wohlbefinden einer Person von einem Arzt, einer Krankenschwester oder einer anderen medizinischen Fachkraft erforderlich ist.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CRP_INTRAVENOUS_IMMUNOGLOBULIN</LocID>                          <Text>Immunglobulin i.v.</Text>  </GameDBLocalizedString>
 				
 	</LocalizedStrings>
 	</GameDBStringTable>

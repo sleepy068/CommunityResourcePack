@@ -28,6 +28,7 @@
 			<GameDBLocalizedString>	<LocID>TRT_CRP_OESTROGENOTHERAPIE_DESCRIPTION</LocID>					<Text>使用動情素而不使用黃體素的激素替代療法。</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TRT_CRP_SURVEILLANCE</LocID>										<Text>醫療服務</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TRT_CRP_SURVEILLANCE_DESCRIPTION</LocID>							<Text>醫師、護士或其他醫學專家為了病患的健康而採取的措施。</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CRP_INTRAVENOUS_IMMUNOGLOBULIN</LocID>                          <Text>靜脈注射免疫球蛋白</Text>  </GameDBLocalizedString>
 			
 			
 			</LocalizedStrings>

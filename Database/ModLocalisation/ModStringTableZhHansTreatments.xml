@@ -422,6 +422,7 @@
 			<GameDBLocalizedString>	<LocID>TRT_CRP_OESTROGENOTHERAPIE_DESCRIPTION</LocID>					<Text>雌激素替代疗法，包括在不使用黄体酮的情况下使用雌激素。</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TRT_CRP_SURVEILLANCE</LocID>										<Text>医生护理</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TRT_CRP_SURVEILLANCE_DESCRIPTION</LocID>							<Text>由医生、护士或其他医疗保健专业人员为一个人的健康和福利提供必要的东西。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CRP_INTRAVENOUS_IMMUNOGLOBULIN</LocID>						<Text>静脉注射免疫球蛋白</Text>	</GameDBLocalizedString>
 			
 	<!-- ### ### -->
 	<!-- ######################################## Content From MoreDG ######################################## -->

@@ -11,6 +11,7 @@
         <LocalizedStrings>
 			
 			<!-- ================================================== CRP - translate and transfer to CRP ================================================== -->
+            <GameDBLocalizedString>      <LocID>TRT_CRP_INTRAVENOUS_IMMUNOGLOBULIN</LocID>                          <Text>Intravénás immunglobulin</Text>  </GameDBLocalizedString>
 
 <!-- v0.01 -->
 

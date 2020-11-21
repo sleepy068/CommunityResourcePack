@@ -414,6 +414,7 @@
 			<GameDBLocalizedString>	<LocID>TRT_CRP_OESTROGENOTHERAPIE_DESCRIPTION</LocID>					<Text>Terapia ormonale sostitutiva che prevede la somministrazione di estrogeni senza progestinico.</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TRT_CRP_SURVEILLANCE</LocID>											<Text>Cure mediche</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TRT_CRP_SURVEILLANCE_DESCRIPTION</LocID>								<Text>Fornitura di ciò che è necessario per la salute e il benessere di una persona da parte di un medico, un infermiere o un altro operatore sanitario.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CRP_INTRAVENOUS_IMMUNOGLOBULIN</LocID>                          <Text>Immunoglobulina EV</Text>  </GameDBLocalizedString>
 
 	<!-- ### ### -->
 	<!-- ######################################## Content From MoreDG ######################################## -->

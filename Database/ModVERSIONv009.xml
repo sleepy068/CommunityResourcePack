@@ -2,7 +2,7 @@
 <!--
 
 Update v0.0.9
-Last Patcher? Sleepy068
+Last Patcher Sleepy068 + MacNaab
 
 Changes:
 Restructured Mod Files (better organised now)
@@ -15,6 +15,10 @@ Bug Fixes:
 Fixed issue with room requirements of Epipen (TRT_CRP_EPIPEN)(Should be able to be used anywhere now, as intended)
 Fixed all Log errors caused by old problems (Should be a clean slate)
 
+Addition:
+ Translation files: 
+	SYM_CRP_PANCYTOPENIA in French
+	TRT_CRP_INTRAVENOUS_IMMUNOGLOBULIN in every language except En
 
 -->
 </Database>

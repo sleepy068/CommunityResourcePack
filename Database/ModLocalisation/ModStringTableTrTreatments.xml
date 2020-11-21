@@ -373,7 +373,7 @@
         <LocID>TRT_CRP_SURVEILLANCE_DESCRIPTION</LocID>
         <Text>Kişinin sağlığı için gerekli önlemlerin bir sağlık profesyonelince alınması.</Text>
       </GameDBLocalizedString>
-	  
+            <GameDBLocalizedString>      <LocID>TRT_CRP_INTRAVENOUS_IMMUNOGLOBULIN</LocID>                          <Text>IV immunoglobulin</Text>  </GameDBLocalizedString>	  
     </LocalizedStrings>
   </GameDBStringTable>
 </Database>
