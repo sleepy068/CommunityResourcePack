@@ -13,7 +13,7 @@
 	<!-- ######################################## Content From OBGYN ######################################## -->
 	<!-- ### ### -->
 			<GameDBLocalizedString>	<LocID>EXM_CRP_SEIN</LocID>								<Text>Vyšetření prsu</Text>	</GameDBLocalizedString>
-			<GameDBLocalizedString>	<LocID>EXM_CRP_SEIN_DESCRIPTION</LocID>	
+			<GameDBLocalizedString>	<LocID>EXM_CRP_SEIN_DESCRIPTION</LocID>					<Text>Vizuální kontrola a prohmatání prsu.</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>EXM_CRP_ECHO_PELV</LocID>						<Text>Pánevní sonografie</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>EXM_CRP_ECHO_PELV_DESCRIPTION</LocID>			<Text>Sonografie pánevní oblasti.</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>EXM_CRP_FCU_SAMPLING</LocID>						<Text>Odběr vzorků stěrem</Text>	</GameDBLocalizedString>
