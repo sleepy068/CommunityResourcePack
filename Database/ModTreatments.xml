@@ -1148,8 +1148,8 @@
         <DurationHours>0</DurationHours>
 		<IconIndex>2021</IconIndex>
 		
-		<CustomIconBigAssetRef>ASSET_ONC_TRT_ICON_009</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_ONC_TRT_ICON_010</CustomIconSmallAssetRef>
+		<CustomIconBigAssetRef>ASSET_CRP_TRT_ICON_009</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_CRP_TRT_ICON_010</CustomIconSmallAssetRef>
 		
         <IconIndex>1961</IconIndex>
         <DurationHours>0</DurationHours>
