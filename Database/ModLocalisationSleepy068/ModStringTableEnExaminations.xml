@@ -1,0 +1,38 @@
+<Database>
+	<!-- Community Resource Pack -->
+    <GameDBStringTable ID="LOC_EN_ADDON_CRP_SLEEPY_EXAMINATIONS">
+
+        <LanguageCode>en</LanguageCode>
+        <LanguageNameLocalized>English</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Sleepy068</Name>
+			<Name>MacNaab</Name>
+			<Name>James</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_LIVER_BIOPSY_SAMPLE</LocID>                                      
+			<Text>Liver Biopsy Sampling</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_LIVER_BIOPSY_SAMPLE_DESC</LocID>                                      
+			<Text>A liver biopsy is a procedure in which a small needle is inserted into the liver to collect a tissue sample. The tissue is then analyzed in a laboratory to help doctors diagnose a variety of disorders and diseases in the liver. \n\nRequired Lab: Histology</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_LIVER_BIOPSY_TEST</LocID>                                      
+			<Text>Liver Biopsy Testing</Text>  
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
+			<LocID>EXM_CRP_LIVER_BIOPSY_TEST_DESC</LocID>                                      
+			<Text>A liver biopsy is a procedure in which a small needle is inserted into the liver to collect a tissue sample. The tissue is then analyzed in a laboratory to help doctors diagnose a variety of disorders and diseases in the liver.</Text>  
+			</GameDBLocalizedString>
+		
+		</LocalizedStrings>
+	</GameDBStringTable>
+</Database>

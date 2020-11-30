@@ -1827,6 +1827,7 @@
 	-->
 	
 	<!-- Radical Prostatectomy
+	WARN: Some complications require further custom surgeries, these will need to be added to support this surgery
 	TAGS: 
 	DESC: 
 	COPY FROM HERE VVV
@@ -1877,7 +1878,7 @@
 
             <Complications>
 				<Complication>
-                    <SymptomRef>SYM_CRP_NERVE_DAMAGE</SymptomRef>
+                    <SymptomRef>SYM_***_NERVE_DAMAGE</SymptomRef>
                     <ProbabilityPercent>3</ProbabilityPercent>
                     <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
                 </Complication>
@@ -1973,6 +1974,7 @@
 	-->
 	
 	<!-- Parathyroidectomy
+	WARN: Some complications require further custom surgeries, these will need to be added to support this surgery
 	TAGS: 
 	DESC: 
 	COPY FROM HERE VVV
@@ -2023,7 +2025,7 @@
 
             <Complications>
 				<Complication>
-                    <SymptomRef>SYM_CRP_NERVE_DAMAGE</SymptomRef>
+                    <SymptomRef>SYM_***_NERVE_DAMAGE</SymptomRef>
                     <ProbabilityPercent>3</ProbabilityPercent>
                     <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
                 </Complication>
@@ -2114,6 +2116,7 @@
 	-->
 	
 	<!-- Segmentectomy
+	WARN: Some complications require further custom surgeries, these will need to be added to support this surgery
 	TAGS: 
 	DESC: 
 	COPY FROM HERE VVV
@@ -2164,7 +2167,7 @@
 
             <Complications>
 				<Complication>
-                    <SymptomRef>SYM_CRP_NERVE_DAMAGE</SymptomRef>
+                    <SymptomRef>SYM_***_NERVE_DAMAGE</SymptomRef>
                     <ProbabilityPercent>3</ProbabilityPercent>
                     <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
                 </Complication>
@@ -2255,6 +2258,7 @@
 	-->
 	
 	<!-- Functional Endoscopic Sinus Surgery
+	WARN: Some complications require further custom surgeries, these will need to be added to support this surgery
 	TAGS: 
 	DESC: 
 	COPY FROM HERE VVV
@@ -2304,7 +2308,7 @@
 
             <Complications>
 			    <Complication>
-                    <SymptomRef>SYM_CRP_NERVE_DAMAGE</SymptomRef>
+                    <SymptomRef>SYM_***_NERVE_DAMAGE</SymptomRef>
                     <ProbabilityPercent>3</ProbabilityPercent>
                     <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
                 </Complication>
@@ -2401,6 +2405,7 @@
 	-->
 	
 	<!-- Papiloma Removal Surgery
+	WARN: Some complications require further custom surgeries, these will need to be added to support this surgery
 	TAGS: 
 	DESC: 
 	COPY FROM HERE VVV
@@ -2470,7 +2475,7 @@
                     <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
                 </Complication>
 				<Complication>
-                    <SymptomRef>SYM_CRP_NERVE_DAMAGE</SymptomRef>
+                    <SymptomRef>SYM_***_NERVE_DAMAGE</SymptomRef>
                     <ProbabilityPercent>4</ProbabilityPercent>
                     <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
                 </Complication>
@@ -2543,6 +2548,7 @@
 	-->
 	
 	<!-- Carbon Dioxide Laser Surgery
+	WARN: Some complications require further custom surgeries, these will need to be added to support this surgery
 	TAGS:
 	DESC:
 	<GameDBTreatment ID="TRT_***_CDLS">
@@ -2601,7 +2607,7 @@
                     <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
                 </Complication>
 				<Complication>
-                    <SymptomRef>SYM_CRP_NERVE_DAMAGE</SymptomRef>
+                    <SymptomRef>SYM_***_NERVE_DAMAGE</SymptomRef>
                     <ProbabilityPercent>4</ProbabilityPercent>
                     <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
                 </Complication>
@@ -2681,26 +2687,23 @@
 	END COPY HERE ^^^
 	-->
 	
-	<!--
-	Surgical Sharp Debridement (Butch)
-	TAGS: Gangrene, Infection, General Surgery, Wound
-	DESC: Debridment is the removal of dead (necrotic) or infected skin tissue to help a wound heal. It’s also done to remove foreign material from tissue.
-	
-	<GameDBTreatment ID="TRT_***_SURGICAL_SHARP_DEBRIDEMENT">
-        <AbbreviationLocID>TRT_***_SURGICAL_SHARP_DEBRIDEMENT_DESCRIPTION</AbbreviationLocID>
+	<!-- Hepatectomy
+	WARN: Some complications require further custom surgeries, these will need to be added to support this surgery
+	TAGS:
+	DESC:
+	<GameDBTreatment ID="TRT_***_HEPATECTOMY">
+        <AbbreviationLocID>TRT_***_HEPATECTOMY_DESC</AbbreviationLocID>
         <DiscomfortLevel>High</DiscomfortLevel>
         <Procedure>
             <StaffSelectionRules>DEFAULT_ROOMS</StaffSelectionRules>
             <RequiredSkillsToPrescribe>
-                <SkillRef>SKILL_DOC_SPEC_****</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_ONCO</SkillRef>
             </RequiredSkillsToPrescribe>
 
             <RequiredDoctorQualificationList>
-                <SkillRef>SKILL_DOC_SPEC_****</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_***_SURGERY</SkillRef>
                 <SkillRef>SKILL_DOC_SPEC_ANESTHESIOLOGY</SkillRef>
-
-                
-                <SkillRef>SKILL_DOC_SPEC_****</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_***</SkillRef>
             </RequiredDoctorQualificationList>
 
             <RequiredDoctorRoles>
@@ -2708,6 +2711,12 @@
                 <RoleRef>EMPL_ROLE_SURGERY_ANESTHESIOLOGY</RoleRef>
                 <RoleRef>EMPL_ROLE_SURGERY_ASSIST</RoleRef>
             </RequiredDoctorRoles>
+			
+			<FallbackDoctorDepartments>
+                <DepartmentRef>DPT_DEFAULT</DepartmentRef>
+                <DepartmentRef>DPT_ICU</DepartmentRef>
+                <DepartmentRef>DPT_DEFAULT</DepartmentRef>
+            </FallbackDoctorDepartments>
 
             <RequiredNurseQualificationList>
                 <SkillRef>SKILL_NURSE_SPEC_MEDICAL_SURGERY</SkillRef>
@@ -2719,9 +2728,9 @@
                 <RoleRef>EMPL_ROLE_SURGERY_NURSE</RoleRef>
             </RequiredNurseRoles>
 
-            <RequiredRoomTypeList>
-                <RequiredRoomTypeRef>ROOM_TYPE_OPERATING_ROOM</RequiredRoomTypeRef>
-            </RequiredRoomTypeList>
+            <RequiredRoomTags>
+                <Tag>operating_room</Tag>
+            </RequiredRoomTags>
 
             <BedPositionsStaff>
                 <MainSurgeonPosition>BODY_LEFT</MainSurgeonPosition>
@@ -2732,18 +2741,35 @@
             </BedPositionsStaff>
 
             <Complications>
+				<Complication>
+                    <SymptomRef>SYM_***_NERVE_DAMAGE</SymptomRef>
+                    <ProbabilityPercent>3</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
+                </Complication>
                 <Complication>
                     <SymptomRef>SYM_CRP_ABSCESS</SymptomRef>
-                    <ProbabilityPercent>10</ProbabilityPercent>
+                    <ProbabilityPercent>6</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
                 </Complication>
                 <Complication>
                     <SymptomRef>SYM_WOUND_INFECTION</SymptomRef>
-                    <ProbabilityPercent>10</ProbabilityPercent>
+                    <ProbabilityPercent>6</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
                 </Complication>
-                
-                <Complication>
-                    <SymptomRef>SYM_SEPSIS</SymptomRef>
+				<Complication>
+                    <SymptomRef>SYM_BLEEDING_FROM_THE_WOUND</SymptomRef>
                     <ProbabilityPercent>10</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>3</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_CRP_ANAPHYLACTIC_SHOCK</SymptomRef>
+                    <ProbabilityPercent>4</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_CRP_ACUTE_LIVER_FAILURE</SymptomRef>
+                    <ProbabilityPercent>2</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
                 </Complication>
             </Complications>
 
@@ -2808,26 +2834,27 @@
         <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</HospitalizationTreatmentRef>
 
     </GameDBTreatment>
-	
+	END COPY HERE ^^^
 	-->
 	
-	<!--
-	Transsphenoidal Surgery   (Butch) 
-	<GameDBTreatment ID="TRT_***_TRANSSPHENOIDAL_SURGERY">
-        <AbbreviationLocID>TRT_***_TRANSSPHENOIDAL_SURGERY_DESCRIPTION</AbbreviationLocID>
+	<!-- Liver Transplant Surgery
+	WARN: Some complications require further custom surgeries, these will need to be added to support this surgery
+	TAGS:
+	DESC:
+	<GameDBTreatment ID="TRT_***_LIVER_TRANSPL">
+        <AbbreviationLocID>TRT_***_LIVER_TRANSPL_DESC</AbbreviationLocID>
         <DiscomfortLevel>High</DiscomfortLevel>
         <Procedure>
             <StaffSelectionRules>DEFAULT_ROOMS</StaffSelectionRules>
-
             <RequiredSkillsToPrescribe>
-                <SkillRef>SKILL_DOC_SPEC_****</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_***</SkillRef>
+				<SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
             </RequiredSkillsToPrescribe>
 
             <RequiredDoctorQualificationList>
-                <SkillRef>SKILL_DOC_SPEC_****</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_***_SURGERY</SkillRef>
                 <SkillRef>SKILL_DOC_SPEC_ANESTHESIOLOGY</SkillRef>
-
-                <SkillRef>SKILL_DOC_SPEC_INTERNAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_***</SkillRef>
             </RequiredDoctorQualificationList>
 
             <RequiredDoctorRoles>
@@ -2835,6 +2862,12 @@
                 <RoleRef>EMPL_ROLE_SURGERY_ANESTHESIOLOGY</RoleRef>
                 <RoleRef>EMPL_ROLE_SURGERY_ASSIST</RoleRef>
             </RequiredDoctorRoles>
+			
+			<FallbackDoctorDepartments>
+                <DepartmentRef>DPT_DEFAULT</DepartmentRef>
+                <DepartmentRef>DPT_ICU</DepartmentRef>
+                <DepartmentRef>DPT_DEFAULT</DepartmentRef>
+            </FallbackDoctorDepartments>
 
             <RequiredNurseQualificationList>
                 <SkillRef>SKILL_NURSE_SPEC_MEDICAL_SURGERY</SkillRef>
@@ -2846,9 +2879,9 @@
                 <RoleRef>EMPL_ROLE_SURGERY_NURSE</RoleRef>
             </RequiredNurseRoles>
 
-            <RequiredRoomTypeList>
-                <RequiredRoomTypeRef>ROOM_TYPE_OPERATING_ROOM</RequiredRoomTypeRef>
-            </RequiredRoomTypeList>
+            <RequiredRoomTags>
+                <Tag>operating_room</Tag>
+            </RequiredRoomTags>
 
             <BedPositionsStaff>
                 <MainSurgeonPosition>BODY_LEFT</MainSurgeonPosition>
@@ -2859,29 +2892,246 @@
             </BedPositionsStaff>
 
             <Complications>
+				<Complication>
+                    <SymptomRef>SYM_***_NERVE_DAMAGE</SymptomRef>
+                    <ProbabilityPercent>3</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+                <Complication>
+                    <SymptomRef>SYM_CRP_ABSCESS</SymptomRef>
+                    <ProbabilityPercent>6</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
+                </Complication>
                 <Complication>
                     <SymptomRef>SYM_WOUND_INFECTION</SymptomRef>
-                    <ProbabilityPercent>10</ProbabilityPercent>
+                    <ProbabilityPercent>6</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
                 </Complication>
-				 <Complication>
-                    <SymptomRef>SYM_SEPSIS</SymptomRef>
+				<Complication>
+                    <SymptomRef>SYM_BLEEDING_FROM_THE_WOUND</SymptomRef>
                     <ProbabilityPercent>10</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>3</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_CRP_ANAPHYLACTIC_SHOCK</SymptomRef>
+                    <ProbabilityPercent>3</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_***_CELL_REJECTION</SymptomRef>
+                    <ProbabilityPercent>1</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
                 </Complication>
             </Complications>
 
             <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>operating_table_head</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>operating_table_legs</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubbing_sink</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubbing_sink</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubbing_sink</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubs_shelf</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubs_shelf</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubs_shelf</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>warming_cabinet</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>doc_equipment</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>surgery_instruments</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>electrocautery_machine</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>stool</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>anesthetic_machine</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>defibrillator</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>succion_machine</Tag>
+                </RequiredEquipment>
             </RequiredEquipmentList>
 
-            <ProcedureScript>ProcedureScriptTreatmentSurgeryLaparoEndo</ProcedureScript>
+            <ProcedureScript>ProcedureScriptTreatmentSurgery</ProcedureScript>
             <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
             <EquipmentFromAnyDepartment>true</EquipmentFromAnyDepartment>
         </Procedure>
         <TreatmentType>SURGERY</TreatmentType>
         <Cost>100</Cost>
-        <IconIndex>1941</IconIndex>
-        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
+        <IconIndex>1945</IconIndex>
+        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</HospitalizationTreatmentRef>
 
     </GameDBTreatment>
+	END COPY HERE ^^^
+	-->
+	
+	<!-- Parotidectomy
+	WARN: Some complications require further custom surgeries, these will need to be added to support this surgery
+	TAGS:
+	DESC:
+	<GameDBTreatment ID="TRT_***_PAROTIDECTOMY">
+        <AbbreviationLocID>TRT_***_PAROTIDECTOMY_DESC</AbbreviationLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>DEFAULT_ROOMS</StaffSelectionRules>
+            <RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_SPEC_***</SkillRef>
+            </RequiredSkillsToPrescribe>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_SPEC_***_SURGERY</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_ANESTHESIOLOGY</SkillRef>
+
+                <SkillRef>SKILL_DOC_SPEC_***</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredDoctorRoles>
+                <RoleRef>EMPL_ROLE_SURGERY</RoleRef>
+                <RoleRef>EMPL_ROLE_SURGERY_ANESTHESIOLOGY</RoleRef>
+                <RoleRef>EMPL_ROLE_SURGERY_ASSIST</RoleRef>
+            </RequiredDoctorRoles>
+			
+			<FallbackDoctorDepartments>
+                <DepartmentRef>DPT_DEFAULT</DepartmentRef>
+                <DepartmentRef>DPT_ICU</DepartmentRef>
+                <DepartmentRef>DPT_DEFAULT</DepartmentRef>
+            </FallbackDoctorDepartments>
+
+            <RequiredNurseQualificationList>
+                <SkillRef>SKILL_NURSE_SPEC_MEDICAL_SURGERY</SkillRef>
+                <SkillRef>SKILL_NURSE_SPEC_MEDICAL_SURGERY</SkillRef>
+            </RequiredNurseQualificationList>
+
+            <RequiredNurseRoles>
+                <RoleRef>EMPL_ROLE_SURGERY_NURSE</RoleRef>
+                <RoleRef>EMPL_ROLE_SURGERY_NURSE</RoleRef>
+            </RequiredNurseRoles>
+
+            <RequiredRoomTags>
+                <Tag>operating_room</Tag>
+            </RequiredRoomTags>
+
+            <BedPositionsStaff>
+                <MainSurgeonPosition>BODY_LEFT</MainSurgeonPosition>
+                <SurgeonAsistantPosition>BODY_RIGHT</SurgeonAsistantPosition>
+                <AnesthesiologistPosition>NONE</AnesthesiologistPosition>
+                <SurgeryNursePosition>FEET_LEFT</SurgeryNursePosition>
+                <AssistantNursePosition>FEET_RIGHT</AssistantNursePosition>
+            </BedPositionsStaff>
+
+            <Complications>
+				<Complication>
+                    <SymptomRef>SYM_***_NERVE_DAMAGE</SymptomRef>
+                    <ProbabilityPercent>3</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+                <Complication>
+                    <SymptomRef>SYM_CRP_ABSCESS</SymptomRef>
+                    <ProbabilityPercent>6</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+                <Complication>
+                    <SymptomRef>SYM_WOUND_INFECTION</SymptomRef>
+                    <ProbabilityPercent>6</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_BLEEDING_FROM_THE_WOUND</SymptomRef>
+                    <ProbabilityPercent>8</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>3</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_CRP_ANAPHYLACTIC_SHOCK</SymptomRef>
+                    <ProbabilityPercent>4</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+            </Complications>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>operating_table_head</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>operating_table_legs</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubbing_sink</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubbing_sink</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubbing_sink</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubs_shelf</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubs_shelf</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubs_shelf</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>warming_cabinet</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>doc_equipment</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>surgery_instruments</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>electrocautery_machine</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>stool</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>anesthetic_machine</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>defibrillator</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>succion_machine</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <ProcedureScript>ProcedureScriptTreatmentSurgery</ProcedureScript>
+            <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+            <EquipmentFromAnyDepartment>true</EquipmentFromAnyDepartment>
+        </Procedure>
+        <TreatmentType>SURGERY</TreatmentType>
+        <Cost>100</Cost>
+        <IconIndex>1945</IconIndex>
+        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</HospitalizationTreatmentRef>
+
+    </GameDBTreatment>
+	END COPY HERE ^^^
 	-->
 	
 </Database>

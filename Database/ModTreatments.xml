@@ -22,9 +22,9 @@
 	</RequiredRoomTags>
 	-->
 	
-	
-	<!-- ### Topical Treatments (Creams, foams, gels, lotions, and ointments) ### -->
-	<!-- ######################################################################### -->
+	<!-- ============================================================================================ -->
+	<!-- ============= Topical Treatments (Creams, foams, gels, lotions, and ointments) ============= -->
+	<!-- ============================================================================================ -->
 	
 	<!-- Imiquimod Cream
 	TAGS: oncology, immune, cream, prescribe, prescription, receipt
@@ -230,9 +230,10 @@
         <DurationHours>0</DurationHours>
     </GameDBTreatment>
 
-	
-	<!-- ### Oral Treatments (Tablets, pills) ### -->
-	<!-- ######################################## -->
+
+	<!-- ============================================================= -->
+	<!-- ============= Oral Treatments (Tablets, pills)) ============= -->
+	<!-- ============================================================= -->
 	
 	<!-- Immunotherapy
 	TAGS: oncology, immune, tablet, prescribe, prescription, receipt
@@ -913,8 +914,90 @@
         <DurationHours>0</DurationHours>
     </GameDBTreatment>
 
-    <!-- ### Nasal and Ear Treatments (Ear Drops, Nasal Sprays)  ### -->
-	<!-- ########################################################### -->
+	<!-- Lactulose (Sleepy068) -->
+	<GameDBTreatment ID="TRT_CRP_LACTULOSE"> 
+        <AbbreviationLocID>TRT_CRP_LACTULOSE_DESC</AbbreviationLocID>
+        <DiscomfortLevel>Positive</DiscomfortLevel>
+		
+        <Procedure>
+        <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+		
+		<RequiredSkillsToPrescribe>
+			<SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+		</RequiredSkillsToPrescribe>
+		
+		<RequiredDoctorQualificationList>
+			<SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+		</RequiredDoctorQualificationList>
+
+		<RequiredEquipmentList>
+			<RequiredEquipment>
+				<Tag>receipt</Tag>
+			</RequiredEquipment>
+		</RequiredEquipmentList>
+
+		<RequiredRoomTags>
+			<Tag>receipt</Tag>
+		</RequiredRoomTags>
+            
+		<ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+        </Procedure>
+		
+        <TreatmentType>RECEIPT</TreatmentType>
+		<PharmacyPickup>true</PharmacyPickup>
+        <Cost>15</Cost>
+        <DurationHours>0</DurationHours>
+		<IconIndex>2021</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_ONC_TRT_ICON_047</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ONC_TRT_ICON_048</CustomIconSmallAssetRef>
+		
+    </GameDBTreatment>
+
+	<!-- Immunosuppressive Therapy (Sleepy068) -->
+	<GameDBTreatment ID="TRT_CRP_IMMUNOSUS_DRUGS">
+        <AbbreviationLocID>TRT_CRP_IMMUNOSUS_DRUGS_DESC</AbbreviationLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+		
+        <Procedure>
+        <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+		
+		<RequiredSkillsToPrescribe>
+			<SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+		</RequiredSkillsToPrescribe>
+		
+		<RequiredDoctorQualificationList>
+			<SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+		</RequiredDoctorQualificationList>
+
+		<RequiredEquipmentList>
+			<RequiredEquipment>
+				<Tag>receipt</Tag>
+			</RequiredEquipment>
+		</RequiredEquipmentList>
+
+		<RequiredRoomTags>
+			<Tag>receipt</Tag>
+		</RequiredRoomTags>
+            
+		<ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+        </Procedure>
+		
+        <TreatmentType>RECEIPT</TreatmentType>
+		<PharmacyPickup>true</PharmacyPickup>
+        <Cost>150</Cost>
+        <DurationHours>0</DurationHours>
+		<IconIndex>2021</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_ONC_TRT_ICON_049</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ONC_TRT_ICON_050</CustomIconSmallAssetRef>
+		
+    </GameDBTreatment>
+	
+	
+	<!-- ============================================================================== -->
+	<!-- ============= Nasal and Ear Treatments (Ear Drops, Nasal Sprays) ============= -->
+	<!-- ============================================================================== -->
 	
 	<!-- Corticosteroid Nasal Spray 
 	TAGS: Nasal Spray, Spray, Nose, Steroids, Medicine 
@@ -996,8 +1079,10 @@
         <DurationHours>0</DurationHours>
     </GameDBTreatment>
 	
-	<!-- ### Non-medicinal Treatments (CPAP, Vocal Therapy, Intubation)  ### -->
-	<!-- ########################################################### -->
+	
+	<!-- ====================================================================================== -->
+	<!-- ============= Non-medicinal Treatments (CPAP, Vocal Therapy, Intubation) ============= -->
+	<!-- ====================================================================================== -->
 	
 	<!-- Vocal Therapy 
 	TAGS: Voice, Larynx, Therapy, Non-Medicine 
@@ -1109,8 +1194,10 @@
         <DurationHours>0</DurationHours>
     </GameDBTreatment>
 
-	<!-- ### Injection Treatments (Intramuscular or direct to bloodstream) ### -->
-	<!-- ##################################################################### -->
+
+	<!-- ========================================================================================= -->
+	<!-- ============= Injection Treatments (Intramuscular or direct to bloodstream) ============= -->
+	<!-- ========================================================================================= -->
 	
 	<!-- Epipen = Adrenaline
 	TAGS: 
@@ -1336,8 +1423,9 @@
     </GameDBTreatment>
 
 
-	<!-- ### Intravenous Treatments ### -->
-	<!-- ############################## -->
+	<!-- ================================================== -->
+	<!-- ============= Intravenous Treatments ============= -->
+	<!-- ================================================== -->
 	
 	<!-- Chemotherapy
 	TAGS: oncology, iv, intravenous, hospitalisation, normal, chemotherapy
@@ -1945,10 +2033,48 @@
         <AllowedWithAnyHospitalization>true</AllowedWithAnyHospitalization>
     </GameDBTreatment>
 
+	<!-- Ammonul (Sleepy068) -->
+	<GameDBTreatment ID="TRT_CRP_AMMONUL">
+        <AbbreviationLocID>TRT_CRP_AMMONUL_DESC</AbbreviationLocID>
+        <DiscomfortLevel>Positive</DiscomfortLevel>
+		
+        <Procedure>
+        <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+		
+		<RequiredSkillsToPrescribe>
+			<SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+		</RequiredSkillsToPrescribe>
+		
+		<RequiredDoctorQualificationList>
+			<SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+		</RequiredDoctorQualificationList>
 
-	<!-- ### Advice or Monitoring Treatments ### -->
-	<!-- ####################################### -->
-	
+		<RequiredRoomTags>
+			<Tag>receipt</Tag>
+		</RequiredRoomTags>
+            
+		 <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+        </Procedure>
+		
+        <TreatmentType>RECEIPT</TreatmentType>
+        <ReceiptType>IV_BAG</ReceiptType>
+        <Cost>50</Cost>
+        <IconIndex>2055</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_ONC_TRT_ICON_045</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ONC_TRT_ICON_046</CustomIconSmallAssetRef>
+		
+        <DurationHours>3</DurationHours>
+        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
+        <AllowedWithAnyHospitalization>true</AllowedWithAnyHospitalization>
+		
+    </GameDBTreatment>
+
+
+	<!-- =========================================================== -->
+	<!-- ============= Advice or Monitoring Treatments ============= -->
+	<!-- =========================================================== -->
+
 	<!-- Oncologist Advice
 	TAGS: oncology, advice, prescribe, prescription, receipt
 	DESC: Patient care advice concerning cancer -->
@@ -2056,10 +2182,11 @@
     </GameDBTreatment>
 
 
-	<!-- ### Complication Treatments ### -->
-	<!-- ############################### -->
+	<!-- =================================================== -->
+	<!-- ============= Complication Treatments ============= -->
+	<!-- =================================================== -->
 	
-	<!-- Name
+	<!-- Incision and Drainage
 	TAGS: 
 	DESC:  -->
 	<GameDBTreatment ID="TRT_CRP_INCISION_AND_DRAINAGE">
@@ -2176,8 +2303,10 @@
         <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</HospitalizationTreatmentRef>
     </GameDBTreatment>
 
-	<!-- ### Radiological Treatments ### -->
-	<!-- ############################### -->
+
+	<!-- =================================================== -->
+	<!-- ============= Radiological Treatments ============= -->
+	<!-- =================================================== -->
 
 	<!-- Endovascular Embolization
 	TAGS: 

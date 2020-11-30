@@ -1,0 +1,75 @@
+<Database>
+	<GameDBStringTable ID="LOC_EN_ADDON_CRP_SLEEPY_TREATMENTS">
+	<LanguageCode>en</LanguageCode>
+	<LanguageNameLocalized>English</LanguageNameLocalized>
+	<Contributors>
+	<Name>Sleepy068</Name>
+	<Name>MacNaab</Name>
+	<Name>James</Name>
+	</Contributors>
+
+	<LocalizedStrings>
+	
+	<GameDBLocalizedString>      
+	<LocID>TRT_CRP_AMMONUL</LocID>                                    	
+	<Text>Ammonul</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+	<LocID>TRT_CRP_AMMONUL_DESC</LocID>                        	
+	<Text>Ammonul (sodium benzoate and sodium phenylacetate combination) is used to treat a condition caused by too much ammonia in the blood (hyperammonemia). \n\nRequired room: Regular Hospitalisation at Oncology dpt.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+	<LocID>TRT_CRP_LACTULOSE</LocID>                                    	
+	<Text>Lactulose</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+	<LocID>TRT_CRP_LACTULOSE_DESC</LocID>                        	
+	<Text>Lactulose is a prescription drug used by mouth or rectally to treat or prevent complications of liver disease (hepatic encephalopathy). It does not cure the problem, but may help to improve mental status. Lactulose is a colonic acidifier that works by decreasing the amount of ammonia in the blood. \n\nRequired room: Any office.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+	<LocID>TRT_CRP_HEPATECTOMY</LocID>                                    	
+	<Text>Hepatectomy</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+	<LocID>TRT_CRP_HEPATECTOMY_DESC</LocID>                        	
+	<Text>Hepatectomy is the surgical resection (removal of all or part) of the liver. \n\nRequired room: Operating room at Oncology dpt.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+	<LocID>TRT_CRP_LIVER_TRANSPL</LocID>                                    	
+	<Text>Liver Transplant Surgery</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+	<LocID>TRT_CRP_LIVER_TRANSPL_DESC</LocID>                        	
+	<Text>A liver transplant is a surgical procedure that removes a liver that no longer functions properly (liver failure) and replaces it with a healthy liver from a deceased donor or a portion of a healthy liver from a living donor. \n\nRequired room: Operating room at Oncology dpt.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+	<LocID>TRT_CRP_IMMUNOSUS_DRUGS</LocID>                                    	
+	<Text>Immunosuppressive Drugs</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+	<LocID>TRT_CRP_IMMUNOSUS_DRUGS_DESC</LocID>                        	
+	<Text>Immunosuppressant drugs are a class of drugs that suppress, or reduce, the strength of the body’s immune system. Some of these drugs are used to make the body less likely to reject a transplanted organ, such as a liver, heart, or kidney. \n\nRequired room: Operating room at Oncology dpt.</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+	<LocID>TRT_CRP_PAROTIDECTOMY</LocID>                                    	
+	<Text>Parotidectomy</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+	<LocID>TRT_CRP_PAROTIDECTOMY_DESC</LocID>                        	
+	<Text>A parotidectomy is the surgical excision of the parotid gland, the major and largest of the salivary glands. The procedure is most typically performed due to neoplasms, which are growths of rapidly and abnormally dividing cells. Neoplasms can be benign or malignant. \n\nRequired room: Operating room at Oncology dpt.</Text>  
+	</GameDBLocalizedString>
+	
+	</LocalizedStrings>
+	</GameDBStringTable>
+</Database>

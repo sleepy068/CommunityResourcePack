@@ -12,6 +12,34 @@
 	TAGS: 
 	DESC:  -->
 	
+	<!-- List of symptoms categories (In order):
+	Brain and Nervous System Based Symptoms
+	Breast Based Symptoms
+	Bowel/Rectum Based Symptoms
+	Sexual Organ Based Symptoms
+	Skin Based Symptoms
+	ENT Symptoms
+	Lung/Throat Based Symptoms
+	Infections
+	Blood Based Symptoms (Cells, Hormones, etc)
+	Complications (Normal plus Surgery issues)
+	Abdomen Based Symptoms 
+	Oncology Specific Symptoms
+	Misc/Diagnosis Specific
+	Stock Symptoms Changed (without effecting the stock version)
+	Chromosomal/Gene Defects
+	Enzymes and Protein Markers
+	Cell Markers 
+	Microscopy
+	Organ Complication
+	Lymph Nodes
+	Cardiological Based Symptoms
+	Unsorted
+	REMOVED
+	
+	-->
+	
+	
 	<!-- List of symptoms requiring surgery :
 	SYM_CRP_VEGETATION_KYSTE
 	SYM_CRP_HEMOPTYSIS2
@@ -571,6 +599,31 @@
         <IconIndex>1595</IconIndex>
 		
     </GameDBSymptom>
+
+	<!-- White Stools (Sleepy068) -->
+	<GameDBSymptom ID="SYM_CRP_WHITE_STOOLS">
+        <DescriptionLocID>SYM_CRP_WHITE_STOOLS_DESC</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+		<!-- <ExaminationRef>EXM_STOOL_ANALYSIS_SAMPLING</ExaminationRef> - Patient Side -->
+		
+        <Examinations>
+			<ExaminationRef>EXM_STOOL_ANALYSIS_TESTING</ExaminationRef>
+        </Examinations>
+		
+        <ShameLevel>20</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_ONC_SYM_ICON_409</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ONC_SYM_ICON_410</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		
+    </GameDBSymptom>
+	
 
 
 	<!-- ======================================================== -->
@@ -3058,8 +3111,8 @@
 	<!-- Hypercalcemia (Sleepy068)
 	TAGS:
 	DESC: -->
-	<!-- This symptom has a collaspse that needs a surgery to be added to support it 
-	Please refer to the collaspse symptom to add what is needed to support using this symptom. 
+	<!-- This symptom has a collapse that needs a surgery to be added to support it 
+	Please refer to the collapse symptom to add what is needed to support using this symptom. 
 	This will mean, you will need to add this symptom to your mod too.-->
 	<!-- COPY HERE VVV (Don't forget to copy over the Localisation) -->
 	<GameDBSymptom ID="SYM_CRP_HYPERCALCEMIA"> <!-- Please change the CRP reference to your mod's format -->
@@ -3331,6 +3384,65 @@
         <CustomIconSmallAssetRef>ASSET_CRP_SYM_ICON_044</CustomIconSmallAssetRef>
     </GameDBSymptom>
 
+	<!-- Hyperammonaemia (excess of ammonia in the blood)(Sleepy068) -->
+	<GameDBSymptom ID="SYM_CRP_HYPERAMMONEMIA">
+        <DescriptionLocID>SYM_CRP_HYPERAMMONEMIA_DESC</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>High</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+		<!-- <TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
+			 <ExaminationRef>EXM_BLOOD_TEST_SAMPLING</ExaminationRef>
+		- Patient Side -->
+		<RiskOfCollapseStartHours>1</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>6</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_DEHYDRATION</CollapseSymptomRef>
+		
+        <Examinations>
+			<ExaminationRef>EXM_BLOOD_TEST_TESTING</ExaminationRef>
+        </Examinations>
+		
+		<Treatments>
+			<TreatmentRef>TRT_CRP_AMMONUL</TreatmentRef>
+		</Treatments>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_CRP_SYM_ICON_053</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_CRP_SYM_ICON_054</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		
+    </GameDBSymptom>
+
+	<!-- Abnormal Liver Function Test Results (Non Specific)(Sleepy068) -->
+	<GameDBSymptom ID="SYM_CRP_AB_LFT">
+        <DescriptionLocID>SYM_CRP_AB_LFT_DESC</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+		<!--
+		<ExaminationRef>EXM_CRP_LIVER_FT_SAMPLING</ExaminationRef>
+		- Patient Side -->
+        <Examinations>
+			<ExaminationRef>EXM_CRP_LIVER_FT_TEST</ExaminationRef>
+        </Examinations>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_ONC_SYM_ICON_423</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ONC_SYM_ICON_424</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		
+    </GameDBSymptom>
+	
+
 	<!-- ======================================================================= -->
 	<!-- ============= Complications (Normal plus Surgery issues)  ============= -->
 	<!-- ======================================================================= -->
@@ -3353,7 +3465,7 @@
 		<!-- This symptom requires surgery. Surgeries cannot be universal due to them needing to be skill speced to a department.
 		You can find the surgery originally added with this symptom under Mod_CRP\Database\ModSurgery.xml to copy it 
 		REPLACE WITH YOUR SURGERY HERE VVV -->
-            <!--<TreatmentRef>TRT_***_NERVE_DECOM_SURGERY</TreatmentRef>-->
+            <!-- <TreatmentRef>TRT_***_NERVE_DECOM_SURGERY</TreatmentRef> -->
         </Treatments>
 		
         <ShameLevel>0</ShameLevel>
@@ -3367,7 +3479,7 @@
     </GameDBSymptom>
 	<!-- END COPY HERE ^^^ -->
 
-	<!-- Anaphylactic Shock : collaps -->	
+	<!-- Anaphylactic Shock : collapse -->	
 	<GameDBSymptom ID="SYM_CRP_ANAPHYLACTIC_SHOCK">
         <DescriptionLocID>SYM_CRP_ANAPHYLACTIC_SHOCK_DESC</DescriptionLocID>
         <DiscomfortLevel>High</DiscomfortLevel>
@@ -3428,11 +3540,127 @@
 		
     </GameDBSymptom>
 
+	<!-- Acute Liver Failure -->
+	<!-- This symptom requires a surgery to be added to support it
+	COPY HERE VVV (Don't forget to copy over the Localisation) -->
+	<GameDBSymptom ID="SYM_CRP_ACUTE_LIVER_FAILURE"><!-- Please change the CRP reference to your mod's format -->
+        <DescriptionLocID>SYM_CRP_ACUTE_LIVER_FAILURE_DESC</DescriptionLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>High</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+
+        <RiskOfCollapseStartHours>2</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>48</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_COMA</CollapseSymptomRef>
+		
+        <!--
+		<ExaminationRef>EXM_CRP_LIVER_FT_SAMPLING</ExaminationRef>
+		- Patient Side -->
+		
+        <Examinations>
+			<ExaminationRef>EXM_CRP_LIVER_FT_TEST</ExaminationRef>
+			<ExaminationRef>EXM_USG</ExaminationRef>
+			<ExaminationRef>EXM_CT</ExaminationRef>
+        </Examinations>
+		
+		<Treatments>
+		<!-- This symptom requires surgery. Surgeries cannot be universal due to them needing to be skill speced to a department.
+		You can find the surgery originally added with this symptom under Mod_CRP\Database\ModSurgery.xml to copy it 
+		REPLACE WITH YOUR SURGERY HERE VVV -->
+			<!-- <TreatmentRef>TRT_***_LIVER_TRANSPL</TreatmentRef> -->
+        </Treatments>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_ONC_SYM_ICON_425</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ONC_SYM_ICON_426</CustomIconSmallAssetRef>
+		
+    </GameDBSymptom>
+	<!-- END COPY HERE ^^^ -->
+	
+	<!-- Internal Bleeding -->
+	<GameDBSymptom ID="SYM_CRP_INTERNAL_BLEEDING">
+        <DescriptionLocID>SYM_CRP_INTERNAL_BLEEDING_DESC</DescriptionLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>High</Hazard>
+        
+        <RiskOfCollapseStartHours>1</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>6</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_HYPOVOLEMIC_SHOCK</CollapseSymptomRef>
+        
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+			<ExaminationRef>EXM_FAST</ExaminationRef>
+            <ExaminationRef>EXM_USG</ExaminationRef>
+			<ExaminationRef>EXM_CT</ExaminationRef>
+			<ExaminationRef>EXM_MRI</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_ANTIHEMORRHAGICS</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <BleedingLevel>0</BleedingLevel>
+		
+		<CollapseProcedureRef>CONTROL_PROCEDURE_COLLAPSE_LOW</CollapseProcedureRef>
+		
+		<CustomIconBigAssetRef>ASSET_ONC_SYM_ICON_429</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ONC_SYM_ICON_430</CustomIconSmallAssetRef>
+		
+        <IconIndex>2112</IconIndex>
+    </GameDBSymptom>
+	
+	<!-- Rupture of a Lesion -->
+	<!-- This symptom requires a surgery to be added to support it
+	COPY HERE VVV (Don't forget to copy over the Localisation) -->
+	<GameDBSymptom ID="SYM_CRP_LES_RUPTURE">
+        <DescriptionLocID>SYM_CRP_LES_RUPTURE_DESC</DescriptionLocID><!-- Please change the CRP reference to your mod's format -->
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>High</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+		<!-- <TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
+			 <ExaminationRef>EXM_BLOOD_TEST_SAMPLING</ExaminationRef>
+		- Patient Side -->
+		
+		<RiskOfCollapseStartHours>1</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>4</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_CRP_INTERNAL_BLEEDING</CollapseSymptomRef>
+		
+        <Examinations>
+			<ExaminationRef>EXM_USG</ExaminationRef>
+			<ExaminationRef>EXM_CT</ExaminationRef>
+			<ExaminationRef>EXM_MRI</ExaminationRef>
+        </Examinations>
+		
+		<Treatments>
+		<!-- This symptom requires surgery. Surgeries cannot be universal due to them needing to be skill speced to a department.
+		You can find the surgery originally added with this symptom under Mod_CRP\Database\ModSurgery.xml to copy it 
+		REPLACE WITH YOUR SURGERY HERE VVV -->
+			<!-- <TreatmentRef>TRT_***_ENDOVASCULAR_EMBOLISATION</TreatmentRef> -->
+		</Treatments>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_ONC_SYM_ICON_433</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ONC_SYM_ICON_434</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		
+    </GameDBSymptom>
+	
+	
 	<!-- =================================================== -->
 	<!-- ============= Abdomen Based Symptoms  ============= -->
 	<!-- =================================================== -->
 
-	<!-- Early Satiety -->
+	<!-- Early Satiety (Sleepy068) -->
 	<GameDBSymptom ID="SYM_CRP_EARLY_SAT">
         <DescriptionLocID>SYM_CRP_EARLY_SAT_DESC</DescriptionLocID>
         <DiscomfortLevel>Low</DiscomfortLevel>
@@ -3458,9 +3686,9 @@
 		
     </GameDBSymptom>
 		
-	<!-- Splenomegaly -->
-	<!-- This symptom has a collaspse that needs a surgery to be added to support it 
-	Please refer to the collaspse symptom to add what is needed to support using this symptom. 
+	<!-- Splenomegaly (Sleepy068) -->
+	<!-- This symptom has a collapse that needs a surgery to be added to support it 
+	Please refer to the collapse symptom to add what is needed to support using this symptom. 
 	This will mean, you will need to add this symptom to your mod too.-->
 	<!-- COPY HERE VVV (Don't forget to copy over the Localisation) -->
 	<GameDBSymptom ID="SYM_CRP_SPLENOMEGALY"> <!-- Please change the CRP reference to your mod's format -->
@@ -3494,7 +3722,7 @@
     </GameDBSymptom>
 	<!-- END COPY HERE ^^^ -->
 	
-	<!-- Ruptured Spleen - COMPLICATION -->
+	<!-- Ruptured Spleen - COMPLICATION (Sleepy068) -->
 	<!-- This symptom requires a surgery to be added to support it
 	COPY HERE VVV (Don't forget to copy over the Localisation) -->
 	<GameDBSymptom ID="SYM_CRP_RUP_SPLENOMEGALY"><!-- Please change the CRP reference to your mod's format -->
@@ -3530,7 +3758,7 @@
     </GameDBSymptom>
 	<!-- END COPY HERE ^^^ -->
 	
-	<!-- Hepatomegaly -->
+	<!-- Hepatomegaly (Sleepy068) -->
 	<GameDBSymptom ID="SYM_CRP_HEPATOMEGALY">
         <DescriptionLocID>SYM_CRP_HEPATOMEGALY_DESC</DescriptionLocID>
         <DiscomfortLevel>Medium</DiscomfortLevel>
@@ -3615,7 +3843,7 @@
 	<!-- ============= Oncology Specific Symptoms  ============= -->
 	<!-- ======================================================= -->
 
-	<!-- Perineural Invasion
+	<!-- Perineural Invasion (Sleepy068)
 	TAGS: oncology, internal, cell, microbiology, biopsy, notreatment
 	DESC: Perineural invasion, abbreviated PNI, refers to the invasion of cancer to the space surrounding a nerve. -->
 	<GameDBSymptom ID="SYM_CRP_PERINEURAL_INVASION">
@@ -3643,6 +3871,7 @@
 		
     </GameDBSymptom>
 	
+	<!-- Metastatic Cancer (Sleepy068) -->
 	<GameDBSymptom ID="SYM_CRP_METASTASIZED_CANCER">
         <DescriptionLocID>SYM_CRP_METASTASIZED_CANCER_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -3666,31 +3895,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- Signet Ring Cell Morphology -->
-	<GameDBSymptom ID="SYM_CRP_BL_HISRC">
-        <DescriptionLocID>SYM_CRP_BL_HISRC_DESC</DescriptionLocID>
-        <DiscomfortLevel>None</DiscomfortLevel>
-        <PatientComplains>false</PatientComplains>
-        <Hazard>Low</Hazard>
-        <PatientMobility>MOBILE</PatientMobility>
-		
-		<!-- <ExaminationRef>EXM_CRP_BLOOD_SMEAR_SAMPLE</ExaminationRef> - Patient Side -->
-		
-        <Examinations>
-			<ExaminationRef>EXM_CRP_BLOOD_SMEAR_TEST</ExaminationRef>
-        </Examinations>
-		
-        <ShameLevel>0</ShameLevel>
-        <IsMainSymptom>false</IsMainSymptom>
-		
-		<CustomIconBigAssetRef>ASSET_CRP_SYM_ICON_393</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_CRP_SYM_ICON_394</CustomIconSmallAssetRef>
-		
-        <IconIndex>1</IconIndex>
-		
-    </GameDBSymptom>
-	
-	<!-- Merkel Cell Polyomavirus -->
+	<!-- Merkel Cell Polyomavirus (Sleepy068) -->
 	<GameDBSymptom ID="SYM_CRP_MCP_VIR">
         <DescriptionLocID>SYM_CRP_MCP_VIR_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -3716,7 +3921,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- Merkel Cell Polyomavirus (Seen via Electron) -->
+	<!-- Merkel Cell Polyomavirus (Seen via Electron)(Sleepy068) -->
 	<GameDBSymptom ID="SYM_CRP_MCP_VIR_EL">
         <DescriptionLocID>SYM_CRP_MCP_VIR_EL_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -3740,7 +3945,7 @@
 		
     </GameDBSymptom>
 
-	<!-- F.I.S.H. Positive Lesion -->
+	<!-- F.I.S.H. Positive Lesion (Sleepy068) -->
 	<GameDBSymptom ID="SYM_CRP_FISH_POSLESION">
         <DescriptionLocID>SYM_CRP_FISH_POSLESION_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -3764,7 +3969,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- Hairy Cells -->
+	<!-- Hairy Cells (Sleepy068) -->
 	<GameDBSymptom ID="SYM_CRP_HAIRYCELL">
         <DescriptionLocID>SYM_CRP_HAIRYCELL_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -3788,7 +3993,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- Salt-and-Pepper Chromatin -->
+	<!-- Salt-and-Pepper Chromatin (Sleepy068) -->
 	<GameDBSymptom ID="SYM_CRP_BL_SPC">
         <DescriptionLocID>SYM_CRP_BL_SPC_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -3811,6 +4016,60 @@
         <IconIndex>1</IconIndex>
 		
     </GameDBSymptom>
+	
+	<!-- =================================================== -->
+	<!-- ============= Misc/Diagnosis Specific ============= -->
+	<!-- =================================================== -->
+	
+	<!-- Mixed Mucinous Cells Counts (Sleepy068) -->
+	<GameDBSymptom ID="SYM_CRP_BL_MMCC">
+        <DescriptionLocID>SYM_CRP_BL_MMCC_DESC</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+		<!-- <ExaminationRef>EXM_CRP_BLOOD_SMEAR_SAMPLE</ExaminationRef> - Patient Side -->
+		
+        <Examinations>
+			<ExaminationRef>EXM_CRP_COLONOSCOPY_BIOPSY_TEST</ExaminationRef>
+			<ExaminationRef>EXM_CRP_BLOOD_SMEAR_TEST</ExaminationRef>
+        </Examinations>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_ONC_SYM_ICON_407</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ONC_SYM_ICON_408</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		
+    </GameDBSymptom>
+	
+	<!-- Signet Ring Cell Morphology (Sleepy068) -->
+	<GameDBSymptom ID="SYM_CRP_BL_HISRC">
+        <DescriptionLocID>SYM_CRP_BL_HISRC_DESC</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+		<!-- <ExaminationRef>EXM_CRP_BLOOD_SMEAR_SAMPLE</ExaminationRef> - Patient Side -->
+		
+        <Examinations>
+			<ExaminationRef>EXM_CRP_BLOOD_SMEAR_TEST</ExaminationRef>
+        </Examinations>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_CRP_SYM_ICON_393</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_CRP_SYM_ICON_394</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		
+    </GameDBSymptom>
+	
 	
 	<!-- ========================================================================================= -->
 	<!-- ============= Stock Symptoms Changed (without effecting the stock version)  ============= -->
@@ -3847,7 +4106,7 @@
 	<!-- ============= Chromosomal/Gene Defects  ============= -->
 	<!-- ===================================================== -->
 	
-	<!-- PML-RARA t(15;17) -->
+	<!-- PML-RARA t(15;17)(Sleepy068) -->
 	<GameDBSymptom ID="SYM_CRP_CDF_T_02">
         <DescriptionLocID>SYM_CRP_CDF_T_02_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -3873,7 +4132,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- Philadelphia Chromosome T(9, 22) -->
+	<!-- Philadelphia Chromosome T(9, 22)(Sleepy068) -->
 	<GameDBSymptom ID="SYM_CRP_CDF_T_01">
         <DescriptionLocID>SYM_CRP_CDF_T_01_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -3899,7 +4158,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- IDH1/2 Mutation -->
+	<!-- IDH1/2 Mutation (Sleepy068) -->
 	<GameDBSymptom ID="SYM_CRP_CDF_T_03">
         <DescriptionLocID>SYM_CRP_CDF_T_03_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -3925,7 +4184,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- BCR-ABL1 Fusion -->
+	<!-- BCR-ABL1 Fusion (Sleepy068) -->
 	 <GameDBSymptom ID="SYM_CRP_CDF_T_04">
         <DescriptionLocID>SYM_CRP_CDF_T_04_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -3951,7 +4210,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- Trisomy 8 (25% MCL) -->
+	<!-- Trisomy 8 (25% MCL)(Sleepy068) -->
 	 <GameDBSymptom ID="SYM_CRP_CDF_T_05">
         <DescriptionLocID>SYM_CRP_CDF_T_05_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -3977,7 +4236,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- Trisomy 9 (9% in MCL-AP)-->
+	<!-- Trisomy 9 (9% in MCL-AP)(Sleepy068) -->
 	 <GameDBSymptom ID="SYM_CRP_CDF_T_06">
         <DescriptionLocID>SYM_CRP_CDF_T_06_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -4003,7 +4262,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- Philadelphia Chromosome Duplication (9% in MCL-AP)-->
+	<!-- Philadelphia Chromosome Duplication (9% in MCL-AP)(Sleepy068) -->
 	 <GameDBSymptom ID="SYM_CRP_CDF_T_07">
         <DescriptionLocID>SYM_CRP_CDF_T_07_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -4029,7 +4288,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- BRAF V600E Mutation-->
+	<!-- BRAF V600E Mutation (Sleepy068) -->
 	 <GameDBSymptom ID="SYM_CRP_CDF_T_08">
         <DescriptionLocID>SYM_CRP_CDF_T_08_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -4059,7 +4318,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- BRAF V599E Mutation-->
+	<!-- BRAF V599E Mutation (Sleepy068) -->
 	 <GameDBSymptom ID="SYM_CRP_CDF_T_18">
         <DescriptionLocID>SYM_CRP_CDF_T_18_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -4089,7 +4348,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- IGHV Mutation-->
+	<!-- IGHV Mutation (Sleepy068) -->
 	 <GameDBSymptom ID="SYM_CRP_CDF_T_09">
         <DescriptionLocID>SYM_CRP_CDF_T_09_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -4115,7 +4374,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- Deletion 17p13 - 10% but more common in advanced -->
+	<!-- Deletion 17p13 - 10% but more common in advanced (Sleepy068) -->
 	 <GameDBSymptom ID="SYM_CRP_CDF_T_10">
         <DescriptionLocID>SYM_CRP_CDF_T_10_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -4141,7 +4400,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- BRCA1/2 Gene Fault - Between 5-10% chance, rather low -->
+	<!-- BRCA1/2 Gene Fault - Between 5-10% chance, rather low (Sleepy068) -->
 	 <GameDBSymptom ID="SYM_CRP_CDF_T_11">
         <DescriptionLocID>SYM_CRP_CDF_T_11_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -4167,7 +4426,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- GATA3 Mutation  -->
+	<!-- GATA3 Mutation (Sleepy068) -->
 	 <GameDBSymptom ID="SYM_CRP_CDF_T_12">
         <DescriptionLocID>SYM_CRP_CDF_T_12_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -4193,7 +4452,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- Neurofibromatosis type I (NF-1)  -->
+	<!-- Neurofibromatosis type I (NF-1)(Sleepy068)  -->
 	 <GameDBSymptom ID="SYM_CRP_CDF_T_13">
         <DescriptionLocID>SYM_CRP_CDF_T_13_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -4219,7 +4478,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- Li-Fraumeni syndrome (LFS) TP53 -->
+	<!-- Li-Fraumeni syndrome (LFS) TP53 (Sleepy068) -->
 	 <GameDBSymptom ID="SYM_CRP_CDF_T_14">
         <DescriptionLocID>SYM_CRP_CDF_T_14_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -4245,7 +4504,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- Loss of Heterozygosity (LOH) 10q -->
+	<!-- Loss of Heterozygosity (LOH) 10q (Sleepy068) -->
 	 <GameDBSymptom ID="SYM_CRP_CDF_T_15">
         <DescriptionLocID>SYM_CRP_CDF_T_15_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -4271,7 +4530,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- Overexpression of PDGFR -->
+	<!-- Overexpression of PDGFR (Sleepy068) -->
 	<GameDBSymptom ID="SYM_CRP_CDF_T_16">
         <DescriptionLocID>SYM_CRP_CDF_T_16_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -4297,7 +4556,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- IDH1/2 Negative Mutation -->
+	<!-- IDH1/2 Negative Mutation (Sleepy068) -->
 	<GameDBSymptom ID="SYM_CRP_CDF_T_17">
         <DescriptionLocID>SYM_CRP_CDF_T_17_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -4323,7 +4582,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- ERBB2 Mutation (CD340/HER2) Positive -->
+	<!-- ERBB2 Mutation (CD340/HER2) Positive (Sleepy068) -->
 	<GameDBSymptom ID="SYM_CRP_CM_CD340_POS">
         <DescriptionLocID>SYM_CRP_CM_CD340_POS_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -4351,7 +4610,7 @@
 		
     </GameDBSymptom>
 
-	<!-- EGFR Mutation (HER1) Positive -->
+	<!-- EGFR Mutation (HER1) Positive (Sleepy068) -->
 	<GameDBSymptom ID="SYM_CRP_CDF_T_22">
         <DescriptionLocID>SYM_CRP_CDF_T_22_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -4381,7 +4640,7 @@
 		
     </GameDBSymptom>
 
-	<!-- IGH-BCL2 Translocation -->
+	<!-- IGH-BCL2 Translocation (Sleepy068) -->
 	 <GameDBSymptom ID="SYM_CRP_CDF_T_19">
         <DescriptionLocID>SYM_CRP_CDF_T_19_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -4407,7 +4666,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- BCL6 (3q27) Hypermutation -->
+	<!-- BCL6 (3q27) Hypermutation (Sleepy068) -->
 	 <GameDBSymptom ID="SYM_CRP_CDF_T_20">
         <DescriptionLocID>SYM_CRP_CDF_T_20_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -4433,7 +4692,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- IGH/CCND1 t(11;14) -->
+	<!-- IGH/CCND1 t(11;14)(Sleepy068) -->
 	 <GameDBSymptom ID="SYM_CRP_CDF_T_21">
         <DescriptionLocID>SYM_CRP_CDF_T_21_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -4459,7 +4718,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- High-Degree Microsatellite Instability (MSI-high) -->
+	<!-- High-Degree Microsatellite Instability (MSI-high)(Sleepy068) -->
 	 <GameDBSymptom ID="SYM_CRP_CDF_T_23">
         <DescriptionLocID>SYM_CRP_CDF_T_23_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -4485,7 +4744,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- CDH1 Mutation Positive (CD324) -->
+	<!-- CDH1 Mutation Positive (CD324)(Sleepy068) -->
 	 <GameDBSymptom ID="SYM_CRP_CDF_T_24">
         <DescriptionLocID>SYM_CRP_CDF_T_24_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -4515,7 +4774,7 @@
 	<!-- ============= Enzymes and Protein Markers  ============= -->
 	<!-- ======================================================== -->
 	
-	<!-- Myeloperoxidase (MPO) Positive -->
+	<!-- Myeloperoxidase (MPO) Positive (Sleepy068) -->
 	<GameDBSymptom ID="SYM_CRP_SM_P_001">
         <DescriptionLocID>SYM_CRP_SM_P_001_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -4539,7 +4798,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- Sudan Black B Positive -->
+	<!-- Sudan Black B Positive (Sleepy068) -->
 	<GameDBSymptom ID="SYM_CRP_SM_P_002">
         <DescriptionLocID>SYM_CRP_SM_P_002_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -4563,7 +4822,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- Tartrate-resistant acid phosphatase (TRAP) Positive -->
+	<!-- Tartrate-resistant acid phosphatase (TRAP) Positive (Sleepy068) -->
 	<GameDBSymptom ID="SYM_CRP_SM_P_003">
         <DescriptionLocID>SYM_CRP_SM_P_003_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -4587,7 +4846,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- Micropapillary Invasion Pattern  -->
+	<!-- Micropapillary Invasion Pattern (Sleepy068)  -->
 	<GameDBSymptom ID="SYM_CRP_SM_P_004">
         <DescriptionLocID>SYM_CRP_SM_P_004_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -4611,7 +4870,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- Psammoma Bodies -->
+	<!-- Psammoma Bodies (Sleepy068) -->
 	<GameDBSymptom ID="SYM_CRP_SM_P_005">
         <DescriptionLocID>SYM_CRP_SM_P_005_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -4635,7 +4894,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- Cyclin D1 -->
+	<!-- Cyclin D1 (Sleepy068) -->
 	<GameDBSymptom ID="SYM_CRP_SM_P_006">
         <DescriptionLocID>SYM_CRP_SM_P_006_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -4659,7 +4918,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- Thyroid Transcription Factor 1 (TTF-1)(NK2 homeobox 1) -->
+	<!-- Thyroid Transcription Factor 1 (TTF-1)(NK2 homeobox 1)(Sleepy068) -->
 	<GameDBSymptom ID="SYM_CRP_SM_P_007">
         <DescriptionLocID>SYM_CRP_SM_P_007_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -4683,7 +4942,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- Mucin 4 -->
+	<!-- Mucin 4 (Sleepy068) -->
 	<GameDBSymptom ID="SYM_CRP_SM_P_008">
         <DescriptionLocID>SYM_CRP_SM_P_008_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -4707,7 +4966,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- Tumor Protein P63 (TP63) -->
+	<!-- Tumor Protein P63 (TP63)(Sleepy068) -->
 	<GameDBSymptom ID="SYM_CRP_IS_001">
         <DescriptionLocID>SYM_CRP_IS_001_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -4735,7 +4994,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- Tumor Protein P53 (TP53) -->
+	<!-- Tumor Protein P53 (TP53)(Sleepy068) -->
 	<GameDBSymptom ID="SYM_CRP_IS_002">
         <DescriptionLocID>SYM_CRP_IS_002_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -4763,6 +5022,157 @@
 		
     </GameDBSymptom>
 	
+	<!-- Mucin 6 (Sleepy068) -->
+	<GameDBSymptom ID="SYM_CRP_SM_P_009">
+        <DescriptionLocID>SYM_CRP_SM_P_009_DESC</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+		<!-- <ExaminationRef>EXM_CRP_IV_STAINING_SAMPLE</ExaminationRef> - Patient Side -->
+		
+        <Examinations>
+			<ExaminationRef>EXM_CRP_IV_STAINING_TEST</ExaminationRef>
+        </Examinations>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_ONC_SYM_ICON_397</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ONC_SYM_ICON_398</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		
+    </GameDBSymptom>
+	
+	<!-- Mucin 2 (Sleepy068) -->
+	<GameDBSymptom ID="SYM_CRP_SM_P_010">
+        <DescriptionLocID>SYM_CRP_SM_P_010_DESC</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+		<!-- <ExaminationRef>EXM_CRP_IV_STAINING_SAMPLE</ExaminationRef> - Patient Side -->
+		
+        <Examinations>
+			<ExaminationRef>EXM_CRP_IV_STAINING_TEST</ExaminationRef>
+        </Examinations>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_ONC_SYM_ICON_403</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ONC_SYM_ICON_404</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		
+    </GameDBSymptom>
+	
+	<!-- Mucin 5AC (Sleepy068) -->
+	<GameDBSymptom ID="SYM_CRP_SM_P_011">
+        <DescriptionLocID>SYM_CRP_SM_P_011_DESC</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+		<!-- <ExaminationRef>EXM_CRP_IV_STAINING_SAMPLE</ExaminationRef> - Patient Side -->
+		
+        <Examinations>
+			<ExaminationRef>EXM_CRP_IV_STAINING_TEST</ExaminationRef>
+        </Examinations>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_ONC_SYM_ICON_401</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ONC_SYM_ICON_402</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		
+    </GameDBSymptom>
+	
+	<!-- Mucin 1 (Sleepy068) -->
+	<GameDBSymptom ID="SYM_CRP_SM_P_012">
+        <DescriptionLocID>SYM_CRP_SM_P_012_DESC</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+		<!-- <ExaminationRef>EXM_CRP_IV_STAINING_SAMPLE</ExaminationRef> - Patient Side -->
+		
+        <Examinations>
+			<ExaminationRef>EXM_CRP_IV_STAINING_TEST</ExaminationRef>
+        </Examinations>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_ONC_SYM_ICON_399</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ONC_SYM_ICON_400</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		
+    </GameDBSymptom>
+	
+	<!-- Napsin A (Sleepy068) -->
+	<GameDBSymptom ID="SYM_CRP_SM_P_013">
+        <DescriptionLocID>SYM_CRP_SM_P_013_DESC</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+		<!-- <ExaminationRef>EXM_CRP_IV_STAINING_SAMPLE</ExaminationRef> - Patient Side -->
+		
+        <Examinations>
+			<ExaminationRef>EXM_CRP_IV_STAINING_TEST</ExaminationRef>
+        </Examinations>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_CRP_SYM_ICON_069</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_CRP_SYM_ICON_070</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		
+    </GameDBSymptom>
+	
+	<!-- Alpha-Fetoprotein Tumor Marker -->
+	<GameDBSymptom ID="SYM_CRP_IS_003">
+        <DescriptionLocID>SYM_CRP_IS_003_DESC</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+		<!-- 
+		<ExaminationRef>EXM_ELISA_SAMPLING</ExaminationRef>
+		<ExaminationRef>SYM_CRP_IV_STAINING_SAMPLE</ExaminationRef>
+		<ExaminationRef>SYM_CRP_FLOWCYT</ExaminationRef>
+		- Patient Side -->
+		
+        <Examinations>
+			<ExaminationRef>EXM_ELISA_TESTING</ExaminationRef>
+			<ExaminationRef>EXM_CRP_IV_STAINING_TEST</ExaminationRef>
+			<ExaminationRef>EXM_CRP_FLOWCYT_TEST</ExaminationRef>
+        </Examinations>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_ONC_SYM_ICON_421</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ONC_SYM_ICON_422</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		
+    </GameDBSymptom>
+	
+
 	<!-- ========================================= -->
 	<!-- ============= Cell Markers  ============= -->
 	<!-- ========================================= -->
@@ -5928,7 +6338,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- BLOODTEST Cancer antigen 15-3 (Normally metastatic stages) -->
+	<!-- BLOODTEST Cancer antigen 15-3 (Normally metastatic stages)(Sleepy068) -->
 	<GameDBSymptom ID="SYM_CRP_CMA_CA153">
         <DescriptionLocID>SYM_CRP_CMA_CA153_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -5952,7 +6362,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- BLOODTEST Cancer antigen 27.29 (Normally metastatic stages) -->
+	<!-- BLOODTEST Cancer antigen 27.29 (Normally metastatic stages)(Sleepy068) -->
 	<GameDBSymptom ID="SYM_CRP_CMA_CA2729">
         <DescriptionLocID>SYM_CRP_CMA_CA2729_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -5976,7 +6386,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- URINETEST 5HIAA -->
+	<!-- URINETEST 5HIAA (Sleepy068) -->
 	<GameDBSymptom ID="SYM_CRP_ELAVATED_5HIAA">
         <DescriptionLocID>SYM_CRP_ELAVATED_5HIAA_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -6000,7 +6410,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- BLOODTEST Chromogranin A -->
+	<!-- BLOODTEST Chromogranin A (Sleepy068) -->
 	<GameDBSymptom ID="SYM_CRP_CGA_BL_DETECTED">
         <DescriptionLocID>SYM_CRP_CGA_BL_DETECTED_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -6024,7 +6434,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- BLOODTEST Cancer antigen 125 -->
+	<!-- BLOODTEST Cancer antigen 125 (Sleepy068) -->
 	<GameDBSymptom ID="SYM_CRP_CMA_CA125">
         <DescriptionLocID>SYM_CRP_CMA_CA125_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -6048,7 +6458,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- BLOODTEST Prostate Specific Antigen -->
+	<!-- BLOODTEST Prostate Specific Antigen (Sleepy068) -->
 	<GameDBSymptom ID="SYM_CRP_PSA_BL_DETECTED">
         <DescriptionLocID>SYM_CRP_PSA_BL_DETECTED_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -6072,7 +6482,7 @@
 		
     </GameDBSymptom>
 	
-	<!-- URINETEST Prostate Cancer Antigen 3 -->
+	<!-- URINETEST Prostate Cancer Antigen 3 (Sleepy068) -->
 	<GameDBSymptom ID="SYM_CRP_UAS_PCA3">
         <DescriptionLocID>SYM_CRP_UAS_PCA3_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -6117,11 +6527,35 @@
         <CustomIconSmallAssetRef>ASSET_GYNECO_ICON_S11_SMALL</CustomIconSmallAssetRef>
     </GameDBSymptom>
 
+	<!-- BLOODTEST Hepatocyte Paraffin 1 (Hep Par 1)(Sleepy068) -->
+	<GameDBSymptom ID="SYM_CRP_CMA_CAHP1">
+        <DescriptionLocID>SYM_CRP_CMA_CAHP1_DESC</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+		<!-- <ExaminationRef>SYM_CRP_CA</ExaminationRef> - Patient Side -->
+		
+        <Examinations>
+		    <ExaminationRef>EXM_CRP_CA_TEST</ExaminationRef>
+        </Examinations>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+        <IconIndex>1</IconIndex>
+
+		<CustomIconBigAssetRef>ASSET_CRP_SYM_ICON_069</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_CRP_SYM_ICON_070</CustomIconSmallAssetRef>
+		
+    </GameDBSymptom>
+
 	<!-- ======================================= -->
 	<!-- ============= Microscopy  ============= -->
 	<!-- ======================================= -->
 
-	<!-- Eosinophilic Granular Bodies -->
+	<!-- Eosinophilic Granular Bodies (Sleepy068) -->
 	<GameDBSymptom ID="SYM_CRP_EGB">
         <DescriptionLocID>SYM_CRP_EGB_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -6150,7 +6584,7 @@
 	<!-- ============= Organ Complication  ============= -->
 	<!-- =============================================== -->
 	
-	<!-- Ascites -->
+	<!-- Ascites (Sleepy068) -->
 	<GameDBSymptom ID="SYM_CRP_ASCITES">
         <DescriptionLocID>SYM_CRP_ASCITES_DESC</DescriptionLocID>
         <DiscomfortLevel>Medium</DiscomfortLevel>
@@ -6282,7 +6716,7 @@
         <IconIndex>1307</IconIndex>
     </GameDBSymptom>
 	
-	<!-- Pleural Effusion 
+	<!-- Pleural Effusion (Sleepy068)
 	épanchement pleural
 	-->
 	<GameDBSymptom ID="SYM_CRP_PLEURAL_EFFUSION">
@@ -6836,8 +7270,91 @@ chronic interstitial nephritis, adrenal insufficiency
         <CustomIconSmallAssetRef>ASSET_MOREDG_ICON_S12_SMALL</CustomIconSmallAssetRef>
     </GameDBSymptom>
 
+	<!-- Cellular Rejection (Complex)(Sleepy068) -->
+	<GameDBSymptom ID="SYM_CRP_CELL_REJECTION">
+        <DescriptionLocID>SYM_CRP_CELL_REJECTION_DESC</DescriptionLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>High</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+
+        <RiskOfCollapseStartHours>2</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>48</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_COMA</CollapseSymptomRef>
+		
+        <!--
+		<ExaminationRef>EXM_BLOOD_TEST_SAMPLING</ExaminationRef>
+		<ExaminationRef>EXM_BIOPSY_SAMPLING</ExaminationRef>
+		- Patient Side -->
+		
+        <Examinations>
+			<ExaminationRef>EXM_BLOOD_TEST_TESTING</ExaminationRef>
+			<ExaminationRef>EXM_BIOPSY_TESTING</ExaminationRef>
+        </Examinations>
+		
+		<Treatments>
+            <TreatmentRef>TRT_CRP_IMMUNOSUS_DRUGS</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_ONC_SYM_ICON_427</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ONC_SYM_ICON_428</CustomIconSmallAssetRef>
+		
+    </GameDBSymptom>
+
+	<!-- LIVER Pre-existing Condition (Sleepy068) -->
+	<GameDBSymptom ID="SYM_CRP_LIV_PRECONDITION">
+        <DescriptionLocID>SYM_CRP_LIV_PRECONDITION_DESC</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+			<ExaminationRef>EXM_EVALUATION</ExaminationRef>
+        </Examinations>
+		
+        <ShameLevel>10</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_ONC_SYM_ICON_415</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ONC_SYM_ICON_416</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		
+    </GameDBSymptom>
+	
+	<!-- LIVER Hepatic Encephalopathy (Sleepy068) -->
+	<GameDBSymptom ID="SYM_CRP_HEPATIC_ENCE">
+        <DescriptionLocID>SYM_CRP_HEPATIC_ENCE_DESC</DescriptionLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+			<ExaminationRef>EXM_NEUROLOGICAL_TESTING</ExaminationRef>
+        </Examinations>
+		
+		<Treatments>
+			<TreatmentRef>TRT_CRP_LACTULOSE</TreatmentRef>
+		</Treatments>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_ONC_SYM_ICON_417</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ONC_SYM_ICON_418</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		
+    </GameDBSymptom>
+
 	<!-- ======================================== -->
-	<!-- ============= Lymph nodes  ============= -->
+	<!-- ============= Lymph Nodes  ============= -->
 	<!-- ======================================== -->
 
 	<!-- Supraclavicular Lymph Nodes : drains: mediastinum, thoracic duct, sub-diaphragmatic territory -->
@@ -6962,6 +7479,34 @@ chronic interstitial nephritis, adrenal insufficiency
         <IconIndex>1375</IconIndex>
 		<CustomIconBigAssetRef>ASSET_MOREDG_ICON_DG2</CustomIconBigAssetRef>
         <CustomIconSmallAssetRef>ASSET_MOREDG_ICON_DG2_SMALL</CustomIconSmallAssetRef>
+    </GameDBSymptom>
+
+	<!-- Hemodynamic Instability (Sleepy068) -->
+	<GameDBSymptom ID="SYM_CRP_HEMO_INSTA">
+        <DescriptionLocID>SYM_CRP_HEMO_INSTA_DESC</DescriptionLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>High</Hazard>
+        
+        <RiskOfCollapseStartHours>8</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>48</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_HEART_FAILURE</CollapseSymptomRef>
+        
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_BLOOD_PRESSURE_AND_PULSE_MEASUREMENT</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_LIFE_SUPPORT</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		<BleedingLevel>0</BleedingLevel>
+		
+		<CustomIconBigAssetRef>ASSET_ONC_SYM_ICON_431</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ONC_SYM_ICON_432</CustomIconSmallAssetRef>
+		
+        <IconIndex>2112</IconIndex>
     </GameDBSymptom>
 
 	<!-- ===================================== -->
@@ -7647,6 +8192,81 @@ chronic interstitial nephritis, adrenal insufficiency
         <IconIndex>1563</IconIndex>
     </GameDBSymptom>
 
+	<!-- Facial Nerve Paralysis (Sleepy068) -->
+	<GameDBSymptom ID="SYM_CRP_FACIAL_NERVE_PARA">
+        <DescriptionLocID>SYM_CRP_FACIAL_NERVE_PARA_DESC</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+		    <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+		
+		<Treatments>
+            <TreatmentRef>TRT_CORTICOSTEROIDS</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_ONC_SYM_ICON_437</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ONC_SYM_ICON_438</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		
+    </GameDBSymptom>
+	
+	<!-- Dysplasia (Cytologic Atypia) -->
+	<GameDBSymptom ID="SYM_CRP_DYSPLASIA">
+        <DescriptionLocID>SYM_CRP_DYSPLASIA_DESC</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <!-- <ExaminationRef>SYM_CRP_BLOOD_SMEAR_SAMPLE</ExaminationRef> - Patient Side -->
+		
+        <Examinations>
+			<ExaminationRef>EXM_CRP_BLOOD_SMEAR_TEST</ExaminationRef>
+        </Examinations>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_ONC_SYM_ICON_439</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ONC_SYM_ICON_440</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		
+    </GameDBSymptom>
+	
+	<!-- Elevated Epidermoid Cell Count -->
+	<GameDBSymptom ID="SYM_CRP_EPI_HIGH1">
+        <DescriptionLocID>SYM_CRP_EPI_HIGH1_DESC</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+		<!-- SYM_CRP_BLOOD_SMEAR_SAMPLE - Patient Side -->
+		
+        <Examinations>
+			<ExaminationRef>EXM_CRP_BLOOD_SMEAR_TEST</ExaminationRef>
+        </Examinations>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_ONC_SYM_ICON_441</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ONC_SYM_ICON_442</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		
+    </GameDBSymptom>
+	
 
 	<!-- ==================================== -->
 	<!-- ============= REMOVED  ============= -->

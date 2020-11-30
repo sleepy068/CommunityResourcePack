@@ -1,0 +1,34 @@
+<Database>
+	<GameDBStringTable ID="LOC_EN_ADDON_CRP_SLEEPY_SYMPTOMSOBSOLETE">
+	<LanguageCode>en</LanguageCode>
+	<LanguageNameLocalized>English</LanguageNameLocalized>
+	<Contributors>
+	<Name>Sleepy068</Name>
+	<Name>MacNaab</Name>
+	<Name>James</Name>
+	</Contributors>
+
+	<LocalizedStrings>
+	
+	<!--
+	DO NOT TRANSLATE
+	Kept for record keeping
+	
+		
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_PETECHIAE</LocID>                               
+		<Text>Petechiae</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_PETECHIAE_DESC</LocID>                   
+		<Text>Petechiae are tiny, circular, non-raised patches that appear on the skin or in a mucous or serous membrane. They occur as the result of bleeding under the skin.</Text>  
+	</GameDBLocalizedString>
+	
+	
+	-->
+	
+	
+	</LocalizedStrings>
+	</GameDBStringTable>
+</Database>
