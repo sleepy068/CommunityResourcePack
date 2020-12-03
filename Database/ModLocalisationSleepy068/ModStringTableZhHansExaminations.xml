@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Database>
+  <GameDBStringTable ID="LOC_ZHHANS_ADDON_ONCOLOGYSL_EXAMINATIONS">
+    <LanguageCode>zh-Hans</LanguageCode>
+    <LanguageNameLocalized>简体中文</LanguageNameLocalized>
+    <Contributors>
+      <Name>1328411791</Name>
+      <Name>Yang zhouzhouzhou</Name>
+      <Name>Toobin</Name>
+    </Contributors>
+    <LocalizedStrings>
+      <!-- Examinations -->
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_CCBT</LocID>
+        <Text>儿茶酚胺血液采样</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_CCBT_DESC</LocID>
+        <Text>测试你体内儿茶酚胺的含量。“儿茶酚胺”是多巴胺、去甲肾上腺素和肾上腺素的总称。\n\n需要房间:血液学研究室</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_CCBT_TEST</LocID>
+        <Text>儿茶酚胺血液测试</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_CCBT_TEST_DESC</LocID>
+        <Text>测试你体内儿茶酚胺的含量。“儿茶酚胺”是多巴胺、去甲肾上腺素和肾上腺素的总称。</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_CA</LocID>
+        <Text>癌胚抗原血液采样</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_CA_DESC</LocID>
+        <Text>癌症抗原(CA)检测是一种血液检测，用于帮助诊断和管理某些类型的癌症。这是一种肿瘤标记物，肿瘤标记物通常是蛋白质，是人体对肿瘤生长或肿瘤组织本身的反应而产生的。有些肿瘤标记物只针对一种类型的癌症，而有些则可以在几种癌症类型中看到。这些标记物也可以在非癌性疾病和癌症中都可以看到。因此，它们不能用于诊断癌症，只用于参考。\n\n所需房间:血液实验室</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_CA_TEST</LocID>
+        <Text>癌胚抗原血液采样</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_CA_TEST_DESC</LocID>
+        <Text>癌症抗原(CA)检测是一种血液检测，用于帮助诊断和管理某些类型的癌症。这是一种肿瘤标记物，肿瘤标记物通常是蛋白质，是人体对肿瘤生长或肿瘤组织本身的反应而产生的。有些肿瘤标记物只针对一种类型的癌症，而有些则可以在几种癌症类型中看到。这些标记物也可以在非癌性疾病和癌症中都可以看到。因此，它们不能用于诊断癌症，只用于参考。</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_COLONOSCOPY</LocID>
+        <Text>结肠镜检查</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_COLONOSCOPY_DESC</LocID>
+        <Text>结肠镜检查是一种医疗检测手段，用于检查癌症、结肠息肉或肠道内的其他异常。结肠镜检查是用一种叫做结肠镜(一种内窥镜)的仪器来完成的。</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_UAS</LocID>
+        <Text>尿液癌胚抗原筛检</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_UAS_DESC</LocID>
+        <Text>检测尿液中癌细胞抗原的数量。因为肾脏中多种病原体的梭状体抗原将排泄于尿液中，尿抗原检测可用于获得快速检测结果。\n\n所需实验室:组织学实验室</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_UAS_TEST</LocID>
+        <Text>尿液癌胚抗原筛检</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_UAS_TEST_DESC</LocID>
+        <Text>检测尿液中癌细胞抗原的数量。因为肾脏中多种病原体的梭状体抗原将排泄于尿液中，尿抗原检测可用于获得快速检测结果。</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_BONEBIOPSY_SAMPLE</LocID>
+        <Text>骨髓活组织检查</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_BONEBIOPSY_SAMPLE_DESC</LocID>
+        <Text>骨髓活组织检查收集一个圆柱形的核心样本，保留骨髓的结构。组织活检样本由专家评估以确定细胞的大小，将细胞的体积与骨髓的其他组成部分的体积进行比较，来判断是否有足够数量的不同细胞谱系存在，以及骨髓中是否有任何异常浸润。\n\n所需实验室:组织学实验室</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_BONEBIOPSY_TEST</LocID>
+        <Text>骨髓活组织检查</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_BONEBIOPSY_TEST_DESC</LocID>
+        <Text>骨髓活组织检查收集一个圆柱形的核心样本，保留骨髓的结构。组织活检样本由专家评估以确定细胞的大小，将细胞的体积与骨髓的其他组成部分的体积进行比较，来判断是否有足够数量的不同细胞谱系存在，以及骨髓中是否有任何异常浸润。</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_FLOWCYT</LocID>
+        <Text>流式细胞术</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_FLOWCYT_DESC</LocID>
+        <Text>流式细胞术是一种用来检测和测量细胞或颗粒的物理和化学特性的技术。含有细胞或颗粒的样品悬浮在液体中并注入流式细胞仪。\n\n所需实验室:组织学实验室</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_FLOWCYT_TEST</LocID>
+        <Text>流式细胞术</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_FLOWCYT_TEST_DESC</LocID>
+        <Text>流式细胞术是一种用来检测和测量细胞或颗粒的物理和化学特性的技术。含有细胞或颗粒的样品悬浮在液体中并注入流式细胞仪。</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_CBC_SAMPLING</LocID>
+        <Text>(肿瘤)CBC取样</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_BLOOD_SMEAR_SAMPLE</LocID>
+        <Text>外周血涂片取样</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_BLOOD_SMEAR_SAMPLE_DESC</LocID>
+        <Text>血膜(或外周血涂片)是一层薄薄的血液涂片，涂在玻璃显微镜载玻片上，然后染色，以便在显微镜下检查各种血细胞。 \n\n需要房间: 组织学</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_BLOOD_SMEAR_TEST</LocID>
+        <Text>Blood Smear Test</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_BLOOD_SMEAR_TEST_DESC</LocID>
+        <Text>血膜(或外周血涂片)是一层薄薄的血液涂片，涂在玻璃显微镜载玻片上，然后染色，以便在显微镜下检查各种血细胞。</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_LIVER_FT_SAMPLING</LocID>
+        <Text>肝功能检查</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_LIVER_FT_SAMPLING_DESC</LocID>
+        <Text>肝功能测试(也称为LFTs)是一种血液测试，可以提供有关你肝脏的健康信息。这种检测测试了一些蛋白质和酶的水平，这些蛋白质和酶要么由肝细胞产生，要么在肝细胞受损时释放到血液中。 \n\n需要实验室:血液学</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_LIVER_FT_TEST</LocID>
+        <Text>肝功能检查</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_LIVER_FT_TEST_DESC</LocID>
+        <Text>肝功能测试(也称为LFTs)是一种血液测试，可以提供有关你肝脏的健康信息。这种检测测试了一些蛋白质和酶的水平，这些蛋白质和酶要么由肝细胞产生，要么在肝细胞受损时释放到血液中。</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_FISH_SAMPLE</LocID>
+        <Text>荧光原位杂交</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_FISH_SAMPLE_DESC</LocID>
+        <Text>荧光原位杂交技术技术原理是将荧光素直接或间接标记的核酸探针[或生物素、地高辛、dinit rophenyl（I）NP）、aminoacetylAAFfluorine（AAF）等标记的核酸探针与待测样本中的核酸序列按照碱基互补配对的原则进行杂交，经洗涤后直接在荧光显微镜下观察。荧光原位杂交技术是一种重要的非放射性原位杂交技术，原理是利用报告分子（如生物素、地高辛等）标记核酸探针，然后将探针与染色体或DNA纤维切片上的靶DNA杂交，若两者同源互补，即可形成靶DNA与核酸探针的杂交体。此时可利用该报告分子与荧光素标记的特异亲和素之间的免疫化学反应，经荧光检测体系在镜下对待DNA进行定性、定量或相对定位分析。\n\n需要实验室:组织学</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_FISH_TEST</LocID>
+        <Text>荧光原位杂交</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_FISH_TEST_DESC</LocID>
+        <Text>荧光原位杂交技术技术原理是将荧光素直接或间接标记的核酸探针[或生物素、地高辛、dinit rophenyl（I）NP）、aminoacetylAAFfluorine（AAF）等标记的核酸探针与待测样本中的核酸序列按照碱基互补配对的原则进行杂交，经洗涤后直接在荧光显微镜下观察。荧光原位杂交技术是一种重要的非放射性原位杂交技术，原理是利用报告分子（如生物素、地高辛等）标记核酸探针，然后将探针与染色体或DNA纤维切片上的靶DNA杂交，若两者同源互补，即可形成靶DNA与核酸探针的杂交体。此时可利用该报告分子与荧光素标记的特异亲和素之间的免疫化学反应，经荧光检测体系在镜下对待DNA进行定性、定量或相对定位分析。</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_IV_STAINING_SAMPLE</LocID>
+        <Text>体外染色取样</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_IV_STAINING_SAMPLE_DESC</LocID>
+        <Text>染色是一种用于增强样品对比的技术，通常使用于显微镜观察。染色剂和染料经常用于组织学(在显微镜下研究组织)和医学领域的组织病理学、血液学和细胞病理学的研究和诊断疾病的微观水平。染色可用于定义生物组织(突出显示，例如，肌肉纤维或结缔组织)、细胞群(分类不同的血细胞)或单个细胞内的细胞器。 \n\n需要实验室：组织学</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_IV_STAINING_TEST</LocID>
+        <Text>体外染色取样</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_IV_STAINING_TEST_DESC</LocID>
+        <Text>染色是一种用于增强样品对比的技术，通常使用于显微镜观察。染色剂和染料经常用于组织学(在显微镜下研究组织)和医学领域的组织病理学、血液学和细胞病理学的研究和诊断疾病的微观水平。染色可用于定义生物组织(突出显示，例如，肌肉纤维或结缔组织)、细胞群(分类不同的血细胞)或单个细胞内的细胞器</Text>
+      </GameDBLocalizedString>
+      <!-- ### ### -->
+      <!-- ######################################## Content for V0.13 Added Below ######################################## -->
+      <!-- ### ### -->
+      <GameDBLocalizedString>
+        <LocID>EXM_SL_X_RAY_MAMMOGRAM</LocID>
+        <Text>乳房x光检查</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SL_X_RAY_MAMMOGRAM_DESC</LocID>
+        <Text>乳房x光检查是一种对乳房组织进行的x光检查，可以发现在体检时感觉不到的微小变化。 \n\n所需房间：X光室</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_FNA_SAMPLE</LocID>
+        <Text>细针穿刺</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_FNA_SAMPLE_DESC</LocID>
+        <Text>细针穿刺是一种更快速、更少痛苦的活检程序，用于移除组织、细胞或液体样本。细针吸入术是将一根细针插入异常组织或体液的部位。与其他类型的活检一样，在细针穿刺过程中收集的样本有助于诊断或排除癌症等疾病。 \n\n需要实验室：组织学</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_FNA_TEST</LocID>
+        <Text>细针穿刺</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_FNA_TEST_DESC</LocID>
+        <Text>细针穿刺是一种更快速、更少痛苦的活检程序，用于移除组织、细胞或液体样本。细针吸入术是将一根细针插入异常组织或体液的部位。与其他类型的活检一样，在细针穿刺过程中收集的样本有助于诊断或排除癌症等疾病。</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_EMICRO_SAMPLE</LocID>
+        <Text>电子显微镜检查</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_EMICRO_SAMPLE_DESC</LocID>
+        <Text>电子显微镜是一种重要的诊断工具，以筛选人体组织在高倍(超微结构水平)。诊断用的固体组织和其他生物组织一样，先固定在戊二醛和四氧化锇中，然后脱水，嵌入环氧树脂中。 \n\n所需实验室：组织学</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_EMICRO_TEST</LocID>
+        <Text>电子显微镜检查</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_EMICRO_TEST_DESC</LocID>
+        <Text>诊断性电子显微镜是一种重要的诊断工具，以筛选人体组织在高倍(超微结构水平)。诊断用的固体组织和其他生物组织一样，先固定在戊二醛和四氧化锇中，然后脱水，嵌入环氧树脂中。</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_PELVIC_EXAM</LocID>
+        <Text>骨盆检查</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_PELVIC_EXAM_DESC</LocID>
+        <Text>盆腔检查是医生对女性生殖器官和身体检查。在检查期间，医生检查阴道、子宫颈、输卵管、外阴、卵巢和子宫。</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_DRE_EXAM</LocID>
+        <Text>直肠检查(DRE)</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_DRE_EXAM_DESC</LocID>
+        <Text>直肠检查(DRE)是一项男女通用的检查。它允许医生检查下直肠、骨盆和下腹部的癌症和其他健康问题，如前列腺癌。</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_MINERALT_SAMPLE</LocID>
+        <Text>综合矿物检查</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_MINERALT_SAMPLE_DESC</LocID>
+        <Text>综合矿物检查包括对血液中五种矿物的检测，用于检测矿物光谱中的缺陷或过度暴露(毒性)。该小组包括以下五种矿物质的含量测试:钙、铜、镁、锰和锌。\n\n所需实验室：血液科</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_MINERALT_TEST</LocID>
+        <Text>综合矿物检查</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_MINERALT_TEST_DESC</LocID>
+        <Text>综合矿物检查包括对血液中五种矿物的检测，用于检测矿物光谱中的缺陷或过度暴露(毒性)。该小组包括以下五种矿物质的含量测试:钙、铜、镁、锰和锌。</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_LYMPHBIOPSY_SAMPLE</LocID>
+        <Text>淋巴结活检取样</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_LYMPHBIOPSY_SAMPLE_DESC</LocID>
+        <Text>淋巴结活检是指在内窥镜下摘除一个淋巴结或一块淋巴结进行检查的检查。淋巴结活检可以帮助确定病人是否有感染、免疫紊乱或癌症。\n\n所需实验室：组织学</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_LYMPHBIOPSY_TEST</LocID>
+        <Text>淋巴结活检取样</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_LYMPHBIOPSY_TEST_DESC</LocID>
+        <Text>淋巴结活检是指在内窥镜下摘除一个淋巴结或一块淋巴结进行检查的检查。淋巴结活检可以帮助确定病人是否有感染、免疫紊乱或癌症。</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_CEA</LocID>
+        <!-- ############# OBSOLETE - ADDED IN FOR CRASH PROTECTION -->
+        <Text>已删除的一种测试</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_CEA_DESC</LocID>
+        <!-- ############# OBSOLETE - ADDED IN FOR CRASH PROTECTION -->
+        <Text>这个测试已经从这个mod中移除，但是代码仍然保护那些仍然有这些未完成的玩家。</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_CEA_TEST</LocID>
+        <!-- ############# OBSOLETE - ADDED IN FOR CRASH PROTECTION -->
+        <Text>已删除的一种测试</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_CEA_TEST_DESC</LocID>
+        <!-- ############# OBSOLETE - ADDED IN FOR CRASH PROTECTION -->
+        <Text>这个测试已经从这个mod中移除，但是代码仍然保护那些仍然有这些未完成的玩家。</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_5HIAA</LocID>
+        <!-- ############# OBSOLETE - ADDED IN FOR CRASH PROTECTION -->
+        <Text>这个测试已移除</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_5HIAA_DESC</LocID>
+        <!-- ############# OBSOLETE - ADDED IN FOR CRASH PROTECTION -->
+        <Text>这个测试已经从这个mod中移除，但是代码仍然保护那些仍然有这些未完成的玩家。</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_5HIAA_TEST</LocID>
+        <!-- ############# OBSOLETE - ADDED IN FOR CRASH PROTECTION -->
+        <Text>这个测试已移除</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_5HIAA_TEST_DESC</LocID>
+        <!-- ############# OBSOLETE - ADDED IN FOR CRASH PROTECTION -->
+        <Text>这个测试已经从这个mod中移除，但是代码仍然保护那些仍然有这些未完成的玩家。</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_CHRAB</LocID>
+        <!-- ############# OBSOLETE - ADDED IN FOR CRASH PROTECTION -->
+        <Text>这个测试已经移除</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_CHRAB_DESC</LocID>
+        <!-- ############# OBSOLETE - ADDED IN FOR CRASH PROTECTION -->
+        <Text>这个测试已经从这个mod中移除，但是代码仍然保护那些仍然有这些未完成的玩家。</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_CHRAB_TEST</LocID>
+        <!-- ############# OBSOLETE - ADDED IN FOR CRASH PROTECTION -->
+        <Text>这个测试已经移除</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_CHRAB_TEST_DESC</LocID>
+        <!-- ############# OBSOLETE - ADDED IN FOR CRASH PROTECTION -->
+        <Text>这个测试已经从这个mod中移除，但是代码仍然保护那些仍然有这些未完成的玩家。</Text>
+      </GameDBLocalizedString>
+      <!-- ### ### -->
+      <!-- ######################################## Content for V0.13.2.0 Added Below ######################################## -->
+      <!-- ### ### -->
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_COLONOSCOPY_BIOPSY_SAMPLE</LocID>
+        <Text>结肠活检-取样</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_COLONOSCOPY_BIOPSY_SAMPLE_DESC</LocID>
+        <Text>结肠镜检查用于查找癌症，结肠息肉或肠内其他异常情况。结肠镜是一种细长而细的柔性管，内含照相机和照明灯的内窥镜。 在结肠镜检查期间，医生将仪器通过结肠镜检查以获得结肠内壁的一小部分样本以进行进一步分析。\n\n实验室需求：组织学</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_COLONOSCOPY_BIOPSY_TEST</LocID>
+        <Text>结肠镜活检-化验</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_COLONOSCOPY_BIOPSY_TEST_DESC</LocID>
+        <Text>结肠镜检查用于查找癌症，结肠息肉或肠内其他异常情况。结肠镜是一种细长而细的柔性管，内含照相机和照明灯的内窥镜。 在结肠镜检查期间，医生将仪器通过结肠镜检查以获得结肠内壁的一小部分样本以进行进一步分析。\n\n实验室需求：组织学</Text>
+      </GameDBLocalizedString>
+      <!-- ### ### -->
+      <!-- ######################################## Content for V0.13.3.0 Added Below ######################################## -->
+      <!-- ### ### -->
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_LIVER_BIOPSY_SAMPLE</LocID>
+        <Text>肝活检-取样</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_LIVER_BIOPSY_SAMPLE_DESC</LocID>
+        <Text>肝脏活检将小针头穿刺至肝脏以收集组织样本，以便之后再实验室对组织进行分析，帮助医生诊断肝脏中的各类疾病。\n\n实验室需求：组织学</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_LIVER_BIOPSY_TEST</LocID>
+        <Text>肝活检-化验</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SLP_LIVER_BIOPSY_TEST_DESC</LocID>
+        <Text>肝脏活检将小针头穿刺至肝脏以收集组织样本，以便之后再实验室对组织进行分析，帮助医生诊断肝脏中的各类疾病。\n\n实验室需求：组织学</Text>
+      </GameDBLocalizedString>
+      <!-- ### ### -->
+      <!-- ######################################## Content for V0.14.0.2 Added Below ######################################## -->
+      <!-- ### ### -->
+    </LocalizedStrings>
+  </GameDBStringTable>
+</Database>
