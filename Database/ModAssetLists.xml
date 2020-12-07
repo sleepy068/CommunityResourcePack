@@ -2232,6 +2232,648 @@ This section handles adding custom examination icons to the game. -->
 	<File>MOD_ROOT/exm_sl_liverbiopsy1b.png</File> 
 </GameDBAsset>
 
+
+<!-- Symptoms Added from Plastic Surgery Mod -->
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_001">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_slp_seroma1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_002">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_slp_seroma1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_003">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_nervea.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_004">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_nerveb.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_005">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_aniflexa.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_006">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_aniflexb.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_007">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_undesiredresult1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_008">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_undesiredresult1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_009">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_mildAR1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_010">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_mildAR1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_011">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_postpain1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_012">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_postpain1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_013">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_scar1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_014">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_scar1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_015">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_scar2a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_016">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_scar2b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_017">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_breastpressure1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_018">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_breastpressure1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_019">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_breastinfc1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_020">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_breastinfc1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_021">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_infect1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_022">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_infect1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_023">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_breastex1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_024">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_breastex1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_025">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_fail1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_026">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_fail1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_027">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_pulmembo1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_028">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_pulmembo1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_029">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_skin1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_030">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_skin1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_031">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_posion1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_032">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_posion1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_033">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_posion1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_034">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_posion1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_035">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_nseptal1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_036">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_nseptal1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_037">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_blinking1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_038">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_blinking1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_039">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_misaligned1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_040">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_misaligned1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_041">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_eyedamage1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_042">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_eyedamage1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_043">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_misaligned2a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_044">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_misaligned2b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_045">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_doublevision1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_046">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_doublevision1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_047">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_eyecyst1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_048">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_eyecyst1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_049">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_eyescar1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_050">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_eyescar1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_051">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_slippedmuscle1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_052">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_slippedmuscle1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_053">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_hairissue1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_054">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_hairissue1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_055">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_vein1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_056">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_vein1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_057">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_THPAFA1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_058">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_THPAFA1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_059">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_bentfinger1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_060">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_bentfinger1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_061">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_thickchord1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_062">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_thickchord1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_063">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_hdimple1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_064">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_hdimple1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_065">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_hdimple1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_066">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_hdimple1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_067">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_overgrown1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_068">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_overgrown1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_069">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_bleeding1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_070">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_bleeding1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_071">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_bleeding2a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_072">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_bleeding2b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_073">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_bleeding3a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_074">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_bleeding3b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_075">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_bleeding4a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_076">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_bleeding4b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_077">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_bleeding5a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_078">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_sl_bleeding5b.png</File> 
+</GameDBAsset>
+
+
+<!-- 
+### Threatment ###
+This section handles adding my custom treatment icons to the game. -->
+<GameDBAsset ID="ASSET_PLAS_TRT_ICON_001">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_slp_watchwait1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_TRT_ICON_002">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_slp_watchwait1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_TRT_ICON_003">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_sl_epipena.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_TRT_ICON_004">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_sl_epipenb.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_TRT_ICON_005">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_sl_p_pills1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_TRT_ICON_006">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_sl_p_pills1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_TRT_ICON_007">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_sl_ivbag_p1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_TRT_ICON_008">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_sl_ivbag_p1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_TRT_ICON_009">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_sl_compress1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_TRT_ICON_010">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_sl_compress1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_TRT_ICON_011">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_sl_botox1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_TRT_ICON_012">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_sl_botox1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_TRT_ICON_013">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_sl_eyedrop1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_TRT_ICON_014">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_sl_eyedrop1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_TRT_ICON_015">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_sl_eyepatch1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_TRT_ICON_016">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_sl_eyepatch1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_TRT_ICON_017">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_sl_eyedrop2a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_TRT_ICON_018">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_sl_eyedrop2b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_TRT_ICON_019">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_sl_chempeel1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_TRT_ICON_020">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_sl_chempeel1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_TRT_ICON_021">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_sl_sclerotherapy1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_TRT_ICON_022">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_sl_sclerotherapy1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_TRT_ICON_023">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_sl_laser1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_TRT_ICON_024">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_sl_laser1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_TRT_ICON_025">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_sl_needle1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_TRT_ICON_026">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_sl_needle1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_TRT_ICON_027">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_sl_cryosurgery1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_TRT_ICON_028">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_sl_cryosurgery1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_TRT_ICON_029">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_sl_hydacid1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_TRT_ICON_030">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_sl_hydacid1b.png</File> 
+</GameDBAsset>
+
+<!-- 
+### Surgery ###
+This section handles adding my custom surgery icons to the game. -->
+<!-- Breast Based Surgery -->
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_001">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_breast1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_002">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_breast1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_003">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_correct1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_004">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_correct1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_005">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_scar1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_006">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_scar1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_007">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_breast2a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_008">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_breast2b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_009">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_nose1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_010">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_nose1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_011">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_eye1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_012">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_eye1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_013">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_sl_emsurgery1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_014">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_sl_emsurgery1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_015">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_sl_hairtransplant1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_016">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_sl_hairtransplant1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_017">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_replant1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_018">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_replant1b.png</File> 
+</GameDBAsset>
+
+
+
 	<!-- ### ### -->
 	<!-- ######################################## Content From OBGYN ######################################## -->
 	<!-- ### ### -->

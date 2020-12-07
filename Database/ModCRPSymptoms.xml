@@ -3446,8 +3446,8 @@
 	<!-- ======================================================================= -->
 	<!-- ============= Complications (Normal plus Surgery issues)  ============= -->
 	<!-- ======================================================================= -->
-
-	<!-- This symptom requires a surgery to be added to support it
+	<!-- Post Operative Nerve Damage (Sleepy068)
+	This symptom requires a surgery to be added to support it
 	COPY HERE VVV (Don't forget to copy over the Localisation) -->
 	<GameDBSymptom ID="SYM_CRP_NERVE_DAMAGE"><!-- Please change the CRP reference to your mod's format -->
         <DescriptionLocID>SYM_CRP_NERVE_DAMAGE_DESC</DescriptionLocID><!-- Please change the CRP reference to your mod's format -->
@@ -3479,7 +3479,7 @@
     </GameDBSymptom>
 	<!-- END COPY HERE ^^^ -->
 
-	<!-- Anaphylactic Shock : collapse -->	
+	<!-- Anaphylactic Shock (Sleepy068) -->	
 	<GameDBSymptom ID="SYM_CRP_ANAPHYLACTIC_SHOCK">
         <DescriptionLocID>SYM_CRP_ANAPHYLACTIC_SHOCK_DESC</DescriptionLocID>
         <DiscomfortLevel>High</DiscomfortLevel>
@@ -3540,8 +3540,8 @@
 		
     </GameDBSymptom>
 
-	<!-- Acute Liver Failure -->
-	<!-- This symptom requires a surgery to be added to support it
+	<!-- Acute Liver Failure (Sleepy068)
+	This symptom requires a surgery to be added to support it
 	COPY HERE VVV (Don't forget to copy over the Localisation) -->
 	<GameDBSymptom ID="SYM_CRP_ACUTE_LIVER_FAILURE"><!-- Please change the CRP reference to your mod's format -->
         <DescriptionLocID>SYM_CRP_ACUTE_LIVER_FAILURE_DESC</DescriptionLocID>
@@ -3581,7 +3581,7 @@
     </GameDBSymptom>
 	<!-- END COPY HERE ^^^ -->
 	
-	<!-- Internal Bleeding -->
+	<!-- Internal Bleeding (Sleepy068) -->
 	<GameDBSymptom ID="SYM_CRP_INTERNAL_BLEEDING">
         <DescriptionLocID>SYM_CRP_INTERNAL_BLEEDING_DESC</DescriptionLocID>
         <DiscomfortLevel>High</DiscomfortLevel>
@@ -3614,10 +3614,10 @@
         <IconIndex>2112</IconIndex>
     </GameDBSymptom>
 	
-	<!-- Rupture of a Lesion -->
-	<!-- This symptom requires a surgery to be added to support it
+	<!-- Rupture of a Lesion (Sleepy068) 
+	This symptom requires a surgery to be added to support it
 	COPY HERE VVV (Don't forget to copy over the Localisation) -->
-	<GameDBSymptom ID="SYM_CRP_LES_RUPTURE">
+	<GameDBSymptom ID="SYM_CRP_LES_RUPTURE"><!-- Please change the CRP reference to your mod's format -->
         <DescriptionLocID>SYM_CRP_LES_RUPTURE_DESC</DescriptionLocID><!-- Please change the CRP reference to your mod's format -->
         <DiscomfortLevel>High</DiscomfortLevel>
         <PatientComplains>false</PatientComplains>
@@ -3654,7 +3654,706 @@
         <IconIndex>1</IconIndex>
 		
     </GameDBSymptom>
+	<!-- END COPY HERE ^^^ -->
 	
+	<!-- ### Generic ### -->
+	<!-- Undesired Results (Sleepy068)
+	This symptom requires a surgery to be added to support it
+	COPY HERE VVV (Don't forget to copy over the Localisation) -->
+	<GameDBSymptom ID="SYM_CRP_UNDESIRED_RESULTS"><!-- Please change the CRP reference to your mod's format -->
+	<DescriptionLocID>SYM_SLP_UNDESIRED_RESULTS_DESC</DescriptionLocID>
+	<DiscomfortLevel>High</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>Low</Hazard>
+	<PatientMobility>MOBILE</PatientMobility>
+
+	<Examinations>
+		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+
+	<Treatments>
+	<!-- This symptom requires surgery. Surgeries cannot be universal due to them needing to be skill speced to a department.
+	You can find the surgery originally added with this symptom under Mod_CRP\Database\ModSurgery.xml to copy it 
+	REPLACE WITH YOUR SURGERY HERE VVV -->
+		<!-- <TreatmentRef>TRT_***_CORRECTIVE_SURGERY</TreatmentRef> -->
+	</Treatments>
+
+	<ShameLevel>0</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	<IconIndex>1</IconIndex>
+
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_007</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_008</CustomIconSmallAssetRef>
+
+	</GameDBSymptom>
+	<!-- END COPY HERE ^^^ -->
+
+	<!-- Seroma (Fluid Accumulation At Surgery Site)(Sleepy068) -->
+	<GameDBSymptom ID="SYM_CRP_SEROMA">
+	<DescriptionLocID>SYM_CRP_SEROMA_DESC</DescriptionLocID>
+	<DiscomfortLevel>Medium</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>Low</Hazard>
+	<PatientMobility>MOBILE</PatientMobility>
+
+	<Examinations>
+		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+
+	<Treatments>
+		<TreatmentRef>TRT_CRP_WATCH_WAIT</TreatmentRef>
+	</Treatments>
+
+	<ShameLevel>0</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_001</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_002</CustomIconSmallAssetRef>
+
+	<IconIndex>1</IconIndex>
+
+	</GameDBSymptom>
+
+	<!-- Mild Allergic Reaction (Sleepy068) -->
+	<GameDBSymptom ID="SYM_CRP_MILD_AR">
+	<DescriptionLocID>SYM_CRP_MILD_AR_DESC</DescriptionLocID>
+	<DiscomfortLevel>Medium</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>Low</Hazard>
+	<PatientMobility>MOBILE</PatientMobility>
+
+	<Examinations>
+		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+
+	<Treatments>
+		<TreatmentRef>TRT_ANTIHISTAMINES</TreatmentRef>
+	</Treatments>
+
+	<ShameLevel>10</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_009</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_010</CustomIconSmallAssetRef>
+
+	<IconIndex>1</IconIndex>
+
+	</GameDBSymptom>
+
+	<!-- Post-Operative Pain (Sleepy068) -->
+	<GameDBSymptom ID="SYM_CRP_POSTOP_PAIN">
+	<DescriptionLocID>SYM_CRP_POSTOP_PAIN_DESC</DescriptionLocID>
+	<DiscomfortLevel>Medium</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>Medium</Hazard>
+	<PatientMobility>MOBILE</PatientMobility>
+
+	<Examinations>
+		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+
+	<Treatments>
+		<TreatmentRef>TRT_ANALGESICS</TreatmentRef>
+	</Treatments>
+
+	<ShameLevel>5</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_011</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_012</CustomIconSmallAssetRef>
+
+	<IconIndex>1</IconIndex>
+	</GameDBSymptom>
+
+	<!-- Mild Scar Tissue (Sleepy068) -->
+	<GameDBSymptom ID="SYM_CRP_M_SCAR_TISSUE">
+	<DescriptionLocID>SYM_CRP_M_SCAR_TISSUE_DESC</DescriptionLocID>
+	<DiscomfortLevel>Low</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>Low</Hazard>
+	<PatientMobility>MOBILE</PatientMobility>
+
+	<Examinations>
+		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+
+	<ShameLevel>20</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_013</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_014</CustomIconSmallAssetRef>
+
+	<IconIndex>1</IconIndex>
+
+	</GameDBSymptom>
+
+	<!-- Significant Scar Tissue (Sleepy068)
+	This symptom requires a surgery to be added to support it
+	COPY HERE VVV (Don't forget to copy over the Localisation) -->
+	<GameDBSymptom ID="SYM_CRP_S_SCAR_TISSUE"><!-- Please change the CRP reference to your mod's format -->
+	<DescriptionLocID>SYM_SLP_S_SCAR_TISSUE_DESC</DescriptionLocID>
+	<DiscomfortLevel>High</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>Low</Hazard>
+	<PatientMobility>MOBILE</PatientMobility>
+
+	<Examinations>
+		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+
+	<Treatments>
+	<!-- This symptom requires surgery. Surgeries cannot be universal due to them needing to be skill speced to a department.
+	You can find the surgery originally added with this symptom under Mod_CRP\Database\ModSurgery.xml to copy it 
+	REPLACE WITH YOUR SURGERY HERE VVV -->
+		<!-- <TreatmentRef>TRT_***_PLAS_SCAR_REVISION_SURGERY</TreatmentRef> -->
+	</Treatments>
+
+	<ShameLevel>15</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_015</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_016</CustomIconSmallAssetRef>
+
+	<IconIndex>1</IconIndex>
+
+	</GameDBSymptom>
+	<!-- END COPY HERE ^^^ -->
+
+	<!-- MRSA Infection (Sleepy068) -->
+	<GameDBSymptom ID="SYM_CRP_MRSA_INFECTION">
+	<DescriptionLocID>SYM_CRP_MRSA_INFECTION_DESC</DescriptionLocID>
+	<DiscomfortLevel>High</DiscomfortLevel>
+	<PatientComplains>false</PatientComplains>
+	<Hazard>High</Hazard>
+
+	<PatientMobility>IMOBILE</PatientMobility>
+
+	<RiskOfCollapseStartHours>6</RiskOfCollapseStartHours>
+	<RiskOfCollapseEndHours>24</RiskOfCollapseEndHours>
+	<CollapseSymptomRef>SYM_SEPTIC_SHOCK</CollapseSymptomRef>
+
+	<Examinations>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+
+	<Treatments>
+		<TreatmentRef>TRT_CRP_MRSA_TREATMENT_A</TreatmentRef>
+	</Treatments>
+
+	<ShameLevel>20</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_021</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_022</CustomIconSmallAssetRef>
+
+	<IconIndex>1</IconIndex>
+
+	</GameDBSymptom>
+
+	<!-- Local Anaesthetic Poisoning (Sleepy068) -->
+	<GameDBSymptom ID="SYM_CRP_LI_LOCALPOISIONING">
+	<DescriptionLocID>SYM_CRP_LI_LOCALPOISIONING_DESC</DescriptionLocID>
+	<DiscomfortLevel>High</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>High</Hazard>
+
+	<RiskOfCollapseStartHours>2</RiskOfCollapseStartHours>
+	<RiskOfCollapseEndHours>4</RiskOfCollapseEndHours>
+	<CollapseSymptomRef>SYM_COMA</CollapseSymptomRef>
+	<PatientMobility>IMOBILE</PatientMobility>
+
+	<Examinations>
+		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+
+	<Treatments>
+		<TreatmentRef>TRT_CRP_INTRA_LIPIDEMULSION</TreatmentRef>
+	</Treatments>
+
+	<ShameLevel>0</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_031</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_032</CustomIconSmallAssetRef>
+
+	<IconIndex>1</IconIndex>
+
+	</GameDBSymptom>
+
+	<!-- Wound Infection (Collapse, mobile)(Sleepy068) -->
+	<GameDBSymptom ID="SYM_CRP_WOUND_INFECTION2">
+	<DescriptionLocID>SYM_CRP_WOUND_INFECTION2_DESC</DescriptionLocID>
+
+	<DiscomfortLevel>Medium</DiscomfortLevel>
+	<PatientComplains>false</PatientComplains>
+	<Hazard>High</Hazard>
+
+	<RiskOfCollapseStartHours>6</RiskOfCollapseStartHours>
+	<RiskOfCollapseEndHours>24</RiskOfCollapseEndHours>
+	<CollapseSymptomRef>SYM_SEPTIC_SHOCK</CollapseSymptomRef>
+
+	<PatientMobility>MOBILE</PatientMobility>
+	<Examinations>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+	<Treatments>
+		<TreatmentRef>TRT_ANTISEPTICS</TreatmentRef>
+	</Treatments>
+
+	<CollapseProcedureRef>CONTROL_PROCEDURE_COLLAPSE_MEDIUM</CollapseProcedureRef>
+
+	<ShameLevel>0</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	<IconIndex>1629</IconIndex>
+	</GameDBSymptom>
+		
+	<!-- ### Breast Surgery Focus ### -->
+	<!-- Capsular Contracture (The formation of tight scar tissue around the implant)(Sleepy068)
+	This symptom requires a surgery to be added to support it
+	COPY HERE VVV (Don't forget to copy over the Localisation) -->
+	<GameDBSymptom ID="SYM_CRP_B_CAPSULAR"><!-- Please change the CRP reference to your mod's format -->
+	<DescriptionLocID>SYM_CRP_B_CAPSULAR_DESC</DescriptionLocID>
+	<DiscomfortLevel>High</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>Low</Hazard>
+	<PatientMobility>MOBILE</PatientMobility>
+
+	<Examinations>
+		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+
+	<Treatments>
+	<!-- This symptom requires surgery. Surgeries cannot be universal due to them needing to be skill speced to a department.
+	You can find the surgery originally added with this symptom under Mod_CRP\Database\ModSurgery.xml to copy it 
+	REPLACE WITH YOUR SURGERY HERE VVV -->
+		<!-- <TreatmentRef>TRT_SLP_PLAS_CAPSULECTOMY</TreatmentRef> -->
+	</Treatments>
+
+	<ShameLevel>20</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_017</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_018</CustomIconSmallAssetRef>
+
+	<IconIndex>1</IconIndex>
+
+	</GameDBSymptom>
+	<!-- END COPY HERE ^^^ -->
+
+	<!-- Breast Implant Infection (Sleepy068)
+	This symptom requires a surgery to be added to support it
+	COPY HERE VVV (Don't forget to copy over the Localisation) -->
+	<GameDBSymptom ID="SYM_CRP_BARSA_INFECTION"><!-- Please change the CRP reference to your mod's format -->
+	<DescriptionLocID>SYM_CRP_BARSA_INFECTION_DESC</DescriptionLocID>
+	<DiscomfortLevel>High</DiscomfortLevel>
+	<PatientComplains>false</PatientComplains>
+	<Hazard>High</Hazard>
+
+	<PatientMobility>IMOBILE</PatientMobility>
+
+	<RiskOfCollapseStartHours>6</RiskOfCollapseStartHours>
+	<RiskOfCollapseEndHours>24</RiskOfCollapseEndHours>
+	<CollapseSymptomRef>SYM_SEPTIC_SHOCK</CollapseSymptomRef>
+
+	<Examinations>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+
+	<Treatments>
+	<!-- This symptom requires surgery. Surgeries cannot be universal due to them needing to be skill speced to a department.
+	You can find the surgery originally added with this symptom under Mod_CRP\Database\ModSurgery.xml to copy it 
+	REPLACE WITH YOUR SURGERY HERE VVV -->
+		<!-- <TreatmentRef>TRT_***_PLAS_IMPLANT_REMOVAL</TreatmentRef> -->
+	</Treatments>
+
+	<ShameLevel>20</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_019</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_020</CustomIconSmallAssetRef>
+
+	<IconIndex>1</IconIndex>
+
+	</GameDBSymptom>
+	<!-- END COPY HERE ^^^ -->
+					
+	<!-- Breast Implant Extrusion (Sleepy068)
+	This symptom requires a surgery to be added to support it
+	COPY HERE VVV (Don't forget to copy over the Localisation) -->
+	<GameDBSymptom ID="SYM_CRP_B_IMPLANT_EXTRUSION"><!-- Please change the CRP reference to your mod's format -->
+	<DescriptionLocID>SYM_CRP_B_IMPLANT_EXTRUSION_DESC</DescriptionLocID>
+	<DiscomfortLevel>High</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>Low</Hazard>
+	<PatientMobility>MOBILE</PatientMobility>
+
+	<RiskOfCollapseStartHours>6</RiskOfCollapseStartHours>
+	<RiskOfCollapseEndHours>24</RiskOfCollapseEndHours>
+	<CollapseSymptomRef>SYM_WOUND_INFECTION</CollapseSymptomRef>
+
+	<Examinations>
+		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+
+	<Treatments>
+	<!-- This symptom requires surgery. Surgeries cannot be universal due to them needing to be skill speced to a department.
+	You can find the surgery originally added with this symptom under Mod_CRP\Database\ModSurgery.xml to copy it 
+	REPLACE WITH YOUR SURGERY HERE VVV -->
+		<!-- <TreatmentRef>TRT_***_CORRECTIVE_SURGERY</TreatmentRef> -->
+	</Treatments>
+
+	<ShameLevel>20</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_023</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_024</CustomIconSmallAssetRef>
+
+	<IconIndex>1</IconIndex>
+
+	</GameDBSymptom>
+	<!-- END COPY HERE ^^^ -->
+
+	<!-- Fail Implant Surgery (Sleepy068) -->	
+	<GameDBSymptom ID="SYM_CRP_FAILED_BA">
+	<DescriptionLocID>SYM_CRP_FAILED_BA_DESC</DescriptionLocID>
+	<DiscomfortLevel>High</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>Low</Hazard>
+	<PatientMobility>MOBILE</PatientMobility>
+
+	<Examinations>
+		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+
+	<ShameLevel>20</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_025</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_026</CustomIconSmallAssetRef>
+
+	<IconIndex>1</IconIndex>
+
+	</GameDBSymptom>
+
+	<!-- ### Liposuction Focus ### -->
+	<!-- Asymmetric or ‘Baggy’ Skin Surface (Sleepy068) -->
+	<GameDBSymptom ID="SYM_CRP_LI_BAGGY_SKIN">
+	<DescriptionLocID>SYM_CRP_LI_BAGGY_SKIN_DESC</DescriptionLocID>
+	<DiscomfortLevel>Medium</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>Low</Hazard>
+	<PatientMobility>MOBILE</PatientMobility>
+
+	<Examinations>
+		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+
+	<Treatments>
+		<TreatmentRef>TRT_CRP_COMPRESSION_GARMENT</TreatmentRef>
+	</Treatments>
+
+	<ShameLevel>20</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_029</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_030</CustomIconSmallAssetRef>
+
+	<IconIndex>1</IconIndex>
+
+	</GameDBSymptom>
+
+	<!-- Pulmonary Embolism (Sleepy068) ***(CRP VERSION/Complication - Requires Carido or ICU for treatment)*** -->
+	<GameDBSymptom ID="SYM_CRP_PULMONARY_EMBOLISM">
+	<DescriptionLocID>SYM_CRP_PULMONARY_EMBOLISM_DESC</DescriptionLocID>
+	<DiscomfortLevel>High</DiscomfortLevel>
+	<PatientComplains>false</PatientComplains>
+	<Hazard>High</Hazard>
+
+	<RiskOfCollapseStartHours>8</RiskOfCollapseStartHours>
+	<RiskOfCollapseEndHours>24</RiskOfCollapseEndHours>
+	<CollapseSymptomRef>SYM_HYPOVOLEMIC_SHOCK</CollapseSymptomRef>
+
+	<PatientMobility>MOBILE</PatientMobility>
+
+	<Examinations>
+		<ExaminationRef>EXM_CT</ExaminationRef>
+		<ExaminationRef>EXM_ANGIOGRAPHY</ExaminationRef>
+		<ExaminationRef>EXM_EVALUATION</ExaminationRef>
+	</Examinations>
+
+	<Treatments>
+		<TreatmentRef>TRT_CLOT_PREVENTING_DRUGS</TreatmentRef>
+	</Treatments>
+
+	<ShameLevel>0</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	<IconIndex>1</IconIndex>
+
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_027</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_028</CustomIconSmallAssetRef>
+
+	</GameDBSymptom>
+
+	<!-- ### Nose Surgery Focus ### -->
+	<!-- Nasal Septal Perforation (Sleepy068)
+	This symptom requires a surgery to be added to support it
+	COPY HERE VVV (Don't forget to copy over the Localisation) -->
+	<GameDBSymptom ID="SYM_CRP_NOSE_SEPTALPERF"><!-- Please change the CRP reference to your mod's format -->
+	<DescriptionLocID>SYM_CRP_NOSE_SEPTALPERF_DESC</DescriptionLocID>
+	<DiscomfortLevel>High</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>High</Hazard>
+	<PatientMobility>MOBILE</PatientMobility>
+
+	<RiskOfCollapseStartHours>6</RiskOfCollapseStartHours>
+	<RiskOfCollapseEndHours>72</RiskOfCollapseEndHours>
+	<CollapseSymptomRef>SYM_CRP_WOUND_INFECTION2</CollapseSymptomRef>
+
+	<Examinations>
+		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+
+	<Treatments>
+	<!-- This symptom requires surgery. Surgeries cannot be universal due to them needing to be skill speced to a department.
+	You can find the surgery originally added with this symptom under Mod_CRP\Database\ModSurgery.xml to copy it 
+	REPLACE WITH YOUR SURGERY HERE VVV -->
+		<!-- <TreatmentRef>TRT_***_CORRECTIVE_SURGERY</TreatmentRef> -->
+	</Treatments>
+
+	<ShameLevel>0</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	<IconIndex>1</IconIndex>
+
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_035</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_036</CustomIconSmallAssetRef>
+
+	</GameDBSymptom>
+	<!-- END COPY HERE ^^^ -->
+
+	<!-- ### Eye Surgery Focus ### -->
+	<!-- Globe Perforation (Sleepy068)
+	This symptom requires a surgery to be added to support it
+	COPY HERE VVV (Don't forget to copy over the Localisation) -->
+	<GameDBSymptom ID="SYM_CRP_EYE_GLOBE_PERFORATION"><!-- Please change the CRP reference to your mod's format -->
+	<DescriptionLocID>SYM_CRP_EYE_GLOBE_PERFORATION_DESC</DescriptionLocID>
+	<DiscomfortLevel>High</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>High</Hazard>
+	<PatientMobility>MOBILE</PatientMobility>
+
+	<RiskOfCollapseStartHours>4</RiskOfCollapseStartHours>
+	<RiskOfCollapseEndHours>16</RiskOfCollapseEndHours>
+	<CollapseSymptomRef>SYM_CRP_WOUND_INFECTION2</CollapseSymptomRef>
+
+	<Examinations>
+		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+
+	<Treatments>
+	<!-- This symptom requires surgery. Surgeries cannot be universal due to them needing to be skill speced to a department.
+	You can find the surgery originally added with this symptom under Mod_CRP\Database\ModSurgery.xml to copy it 
+	REPLACE WITH YOUR SURGERY HERE VVV -->
+		<!-- <TreatmentRef>TRT_***_PLAS_EMERG_REPAIR</TreatmentRef> -->
+	</Treatments>
+
+	<ShameLevel>0</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	<IconIndex>1</IconIndex>
+
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_041</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_042</CustomIconSmallAssetRef>
+
+	</GameDBSymptom>
+	<!-- END COPY HERE ^^^ -->
+
+	<!-- Unsatisfactory Eye Alignment (Sleepy068)
+	This symptom requires a surgery to be added to support it
+	COPY HERE VVV (Don't forget to copy over the Localisation) -->
+	<GameDBSymptom ID="SYM_CRP_EYE_UNDESIRED_RESULTS"><!-- Please change the CRP reference to your mod's format -->
+	<DescriptionLocID>SYM_CRP_EYE_UNDESIRED_RESULTS_DESC</DescriptionLocID>
+	<DiscomfortLevel>High</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>Low</Hazard>
+	<PatientMobility>MOBILE</PatientMobility>
+
+	<Examinations>
+		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+
+	<Treatments>
+	<!-- This symptom requires surgery. Surgeries cannot be universal due to them needing to be skill speced to a department.
+	You can find the surgery originally added with this symptom under Mod_CRP\Database\ModSurgery.xml to copy it 
+	REPLACE WITH YOUR SURGERY HERE VVV -->
+		<!-- <TreatmentRef>TRT_***_CORRECTIVE_SURGERY</TreatmentRef> -->
+	</Treatments>
+
+	<ShameLevel>10</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	<IconIndex>1</IconIndex>
+
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_043</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_044</CustomIconSmallAssetRef>
+
+	</GameDBSymptom>
+	<!-- END COPY HERE ^^^ -->
+
+	<!-- Diplopia (Double Vision)(Sleepy068) -->
+	<GameDBSymptom ID="SYM_CRP_EYE_DIPLOPIA">
+	<DescriptionLocID>SYM_CRP_EYE_DIPLOPIA_DESC</DescriptionLocID>
+	<DiscomfortLevel>Medium</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>Low</Hazard>
+	<PatientMobility>MOBILE</PatientMobility>
+
+	<Examinations>
+		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_BASIC_VISUAL_TEST</ExaminationRef>
+	</Examinations>
+
+	<Treatments>
+		<TreatmentRef>TRT_CRP_EYE_PATCH</TreatmentRef>
+	</Treatments>
+
+	<ShameLevel>0</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	<IconIndex>1</IconIndex>
+
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_045</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_046</CustomIconSmallAssetRef>
+
+	</GameDBSymptom>
+
+	<!-- Conjunctival Inclusion Cyst (Sleepy068)
+	This symptom requires a surgery to be added to support it
+	COPY HERE VVV (Don't forget to copy over the Localisation) -->
+	<GameDBSymptom ID="SYM_CRP_EYE_CIC"><!-- Please change the CRP reference to your mod's format -->
+	<DescriptionLocID>SYM_CRP_EYE_CIC_DESC</DescriptionLocID>
+	<DiscomfortLevel>High</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>Medium</Hazard>
+	<PatientMobility>MOBILE</PatientMobility>
+
+	<Examinations>
+		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+
+	<Treatments>
+	<!-- This symptom requires surgery. Surgeries cannot be universal due to them needing to be skill speced to a department.
+	You can find the surgery originally added with this symptom under Mod_CRP\Database\ModSurgery.xml to copy it 
+	REPLACE WITH YOUR SURGERY HERE VVV -->
+		<!-- <TreatmentRef>TRT_***_CORRECTIVE_SURGERY</TreatmentRef> -->
+	</Treatments>
+
+	<ShameLevel>0</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	<IconIndex>1</IconIndex>
+
+	<CustomIconBigAssetRef></CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef></CustomIconSmallAssetRef>
+
+	</GameDBSymptom>
+	<!-- END COPY HERE ^^^ -->
+
+	<!-- Conjunctival Scarring (Sleepy068) -->
+	<GameDBSymptom ID="SYM_CRP_EYE_CONJU_SCAR">
+	<DescriptionLocID>SYM_CRP_EYE_CONJU_SCAR_DESC</DescriptionLocID>
+	<DiscomfortLevel>High</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>Medium</Hazard>
+	<PatientMobility>MOBILE</PatientMobility>
+
+	<Examinations>
+		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+
+	<Treatments>
+		<TreatmentRef>TRT_CRP_CORTICOSTEROID_EYEDROPS</TreatmentRef>
+	</Treatments>
+
+	<ShameLevel>0</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	<IconIndex>1</IconIndex>
+
+	<CustomIconBigAssetRef></CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef></CustomIconSmallAssetRef>
+
+	</GameDBSymptom>
+
+	<!-- Slipped Muscle (Eye)(Sleepy068)
+	This symptom requires a surgery to be added to support it
+	COPY HERE VVV (Don't forget to copy over the Localisation) -->
+	<GameDBSymptom ID="SYM_CRP_EYE_SLIPPED_MUSCLE"><!-- Please change the CRP reference to your mod's format -->
+	<DescriptionLocID>SYM_CRP_EYE_SLIPPED_MUSCLE_DESC</DescriptionLocID>
+	<DiscomfortLevel>High</DiscomfortLevel>
+	<PatientComplains>false</PatientComplains>
+	<Hazard>Medium</Hazard>
+	<PatientMobility>MOBILE</PatientMobility>
+
+	<Examinations>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+		<ExaminationRef>EXM_MRI</ExaminationRef>
+	</Examinations>
+
+	<Treatments>
+	<!-- This symptom requires surgery. Surgeries cannot be universal due to them needing to be skill speced to a department.
+	You can find the surgery originally added with this symptom under Mod_CRP\Database\ModSurgery.xml to copy it 
+	REPLACE WITH YOUR SURGERY HERE VVV -->
+		<!-- <TreatmentRef>TRT_***_CORRECTIVE_SURGERY</TreatmentRef> -->
+	</Treatments>
+
+	<ShameLevel>0</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	<IconIndex>1</IconIndex>
+
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_051</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_052</CustomIconSmallAssetRef>
+
+	</GameDBSymptom>
+	<!-- END COPY HERE ^^^ -->
+
+	<!-- ### Hair Transplant Focus ### -->	
+
+	<!-- Folliculitis (Sleepy068)  -->
+	<GameDBSymptom ID="SYM_CRP_FOLLICULITIS">
+	<DescriptionLocID>SYM_CRP_FOLLICULITIS_DESC</DescriptionLocID>
+	<DiscomfortLevel>Medium</DiscomfortLevel>
+	<PatientComplains>false</PatientComplains>
+	<Hazard>Medium</Hazard>
+	<PatientMobility>MOBILE</PatientMobility>
+
+	<Examinations>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+
+	<Treatments>
+		<TreatmentRef>TRT_ANTIBIOTICS</TreatmentRef>
+	</Treatments>
+
+	<ShameLevel>0</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	<IconIndex>1</IconIndex>
+
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_053</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_054</CustomIconSmallAssetRef>
+
+	</GameDBSymptom>
+
 	
 	<!-- =================================================== -->
 	<!-- ============= Abdomen Based Symptoms  ============= -->
@@ -7509,6 +8208,98 @@ chronic interstitial nephritis, adrenal insufficiency
         <IconIndex>2112</IconIndex>
     </GameDBSymptom>
 
+	<!-- ================================================= -->
+	<!-- ============= Hand Related Symptoms ============= -->
+	<!-- ================================================= -->
+	
+	<!-- Bent Digit (Sleepy068) -->
+	<GameDBSymptom ID="SYM_CRP_H_BENT_DIGIT">
+	<DescriptionLocID>SYM_CRP_H_BENT_DIGIT_DESC</DescriptionLocID>
+	<DiscomfortLevel>Low</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>Low</Hazard>
+
+	<PatientMobility>MOBILE</PatientMobility>
+	<Examinations>
+		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+
+	<ShameLevel>10</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_059</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_060</CustomIconSmallAssetRef>
+	
+	<IconIndex>1</IconIndex>
+	</GameDBSymptom>
+	
+	<!-- Prominent Cord (Muscle/Tissue Cord on Hand)(Sleepy068) -->
+	<GameDBSymptom ID="SYM_CRP_H_THICKCORD">
+	<DescriptionLocID>SYM_CRP_H_THICKCORD_DESC</DescriptionLocID>
+	<DiscomfortLevel>Low</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>Low</Hazard>
+
+	<PatientMobility>MOBILE</PatientMobility>
+	<Examinations>
+		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+
+	<ShameLevel>25</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_061</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_062</CustomIconSmallAssetRef>
+	
+	<IconIndex>1</IconIndex>
+	</GameDBSymptom>
+	
+	<!-- Thickening of the Palmar Fascia (Hand)(Sleepy068) -->
+	<GameDBSymptom ID="SYM_CRP_THPAFA">
+	<DescriptionLocID>SYM_CRP_THPAFA_DESC</DescriptionLocID>
+	<DiscomfortLevel>Low</DiscomfortLevel>
+	<PatientComplains>false</PatientComplains>
+	<Hazard>Low</Hazard>
+
+	<PatientMobility>MOBILE</PatientMobility>
+	<Examinations>
+		<ExaminationRef>EXM_USG</ExaminationRef>
+	</Examinations>
+
+	<ShameLevel>0</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_057</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_058</CustomIconSmallAssetRef>
+	
+	<IconIndex>1</IconIndex>
+	</GameDBSymptom>
+
+	<!-- Dimpling of Skin (Specifically Hand)(Sleepy068) -->
+	<GameDBSymptom ID="SYM_CRP_DIMPLES">
+        <DescriptionLocID>SYM_CRP_DIMPLES_DESC</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+			<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+
+        <ShameLevel>25</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_063</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_064</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		</GameDBSymptom>
+	
+	
 	<!-- ===================================== -->
 	<!-- ============= Unsorted  ============= -->
 	<!-- ===================================== -->
@@ -8266,6 +9057,163 @@ chronic interstitial nephritis, adrenal insufficiency
         <IconIndex>1</IconIndex>
 		
     </GameDBSymptom>
+	
+	<!-- Overgrowth of Scar Tissue -->
+	<GameDBSymptom ID="SYM_CRP_OOST">
+        <DescriptionLocID>SYM_CRP_OOST_DESC</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+			<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+
+        <ShameLevel>25</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_067</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_068</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		</GameDBSymptom>
+		
+	<!-- Bleeding (Mobile)(Level 1 - Very Light) -->
+	<GameDBSymptom ID="SYM_CRP_BLEEDING1">
+	<DescriptionLocID>SYM_CRP_BLEEDING1_DESC</DescriptionLocID>
+	<DiscomfortLevel>Low</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>Medium</Hazard>
+	
+	<PatientMobility>MOBILE</PatientMobility>
+	<Examinations>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+	<Treatments>
+		<TreatmentRef>TRT_BANDAGE</TreatmentRef>
+	</Treatments>
+	
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_069</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_070</CustomIconSmallAssetRef>
+	<BleedingLevel>1</BleedingLevel>
+	
+	<ShameLevel>0</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	<IconIndex>1627</IconIndex>
+	</GameDBSymptom>
+	
+	<!-- Bleeding (Mobile)(Level 2 - Light) -->
+	<GameDBSymptom ID="SYM_CRP_BLEEDING2">
+	<DescriptionLocID>SYM_CRP_BLEEDING2_DESC</DescriptionLocID>
+	<DiscomfortLevel>Medium</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>Medium</Hazard>
+	
+	<PatientMobility>MOBILE</PatientMobility>
+	<Examinations>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+	<Treatments>
+		<TreatmentRef>TRT_BANDAGE</TreatmentRef>
+	</Treatments>
+	
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_071</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_072</CustomIconSmallAssetRef>
+	<BleedingLevel>2</BleedingLevel>
+	
+	<ShameLevel>0</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	<IconIndex>1627</IconIndex>
+	</GameDBSymptom>
+	
+	<!-- Bleeding (Mobile)(Level 3 - Moderate) -->
+	<GameDBSymptom ID="SYM_CRP_BLEEDING3">
+	<DescriptionLocID>SYM_CRP_BLEEDING3_DESC</DescriptionLocID>
+	<DiscomfortLevel>High</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>High</Hazard>
+
+	<RiskOfCollapseStartHours>8</RiskOfCollapseStartHours>
+	<RiskOfCollapseEndHours>24</RiskOfCollapseEndHours>
+	<CollapseSymptomRef>SYM_HYPOVOLEMIC_SHOCK</CollapseSymptomRef>
+	
+	<PatientMobility>MOBILE</PatientMobility>
+	<Examinations>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+	<Treatments>
+		<TreatmentRef>TRT_ANTIHEMORRHAGICS</TreatmentRef>
+	</Treatments>
+	
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_073</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_074</CustomIconSmallAssetRef>
+	<BleedingLevel>3</BleedingLevel>
+	
+	<ShameLevel>0</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	<IconIndex>1627</IconIndex>
+	</GameDBSymptom>
+	
+	<!-- Bleeding (Mobile)(Level 4 - Severe) -->
+	<GameDBSymptom ID="SYM_CRP_BLEEDING4">
+	<DescriptionLocID>SYM_CRP_BLEEDING4_DESC</DescriptionLocID>
+	<DiscomfortLevel>High</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>High</Hazard>
+
+	<RiskOfCollapseStartHours>3</RiskOfCollapseStartHours>
+	<RiskOfCollapseEndHours>8</RiskOfCollapseEndHours>
+	<CollapseSymptomRef>SYM_HYPOVOLEMIC_SHOCK</CollapseSymptomRef>
+	
+	<PatientMobility>MOBILE</PatientMobility>
+	<Examinations>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+	<Treatments>
+		<TreatmentRef>TRT_ANTIHEMORRHAGICS</TreatmentRef>
+	</Treatments>
+	
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_075</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_076</CustomIconSmallAssetRef>
+	<BleedingLevel>4</BleedingLevel>
+	
+	<ShameLevel>0</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	<IconIndex>1627</IconIndex>
+	</GameDBSymptom>
+	
+	<!-- Bleeding (Mobile)(Level 5 - Catastrophic) -->
+	<GameDBSymptom ID="SYM_CRP_BLEEDING5">
+	<DescriptionLocID>SYM_CRP_BLEEDING5_DESC</DescriptionLocID>
+	<DiscomfortLevel>High</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>High</Hazard>
+
+	<RiskOfCollapseStartHours>1</RiskOfCollapseStartHours>
+	<RiskOfCollapseEndHours>3</RiskOfCollapseEndHours>
+	<CollapseSymptomRef>SYM_HYPOVOLEMIC_SHOCK</CollapseSymptomRef>
+	
+	<PatientMobility>MOBILE</PatientMobility>
+	<Examinations>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+	<Treatments>
+		<TreatmentRef>TRT_ANTIHEMORRHAGICS</TreatmentRef>
+	</Treatments>
+	
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_077</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_078</CustomIconSmallAssetRef>
+	<BleedingLevel>5</BleedingLevel>
+	
+	<ShameLevel>0</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	<IconIndex>1627</IconIndex>
+	</GameDBSymptom>
+	
+
+
 	
 
 	<!-- ==================================== -->
