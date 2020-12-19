@@ -50,12 +50,12 @@
 
     <GameDBLocalizedString>
 	 <LocID>EXM_CRP_LARYNGOSCOPY</LocID>
-     <Text>(CRP Version) Laryngoscopy</Text> 
+     <Text>Laryngoscopy (CRP)</Text> 
     </GameDBLocalizedString>
 
     <GameDBLocalizedString>  
 	 <LocID>EXM_CRP_EAR_EXAMINATION</LocID>    
-	 <Text>(CRP Version) Ear examination</Text>  
+	 <Text>Ear examination (CRP)</Text>  
 	</GameDBLocalizedString>
 
     <GameDBLocalizedString>  
