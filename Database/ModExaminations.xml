@@ -2736,8 +2736,8 @@
     </GameDBExamination>
 
 	<!-- Liver Biopsy -->
-	<GameDBExamination ID="EXM_SLP_LIVER_BIOPSY_SAMPLE">
-        <AbbreviationLocID>EXM_SLP_LIVER_BIOPSY_SAMPLE_DESC</AbbreviationLocID>
+	<GameDBExamination ID="EXM_CRP_LIVER_BIOPSY_SAMPLE">
+        <AbbreviationLocID>EXM_CRP_LIVER_BIOPSY_SAMPLE_DESC</AbbreviationLocID>
         <DiscomfortLevel>High</DiscomfortLevel>
         <Procedure>
             <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
@@ -2783,11 +2783,11 @@
 		<CustomIconBigAssetRef>ASSET_ONC_EXM_ICON_039</CustomIconBigAssetRef>
         <CustomIconSmallAssetRef>ASSET_ONC_EXM_ICON_040</CustomIconSmallAssetRef>
 		
-        <LabTestingExaminationRef>EXM_SLP_LIVER_BIOPSY_TEST</LabTestingExaminationRef>
+        <LabTestingExaminationRef>EXM_CRP_LIVER_BIOPSY_TEST</LabTestingExaminationRef>
     </GameDBExamination>
 
-    <GameDBExamination ID="EXM_SLP_LIVER_BIOPSY_TEST">
-        <AbbreviationLocID>EXM_SLP_LIVER_BIOPSY_TEST_DESC</AbbreviationLocID>
+    <GameDBExamination ID="EXM_CRP_LIVER_BIOPSY_TEST">
+        <AbbreviationLocID>EXM_CRP_LIVER_BIOPSY_TEST_DESC</AbbreviationLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
         <Procedure>
             <StaffSelectionRules>REQUIRED_ROOM_IGNORE_DOCTOR</StaffSelectionRules>
