@@ -1,10 +1,15 @@
 <Database>
 <!--
 
-Update v0.0.9.1
+Update v0.0.10.0
 Last Patcher Sleepy068
 
 Changes:
+Imported Oncology Content
+Imported Plastic Surgery Content
+
+Localisation:
+Fixed missing localisation from Oncology Content
 
 Bug Fixes:
 Fixed up some CRP assets using the wrong ID (ONO instead of CRP)
