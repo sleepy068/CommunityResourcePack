@@ -3092,7 +3092,7 @@
         <Hazard>Medium</Hazard>
         <PatientMobility>MOBILE</PatientMobility>
 		
-		<!-- EXM_CRP_CBC_SAMPLING - Patient Side -->
+		<!-- EXM_CBC_SAMPLING - Patient Side -->
 		
         <Examinations>
 		    <ExaminationRef>EXM_CBC_TESTING</ExaminationRef>
