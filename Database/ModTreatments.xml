@@ -2547,7 +2547,7 @@
         <AllowedWithAnyHospitalization>true</AllowedWithAnyHospitalization>
     </GameDBTreatment>
 
-	<!-- Botulinum Toxin (Botox)(Sleepy068) --><!-- PLASTIC SKILL LOCKED -->
+	<!-- Botulinum Toxin (Botox)(Sleepy068) -->
 	<GameDBTreatment ID="TRT_CRP_BOTOX">
         <AbbreviationLocID>TRT_CRP_BOTOX_DESC</AbbreviationLocID>
         <DiscomfortLevel>Low</DiscomfortLevel>
@@ -2556,7 +2556,7 @@
         <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
 		
 		<RequiredDoctorQualificationList>
-			<SkillRef>SKILL_DOC_SPEC_PLAS</SkillRef>
+			<SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
 		</RequiredDoctorQualificationList>
 
         <RequiredEquipmentList>
@@ -2722,7 +2722,7 @@
 		
     </GameDBTreatment>
 	
-	<!-- Alpha Hydroxy Acid Peel (Chemical Peel)(Sleepy068) --><!-- PLASTIC SKILL LOCKED -->
+	<!-- Alpha Hydroxy Acid Peel (Chemical Peel)(Sleepy068) -->
 	<GameDBTreatment ID="TRT_CRP_CHEMPEEL_L">
         <AbbreviationLocID>TRT_CRP_CHEMPEEL_L_DESC</AbbreviationLocID>
         <DiscomfortLevel>Low</DiscomfortLevel>
@@ -2731,7 +2731,7 @@
         <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
 		
 		<RequiredDoctorQualificationList>
-			<SkillRef>SKILL_DOC_SPEC_PLAS</SkillRef>
+			<SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
 		</RequiredDoctorQualificationList>
 
         <RequiredEquipmentList>
@@ -2777,7 +2777,7 @@
 		
     </GameDBTreatment>
 	
-	<!-- Sclerotherapy (Sleepy068) --><!-- PLASTIC SKILL LOCKED -->
+	<!-- Sclerotherapy (Sleepy068) -->
 	<GameDBTreatment ID="TRT_CRP_SCLEROTHERAPY">
         <AbbreviationLocID>TRT_CRP_SCLEROTHERAPY_DESC</AbbreviationLocID>
         <DiscomfortLevel>Low</DiscomfortLevel>
@@ -2786,7 +2786,7 @@
         <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
 		
 		<RequiredDoctorQualificationList>
-			<SkillRef>SKILL_DOC_SPEC_PLAS</SkillRef>
+			<SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
 		</RequiredDoctorQualificationList>
 
         <RequiredEquipmentList>
@@ -2832,7 +2832,7 @@
 		
     </GameDBTreatment>
 	
-	<!-- Skin Laser Therapy (Sleepy068) --><!-- PLASTIC SKILL LOCKED -->
+	<!-- Skin Laser Therapy (Sleepy068) -->
 	<GameDBTreatment ID="TRT_CRP_SKIN_LT">
         <AbbreviationLocID>TRT_CRP_SKIN_LT_DESC</AbbreviationLocID>
         <DiscomfortLevel>Low</DiscomfortLevel>
@@ -2841,7 +2841,7 @@
         <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
 		
 		<RequiredDoctorQualificationList>
-			<SkillRef>SKILL_DOC_SPEC_PLAS</SkillRef>
+			<SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
 		</RequiredDoctorQualificationList>
 
         <RequiredEquipmentList>
@@ -3043,7 +3043,7 @@
 		
     </GameDBTreatment>
 	
-	<!-- Hyaluronic Acid Filler (Sleepy068) --><!-- PLASTIC SKILL LOCKED -->
+	<!-- Hyaluronic Acid Filler (Sleepy068) -->
 	<GameDBTreatment ID="TRT_CRP_HYAACID_FILL">
         <AbbreviationLocID>TRT_CRP_HYAACID_FILL_DESC</AbbreviationLocID>
         <DiscomfortLevel>Low</DiscomfortLevel>
@@ -3052,7 +3052,7 @@
         <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
 		
 		<RequiredDoctorQualificationList>
-			<SkillRef>SKILL_DOC_SPEC_PLAS</SkillRef>
+			<SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
 		</RequiredDoctorQualificationList>
 
         <RequiredEquipmentList>
