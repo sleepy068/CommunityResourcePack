@@ -949,8 +949,8 @@
         <DurationHours>0</DurationHours>
 		<IconIndex>2021</IconIndex>
 		
-		<CustomIconBigAssetRef>ASSET_ONC_TRT_ICON_047</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_ONC_TRT_ICON_048</CustomIconSmallAssetRef>
+		<CustomIconBigAssetRef>ASSET_CRP_TRT_ICON_047</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_CRP_TRT_ICON_048</CustomIconSmallAssetRef>
 		
     </GameDBTreatment>
 
@@ -989,8 +989,8 @@
         <DurationHours>0</DurationHours>
 		<IconIndex>2021</IconIndex>
 		
-		<CustomIconBigAssetRef>ASSET_ONC_TRT_ICON_049</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_ONC_TRT_ICON_050</CustomIconSmallAssetRef>
+		<CustomIconBigAssetRef>ASSET_CRP_TRT_ICON_049</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_CRP_TRT_ICON_050</CustomIconSmallAssetRef>
 		
     </GameDBTreatment>
 	
@@ -2061,8 +2061,8 @@
         <Cost>50</Cost>
         <IconIndex>2055</IconIndex>
 		
-		<CustomIconBigAssetRef>ASSET_ONC_TRT_ICON_045</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_ONC_TRT_ICON_046</CustomIconSmallAssetRef>
+		<CustomIconBigAssetRef>ASSET_CRP_TRT_ICON_045</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_CRP_TRT_ICON_046</CustomIconSmallAssetRef>
 		
         <DurationHours>3</DurationHours>
         <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>

@@ -617,8 +617,8 @@
         <ShameLevel>20</ShameLevel>
         <IsMainSymptom>false</IsMainSymptom>
 		
-		<CustomIconBigAssetRef>ASSET_ONC_SYM_ICON_409</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_ONC_SYM_ICON_410</CustomIconSmallAssetRef>
+		<CustomIconBigAssetRef>ASSET_CRP_SYM_ICON_409</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_CRP_SYM_ICON_410</CustomIconSmallAssetRef>
 		
         <IconIndex>1</IconIndex>
 		
@@ -3435,8 +3435,8 @@
         <ShameLevel>0</ShameLevel>
         <IsMainSymptom>false</IsMainSymptom>
 		
-		<CustomIconBigAssetRef>ASSET_ONC_SYM_ICON_423</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_ONC_SYM_ICON_424</CustomIconSmallAssetRef>
+		<CustomIconBigAssetRef>ASSET_CRP_SYM_ICON_423</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_CRP_SYM_ICON_424</CustomIconSmallAssetRef>
 		
         <IconIndex>1</IconIndex>
 		
@@ -3575,8 +3575,8 @@
         <IsMainSymptom>false</IsMainSymptom>
         <IconIndex>1</IconIndex>
 		
-		<CustomIconBigAssetRef>ASSET_ONC_SYM_ICON_425</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_ONC_SYM_ICON_426</CustomIconSmallAssetRef>
+		<CustomIconBigAssetRef>ASSET_CRP_SYM_ICON_425</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_CRP_SYM_ICON_426</CustomIconSmallAssetRef>
 		
     </GameDBSymptom>
 	<!-- END COPY HERE ^^^ -->
@@ -3608,8 +3608,8 @@
 		
 		<CollapseProcedureRef>CONTROL_PROCEDURE_COLLAPSE_LOW</CollapseProcedureRef>
 		
-		<CustomIconBigAssetRef>ASSET_ONC_SYM_ICON_429</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_ONC_SYM_ICON_430</CustomIconSmallAssetRef>
+		<CustomIconBigAssetRef>ASSET_CRP_SYM_ICON_429</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_CRP_SYM_ICON_430</CustomIconSmallAssetRef>
 		
         <IconIndex>2112</IconIndex>
     </GameDBSymptom>
@@ -3648,8 +3648,8 @@
         <ShameLevel>0</ShameLevel>
         <IsMainSymptom>false</IsMainSymptom>
 		
-		<CustomIconBigAssetRef>ASSET_ONC_SYM_ICON_433</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_ONC_SYM_ICON_434</CustomIconSmallAssetRef>
+		<CustomIconBigAssetRef>ASSET_CRP_SYM_ICON_433</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_CRP_SYM_ICON_434</CustomIconSmallAssetRef>
 		
         <IconIndex>1</IconIndex>
 		
@@ -4738,8 +4738,8 @@
         <ShameLevel>0</ShameLevel>
         <IsMainSymptom>false</IsMainSymptom>
 		
-		<CustomIconBigAssetRef>ASSET_ONC_SYM_ICON_407</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_ONC_SYM_ICON_408</CustomIconSmallAssetRef>
+		<CustomIconBigAssetRef>ASSET_CRP_SYM_ICON_407</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_CRP_SYM_ICON_408</CustomIconSmallAssetRef>
 		
         <IconIndex>1</IconIndex>
 		
@@ -5738,8 +5738,8 @@
         <ShameLevel>0</ShameLevel>
         <IsMainSymptom>false</IsMainSymptom>
 		
-		<CustomIconBigAssetRef>ASSET_ONC_SYM_ICON_397</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_ONC_SYM_ICON_398</CustomIconSmallAssetRef>
+		<CustomIconBigAssetRef>ASSET_CRP_SYM_ICON_397</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_CRP_SYM_ICON_398</CustomIconSmallAssetRef>
 		
         <IconIndex>1</IconIndex>
 		
@@ -5762,8 +5762,8 @@
         <ShameLevel>0</ShameLevel>
         <IsMainSymptom>false</IsMainSymptom>
 		
-		<CustomIconBigAssetRef>ASSET_ONC_SYM_ICON_403</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_ONC_SYM_ICON_404</CustomIconSmallAssetRef>
+		<CustomIconBigAssetRef>ASSET_CRP_SYM_ICON_403</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_CRP_SYM_ICON_404</CustomIconSmallAssetRef>
 		
         <IconIndex>1</IconIndex>
 		
@@ -5786,8 +5786,8 @@
         <ShameLevel>0</ShameLevel>
         <IsMainSymptom>false</IsMainSymptom>
 		
-		<CustomIconBigAssetRef>ASSET_ONC_SYM_ICON_401</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_ONC_SYM_ICON_402</CustomIconSmallAssetRef>
+		<CustomIconBigAssetRef>ASSET_CRP_SYM_ICON_401</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_CRP_SYM_ICON_402</CustomIconSmallAssetRef>
 		
         <IconIndex>1</IconIndex>
 		
@@ -5810,8 +5810,8 @@
         <ShameLevel>0</ShameLevel>
         <IsMainSymptom>false</IsMainSymptom>
 		
-		<CustomIconBigAssetRef>ASSET_ONC_SYM_ICON_399</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_ONC_SYM_ICON_400</CustomIconSmallAssetRef>
+		<CustomIconBigAssetRef>ASSET_CRP_SYM_ICON_399</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_CRP_SYM_ICON_400</CustomIconSmallAssetRef>
 		
         <IconIndex>1</IconIndex>
 		
@@ -5864,8 +5864,8 @@
         <ShameLevel>0</ShameLevel>
         <IsMainSymptom>false</IsMainSymptom>
 		
-		<CustomIconBigAssetRef>ASSET_ONC_SYM_ICON_421</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_ONC_SYM_ICON_422</CustomIconSmallAssetRef>
+		<CustomIconBigAssetRef>ASSET_CRP_SYM_ICON_421</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_CRP_SYM_ICON_422</CustomIconSmallAssetRef>
 		
         <IconIndex>1</IconIndex>
 		
@@ -7999,8 +7999,8 @@ chronic interstitial nephritis, adrenal insufficiency
         <IsMainSymptom>false</IsMainSymptom>
         <IconIndex>1</IconIndex>
 		
-		<CustomIconBigAssetRef>ASSET_ONC_SYM_ICON_427</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_ONC_SYM_ICON_428</CustomIconSmallAssetRef>
+		<CustomIconBigAssetRef>ASSET_CRP_SYM_ICON_427</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_CRP_SYM_ICON_428</CustomIconSmallAssetRef>
 		
     </GameDBSymptom>
 
@@ -8019,8 +8019,8 @@ chronic interstitial nephritis, adrenal insufficiency
         <ShameLevel>10</ShameLevel>
         <IsMainSymptom>false</IsMainSymptom>
 		
-		<CustomIconBigAssetRef>ASSET_ONC_SYM_ICON_415</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_ONC_SYM_ICON_416</CustomIconSmallAssetRef>
+		<CustomIconBigAssetRef>ASSET_CRP_SYM_ICON_415</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_CRP_SYM_ICON_416</CustomIconSmallAssetRef>
 		
         <IconIndex>1</IconIndex>
 		
@@ -8045,8 +8045,8 @@ chronic interstitial nephritis, adrenal insufficiency
         <ShameLevel>0</ShameLevel>
         <IsMainSymptom>false</IsMainSymptom>
 		
-		<CustomIconBigAssetRef>ASSET_ONC_SYM_ICON_417</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_ONC_SYM_ICON_418</CustomIconSmallAssetRef>
+		<CustomIconBigAssetRef>ASSET_CRP_SYM_ICON_417</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_CRP_SYM_ICON_418</CustomIconSmallAssetRef>
 		
         <IconIndex>1</IconIndex>
 		
@@ -8202,8 +8202,8 @@ chronic interstitial nephritis, adrenal insufficiency
         <IsMainSymptom>false</IsMainSymptom>
 		<BleedingLevel>0</BleedingLevel>
 		
-		<CustomIconBigAssetRef>ASSET_ONC_SYM_ICON_431</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_ONC_SYM_ICON_432</CustomIconSmallAssetRef>
+		<CustomIconBigAssetRef>ASSET_CRP_SYM_ICON_431</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_CRP_SYM_ICON_432</CustomIconSmallAssetRef>
 		
         <IconIndex>2112</IconIndex>
     </GameDBSymptom>
@@ -9003,8 +9003,8 @@ chronic interstitial nephritis, adrenal insufficiency
         <ShameLevel>0</ShameLevel>
         <IsMainSymptom>false</IsMainSymptom>
 		
-		<CustomIconBigAssetRef>ASSET_ONC_SYM_ICON_437</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_ONC_SYM_ICON_438</CustomIconSmallAssetRef>
+		<CustomIconBigAssetRef>ASSET_CRP_SYM_ICON_437</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_CRP_SYM_ICON_438</CustomIconSmallAssetRef>
 		
         <IconIndex>1</IconIndex>
 		
@@ -9027,8 +9027,8 @@ chronic interstitial nephritis, adrenal insufficiency
         <ShameLevel>0</ShameLevel>
         <IsMainSymptom>false</IsMainSymptom>
 		
-		<CustomIconBigAssetRef>ASSET_ONC_SYM_ICON_439</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_ONC_SYM_ICON_440</CustomIconSmallAssetRef>
+		<CustomIconBigAssetRef>ASSET_CRP_SYM_ICON_439</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_CRP_SYM_ICON_440</CustomIconSmallAssetRef>
 		
         <IconIndex>1</IconIndex>
 		
@@ -9051,8 +9051,8 @@ chronic interstitial nephritis, adrenal insufficiency
         <ShameLevel>0</ShameLevel>
         <IsMainSymptom>false</IsMainSymptom>
 		
-		<CustomIconBigAssetRef>ASSET_ONC_SYM_ICON_441</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_ONC_SYM_ICON_442</CustomIconSmallAssetRef>
+		<CustomIconBigAssetRef>ASSET_CRP_SYM_ICON_441</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_CRP_SYM_ICON_442</CustomIconSmallAssetRef>
 		
         <IconIndex>1</IconIndex>
 		
