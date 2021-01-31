@@ -8,6 +8,7 @@
             <Name>1328411791</Name>
 			<Name>Yang zhouzhouzhou</Name>
 			<Name>Toobin</Name>
+			<Name>RouRouDR</Name>
         </Contributors>
 
        <LocalizedStrings>
@@ -36,6 +37,54 @@
 			<GameDBLocalizedString>	<LocID>EXM_CRP_ELISA_SAMPLING</LocID>						<Text>酶联法实验-采样</Text>	</GameDBLocalizedString>	// outdated
 			<GameDBLocalizedString>	<LocID>EXM_CRP_ELISA_TESTING</LocID>						<Text>酶联法实验-检测</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>EXM_CRP_ELISA_DESCRIPTION</LocID>					<Text>酶联免疫吸附试验(ELISA）实验是一种常用的分析生物化学测定。 利用抗原抗体之间专一性键结之特性，以检测特定抗原或抗体是否存在，并可利用呈色的深浅进行定量分析。</Text>	</GameDBLocalizedString>
+
+
+    <!-- ### ### -->
+	<!-- ######################################## Content From ENT ######################################## -->
+	<!-- ### ### -->
+
+    <GameDBLocalizedString>
+	 <LocID>EXM_CRP_LARYNGOSCOPY</LocID>
+     <Text>喉镜检查（CRP）</Text> 
+    </GameDBLocalizedString>
+
+    <GameDBLocalizedString>  
+	 <LocID>EXM_CRP_EAR_EXAMINATION</LocID>    
+	 <Text>耳部检查（CRP）</Text>  
+	</GameDBLocalizedString>
+
+    <GameDBLocalizedString>  
+	 <LocID>EXM_CRP_SPUTUM_CULTURE_SAMPLING</LocID>
+	 <Text>痰液取样</Text> 
+	</GameDBLocalizedString>
+			
+	<GameDBLocalizedString>  
+	 <LocID>EXM_CRP_SPUTUM_CULTURE_SAMPLING_DESCRIPTION</LocID>  
+	 <Text>痰液培养用痰的取样。 \n\n所需房间：血液学实验室</Text> 
+	</GameDBLocalizedString>
+			
+    <GameDBLocalizedString>  
+	 <LocID>EXM_CRP_SPUTUM_CULTURE_TESTING</LocID>
+	 <Text>痰液培养</Text> 
+	</GameDBLocalizedString>
+			
+	<GameDBLocalizedString>
+	 <LocID>EXM_CRP_SPUTUM_CULTURE_TESTING_DESCRIPTION</LocID>  
+	 <Text>痰液培养是一种检测和鉴定感染肺或呼吸道的细菌或真菌的测试。痰是在肺部和相邻气道中产生的粘稠液体。如果没有细菌或真菌生长，则培养阴性。 \n\n所需房间：血液学实验室</Text> 
+	</GameDBLocalizedString>
+
+<!-- ### ### -->
+	<!-- ######################################## Content From Butch ######################################## -->
+	<!-- ### ### -->
+	
+			<GameDBLocalizedString>     <LocID>EXM_CRP_BRONCHOALVEOLAR_LAVAGE_SAMPLING</LocID>                                     <Text>支气管肺泡灌洗</Text>  </GameDBLocalizedString>
+			<GameDBLocalizedString>     <LocID>EXM_CRP_BRONCHOALVEOLAR_LAVAGE_SAMPLING_DESCRIPTION</LocID>                         <Text>支气管肺泡灌洗（BAL）是一种医学操作，通过支气管镜经口或鼻进入肺部，液体注入肺部的一小部分，然后收集起来进行检查。 \n\n所需房间: 内科诊断室</Text>  </GameDBLocalizedString>
+			<GameDBLocalizedString>     <LocID>EXM_CRP_BRONCHOALVEOLAR_LAVAGE_TESTING</LocID>                                      <Text>支气管肺泡灌洗实验室检测</Text>  </GameDBLocalizedString>
+			<GameDBLocalizedString>     <LocID>EXM_CRP_BRONCHOALVEOLAR_LAVAGE_TESTING_DESCRIPTION</LocID>                          <Text>支气管肺泡灌洗的样品送实验室检测。</Text>  </GameDBLocalizedString>
+			<GameDBLocalizedString>     <LocID>EXM_CRP_ARTHROCENTESIS_SAMPLING</LocID>                                             <Text>关节穿刺术</Text>  </GameDBLocalizedString>
+			<GameDBLocalizedString>     <LocID>EXM_CRP_ARTHROCENTESIS_SAMPLING_DESCRIPTION</LocID>                                 <Text>关节穿刺术是一种使用注射器从关节囊收集滑液的临床操作。</Text>  </GameDBLocalizedString>
+			<GameDBLocalizedString>     <LocID>EXM_CRP_ARTHROCENTESIS_TESTING</LocID>                                              <Text>关节穿刺实验室检测</Text>  </GameDBLocalizedString>
+			<GameDBLocalizedString>     <LocID>EXM_CRP_ARTHROCENTESIS_TESTING_DESCRIPTION</LocID>                                  <Text>从关节处吸出的滑液样品被送到实验室进行检测。</Text>  </GameDBLocalizedString>
 
 
 </LocalizedStrings>
