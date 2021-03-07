@@ -848,7 +848,7 @@
 		
     </GameDBSymptom>
 
-	<!-- Metrorrhagia ; Female -->
+	<!-- Metrorrhagia (Uterine bleeding at irregular intervals); Female -->
     <GameDBSymptom ID="SYM_CRP_METRORRAGIE">			
         <DescriptionLocID>SYM_CRP_METRORRAGIE_DESCRIPTION</DescriptionLocID>
         <DiscomfortLevel>Medium</DiscomfortLevel>
@@ -911,7 +911,7 @@
         <CustomIconSmallAssetRef>ASSET_GYNECO_ICON_DG7_SMALL</CustomIconSmallAssetRef>
     </GameDBSymptom>
 
-	<!-- Amenorrhea ; Female -->
+	<!-- Amenorrhea (The absence of monthly menstrual periods) ; Female -->
     <GameDBSymptom ID="SYM_CRP_AMENORRHEE">				
         <DescriptionLocID>SYM_CRP_AMENORRHEE_DESCRIPTION</DescriptionLocID>
         <DiscomfortLevel>Low</DiscomfortLevel>
@@ -948,7 +948,7 @@
         <IconIndex>1557</IconIndex>
     </GameDBSymptom>
 
-	<!-- Dysmenorrhea ; Female -->
+	<!-- Dysmenorrhea (Menstrual Cramps) ; Female -->
     <GameDBSymptom ID="SYM_CRP_DYSMENORRHEE">			
         <DescriptionLocID>SYM_CRP_DYSMENORRHEE_DESCRIPTION</DescriptionLocID>
         <DiscomfortLevel>Medium</DiscomfortLevel>
@@ -966,7 +966,7 @@
         <IconIndex>1161</IconIndex>
     </GameDBSymptom>
 
-	<!-- Menorrhagia ; female -->
+	<!-- Menorrhagia (Heavy Periods) ; female -->
     <GameDBSymptom ID="SYM_CRP_MENORRAGIE">				
         <DescriptionLocID>SYM_CRP_MENORRAGIE_DESCRIPTION</DescriptionLocID>
         <DiscomfortLevel>Medium</DiscomfortLevel>
@@ -986,7 +986,7 @@
         <CustomIconSmallAssetRef>ASSET_GYNECO_ICON_S14_SMALL</CustomIconSmallAssetRef>
     </GameDBSymptom>
 
-	<!-- Leukorrhea ; female -->
+	<!-- Leukorrhea (mild, odorless discharge from the vagina that is clear or milky) ; female -->
     <GameDBSymptom ID="SYM_CRP_LEUCORRHEE">				
         <DescriptionLocID>SYM_CRP_LEUCORRHEE_DESCRIPTION</DescriptionLocID>
         <DiscomfortLevel>Low</DiscomfortLevel>
