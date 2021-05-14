@@ -9212,7 +9212,53 @@ chronic interstitial nephritis, adrenal insufficiency
 	<IconIndex>1627</IconIndex>
 	</GameDBSymptom>
 	
+	<!-- Rapid Blinking -->
+	<GameDBSymptom ID="SYM_CRP_RAPID_BLINKING">
+	<DescriptionLocID>SYM_CRP_RAPID_BLINKING_DESC</DescriptionLocID>
+	<DiscomfortLevel>Medium</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>Low</Hazard>
 
+	<PatientMobility>MOBILE</PatientMobility>
+	<Examinations>
+		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+
+	<ShameLevel>20</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_037</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_038</CustomIconSmallAssetRef>
+	
+	<IconIndex>1</IconIndex>
+	</GameDBSymptom>
+
+	<!-- Lazy Eye -->
+	<GameDBSymptom ID="SYM_CRP_LAZY_EYE">
+	<DescriptionLocID>SYM_CRP_LAZY_EYE_DESC</DescriptionLocID>
+	<DiscomfortLevel>Low</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>Low</Hazard>
+
+	<PatientMobility>MOBILE</PatientMobility>
+	<Examinations>
+		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+	
+	<Treatments>
+		<TreatmentRef>TRT_CRP_ATROPINE_EYEDROP</TreatmentRef>
+	</Treatments>
+
+	<ShameLevel>30</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_039</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_040</CustomIconSmallAssetRef>
+	
+	<IconIndex>1</IconIndex>
+	</GameDBSymptom>
 
 	
 
