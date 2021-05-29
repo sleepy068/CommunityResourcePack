@@ -2947,7 +2947,19 @@ This section handles adding my custom surgery icons to the game. -->
 	<!-- ######################################## Content From ENT / Otorhinolaryngology ######################################## -->
 	<!-- #################################### Odd number due to removal of Main Symptom Icon #################################### -->
 	<!-- ### ### -->
-	
+
+<!-- Diagnoses -->
+<GameDBAsset ID="ASSET_OR_DIA_ICON006_LARGE"> <!-- Severed Ear -->
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/dia_jm_severed_eara.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_OR_DIA_ICON006_SMALL">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/dia_jm_severed_earb.png</File> 
+</GameDBAsset>
+
+<!-- Symptoms -->
 <GameDBAsset ID="ASSET_OR_SYM_ICON002_LARGE"> <!-- Laceration of the Larynx -->
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/sym_jm_larynx_trauma1a.png</File> 
@@ -3067,7 +3079,108 @@ This section handles adding my custom surgery icons to the game. -->
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/sym_sl_nseptal1b.png</File> 
 </GameDBAsset>
-	
+
+<GameDBAsset ID="ASSET_OR_SYM_ICON023_LARGE"> <!-- Ear Damage -->
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_jm_ear_damage1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_OR_SYM_ICON023_SMALL">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_jm_ear_damage1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_OR_SYM_ICON024_LARGE"> <!-- Dry Nose -->
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_jm_dry_nose1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_OR_SYM_ICON024_SMALL">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_jm_dry_nose1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_OR_SYM_ICON025_LARGE"> <!-- Nasal Cycle -->
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_jm_nasal_cycle1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_OR_SYM_ICON025_SMALL">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_jm_nasal_cycle1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_OR_SYM_ICON026_LARGE"> <!-- Nasal Damage -->
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_jm_nose_damage1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_OR_SYM_ICON026_SMALL">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_jm_nose_damage1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_OR_SYM_ICON028_LARGE"> <!-- Nose Pain -->
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_jm_nose_pain1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_OR_SYM_ICON028_SMALL">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_jm_nose_pain1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_OR_SYM_ICON029_LARGE"> <!-- Facial Pain -->
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_jm_face_pain1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_OR_SYM_ICON029_SMALL">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_jm_face_pain1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_OR_SYM_ICON030_LARGE"> <!-- Facial Pressure -->
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_jm_face_pressure1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_OR_SYM_ICON030_SMALL">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_jm_face_pressure1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_OR_SYM_ICON043_LARGE"> <!-- Facial Weakness -->
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_jm_face_weakness1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_OR_SYM_ICON043_SMALL">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_jm_face_weakness1b.png</File> 
+</GameDBAsset>
+
+<!-- Treatments -->
+<GameDBAsset ID="ASSET_OR_TRT_ICON001_LARGE"> <!-- Adenoidectomy -->
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_jm_adenoidectomy1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_OR_TRT_ICON001_SMALL">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_jm_adenoidectomy1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_OR_TRT_ICON002_LARGE"> <!-- LOTS -->
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_jm_lots1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_OR_TRT_ICON002_SMALL">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_jm_lots1b.png</File> 
+</GameDBAsset>
+
 <GameDBAsset ID="ASSET_OR_TRT_ICON003_LARGE"> <!-- Vestibular Nerve Surgery and Nerve Transplant -->
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/trt_jm_nerve_surgery1a.png</File> 
@@ -3078,7 +3191,6 @@ This section handles adding my custom surgery icons to the game. -->
 	<File>MOD_ROOT/trt_jm_nerve_surgery1b.png</File> 
 </GameDBAsset>
 
-<!-- Treatments -->
 <GameDBAsset ID="ASSET_OR_TRT_ICON004_LARGE"> <!-- Papilloma Removal Surgery -->
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/trt_jm_papilloma_removal_surgery1a.png</File> 
@@ -3087,6 +3199,16 @@ This section handles adding my custom surgery icons to the game. -->
 <GameDBAsset ID="ASSET_OR_TRT_ICON004_SMALL">   
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/trt_jm_papilloma_removal_surgery1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_OR_TRT_ICON006_LARGE"> <!-- Hearing Aids -->
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_jm_hearing_aid1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_OR_TRT_ICON006_SMALL">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/trt_jm_hearing_aid1b.png</File> 
 </GameDBAsset>
 
 <!-- Exams -->

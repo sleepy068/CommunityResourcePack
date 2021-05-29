@@ -999,7 +999,7 @@
 	<!-- ============= Nasal and Ear Treatments (Ear Drops, Nasal Sprays) ============= -->
 	<!-- ============================================================================== -->
 	
-	<!-- Corticosteroid Nasal Spray 
+	<!-- Corticosteroid Nasal Spray (James)
 	TAGS: Nasal Spray, Spray, Nose, Steroids, Medicine 
 	DESC:   -->
     <GameDBTreatment ID="TRT_CRP_CORTICOSTEROID_NASAL_SPRAY"> 
@@ -1039,10 +1039,10 @@
         <DurationHours>0</DurationHours>
     </GameDBTreatment>
 	
-	<!-- Corticosteroid Nasal Spray 
+	<!-- Saline Nasal Spray (James)
 	TAGS: Nasal Spray, Spray, Nose, Saline, Medicine 
 	DESC:   -->
-	<GameDBTreatment ID="TRT_CRP_SALINE_NASAL_SPRAY"> <!-- Otorhinolaryngology Version -->
+	<GameDBTreatment ID="TRT_CRP_SALINE_NASAL_SPRAY"> <!-- CRP Version -->
         <AbbreviationLocID>TRT_CRP_SALINE_NASAL_SPRAY_DESC</AbbreviationLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
         <Procedure>
@@ -1084,7 +1084,7 @@
 	<!-- ============= Non-medicinal Treatments (CPAP, Vocal Therapy, Intubation) ============= -->
 	<!-- ====================================================================================== -->
 	
-	<!-- Vocal Therapy 
+	<!-- Vocal Therapy (James)
 	TAGS: Voice, Larynx, Therapy, Non-Medicine 
 	DESC:   -->
 	<GameDBTreatment ID="TRT_CRP_VOCAL_THERAPY">
@@ -1120,7 +1120,7 @@
         <DurationHours>0</DurationHours>
     </GameDBTreatment>
 	
-	<!-- Intubation 
+	<!-- Intubation (James)
 	TAGS: Non-Medicine, Hospitalisation, Pipe, Icu, Trauma
 	DESC:   -->
 	<GameDBTreatment ID="TRT_CRP_INTUBATION">
@@ -1158,7 +1158,7 @@
         <DurationHours>0</DurationHours>
     </GameDBTreatment>
 	
-	<!-- CPAP (Continuous Positive Airway Machine) 
+	<!-- CPAP (Continuous Positive Airway Machine) (James)
 	TAGS: Sleep, Airway, Machine, Pipe, Breathe, Non-Medicine 
 	DESC:   -->
 	<GameDBTreatment ID="TRT_CRP_CPAP"> 
@@ -1191,6 +1191,72 @@
         <TreatmentType>RECEIPT</TreatmentType>
         <Cost>830</Cost>
         <IconIndex>1979</IconIndex>
+        <DurationHours>0</DurationHours>
+    </GameDBTreatment>
+    
+	<!-- Hearing Aids (James)
+	TAGS: Hearing, Hear, Ear, Aids, Non-Medicine 
+	DESC:   -->
+	<GameDBTreatment ID="TRT_CRP_HEARING_AIDS">
+        <AbbreviationLocID>TRT_CRP_HEARING_AIDS_DESC</AbbreviationLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredRoomTags>
+                <Tag>receipt</Tag>
+            </RequiredRoomTags>
+
+            <ProcedureScript>ProcedureScriptTreatmentPrescription</ProcedureScript>
+
+            <AnimationSetupSitting>
+                <AnimationNameIn>sit_doc_recommendation_in</AnimationNameIn>
+                <AnimationNameIdle>sit_doc_recommendation_idle</AnimationNameIdle>
+                <AnimationNameOut>sit_doc_recommendation_out</AnimationNameOut>
+            </AnimationSetupSitting>
+
+            <DressLevel>FULL</DressLevel>
+            <DressLevelAfter>FULL</DressLevelAfter>
+        </Procedure>
+        <TreatmentType>PRESCRIPTION</TreatmentType>
+        <IconIndex>1901</IconIndex>
+		<CustomIconBigAssetRef>ASSET_OR_TRT_ICON006_LARGE</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_OR_TRT_ICON006_SMALL</CustomIconSmallAssetRef>
+        <DurationHours>0</DurationHours>
+    </GameDBTreatment>
+
+    <!-- Massage (James)
+	Tags: Massage, Non-Medicine
+	Desc: -->
+    <GameDBTreatment ID="TRT_CRP_MASSAGE">
+        <AbbreviationLocID>TRT_CRP_MASSAGE_DESC</AbbreviationLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>receipt</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+            <RequiredRoomTags>
+                <Tag>receipt</Tag>
+            </RequiredRoomTags>
+
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+        <Cost>0</Cost>
+        <IconIndex>1659</IconIndex>
+		
         <DurationHours>0</DurationHours>
     </GameDBTreatment>
 

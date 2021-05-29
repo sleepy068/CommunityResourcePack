@@ -18,7 +18,7 @@
 	Bowel/Rectum Based Symptoms
 	Sexual Organ Based Symptoms
 	Skin Based Symptoms
-	ENT Symptoms
+	ENT and Facial Symptoms
 	Lung/Throat Based Symptoms
 	Infections
 	Blood Based Symptoms (Cells, Hormones, etc)
@@ -49,7 +49,7 @@
 	SYM_CRP_SPLENOMEGALY
 	SYM_CRP_RUP_SPLENOMEGALY
 	SYM_CRP_HEMOPERITOINE 
-	SYM_CRP_GANGRENE
+	SYM_CRP_GANGRENE 
 	-->
 	
 	<!-- Alphabetic Index of Symptoms (Work In Progress)
@@ -62,8 +62,8 @@
 	<!-- ==================================================================== -->
 
     <!-- Severe Pain
-	TAGS:
-	DESC:  -->
+	TAGS: Pain, Discomfort, Nervous System
+	DESC: The patient is experiencing severe pain -->
     <GameDBSymptom ID="SYM_CRP_SEVERE_PAIN">
         <DescriptionLocID>SYM_CRP_SEVERE_PAIN_DESCRIPTION</DescriptionLocID>
         <DiscomfortLevel>High</DiscomfortLevel>
@@ -88,6 +88,32 @@
 		
         <IconIndex>1459</IconIndex>
 		
+    </GameDBSymptom>
+	
+	<!-- Encephalitis
+	TAGS: Inflammation, Brain, Nervous System
+	DESC: The patient is experiencing encephalitis, inflammation of the brain -->
+	<GameDBSymptom ID="SYM_CRP_ENCEPHALITIS">
+        <DescriptionLocID>SYM_CRP_ENCEPHALITIS_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>High</Hazard>
+
+        <RiskOfCollapseStartHours>6</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>24</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_COMA</CollapseSymptomRef>
+        
+        <PatientMobility>IMOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_CT</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_INTRAVENOUS_ANTIBIOTICS</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <CanNotTalk>true</CanNotTalk>
+        <IconIndex>2164</IconIndex>
     </GameDBSymptom>
 
 	<!-- Seizure (Sleepy068)
@@ -1604,7 +1630,9 @@
 		
     </GameDBSymptom>
 	
-	<!-- Pressure in Ear -->
+	<!-- Ear Pressure (James)
+	Desc: The patient feels pressure on their ears
+	Tags: Ear, Pressure, ENT, Discomfort -->
 	<GameDBSymptom ID="SYM_CRP_EAR_PRESSURE">
         <DescriptionLocID>SYM_CRP_EAR_PRESSURE_DESCRIPTION</DescriptionLocID>
         <DiscomfortLevel>Medium</DiscomfortLevel>
@@ -1614,8 +1642,6 @@
         <Examinations>
             <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
 			<ExaminationRef>EXM_EVALUATION</ExaminationRef>
-			<ExaminationRef>EXM_CRP_EAR_EXAMINATION</ExaminationRef>
-			<ExaminationRef>EXM_EAR_EXAMINATION</ExaminationRef>
         </Examinations>
         <ShameLevel>20</ShameLevel>
         <IsMainSymptom>false</IsMainSymptom>
@@ -1624,29 +1650,51 @@
         <CustomIconSmallAssetRef>ASSET_OR_SYM_ICON018_SMALL</CustomIconSmallAssetRef>
     </GameDBSymptom>
 	
-	<!-- Snoring -->
-	<GameDBSymptom ID="SYM_CRP_SNORE">
-        <DescriptionLocID>SYM_CRP_SNORE_DESCRIPTION</DescriptionLocID>
-        <DiscomfortLevel>None</DiscomfortLevel>
+	<!-- Ear Damage (James)
+	Desc: The patient has damaged their ears due to some sort of trauma
+	Tags: Ear, Damage, Trauma, ENT, Discomfort -->
+	<GameDBSymptom ID="SYM_CRP_EAR_DAMAGE">
+        <DescriptionLocID>SYM_CRP_EAR_PRESSURE_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
         <PatientComplains>false</PatientComplains>
         <Hazard>Medium</Hazard>
         <PatientMobility>MOBILE</PatientMobility>
-	
         <Examinations>
-            <ExaminationRef>EXM_EVALUATION</ExaminationRef>
+			<!--<ExaminationRef>EXM_CRP_EAR_EXAMINATION</ExaminationRef>-->
+			<ExaminationRef>EXM_EAR_EXAMINATION</ExaminationRef>
         </Examinations>
-		
         <ShameLevel>0</ShameLevel>
         <IsMainSymptom>false</IsMainSymptom>
-		
-        <IconIndex>1319</IconIndex>
-		<CustomIconBigAssetRef>ASSET_OR_SYM_ICON019_LARGE</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_OR_SYM_ICON019_SMALL</CustomIconSmallAssetRef>
+        <IconIndex>1409</IconIndex>
+		<CustomIconBigAssetRef>ASSET_OR_SYM_ICON023_LARGE</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_OR_SYM_ICON023_SMALL</CustomIconSmallAssetRef>
     </GameDBSymptom>
 	
-	<!-- This symptom requires a surgery to be added to support it
+	<!-- Ear Pressure (James)
+	Desc: The patient has deformed ears
+	Tags: Ear, Deformity, ENT -->
+	<GameDBSymptom ID="SYM_CRP_EAR_DEFORMITY">
+        <DescriptionLocID>SYM_CRP_EAR_DEFORMITY_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+        <ShameLevel>20</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>2150</IconIndex>
+		<CustomIconBigAssetRef>ASSET_OR_DIA_ICON006_LARGE</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_OR_DIA_ICON006_SMALL</CustomIconSmallAssetRef>
+    </GameDBSymptom>
+
+    <!-- This symptom requires a surgery to be added to support it
 	COPY HERE VVV (Don't forget to copy over the Localisation) -->
-	<!-- Nasal Polyps -->
+	<!-- Nasal Polyps (James)
+	Desc: The patient has nasal polyps in their nasal cavity
+	Tags: Nose, Polyp, Surgery Required, ENT -->
 	<GameDBSymptom ID="SYM_CRP_NASAL_POLYP"><!-- Please change the CRP reference to your mod's format -->
         <DescriptionLocID>SYM_CRP_NASAL_POLYPS_DESCRIPTION</DescriptionLocID><!-- Please change the CRP reference to your mod's format -->
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -1673,8 +1721,33 @@
 		<CustomIconBigAssetRef>ASSET_OR_SYM_ICON008_LARGE</CustomIconBigAssetRef>
 		<CustomIconSmallAssetRef>ASSET_OR_SYM_ICON008_SMALL</CustomIconSmallAssetRef>
 	</GameDBSymptom>
+
+	<!-- Snoring (James)
+	Desc: The patient snores in their sleep
+	Tags: Nose, ENT -->
+	<GameDBSymptom ID="SYM_CRP_SNORE">
+        <DescriptionLocID>SYM_CRP_SNORE_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
 	
-	<!-- Inflammed Sinuses --> <!-- Duplicate from stock with extra treatments -->
+        <Examinations>
+			<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_EVALUATION</ExaminationRef>
+        </Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_CRP_CPAP</TreatmentRef>
+        </Treatments>
+        <ShameLevel>40</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+        <IconIndex>1319</IconIndex>
+    </GameDBSymptom>
+
+	<!-- Inflammed Sinuses (James)
+	Desc: The patient has inflammed sinuses
+	Tags: Nose, Inflammation, Sinuses, ENT -->
 	<GameDBSymptom ID="SYM_CRP_INFLAMMED_SINUSES">
         <DescriptionLocID>SYM_CRP_INFLAMMED_SINUSES_DESCRIPTION</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -1682,11 +1755,10 @@
         <Hazard>Low</Hazard>
         <PatientMobility>MOBILE</PatientMobility>
         <Examinations>
-            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+            <ExaminationRef>EXM_NASAL_CAVITY_INSPECTION</ExaminationRef>
         </Examinations>
         <Treatments>
-            <TreatmentRef>TRT_CRP_SALINE_NASAL_SPRAY</TreatmentRef>
-			<TreatmentRef>TRT_SALINE_NASAL_SPRAY</TreatmentRef>
+            <TreatmentRef>TRT_SALINE_NASAL_SPRAY</TreatmentRef>
 			<TreatmentRef>TRT_CRP_CORTICOSTEROID_NASAL_SPRAY</TreatmentRef>
         </Treatments>
         <ShameLevel>0</ShameLevel>
@@ -1694,7 +1766,9 @@
         <IconIndex>1041</IconIndex>
     </GameDBSymptom>
 	
-	<!-- Post Nasal Drip -->
+	<!-- Nasal Drip (James)
+	Desc: The patient has post nasal drip
+	Tags: Nose, Nasal Drip, ENT -->
 	<GameDBSymptom ID="SYM_CRP_NASAL_DRIP">
         <DescriptionLocID>SYM_CRP_NASAL_DRIP_DESCRIPTION</DescriptionLocID>
         <DiscomfortLevel>Low</DiscomfortLevel>
@@ -1707,7 +1781,7 @@
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_NASAL_DROPS</TreatmentRef>
-			<TreatmentRef>TRT_CRP_SALINE_NASAL_SPRAY</TreatmentRef>
+			<TreatmentRef>TRT_SALINE_NASAL_SPRAY</TreatmentRef>
         </Treatments>
 		
         <ShameLevel>0</ShameLevel>
@@ -1720,7 +1794,9 @@
 		
     </GameDBSymptom>
 	
-	<!-- Rhinitis -->
+	<!-- Inflammed Nose (James)
+	Desc: The patient has inflammed sinuses
+	Tags: Nose, Inflammation, ENT -->
 	<GameDBSymptom ID="SYM_CRP_INFLAMMED_RH">
         <DescriptionLocID>SYM_CRP_INFLAMMED_RH_DESCRIPTION</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -1732,7 +1808,7 @@
             <ExaminationRef>EXM_NASAL_CAVITY_INSPECTION</ExaminationRef>
         </Examinations>
         <Treatments>
-            <TreatmentRef>TRT_CRP_SALINE_NASAL_SPRAY</TreatmentRef>
+            <TreatmentRef>TRT_SALINE_NASAL_SPRAY</TreatmentRef>
 			<TreatmentRef>TRT_CRP_CORTICOSTEROID_NASAL_SPRAY</TreatmentRef>
         </Treatments>
 		
@@ -1743,7 +1819,9 @@
 		
     </GameDBSymptom>
 	
-	<!-- Sinus Findings -->
+	<!-- Sinus Findings (James)
+	Desc: The doctor has found abnormal things within the nose
+	Tags: Nose, Findings, Sinuses, ENT -->
 	<GameDBSymptom ID="SYM_CRP_SINUS_FINDINGS"> 
         <DescriptionLocID>SYM_CRP_SINUS_FINDINGS_DESCRIPTION</DescriptionLocID>
         <DiscomfortLevel>Low</DiscomfortLevel>
@@ -1752,6 +1830,7 @@
         <PatientMobility>MOBILE</PatientMobility>
         <Examinations>
             <ExaminationRef>EXM_CT</ExaminationRef>
+			<ExaminationRef>EXM_NASAL_CAVITY_INSPECTION</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_CRP_INCISION_AND_DRAINAGE</TreatmentRef>
@@ -1765,11 +1844,13 @@
 		<CustomIconSmallAssetRef>ASSET_OR_SYM_ICON012_SMALL</CustomIconSmallAssetRef>
     </GameDBSymptom>
 	
-	<!-- Nose Drainage -->
+	<!-- Nasal Drainage (James)
+	Desc: The patient has nasal drainage
+	Tags: Nose, drainage, ENT -->
 	<GameDBSymptom ID="SYM_CRP_NASAL_DRAINAGE">
         <DescriptionLocID>SYM_CRP_NASAL_DRAINAGE_DESCRIPTION</DescriptionLocID>
         <DiscomfortLevel>Low</DiscomfortLevel>
-        <PatientComplains>false</PatientComplains>
+        <PatientComplains>true</PatientComplains>
         <Hazard>Medium</Hazard>
         <PatientMobility>MOBILE</PatientMobility>
         <Examinations>
@@ -1788,100 +1869,250 @@
 		<CustomIconSmallAssetRef>ASSET_OR_SYM_ICON009_SMALL</CustomIconSmallAssetRef>
 		
     </GameDBSymptom>
-		
-	<!-- Sialolothiasis -->
-	<GameDBSymptom ID="SYM_CRP_SIALOLITHIASIS">
-        <DescriptionLocID>SYM_CRP_SIALOLITHIASIS_DESCRIPTION</DescriptionLocID>
-        <DiscomfortLevel>Medium</DiscomfortLevel>
-        <PatientComplains>false</PatientComplains>
-        <Hazard>Medium</Hazard>
+	
+	<!-- Irregular Nasal Cycle (James)
+	Desc: The patient has an irregular nasal cycle
+	Tags: Nose, Miscellanous, ENT -->
+	<GameDBSymptom ID="SYM_CRP_IRREGULAR_NASAL_CYCLE">
+        <DescriptionLocID>SYM_CRP_IRREGULAR_NASAL_CYCLE_DESC</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
         <PatientMobility>MOBILE</PatientMobility>
+		
         <Examinations>
-            <ExaminationRef>EXM_X_RAY_HEAD</ExaminationRef>
-		    <ExaminationRef>EXM_USG</ExaminationRef>
+		    <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_EVALUATION</ExaminationRef>
         </Examinations>
-        <Treatments>
-            <TreatmentRef>TRT_NSAIDS</TreatmentRef>
-        </Treatments>
-        
+		
+        <ShameLevel>80</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+        <IconIndex>1391</IconIndex>
+		<CustomIconBigAssetRef>ASSET_OR_SYM_ICON025_LARGE</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_OR_SYM_ICON025_SMALL</CustomIconSmallAssetRef>
+		
+    </GameDBSymptom>
+	
+	<!-- Difficulty Breathing though the Nose (James)
+	Desc: The patient has difficulty breathing though the nose
+	Tags: Nose, Breathing, ENT -->
+	<GameDBSymptom ID="SYM_CRP_DIFFICULTY_BREATHING_THROUGH_NOSE">
+        <DescriptionLocID>SYM_CRP_DIFFICULTY_BREATHING_THROUGH_NOSE_DESC</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+		    <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+        </Examinations>
+		
         <ShameLevel>0</ShameLevel>
         <IsMainSymptom>false</IsMainSymptom>
-        <IconIndex>1189</IconIndex>
+		
+        <IconIndex>1391</IconIndex>
 		
     </GameDBSymptom>
 	
-	<!-- Hyposalivation / Salivary Gland Hypofunction -->
-	<GameDBSymptom ID="SYM_CRP_HYPOSALIVATION">
-        <DescriptionLocID>SYM_CRP_HYPOSALIVATION_DESCRIPTION</DescriptionLocID>
+	<!-- Dry Nose (James)
+	Desc: The patient has a dry nose
+	Tags: Nose, Dry, ENT -->
+	<GameDBSymptom ID="SYM_CRP_DRY_NOSE">
+        <DescriptionLocID>SYM_CRP_DRY_NOSE_DESC</DescriptionLocID>
         <DiscomfortLevel>Medium</DiscomfortLevel>
-        <PatientComplains>false</PatientComplains>
+        <PatientComplains>true</PatientComplains>
         <Hazard>Medium</Hazard>
         <PatientMobility>MOBILE</PatientMobility>
+		
         <Examinations>
-            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
-			<ExaminationRef>EXM_EVALUATION</ExaminationRef>
+		    <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_NASAL_CAVITY_INSPECTION</ExaminationRef>
         </Examinations>
-        <Treatments>
+		
+		<Treatments>
             <TreatmentRef>TRT_REHYDRATION</TreatmentRef>
+			<TreatmentRef>TRT_NASAL_DROPS</TreatmentRef>
         </Treatments>
-        
-        <ShameLevel>50</ShameLevel>
-        <IsMainSymptom>false</IsMainSymptom>
-        <IconIndex>1557</IconIndex>
 		
-		<CustomIconBigAssetRef>ASSET_OR_SYM_ICON004_LARGE</CustomIconBigAssetRef>
-		<CustomIconSmallAssetRef>ASSET_OR_SYM_ICON004_SMALL</CustomIconSmallAssetRef>
+        <ShameLevel>30</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+        <IconIndex>1391</IconIndex>
+		<CustomIconBigAssetRef>ASSET_OR_SYM_ICON024_LARGE</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_OR_SYM_ICON024_SMALL</CustomIconSmallAssetRef>
 		
     </GameDBSymptom>
 	
-	<!-- Xerostomia / Dry Mouth -->
-	<GameDBSymptom ID="SYM_CRP_DRY_MOUTH">
-        <DescriptionLocID>SYM_CRP_DRY_MOUTH_DESCRIPTION</DescriptionLocID>
+	<!-- Nasal Pain (James)
+	Desc: The patient has nasal pain
+	Tags: Nose, Pain, ENT -->
+	<GameDBSymptom ID="SYM_CRP_NASAL_PAIN">
+        <DescriptionLocID>SYM_CRP_NASAL_PAIN_DESC</DescriptionLocID>
         <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+		    <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_NASAL_CAVITY_INSPECTION</ExaminationRef>
+        </Examinations>
+		
+		<Treatments>
+            <TreatmentRef>TRT_ANALGESICS</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>30</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+        <IconIndex>1391</IconIndex>
+		<CustomIconBigAssetRef>ASSET_OR_SYM_ICON028_LARGE</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_OR_SYM_ICON028_SMALL</CustomIconSmallAssetRef>
+		
+    </GameDBSymptom>
+	
+	<!-- Loss of Smell and/or Taste (James)
+	Desc: The patient has a lost of smell and/or taste
+	Tags: Nose, Tongue, Smell, Taste, ENT -->
+	<GameDBSymptom ID="SYM_CRP_LOSS_OF_SMELL_OR_TASTE">
+        <DescriptionLocID>SYM_CRP_LOSS_OF_SMELL_OR_TASTE_DESC</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+		    <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_NASAL_CAVITY_INSPECTION</ExaminationRef>
+        </Examinations>
+		
+        <ShameLevel>30</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+        <IconIndex>1391</IconIndex>
+		
+    </GameDBSymptom>
+	
+	<!-- Nasal Damage (James)
+	Desc: The patient has damage to their nose
+	Tags: Nose, Damage, Trauma, ENT -->
+	<GameDBSymptom ID="SYM_CRP_NOSE_DAMAGE">
+        <DescriptionLocID>SYM_CRP_NOSE_DAMAGE_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
         <PatientComplains>false</PatientComplains>
         <Hazard>Medium</Hazard>
         <PatientMobility>MOBILE</PatientMobility>
         <Examinations>
-            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
-			<ExaminationRef>EXM_EVALUATION</ExaminationRef>
+			<ExaminationRef>EXM_NASAL_CAVITY_INSPECTION</ExaminationRef>
         </Examinations>
-        <Treatments>
-            <TreatmentRef>TRT_REHYDRATION</TreatmentRef>
-        </Treatments>
-        
-        <ShameLevel>50</ShameLevel>
+        <ShameLevel>0</ShameLevel>
         <IsMainSymptom>false</IsMainSymptom>
-        <IconIndex>1557</IconIndex>
-		
-		<CustomIconBigAssetRef>ASSET_OR_SYM_ICON004_LARGE</CustomIconBigAssetRef>
-		<CustomIconSmallAssetRef>ASSET_OR_SYM_ICON004_SMALL</CustomIconSmallAssetRef>
-		
+        <IconIndex>1409</IconIndex>
+		<CustomIconBigAssetRef>ASSET_OR_SYM_ICON026_LARGE</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_OR_SYM_ICON026_SMALL</CustomIconSmallAssetRef>
     </GameDBSymptom>
 	
-	<!-- Mouth Drainage -->
-	<GameDBSymptom ID="SYM_CRP_MOUTH_DRAINAGE">
-        <DescriptionLocID>SYM_CRP_MOUTH_DRAINAGE_DESCRIPTION</DescriptionLocID>
+	<!-- Facial Pain (James)
+	Desc: The patient has facial pain
+	Tags: Face, Discomfort, Pain -->
+	<GameDBSymptom ID="SYM_CRP_FACIAL_PAIN">
+        <DescriptionLocID>SYM_CRP_FACIAL_PAIN_DESC</DescriptionLocID>
         <DiscomfortLevel>Medium</DiscomfortLevel>
-        <PatientComplains>false</PatientComplains>
+        <PatientComplains>true</PatientComplains>
         <Hazard>Medium</Hazard>
         <PatientMobility>MOBILE</PatientMobility>
-        <Examinations>
-            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
-			<ExaminationRef>EXM_ORAL_CAVITY_INSPECTION</ExaminationRef>
-        </Examinations>
-        <Treatments>
-            <TreatmentRef>TRT_NSAIDS</TreatmentRef>
-        </Treatments>
-        
-        <ShameLevel>35</ShameLevel>
-        <IsMainSymptom>false</IsMainSymptom>
-        <IconIndex>1393</IconIndex>
 		
-		<CustomIconBigAssetRef>ASSET_OR_SYM_ICON014_LARGE</CustomIconBigAssetRef>
-		<CustomIconSmallAssetRef>ASSET_OR_SYM_ICON014_SMALL</CustomIconSmallAssetRef>
+        <Examinations>
+		    <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+		
+		<Treatments>
+            <TreatmentRef>TRT_ANALGESICS</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>30</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+        <IconIndex>1391</IconIndex>
+		<CustomIconBigAssetRef>ASSET_OR_SYM_ICON029_LARGE</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_OR_SYM_ICON029_SMALL</CustomIconSmallAssetRef>
 		
     </GameDBSymptom>
 	
+	<!-- Facial Pressure (James)
+	Desc: The patient feels that there is pressure on their face
+	Tags: Face, Discomfort, Pressure -->
+	<GameDBSymptom ID="SYM_CRP_FACIAL_PRESSURE">
+        <DescriptionLocID>SYM_CRP_FACIAL_PRESSURE_DESC</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+		    <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+		
+        <ShameLevel>30</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+        <IconIndex>1391</IconIndex>
+		<CustomIconBigAssetRef>ASSET_OR_SYM_ICON030_LARGE</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_OR_SYM_ICON030_SMALL</CustomIconSmallAssetRef>
+		
+    </GameDBSymptom>
+	
+	<!-- Facial Weakness (James)
+	Desc: The patient feels that their face is weak on one or both sides
+	Tags: Face, Weakness -->
+	<GameDBSymptom ID="SYM_CRP_FACIAL_WEAKNESS">
+        <DescriptionLocID>SYM_CRP_FACIAL_WEAKNESS_DESC</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+		    <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+		
+        <ShameLevel>30</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+        <IconIndex>1391</IconIndex>
+		<CustomIconBigAssetRef>ASSET_OR_SYM_ICON043_LARGE</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_OR_SYM_ICON043_SMALL</CustomIconSmallAssetRef>
+		
+    </GameDBSymptom>
+	
+	<!-- Facial Deformity (James)
+	Desc: The patient has a deformity of their face due to trauma or something else
+	Tags: Face, Deformity -->
+	<GameDBSymptom ID="SYM_CRP_FACIAL_DEFORMITY">
+        <DescriptionLocID>SYM_CRP_FACIAL_DEFORMITY_DESC</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+		    <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+		
+        <ShameLevel>30</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+        <IconIndex>1391</IconIndex>
+		<CustomIconBigAssetRef>ASSET_OR_SYM_ICON043_LARGE</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_OR_SYM_ICON043_SMALL</CustomIconSmallAssetRef>
+		
+    </GameDBSymptom>
+
 	
 	<!-- ======================================================= -->
 	<!-- ============= Lung/Throat Based Symptoms  ============= -->
@@ -1953,7 +2184,9 @@
     </GameDBSymptom>
 	<!-- END COPY HERE ^^^ -->
 	
-	<!-- Swollen Neck -->
+		<!-- Swollen Neck (James)
+	Desc: The patient has a swollen neck
+	Tags: Inflammation, Neck and Throat -->
 	<GameDBSymptom ID="SYM_CRP_SWOLLEN_NECK">
         <DescriptionLocID>SYM_CRP_SWOLLEN_NECK_DESCRIPTION</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -1978,6 +2211,293 @@
 		
     </GameDBSymptom>
 	
+	<!-- Neck Injury (James)
+	Desc: The patient has experienced a neck injury
+	Tags: Trauma, Injury, Damage, Neck and Throat -->
+	<GameDBSymptom ID="SYM_CRP_NECK_INJURY">
+        <DescriptionLocID>SYM_CRP_NECK_INJURY_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+	
+        <Examinations>
+		    <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+        <IconIndex>1</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_OR_SYM_ICON002_LARGE</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_OR_SYM_ICON002_SMALL</CustomIconSmallAssetRef>
+		
+    </GameDBSymptom>
+	
+	<!-- Sialolothiasis (James)
+	Desc: The patient has Salivary Gland Stones
+	Tags: Salivary Glands, Saliva, Stones, Neck and Throat -->
+	<GameDBSymptom ID="SYM_CRP_SIALOLITHIASIS">
+        <DescriptionLocID>SYM_CRP_SIALOLITHIASIS_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_X_RAY_HEAD</ExaminationRef>
+		    <ExaminationRef>EXM_USG</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_NSAIDS</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1189</IconIndex>
+		
+    </GameDBSymptom>
+	
+	<!-- Hyposalivation (James)
+	Desc: The patient has a low production of saliva, may lead to a dry mouth
+	Tags: Saliva, Salivary Gland, Mouth, Neck and Throat -->
+	<GameDBSymptom ID="SYM_CRP_HYPOSALIVATION">
+        <DescriptionLocID>SYM_CRP_HYPOSALIVATION_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_EVALUATION</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_REHYDRATION</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>50</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1557</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_OR_SYM_ICON004_LARGE</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_OR_SYM_ICON004_SMALL</CustomIconSmallAssetRef>
+		
+    </GameDBSymptom>
+	
+	<!-- Dry Mouth (James)
+	Desc: The patient has a dry mouth
+	Tags: Saliva, Mouth, Dry, Neck and Throat -->
+	<GameDBSymptom ID="SYM_CRP_DRY_MOUTH">
+        <DescriptionLocID>SYM_CRP_DRY_MOUTH_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_EVALUATION</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_REHYDRATION</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>50</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1557</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_OR_SYM_ICON004_LARGE</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_OR_SYM_ICON004_SMALL</CustomIconSmallAssetRef>
+		
+    </GameDBSymptom>
+	
+	<!-- Mouth Drainage (James)
+	Desc: The patient has unknown discharge from the mouth
+	Tags: Mouth, Drainage, Neck and Throat -->
+	<GameDBSymptom ID="SYM_CRP_MOUTH_DRAINAGE">
+        <DescriptionLocID>SYM_CRP_MOUTH_DRAINAGE_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_ORAL_CAVITY_INSPECTION</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_NSAIDS</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>35</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1393</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_OR_SYM_ICON014_LARGE</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_OR_SYM_ICON014_SMALL</CustomIconSmallAssetRef>
+		
+    </GameDBSymptom>
+	
+	<!-- This symptom requires a surgery to be added to support it
+	COPY HERE VVV (Don't forget to copy over the Localisation) -->
+	<!-- Hemorrhagic Vocal Polyp (James)
+	Desc: The patient has Hemorrhagic Vocal Polyp
+	Tags: Polyp, Hemorrhage, Vocal Cords, Voice, Neck and Throat -->
+	<GameDBSymptom ID="SYM_CRP_VOCAL_POLYP_HEMORRHAGE"><!-- Please change the CRP reference to your mod's format -->
+        <DescriptionLocID>SYM_CRP_VOCAL_POLYP_HEMORRHAGE_DESCRIPTION</DescriptionLocID><!-- Please change the CRP reference to your mod's format -->
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>High</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+	
+	    <RiskOfCollapseStartHours>4</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>8</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_CRP_PNEUMONIA</CollapseSymptomRef>
+	
+        <Examinations>
+		    <ExaminationRef>EXM_LARYNGOSCOPY</ExaminationRef>
+            <ExaminationRef>EXM_CRP_LARYNGOSCOPY</ExaminationRef>
+        </Examinations>
+        <Treatments>
+		<!-- <TreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</TreatmentRef> 
+		     - Must be included in Diagnosis Code -->
+			 
+		<!-- This symptom requires surgery. Surgeries cannot be universal due to them needing to be skill speced to a department.
+		You can find the surgery originally added with this symptom under Mod_CRP\Database\ModSurgery.xml to copy it 
+		REPLACE WITH YOUR SURGERY HERE VVV -->
+            <!-- <TreatmentRef>TRT_***_CDLS</TreatmentRef> -->
+        </Treatments>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+        <IconIndex>1609</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_OR_SYM_ICON013_LARGE</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_OR_SYM_ICON013_SMALL</CustomIconSmallAssetRef>
+		
+    </GameDBSymptom>
+	<!-- END COPY HERE ^^^ -->
+	
+	<!-- Lump in Throat (James)
+	Desc: The patient feels or sees there is a lump in the throat
+	Tags: Lump, Mass, Growth, Tumour, Neck and Throat -->
+	<GameDBSymptom ID="SYM_CRP_LUMP_IN_THROAT">
+        <DescriptionLocID>SYM_CRP_LUMP_IN_THROAT_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+	
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_EVALUATION</ExaminationRef>
+        </Examinations>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+        <IconIndex>1609</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_OR_SYM_ICON015_LARGE</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_OR_SYM_ICON015_SMALL</CustomIconSmallAssetRef>
+		
+    </GameDBSymptom>
+	
+	<!-- Pneumonia (James)
+	Desc: The patient has Bacterial Pneumonia
+	Tags: Lungs, Infection, Pneumonia, Bacteria -->
+	<GameDBSymptom ID="SYM_CRP_PNEUMONIA">
+        <DescriptionLocID>SYM_CRP_PNEUMONIA_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>High</Hazard>
+
+        <RiskOfCollapseStartHours>6</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>24</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_CRP_ARDS</CollapseSymptomRef>
+        
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_X_RAY_TORSO</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_ANTIBIOTICS</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>1191</IconIndex>
+    </GameDBSymptom>
+	
+	<!-- ARDS (James)
+	Desc: The patient has a type of respiratory failure called Acute Respiratory Distress Syndrome.
+	Tags: Lungs, Lung Failure, Serious -->
+	<GameDBSymptom ID="SYM_CRP_ARDS">
+        <DescriptionLocID>SYM_CRP_ARDS_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>High</Hazard>
+		
+		<RiskOfCollapseStartHours>10</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>30</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_DYSPNEA</CollapseSymptomRef>
+		
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_CT</ExaminationRef>
+			<ExaminationRef>EXM_X_RAY_TORSO</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_ARTIFICIAL_VENTILATION</TreatmentRef>
+        </Treatments>
+		<CollapseProcedureRef>CONTROL_PROCEDURE_COLLAPSE_LOW</CollapseProcedureRef>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		<CanNotTalk>true</CanNotTalk>
+        <IconIndex>1793</IconIndex>
+    </GameDBSymptom>
+	
+	<!-- Stridor (James)
+	Desc: The patient has a high pitched noise when breathing
+	Tags: Lungs, Voice, Sound, Breathing -->
+	<GameDBSymptom ID="SYM_CRP_STRIDOR"> 
+        <DescriptionLocID>SYM_CRP_STRIDOR_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Medium</Hazard>
+		
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_CHEST_LISTENING</ExaminationRef>
+        </Examinations>
+        <ShameLevel>40</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1047</IconIndex>
+    </GameDBSymptom>
+	
+	<!-- Decrased Voice Pitch and Loudness (James)
+	Desc: The patient has a decreased pitch and loudness in their voice
+	Tags: Lungs, Voice, Pitch, Sound -->
+	<GameDBSymptom ID="SYM_CRP_DECREASED_PITCH_AND_LOUDNESS"> 
+        <DescriptionLocID>SYM_CRP_DECREASED_PITCH_AND_LOUDNESS_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Medium</Hazard>
+		
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_SPEECH_LISTENING</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_CRP_VOCAL_THERAPY</TreatmentRef>
+        </Treatments>
+        <ShameLevel>30</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1827</IconIndex>
+    </GameDBSymptom>
+
 	<!-- Ground Glass Opacities (Butch) -->
 	<GameDBSymptom ID="SYM_CRP_GROUND_GLASS_OPACITIES">
         <DescriptionLocID>SYM_CRP_GROUND_GLASS_OPACITIES_DESCRIPTION</DescriptionLocID>
@@ -2117,29 +2637,6 @@
         <IconIndex>1563</IconIndex>
     </GameDBSymptom>
 	
-	<!-- Neck Injury -->
-	<GameDBSymptom ID="SYM_CRP_NECK_INJURY">
-        <DescriptionLocID>SYM_CRP_NECK_INJURY_DESCRIPTION</DescriptionLocID>
-        <DiscomfortLevel>None</DiscomfortLevel>
-        <PatientComplains>false</PatientComplains>
-        <Hazard>Medium</Hazard>
-        <PatientMobility>MOBILE</PatientMobility>
-	
-        <Examinations>
-		    <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
-            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
-        </Examinations>
-		
-        <ShameLevel>0</ShameLevel>
-        <IsMainSymptom>false</IsMainSymptom>
-		
-        <IconIndex>1</IconIndex>
-		
-		<CustomIconBigAssetRef>ASSET_OR_SYM_ICON002_LARGE</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_OR_SYM_ICON002_SMALL</CustomIconSmallAssetRef>
-		
-    </GameDBSymptom>
-	
 	<!-- Atypical Pneumonia (Butch)--> 
 	<GameDBSymptom ID="SYM_CRP_ATYPICAL_PNEUMONIA">
         <DescriptionLocID>SYM_CRP_ATYPICAL_PNEUMONIA_DESCRIPTION</DescriptionLocID>
@@ -2158,157 +2655,6 @@
         <IconIndex>1563</IconIndex>
     </GameDBSymptom>
 	
-	<!-- This symptom requires a surgery to be added to support it
-	COPY HERE VVV (Don't forget to copy over the Localisation) -->
-	<!-- Hemorrhagic Vocal Polyp -->
-	<GameDBSymptom ID="SYM_CRP_VOCAL_POLYP_HEMORRHAGE"><!-- Please change the CRP reference to your mod's format -->
-        <DescriptionLocID>SYM_CRP_VOCAL_POLYP_HEMORRHAGE_DESCRIPTION</DescriptionLocID><!-- Please change the CRP reference to your mod's format -->
-        <DiscomfortLevel>None</DiscomfortLevel>
-        <PatientComplains>false</PatientComplains>
-        <Hazard>High</Hazard>
-        <PatientMobility>MOBILE</PatientMobility>
-	
-	    <RiskOfCollapseStartHours>4</RiskOfCollapseStartHours>
-        <RiskOfCollapseEndHours>8</RiskOfCollapseEndHours>
-        <CollapseSymptomRef>SYM_CRP_PNEUMONIA</CollapseSymptomRef>
-	
-        <Examinations>
-            <ExaminationRef>EXM_CRP_LARYNGOSCOPY</ExaminationRef>
-        </Examinations>
-        <Treatments>
-		<!-- <TreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</TreatmentRef> 
-		     - Must be included in Diagnosis Code -->
-			 
-		<!-- This symptom requires surgery. Surgeries cannot be universal due to them needing to be skill speced to a department.
-		You can find the surgery originally added with this symptom under Mod_CRP\Database\ModSurgery.xml to copy it 
-		REPLACE WITH YOUR SURGERY HERE VVV -->
-            <!-- <TreatmentRef>TRT_***_CDLS</TreatmentRef> -->
-        </Treatments>
-		
-        <ShameLevel>0</ShameLevel>
-        <IsMainSymptom>false</IsMainSymptom>
-		
-        <IconIndex>1609</IconIndex>
-		
-		<CustomIconBigAssetRef>ASSET_OR_SYM_ICON013_LARGE</CustomIconBigAssetRef>
-		<CustomIconSmallAssetRef>ASSET_OR_SYM_ICON013_SMALL</CustomIconSmallAssetRef>
-		
-    </GameDBSymptom>
-	<!-- END COPY HERE ^^^ -->
-	
-	<!-- Lump in Throat -->
-	<GameDBSymptom ID="SYM_CRP_LUMP_IN_THROAT">
-        <DescriptionLocID>SYM_CRP_LUMP_IN_THROAT_DESCRIPTION</DescriptionLocID>
-        <DiscomfortLevel>None</DiscomfortLevel>
-        <PatientComplains>false</PatientComplains>
-        <Hazard>Low</Hazard>
-        <PatientMobility>MOBILE</PatientMobility>
-	
-        <Examinations>
-            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
-        </Examinations>
-		
-        <ShameLevel>0</ShameLevel>
-        <IsMainSymptom>false</IsMainSymptom>
-		
-        <IconIndex>1609</IconIndex>
-		
-		<CustomIconBigAssetRef>ASSET_OR_SYM_ICON015_LARGE</CustomIconBigAssetRef>
-		<CustomIconSmallAssetRef>ASSET_OR_SYM_ICON015_SMALL</CustomIconSmallAssetRef>
-		
-    </GameDBSymptom>
-	
-	<!-- Pneumonia (Modified)
-	TAGS:
-	DESC: (Stock but with new treatment and new collapse symptom) 
-	-->
-	<GameDBSymptom ID="SYM_CRP_PNEUMONIA">
-        <DescriptionLocID>SYM_CRP_PNEUMONIA_DESCRIPTION</DescriptionLocID>
-        <DiscomfortLevel>None</DiscomfortLevel>
-        <PatientComplains>false</PatientComplains>
-        <Hazard>High</Hazard>
-
-        <RiskOfCollapseStartHours>6</RiskOfCollapseStartHours>
-        <RiskOfCollapseEndHours>24</RiskOfCollapseEndHours>
-        <CollapseSymptomRef>SYM_CRP_ARDS</CollapseSymptomRef>
-        
-        <PatientMobility>MOBILE</PatientMobility>
-        <Examinations>
-            <ExaminationRef>EXM_X_RAY_TORSO</ExaminationRef>
-        </Examinations>
-        <Treatments>
-            <TreatmentRef>TRT_ANTIBIOTICS</TreatmentRef>
-        </Treatments>
-        <ShameLevel>0</ShameLevel>
-        <IsMainSymptom>false</IsMainSymptom>
-        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
-        <IconIndex>1191</IconIndex>
-    </GameDBSymptom>
-	
-	<!-- ARDS (Acute Respiratory Distress Syndrome) -->
-	<GameDBSymptom ID="SYM_CRP_ARDS">
-        <DescriptionLocID>SYM_CRP_ARDS_DESCRIPTION</DescriptionLocID>
-        <DiscomfortLevel>None</DiscomfortLevel>
-        <PatientComplains>false</PatientComplains>
-        <Hazard>High</Hazard>
-		
-		<RiskOfCollapseStartHours>10</RiskOfCollapseStartHours>
-        <RiskOfCollapseEndHours>30</RiskOfCollapseEndHours>
-        <CollapseSymptomRef>SYM_DYSPNEA</CollapseSymptomRef>
-		
-        <PatientMobility>MOBILE</PatientMobility>
-        <Examinations>
-            <ExaminationRef>EXM_CT</ExaminationRef>
-			<ExaminationRef>EXM_X_RAY_TORSO</ExaminationRef>
-        </Examinations>
-        <Treatments>
-            <TreatmentRef>TRT_ARTIFICIAL_VENTILATION</TreatmentRef>
-        </Treatments>
-		<CollapseProcedureRef>CONTROL_PROCEDURE_COLLAPSE_LOW</CollapseProcedureRef>
-        <ShameLevel>0</ShameLevel>
-        <IsMainSymptom>false</IsMainSymptom>
-		<CanNotTalk>true</CanNotTalk>
-        <IconIndex>1793</IconIndex>
-    </GameDBSymptom>
-	
-	<!-- Stridor -->
-	<GameDBSymptom ID="SYM_CRP_STRIDOR"> 
-        <DescriptionLocID>SYM_CRP_STRIDOR_DESCRIPTION</DescriptionLocID>
-        <DiscomfortLevel>None</DiscomfortLevel>
-        <PatientComplains>false</PatientComplains>
-        <Hazard>Medium</Hazard>
-		
-        <PatientMobility>MOBILE</PatientMobility>
-        <Examinations>
-			<ExaminationRef>EXM_CHEST_LISTENING</ExaminationRef>
-        </Examinations>
-        <Treatments>
-            <TreatmentRef>TRT_NSAIDS</TreatmentRef>
-        </Treatments>
-        <ShameLevel>0</ShameLevel>
-        <IsMainSymptom>false</IsMainSymptom>
-        <IconIndex>1047</IconIndex>
-    </GameDBSymptom>
-	
-	<!-- Decreased Pitch and Volume (Loudness) -->
-	<GameDBSymptom ID="SYM_CRP_DECREASED_PITCH_AND_LOUDNESS"> 
-        <DescriptionLocID>SYM_CRP_DECREASED_PITCH_AND_LOUDNESS_DESCRIPTION</DescriptionLocID>
-        <DiscomfortLevel>None</DiscomfortLevel>
-        <PatientComplains>false</PatientComplains>
-        <Hazard>Medium</Hazard>
-		
-        <PatientMobility>MOBILE</PatientMobility>
-        <Examinations>
-            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
-			<ExaminationRef>EXM_SPEECH_LISTENING</ExaminationRef>
-        </Examinations>
-        <Treatments>
-            <TreatmentRef>TRT_CRP_VOCAL_THERAPY</TreatmentRef>
-        </Treatments>
-        <ShameLevel>30</ShameLevel>
-        <IsMainSymptom>false</IsMainSymptom>
-        <IconIndex>1827</IconIndex>
-    </GameDBSymptom>
 	
 	<!-- ====================================== -->
 	<!-- ============= Infections ============= -->
