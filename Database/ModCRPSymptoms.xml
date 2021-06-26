@@ -5819,6 +5819,9 @@
 	<!-- ============= Enzymes and Protein Markers  ============= -->
 	<!-- ======================================================== -->
 	
+	<!-- Squamous Cell Carcinoma Blood Markers 
+	Desc:
+	Tags: Proteins, Enzymes, Lazy, Sqll Cell, Cancer -->
 	<GameDBSymptom ID="SYM_CRP_SQLL_CARCINOMA_BLOOD_MARKERS">
         <DescriptionLocID>SYM_CRP_SQLL_CARCINOMA_BLOOD_MARKERS_DESCRIPTION</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -5834,6 +5837,9 @@
         <IconIndex>2086</IconIndex>
     </GameDBSymptom>
 	
+	<!-- Adenocarcinoma Blood Markers 
+	Desc:
+	Tags: Proteins, Enzymes, Lazy, Adenocarcinoma, Cancer -->
 	<GameDBSymptom ID="SYM_CRP_ADENOCARCINOMA_BLOOD_MARKERS">
         <DescriptionLocID>SYM_CRP_ADENOCARCINOMA_BLOOD_MARKERS_DESCRIPTION</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -5849,6 +5855,9 @@
         <IconIndex>2086</IconIndex>
     </GameDBSymptom>
 	
+	<!-- Melanoma Blood Markers 
+	Desc:
+	Tags: Proteins, Enzymes, Lazy, Melanoma, Cancer -->
 	<GameDBSymptom ID="SYM_CRP_MELANOMA_BLOOD_MARKERS">
         <DescriptionLocID>SYM_CRP_MELANOMA_BLOOD_MARKERS_DESCRIPTION</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
@@ -5863,7 +5872,6 @@
         <IsMainSymptom>false</IsMainSymptom>
         <IconIndex>2086</IconIndex>
     </GameDBSymptom>
-
 	
 	<!-- Myeloperoxidase (MPO) Positive (Sleepy068) -->
 	<GameDBSymptom ID="SYM_CRP_SM_P_001">

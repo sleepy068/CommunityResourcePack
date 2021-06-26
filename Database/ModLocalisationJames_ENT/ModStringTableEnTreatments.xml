@@ -192,6 +192,11 @@
 	</GameDBLocalizedString>
 		
 	<GameDBLocalizedString>       
+	<LocID>TRT_CRP_SALINE_NASAL_SPRAY</LocID>                        	
+	<Text>Saline nasal spray</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>       
 	<LocID>TRT_CRP_CORTICOSTEROID_NASAL_SPRAY</LocID>                        	
 	<Text>Corticosteroid nasal spray</Text>  
 	</GameDBLocalizedString>

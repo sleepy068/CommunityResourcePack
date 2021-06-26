@@ -1043,7 +1043,7 @@
 	TAGS: Nasal Spray, Spray, Nose, Saline, Medicine 
 	DESC:   -->
 	<GameDBTreatment ID="TRT_CRP_SALINE_NASAL_SPRAY"> <!-- CRP Version -->
-        <AbbreviationLocID>TRT_CRP_SALINE_NASAL_SPRAY_DESC</AbbreviationLocID>
+        <AbbreviationLocID>TRT_SALINE_NASAL_SPRAY_DESC</AbbreviationLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
         <Procedure>
             <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>

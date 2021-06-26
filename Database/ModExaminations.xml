@@ -2844,12 +2844,15 @@
         <DiscomfortLevel>High</DiscomfortLevel>
         <Procedure>
             <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
-            <RequiredSkillsToPrescribe>
+            <RequiredDoctorQualificationList>
                 <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
-            </RequiredSkillsToPrescribe>
+            </RequiredDoctorQualificationList>
             <RequiredEquipmentList>
                 <RequiredEquipment>
                     <Tag>sit_exam</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>doc_equipment</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
                     <Tag>clean_hands</Tag>
@@ -2871,7 +2874,7 @@
                 <RequiredRoomTypeRef>ROOM_TYPE_TRAUMA_CENTER</RequiredRoomTypeRef>
             </RequiredRoomTypeList-->
             <RequiredRoomTags>
-                <Tag>receipt</Tag>
+                <Tag>examinations_basic_equipment</Tag>
             </RequiredRoomTags>
             
             <ProcedureScript>ProcedureScriptExaminationGeneralEquipment</ProcedureScript>
@@ -2943,7 +2946,7 @@
             </RequiredRoomTypeList-->
             <RequiredRoomTags>
                 <Tag>deprecated_lab</Tag>
-				<Tag>histology_lab</Tag>
+                <Tag>histology_lab</Tag>
             </RequiredRoomTags>
             
             <AnimationSetupSitting>
@@ -2966,19 +2969,22 @@
         <IconIndex>1711</IconIndex>
         <DurationHours>0</DurationHours>
     </GameDBExamination>
-
+	
     <!-- Nose Biopsy (James) -->
-	<GameDBExamination ID="EXM_CRP_NOSE_BIOPSY_SAMPLING">
+    <GameDBExamination ID="EXM_CRP_NOSE_BIOPSY_SAMPLING">
         <AbbreviationLocID>EXM_CRP_NOSE_BIOPSY_SAMPLING_DESCRIPTION</AbbreviationLocID>
         <DiscomfortLevel>High</DiscomfortLevel>
         <Procedure>
             <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
-            <RequiredSkillsToPrescribe>
+            <RequiredDoctorQualificationList>
                 <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
-            </RequiredSkillsToPrescribe>
+            </RequiredDoctorQualificationList>
             <RequiredEquipmentList>
                 <RequiredEquipment>
                     <Tag>sit_exam</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>doc_equipment</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
                     <Tag>clean_hands</Tag>
@@ -3000,7 +3006,7 @@
                 <RequiredRoomTypeRef>ROOM_TYPE_TRAUMA_CENTER</RequiredRoomTypeRef>
             </RequiredRoomTypeList-->
             <RequiredRoomTags>
-                <Tag>receipt</Tag>
+                <Tag>examinations_basic_equipment</Tag>
             </RequiredRoomTags>
             
             <ProcedureScript>ProcedureScriptExaminationGeneralEquipment</ProcedureScript>
@@ -3072,7 +3078,7 @@
             </RequiredRoomTypeList-->
             <RequiredRoomTags>
                 <Tag>deprecated_lab</Tag>
-				<Tag>histology_lab</Tag>
+                <Tag>histology_lab</Tag>
             </RequiredRoomTags>
             
             <AnimationSetupSitting>
@@ -3095,19 +3101,22 @@
         <IconIndex>1711</IconIndex>
         <DurationHours>0</DurationHours>
     </GameDBExamination>
-
+	
 	<!-- Throat Biopsy (James) -->
 	<GameDBExamination ID="EXM_CRP_THROAT_BIOPSY_SAMPLING">
         <AbbreviationLocID>EXM_CRP_THROAT_BIOPSY_SAMPLING_DESCRIPTION</AbbreviationLocID>
         <DiscomfortLevel>High</DiscomfortLevel>
         <Procedure>
             <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
-            <RequiredSkillsToPrescribe>
+            <RequiredDoctorQualificationList>
                 <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
-            </RequiredSkillsToPrescribe>
+            </RequiredDoctorQualificationList>
             <RequiredEquipmentList>
                 <RequiredEquipment>
                     <Tag>sit_exam</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>doc_equipment</Tag>
                 </RequiredEquipment>
                 <RequiredEquipment>
                     <Tag>clean_hands</Tag>
@@ -3129,7 +3138,7 @@
                 <RequiredRoomTypeRef>ROOM_TYPE_TRAUMA_CENTER</RequiredRoomTypeRef>
             </RequiredRoomTypeList-->
             <RequiredRoomTags>
-                <Tag>receipt</Tag>
+                <Tag>examinations_basic_equipment</Tag>
             </RequiredRoomTags>
             
             <ProcedureScript>ProcedureScriptExaminationGeneralEquipment</ProcedureScript>
@@ -3201,7 +3210,7 @@
             </RequiredRoomTypeList-->
             <RequiredRoomTags>
                 <Tag>deprecated_lab</Tag>
-				<Tag>histology_lab</Tag>
+                <Tag>histology_lab</Tag>
             </RequiredRoomTags>
             
             <AnimationSetupSitting>

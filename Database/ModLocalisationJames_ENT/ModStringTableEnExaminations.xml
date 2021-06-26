@@ -9,6 +9,12 @@
         <!-- Examinations -->
 	    
 		 <!-- Ear Examinations -->
+		   
+		    <GameDBLocalizedString>      
+			<LocID>EXM_CRP_EAR_EXAMINATION</LocID>                  
+			<Text>Ear Examination (CRP)</Text> 
+			</GameDBLocalizedString>
+		 
 			<GameDBLocalizedString>      
 			<LocID>EXM_CRP_EAR_BIOPSY_SAMPLING</LocID>                  
 			<Text>Ear Biopsy - Sampling</Text> 
@@ -53,6 +59,11 @@
 		 <!-- Throat Examinations -->
 		
 		    <GameDBLocalizedString>      
+			<LocID>EXM_CRP_LARYNGOSCOPY</LocID>                  
+			<Text>Laryngoscopy</Text> 
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      
 			<LocID>EXM_CRP_THROAT_BIOPSY_SAMPLING</LocID>                  
 			<Text>Throat Biopsy - Sampling</Text> 
 			</GameDBLocalizedString>
