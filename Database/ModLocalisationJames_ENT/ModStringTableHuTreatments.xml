@@ -1,0 +1,234 @@
+<Database>
+	<GameDBStringTable ID="LOC_HU_ADDON_CRP_OTOR_TREATMENTS">
+	<LanguageCode>hu</LanguageCode>
+	<LanguageNameLocalized>Magyar</LanguageNameLocalized>
+	<Contributors>
+	<Name>kmd94</Name>
+	</Contributors>
+	<LocalizedStrings>
+		<!-- Treatments -->
+	<!-- Surgery 
+	<GameDBLocalizedString>      
+	<LocID>SURG_***_FESS</LocID>                                    	
+	<Text>Funkcionális endoszkópos sinus műtét</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+	<LocID>SURG_***_FESS_DESCRIPTION</LocID>                        	
+	<Text>A funkcionális endoszkópos sinus műtét (FESS) egy minimálisan invazív műtéti kezelés, amelynek során az orr endoszkópjai megnövelik az orrmelléküregek orrelvezetési útvonalát a sinus szellőzésének javítása érdekében. Ezt az eljárást általában gyulladásos és fertőző sinus betegségek kezelésére alkalmazzák, beleértve a krónikus rhinosinusitist, amely nem reagál a gyógyszerekre, az orrpolipokra, néhány rákos megbetegedésre és a szemüregek / látóidegek dekompressziójára Graves oftalmopátiában. \n\nRequired room: Operating room at Otorhinolaryngology dpt.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+	<LocID>SURG_***_TYPT</LocID>                                    	
+	<Text>Timpanoplasztika</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+	<LocID>SURG_***_TYPT_DESCRIPTION</LocID>                        	
+	<Text>A dobpanoplasztika, amelyet dobhártya-javításnak is neveznek, egy perforált dobhártya (dobhártya) vagy a középfül kis csontjainak rekonstrukciójára irányuló műtétre utal. A dobhártya perforáció krónikus fertőzésből, vagy ritkábban a dobüreg traumájából származhat. \n\nRequired room: Operating room at Otorhinolaryngology dpt.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>   
+	<LocID>SURG_***_PRS</LocID>                                    	
+	<Text>Papilloma eltávolító műtét</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>    
+	<LocID>SURG_***_PRS_DESCRIPTION</LocID>                        	
+	<Text>A papilloma eltávolító műtét a papillómák (a HPV által okozott tumorszerű növekedések) eltávolítása a meglévő állapotok megelőzése vagy kezelése érdekében.  \n\nRequired room: Operating room at Otorhinolaryngology dpt.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>     
+	<LocID>SURG_***_VNS</LocID>                                    	
+	<Text>Vestibularis idegszakasz műtét</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>     
+	<LocID>SURG_***_VNS_DESCRIPTION</LocID>                        	
+	<Text>A vestibularis idegszakasz leírja a cochleovestibularis koponyaideg vestibularis részének vágásának folyamatát. Ezt általában a szédülés visszatérő támadásainak kiküszöbölésére teszik. \n\nRequired room: Operating room at Otorhinolaryngology dpt.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+	<LocID>SURG_***_NDS</LocID>                                    	
+	<Text>Nyaki disszekciós műtét</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+	<LocID>SURG_***_NDS_DESCRIPTION</LocID>                        	
+	<Text>A nyaki disszekció a fej és a nyak laphámsejtes karcinóma (SCC) nyaki nyirokcsomó-metasztázisának kezelésére szolgáló sebészeti eljárás. Az eljárás célja a nyirokcsomók eltávolítása a nyak egyik oldaláról, ahová a rákos sejtek vándorolhattak. \n\nRequired room: Operating room at Otorhinolaryngology dpt.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+	<LocID>SURG_***_ERCS</LocID>                                    	
+	<Text>Fülrekonstrukciós műtét</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+	<LocID>SURG_***_ERCS_DESCRIPTION</LocID>                        	
+	<Text>A fülrekonstrukció egy olyan műtéti forma, amely képes helyreállítani a traumában vagy rákos műtétben sérült, vagy egy veleszületett (születéskor jelen lévő) rendellenesség miatt elhibázott vagy hiányzó fület. A fül újjáépítésére vagy helyreállítására irányuló műtéttel együtt szükség lehet a fül rehabilitációjára egy otológussal. \n\nRequired room: Operating room at Otorhinolaryngology dpt.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+	<LocID>SURG_***_ADNO</LocID>                                    	
+	<Text>Adenoidectomia</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+	<LocID>SURG_***_ADNO_DESCRIPTION</LocID>                        	
+	<Text>Az adenoidectomia az adenoidok eltávolítására szolgáló sebészeti beavatkozás. Az adenoidok a limfoid szövetek tömege, amelyek az orrjáratok mögött helyezkednek el. Minden sebészeti beavatkozás kockázattal és lehetséges szövődményekkel jár. \n\nRequired room: Operating room at Otorhinolaryngology dpt.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+	<LocID>SURG_***_LOTS</LocID>                                    	
+	<Text>Laryngotrachealis rekonstrukciós műtét</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+	<LocID>SURG_***_LOTS_DESCRIPTION</LocID>                        	
+	<Text>A laryngotrachealis rekonstrukciós műtét kiszélesíti a légcsövet (légcső), hogy megkönnyítse a légzést. A laryngotrachealis rekonstrukció során egy kis porcdarabot - a test számos területén található merev kötőszövetet - kell behelyezni a szélcső szűkített részébe, hogy szélesebb legyen. A gyermekek leggyakrabban problémákat tapasztalnak a beszűkült szélcsővel, bár a probléma felnőtteknél is előfordulhat. Számos okból, például sérülésből, fertőzésből, gyomorsav refluxból, születési rendellenességből vagy egy légzőcső behelyezése következtében fordulhat elő. A felnőttek légcsöve ugyanezen okokból szűkülhet, de az ok olyan betegség is lehet, amely erek vagy szövetek gyulladását okozza, például Wegener granulomatosisát vagy szarkoidózisát. A laryngotrachealis rekonstrukció célja biztonságos és stabil légút biztosítása használat nélkül segítséget egy légzőcsőből. Azoknál az embereknél, akiknek már van tracheostomia tubusa a légzésük elősegítésére, ez az eljárás gyakran lehetővé teszi a tracheostomia megszabadulását.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+	<LocID>SURG_***_SPTP</LocID>                                    	
+	<Text>Septoplasztika</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+	<LocID>SURG_***_SPTP_DESCRIPTION</LocID>                        	
+	<Text>A septoplasztika (SEP-toe-plas-tee) egy műtéti eljárás a csont és a porc kiegyenesítésére, elosztva a két orrlyuk (szeptum) közötti teret. Ha a septum görbe, akkor elhajlott septumként ismert. Az eltérő septum megnehezítheti az orrán keresztüli lélegzést, és növelheti a sinus fertőzések kockázatát a rossz vízelvezetés miatt.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+	<LocID>SURG_***_FRS</LocID>                                    	
+	<Text>Arcrekonstrukció</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+	<LocID>SURG_***_FRS_DESCRIPTION</LocID>                        	
+	<Text>Az arcrekonstrukciós műtét arra szolgál, hogy az ember megjelenését viszonylag normális állapotba hozza traumás sérülés vagy olyan esemény után, amely súlyosan károsította az ember arcát és külsejét. Egy ilyen sérülés eltávolíthatja az arc egy részét vagy egészét.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>    
+	<LocID>SURG_***_PHRS</LocID>                                    	
+	<Text>A garat rekonstrukciója</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>    
+	<LocID>SURG_***_PHRS_DESCRIPTION</LocID>                        	
+	<Text>A garat rekonstrukciója a torok (garat) rekonstrukciója a hibák vagy sérülések kiszélesítése vagy javítása érdekében. Ezt általában a garat rákjának eltávolítására és a torok helyreállítására használják.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>    
+	<LocID>SURG_***_TCSY</LocID>                                    	
+	<Text>Tracheális rekonstrukciós műtét</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>  
+	<LocID>SURG_***_TCSY_DESCRIPTION</LocID>                        	
+	<Text>A légcső rekonstrukciója egy olyan eljárás, amely kiszélesíti a légcsövet a légzés megkönnyítése érdekében. Olyan keskeny légcsőhöz kapcsolódó légzési nehézségek általános kezelése, mint a légcső összeomlása vagy a légcső szűkület.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>    
+	<LocID>SURG_***_TONS</LocID>                                    	
+	<Text>Mandulaműtét</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+	<LocID>SURG_***_TONS_DESCRIPTION</LocID>                        	
+	<Text>A mandulaműtét (ton-sih-LEK-tuh-me) a mandulák, a torok hátsó részén lévő két ovális alakú szövetpárna műtéti eltávolítása - mindkét oldalon egy-egy mandula. A mandulaműtét egykor gyakori eljárás volt a mandulák fertőzésének és gyulladásának (mandulagyulladás) kezelésére. Ma a mandulaműtét általában alvászavaros légzés esetén hajtják végre, de még mindig kezelés lehet, ha a mandulagyulladás gyakran előfordul, vagy nem reagál más kezelésekre. , a torok hátsó részén két ovális alakú szövetpárna - mindkét oldalán egy mandula. A mandulaműtét egykor gyakori eljárás volt a mandulák fertőzésének és gyulladásának (mandulagyulladás) kezelésére. Ma egy mandulaműtét általában alvászavaros légzés esetén végeznek, de még mindig kezelés lehet, ha a mandulagyulladás gyakran előfordul, vagy más kezelésekre nem reagál.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>    
+	<LocID>SURG_***_COIM</LocID>                                    	
+	<Text>Cochleáris fülbeültetés</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>    
+	<LocID>SURG_***_COIM_DESCRIPTION</LocID>                        	
+	<Text>A cochleáris implantátum egy olyan elektronikus eszköz, amely részben helyreállítja a hallást. Lehetőség lehet olyan emberek számára, akiknek súlyos halláskárosodása van a belső fül károsodásából, és akiken már nem segítenek a hallókészülékek használata. A cochleáris implantátumok a fül mögé illeszkedő hangprocesszort használnak. A processzor rögzíti a hangjeleket és elküldi őket a fül mögé a bőr alá ültetett vevőhöz. A vevő a jeleket a csiga alakú belső fülbe (cochlea) beültetett elektródákhoz küldi. A jelek stimulálják a hallóideget, amely aztán az agy felé tereli őket. Az agy ezeket a jeleket hangként értelmezi, bár ezek a hangok nem olyanok lesznek, mint a normál hallás.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>
+	<LocID>SURG_***_MTDY</LocID>                                    	
+	<Text>Mastoidectomia</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>    
+	<LocID>SURG_***_MTDY_DESCRIPTION</LocID>                        	
+	<Text>A mastoidectomia egy sebészeti beavatkozás, amely eltávolítja a beteg mastoid légsejteket. A mastoid a koponya része, amely a füle mögött helyezkedik el. Csontból készült légsejtekkel van tele és mézes fésűnek tűnik. A beteg sejtek gyakran egy fülfertőzés következményei, amely átterjedt a koponyádban. \n\nRequired room: Operating room at Otorhinolaryngology dpt.</Text>  
+	</GameDBLocalizedString> -->
+
+   <!-- Treatments -->
+   <!-- Sprays, a course of therapy and pills -->
+
+	<GameDBLocalizedString>      
+	<LocID>TRT_CRP_VOCAL_THERAPY</LocID>                                    	
+	<Text>Vokális terápia</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+	<LocID>TRT_CRP_VOCAL_THERAPY_DESC</LocID>                        	
+	<Text>A hangterápia egy olyan program, amelynek célja a rekedtség csökkentése a vokális viselkedés irányított megváltoztatásával és az életmód megváltoztatásával. A hangterápia különféle feladatokból áll, amelyek célja a káros vokális viselkedés kiküszöbölése, az egészséges vokális viselkedés formálása és a műtét vagy sérülés utáni hanghajtás sebgyógyulásának segítése.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+	<LocID>TRT_CRP_CPAP</LocID>                        	
+	<Text>Folyamatos pozitív légúti nyomógép</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+	<LocID>TRT_CRP_CPAP_DESC</LocID>                                    	
+	<Text>A CPAP hatékony kezelés közepesen súlyos vagy súlyos obstruktív alvási apnoe esetén.\n\nRequired room: Otorhinolaryngology Diagnostic Unit / Otorhinolaryngology Doctor's Office / ICU / Observation Room</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>     
+	<LocID>TRT_CRP_MASSAGE</LocID>                        	
+	<Text>Masszázs</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>    
+	<LocID>TRT_CRP_MASSAGE_DESC</LocID>                                    	
+	<Text>A masszázs a test lágy szöveteinek manipulálása. A masszázs technikákat általában kéz, ujj, könyök, térd, alkar, láb vagy eszköz segítségével alkalmazzák. A masszázs célja általában a test stresszének vagy fájdalmának kezelése vagy enyhítése.\n\nRequired room: Otorhinolaryngology Diagnostic Unit / Otorhinolaryngology Doctor's Office / ICU / Observation Room</Text>  
+	</GameDBLocalizedString>
+		
+	<GameDBLocalizedString>       
+	<LocID>TRT_CRP_SALINE_NASAL_SPRAY</LocID>                        	
+	<Text>Sóoldatos orrspray</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>       
+	<LocID>TRT_CRP_CORTICOSTEROID_NASAL_SPRAY</LocID>                        	
+	<Text>Kortikoszteroid orrspray</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>     
+	<LocID>TRT_CRP_CORTICOSTEROID_NASAL_SPRAY_DESC</LocID>                                    	
+	<Text>A szteroid orrspray, más néven kortikoszteroid orrspray, gyulladáscsökkentő gyógyszer, amely az orrába permetez. Számos betegség kezelésére alkalmazható, például a szénanáthát, a sinusitista, az allergiás nátát és az orrpolipokat. Néhány szteroid orr a spray-ket gyógyszertárakban és üzletekben lehet megvásárolni, míg mások csak receptre kaphatók. Szteroid orrcseppek is kaphatók. \n\nRequired room: Otorhinolaryngology Diagnostic Unit / Otorhinolaryngology Doctor's Office / ICU / Observation Room</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>    
+	<LocID>TRT_CRP_HEARING_AIDS</LocID>                        	
+	<Text>Hallókészülék</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>     
+	<LocID>TRT_CRP_HEARING_AIDS_DESC</LocID>                                    	
+	<Text>A hallókészülék egy olyan eszköz, amelynek célja a hallás javítása azáltal, hogy hallhatóvá teszi a hallást hallássérült személy számára. A hallókészülékeket a legtöbb országban orvostechnikai eszközként osztályozzák, és a vonatkozó előírások szabályozzák. A kis hangerősítőket, például a PSAP-kat vagy más egyszerű hangerősítő rendszereket nem lehet "hallókészülékként" értékesíteni. \n\nRequired room: Otorhinolaryngology Diagnostic Unit / Otorhinolaryngology Doctor's Office / ICU / Observation Room</Text>  
+	</GameDBLocalizedString>
+	
+   <!-- Intubation and Intravenous Infusions -->
+	
+	<GameDBLocalizedString>      
+	<LocID>TRT_CRP_INTUBATION</LocID>                        	
+	<Text>Intubáció</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+	<LocID>TRT_CRP_INTUBATION_DESC</LocID>                                    	
+	<Text>Az intubáció egy cső, az úgynevezett endotracheális cső (ET) behelyezése a szájon át, majd a légutakba. Ez azért történik, hogy a pácienst lélegeztetőgépre lehessen helyezni, hogy az érzéstelenítés, szedáció vagy súlyos betegség alatt segítse a légzést.\n\nRequired room: Otorhinolaryngology Diagnostic Unit / Otorhinolaryngology Doctor's Office / ICU / Observation Room</Text>  
+	</GameDBLocalizedString>
+	
+	
+	</LocalizedStrings>
+	</GameDBStringTable>
+</Database>

@@ -1,0 +1,19 @@
+<Database>
+	<GameDBStringTable ID="ADDON_MOD_CRP">
+	<LanguageCode>hu</LanguageCode>
+	<LanguageNameLocalized>Magyar</LanguageNameLocalized>
+	<Contributors>
+	<Name>kmd94</Name>
+	</Contributors>
+
+	<LocalizedStrings>
+		
+	<GameDBLocalizedString>      
+	<LocID>ADDON_MOD_CRP</LocID>                       	
+	<Text>Közösségi Erőforrás Csomag</Text>  
+	</GameDBLocalizedString>
+
+	</LocalizedStrings>
+	</GameDBStringTable>
+</Database>
+
