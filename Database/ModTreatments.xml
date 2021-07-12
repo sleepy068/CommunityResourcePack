@@ -2544,24 +2544,13 @@
 		</RequiredRoomTags>
             
 		<ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+		</Procedure>
 
-            <AnimationSetupSitting>
-                <AnimationNameIn>stand_treatment_in</AnimationNameIn>
-                <AnimationNameIdle>stand_treatment_idle</AnimationNameIdle>
-                <AnimationNameOut>stand_treatment_out</AnimationNameOut>
-            </AnimationSetupSitting>
-            <AnimationSetupLying>
-                <AnimationNameIn>stand_treatment_in</AnimationNameIn>
-                <AnimationNameIdle>stand_treatment_idle</AnimationNameIdle>
-                <AnimationNameOut>stand_treatment_out</AnimationNameOut>
-            </AnimationSetupLying>
-
-            <DressLevel>FULL</DressLevel>
-            <DressLevelAfter>FULL</DressLevelAfter>
-        </Procedure>
-        <TreatmentType>PROCEDURE</TreatmentType>
-        <IconIndex>2033</IconIndex>
+        <TreatmentType>RECEIPT</TreatmentType>
+		<PharmacyPickup>true</PharmacyPickup>
+        <Cost>50</Cost>
         <DurationHours>0</DurationHours>
+		<IconIndex>2021</IconIndex>
 		
 		<CustomIconBigAssetRef>ASSET_PLAS_TRT_ICON_009</CustomIconBigAssetRef>
         <CustomIconSmallAssetRef>ASSET_PLAS_TRT_ICON_010</CustomIconSmallAssetRef>
