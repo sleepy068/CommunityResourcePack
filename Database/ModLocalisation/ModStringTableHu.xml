@@ -1,9 +1,11 @@
 <Database>
-	<GameDBStringTable ID="ADDON_MOD_CRP">
+	<GameDBStringTable ID="LOC_HU_ADDON_MOD_CRP">
 	<LanguageCode>hu</LanguageCode>
 	<LanguageNameLocalized>Magyar</LanguageNameLocalized>
 	<Contributors>
-	<Name>kmd94</Name>
+    <Name>Sleepy068</Name>
+	<Name>MacNaab</Name>
+	<Name>James</Name>
 	</Contributors>
 
 	<LocalizedStrings>

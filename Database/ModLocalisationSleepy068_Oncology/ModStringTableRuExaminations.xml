@@ -1,5 +1,5 @@
 <Database>
-    <GameDBStringTable ID="LOC_RU_ADDON_ONCOLOGYSL_EXAMINATIONS">
+    <GameDBStringTable ID="LOC_RU_ADDON_CRP_EXAMINATIONS">
 
         <LanguageCode>ru</LanguageCode>
         <LanguageNameLocalized>Русский</LanguageNameLocalized>
