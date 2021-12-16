@@ -1,17 +1,17 @@
 <Database>
 <!--
 
-Update v0.0.10.1
-Last Patcher [...]
+Update v0.0.11.4
+Last Patcher [Sleepy068]
 
 Changes:
-[...]
+Removed Plastic Surgery Surgery Asset Code (Not needed, prevents log spam this way too)
 
 Localisation:
 [...]
 
 Bug Fixes:
-[...]
+Fixed Localisation Error causing name to !LOC! in title menu
 
 Addition:
 
