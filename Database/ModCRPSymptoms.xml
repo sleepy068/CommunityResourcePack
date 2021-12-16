@@ -731,7 +731,7 @@
             <TreatmentRef>TRT_CRP_ESTRADIOL_CREAM</TreatmentRef>
         </Treatments>
 		
-        <ShameLevel>60</ShameLevel>
+        <ShameLevel>0</ShameLevel>
         <IsMainSymptom>false</IsMainSymptom>
 		
         <IconIndex>1</IconIndex>
@@ -864,7 +864,7 @@
             <TreatmentRef>TRT_DOCTOR'S_RECOMMENDATIONS</TreatmentRef>
         </Treatments>
 		
-        <ShameLevel>50</ShameLevel>
+        <ShameLevel>0</ShameLevel>
         <IsMainSymptom>false</IsMainSymptom>
 		
 		<CustomIconBigAssetRef>ASSET_CRP_SYM_ICON_351</CustomIconBigAssetRef>
