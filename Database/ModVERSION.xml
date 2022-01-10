@@ -1,19 +1,18 @@
 <Database>
 <!--
 
-Update v0.0.11.4
+Update v0.0.11.5
 Last Patcher [Sleepy068]
 
 Changes:
-Removed Plastic Surgery Surgery Asset Code (Not needed, prevents log spam this way too)
-Changed SYM_CRP_DYSPAREUNIA Shame Level from 60 to 0 (Only has interview exam so it cannot have a shame level greater than 0)
-Changed SYM_CRP_HEMATOSPERMIA Shame Level from 50 to 0 (Only has interview exam so it cannot have a shame level greater than 0)
+
 
 Localisation:
 [...]
 
 Bug Fixes:
-Fixed Localisation Error causing name to !LOC! in title menu
+Fixed Localisation Log Error Duplicate database entry, overriding the original one: LOC_RU_ADDON_CRP_EXAMINATIONS by renaming Sleepy's Localisation from that of the core Localisation.
+Fixed Localisation Log Error Duplicate database entry, overriding the original one: LOC_TR_ADDON_CRP_EXAMINATIONS by renaming Sleepy's Localisation from that of the core Localisation.
 
 Addition:
 

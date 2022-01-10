@@ -1,5 +1,5 @@
 <Database>
-    <GameDBStringTable ID="LOC_RU_ADDON_CRP_EXAMINATIONS">
+    <GameDBStringTable ID="LOC_RU_ADDON_CRP_SLP_EXAMINATIONS">
 
         <LanguageCode>ru</LanguageCode>
         <LanguageNameLocalized>Русский</LanguageNameLocalized>
