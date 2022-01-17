@@ -1,0 +1,105 @@
+Modding Community Wishlist [11/11/20]
+Hi Oxymoron,
+
+The modding community has been working together for some time now and we've decided to make a 'modding wishlist' of modifications or ideas that we'd love to see implemented into the game. We are hoping that with this list, it might make it easier to implement such features if you happen to be modifying that aspect of the game anyways for an upcoming patch or DLC.
+
+Some ideas may already exist, maybe possible, may take awhile or maybe outright impossible, please give us feedback based on our requests. We also understand that things do and will change and even promised requests may become impossible if things go in a different direction. We will never have an issue with this as we are just happy for our ideas to be heard.
+Most wishes are written in the focus of allowing modders to have this interaction with the game and does not necessarily means we'd like certain features added to the game. Please note the order of the wishes does not designate their priority.
+
+The list represents the collection of ideas modders and users have had for this game since its deployment. Such additions may be possible for advanced modders to add into the game themselves via W035's implementation. Ideas suggested here provide a challenge for these modders to add such content and as such, this list does not just represent content the community wants the developers to add.
+
+Current Wishlist
+Currently 44 things the modding community & general community would love to add to this game
+Object Specific
+W002 - Custom animations for objects (Example, a T.V. showing several frames or toilet flushing, instead of a single frame on or off state)
+
+Priority
+Priority elements are wishes that the modding community considers very important to both expand the modding and play infrastructure of the game.
+W001 - True Core - Enable or Disable Mods from the Menu
+W009 - True Core - Mod Load Order (Allow the player specify in which order the game will load mods)
+
+Core Specific
+True Core
+W036 - Allow modders to change and add events and instances that change patient satisfaction. (e.g., modders can add more elements to give the patients more satisfaction or less to make the game harder)
+W038 - <HospitalizationExaminationRef> for GameDBExaminations
+W042 - Real time patient updates (make the game push changes made to diagnosis and other code to existing patients, would help reduce the 'send them home' patch changes that require a day of change for the player).
+
+Graphic
+W039 - Adding custom icons and custom textures to new custom rooms (add to the game instead of overriding tiles_4096_atlas.png, similar to how object pngs work).
+W017 - Add new walls, doors and floors without having to override the original texture files (similar to how objects and decals work).
+W030 - Allow modders to add their own animations (e.g. procedure animations or walking animations).
+W043 - Mod access to add new patient models, staff models, clothing and colour schemes and animation sequences.
+
+Structure/Layout
+W018 - Creating new rooms/departments that have serve other purposes and have them fulfill that purpose (E.g. Finance, Logistics or Entertainment Rooms/Dpt)
+W040 - Sub-departments (A department that uses core structured elements of the parent department, such as reception, waiting room, common room and diagnostic rooms (modder can enable sharing of any of the parent rooms if needed and specific which is unique, e.g. sub-department doctor office).
+
+Gameplay Specific
+Diagnosis
+W003 - Age Related Diagnosis (Field to determine what age range or group a diagnosis can effect)
+
+Symptoms
+W005 - Symptom Grading (e.g. Dull pain, sharp pain, intense pain, general pain)(where a diagnosis can specify which is likely (never has dull pain, 75% sharp, 25% intense)). All point to 'pain' symptom however.
+W006 - Prerequisite Symptoms (Symptoms that require the patient to have another symptom (detected or hidden) otherwise it will never be detected.
+W013 - Complication Grading (if an issue persists, the treatment for the earlier stages will no longer suffice and a greater treatment is required (prevents a collapse issue needing the previous issue to be suppressed to treat the collapse)).
+W021 - Multiple 'Main' Symptoms (multiple symptoms need to be discovered before the diagnoses can be made, would need to allow 1 or more necessary treatments)
+
+Treatments
+W025 - Multiple 'Main' Treatments (multiple treatments need to be delivered for the patient to fully treat the diagnosis, e.g. 1 surgery followed by an IV course).
+W026 - Treatment Success Rates (Treatment may not be successful requiring further treatment or alternative methods, e.g. TRT_ANALGESICS for nerve issues only been 82% successful, otherwise successive treatment is needed or alternative method such as nerve decompression surgery which may be 94%)(Ideally in conjunction with below)).
+W027 - Treatment Pathways (A single treatment isn't always the only option, allow the ability for the patient to request, doctor to recommend or the player to control which treatment pathway the patient takes, such getting a prescription, procedure or surgery to correct a single issue. May include multiple treatments (Dependant on W026 to give reasons for the player to choose the harder option)).
+W028 - Exam or Treatment Side Effects (Prescribing two medications at once can cause a side effect due to drug interactions or the medication itself just has side effects, e.g. Nausea).
+
+Surgeries
+W010 - Multiple surgeries at once (if the patient requires two or more procedures from the same department, perform both of these at the same time(if applicable)).
+W011 - Ability to vary the time it takes to complete a surgery.
+W012 - Surgery complications that can occur during surgery that are actioned immediately (e.g. Globe Perforation during eye surgery needing immediate attention).
+W044 - Mod access to surgery scripts and animations (so we can add more here).
+
+Exams
+W014 - Consultations after or before an exam
+W016 - Exam & Treatment complications (Complications that occur due to issue with an exam or treatment)
+W031 -  Multiple exams required to find a single symptom (e.g. the player must run two different exams in order to accurately discover a single symptom).
+W032 - Allow Modders to adjust the exam, surgery and treatment lengths (e.g. make an exam/surgery take x amount of time to complete. At the moment this only works for lab tests).
+W046 - Allow the player to give certain patients (maybe code blue patients?) priority concerning exams and radiology/lab tests (allow that patient a priority x-ray over another patient)(Consider exam queue listing with player adjustable queues).
+
+Staff/Patient
+W018-1 -  Creating new staff roles that have serve other purposes and have them fulfill that purpose (E.g. Accountant, Chef, etc).
+W023 - Create and edit Perks for staff and patients.
+W029 - Allow modders to create custom/new Nurse and Technician skills.
+
+Department/Room
+W015 - Adjusting the minimum staff requirements for hospitalization.
+W020 - Add Custom prefab room (including the ability to add a prefab icon)
+
+Miscellaneous
+W022 - Create custom events with custom effects to the hospital.
+
+Quality of Life Specific
+W007 - Single blood draw, multiple blood tests (I've noticed the doctor constantly moving back and forth if 4-5 blood tests are queued, it'd be useful if it simply make the 'draw' animation longer or 'quicker' in this instance and the doctor collects them all like real life).
+W041 - Allow the user to specify the exams the doctor does during the initial interview (instead of just doing an interview, the user could tell them to do the interview, physical exam and blood pressure test (e.g. similar to rounds for a hospital ward, useful in doctor mode to prevent constant player attention)).
+
+UI Specific
+W004 - Expand Symptom UI to allow for more than 20 symptoms (more than 20 symptoms causes graphic issues with the UI)
+
+Not Exactly Mod Specific
+W019 - Medicine Management (Resource Management): Buying medicine, needing to store them, they may expire if overstocked, etc.
+W033 - Consumables Management (Resource Management): Simpler version of W019, scrubs, needles, gloves have (tagged to the object that holds them) have ongoing costs to resupply. (Cost over time. For ever cabinet, scrubs shelf and other equipment you have daily/weekly refilling costs.)
+W024 - Tech Tree (Research Tree/Tech Progression) (E.G : Once unlocked other departments tech, will open up other departments to play with).
+W034 - Schedule Staff Hours & Break Times (Possibly with issues if making staff work too long or without enough breaks?)
+W037 - Utilities - Water pipe, Sewage, Electricity, Maintenance, Object placement (Allow users to maintain and build utilities for their hospital, like Prison Architect)
+W045 - A longer or remixed version of the Project Hospital theme (we love this theme!)
+
+Wishes that need further clarity
+
+Unlikely Wishes
+
+Impossible Wishes
+
+Wishes that the modding community is taking on
+The modding community will use code modding to try and develope these wishes.
+W008 - Option to paint entire room walls with one click (including the other orientations)
+
+Granted Wishes
+W035 - Heavier depth to mod access (allow mods to not only edit most of the core content but add our own, allowing mods to vastly change how the change actually works).
+Harmony Code Modding implemention allows modders to do this.
