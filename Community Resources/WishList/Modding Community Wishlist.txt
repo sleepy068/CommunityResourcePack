@@ -1,4 +1,4 @@
-Modding Community Wishlist [11/11/20]
+Modding Community Wishlist [18/01/2022]
 Hi Oxymoron,
 
 The modding community has been working together for some time now and we've decided to make a 'modding wishlist' of modifications or ideas that we'd love to see implemented into the game. We are hoping that with this list, it might make it easier to implement such features if you happen to be modifying that aspect of the game anyways for an upcoming patch or DLC.
@@ -27,8 +27,6 @@ W042 - Real time patient updates (make the game push changes made to diagnosis a
 Graphic
 W039 - Adding custom icons and custom textures to new custom rooms (add to the game instead of overriding tiles_4096_atlas.png, similar to how object pngs work).
 W017 - Add new walls, doors and floors without having to override the original texture files (similar to how objects and decals work).
-W030 - Allow modders to add their own animations (e.g. procedure animations or walking animations).
-W043 - Mod access to add new patient models, staff models, clothing and colour schemes and animation sequences.
 
 Structure/Layout
 W018 - Creating new rooms/departments that have serve other purposes and have them fulfill that purpose (E.g. Finance, Logistics or Entertainment Rooms/Dpt)
@@ -54,11 +52,9 @@ Surgeries
 W010 - Multiple surgeries at once (if the patient requires two or more procedures from the same department, perform both of these at the same time(if applicable)).
 W011 - Ability to vary the time it takes to complete a surgery.
 W012 - Surgery complications that can occur during surgery that are actioned immediately (e.g. Globe Perforation during eye surgery needing immediate attention).
-W044 - Mod access to surgery scripts and animations (so we can add more here).
 
 Exams
 W014 - Consultations after or before an exam
-W016 - Exam & Treatment complications (Complications that occur due to issue with an exam or treatment)
 W031 -  Multiple exams required to find a single symptom (e.g. the player must run two different exams in order to accurately discover a single symptom).
 W032 - Allow Modders to adjust the exam, surgery and treatment lengths (e.g. make an exam/surgery take x amount of time to complete. At the moment this only works for lab tests).
 W046 - Allow the player to give certain patients (maybe code blue patients?) priority concerning exams and radiology/lab tests (allow that patient a priority x-ray over another patient)(Consider exam queue listing with player adjustable queues).
@@ -96,9 +92,15 @@ Unlikely Wishes
 
 Impossible Wishes
 
+Wishes More or Less Implemented (Modder will need to Code Mod these)
+W044 - Mod access to surgery scripts and animations (so we can add more here).
+W030 - Allow modders to add their own animations (e.g. procedure animations or walking animations).
+W043 - Mod access to add new patient models, staff models, clothing and colour schemes and animation sequences.
+
 Wishes that the modding community is taking on
 The modding community will use code modding to try and develope these wishes.
 W008 - Option to paint entire room walls with one click (including the other orientations)
+W016 - Exam & Treatment complications (Complications that occur due to issue with an exam or treatment)
 
 Granted Wishes
 W035 - Heavier depth to mod access (allow mods to not only edit most of the core content but add our own, allowing mods to vastly change how the change actually works).

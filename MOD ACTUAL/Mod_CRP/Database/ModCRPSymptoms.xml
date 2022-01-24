@@ -8911,7 +8911,10 @@ chronic interstitial nephritis, adrenal insufficiency
         <IconIndex>1563</IconIndex>
     </GameDBSymptom>
 	
-	<!-- Apthous Ulcers  (Butch) -->
+	<!-- Apthous Ulcers  (Butch) 
+	Tag: Canker sore, oral ulcer
+	Desc: A small, shallow sore inside the mouth or at the base of the gums.
+	-->
 	<GameDBSymptom ID="SYM_CRP_APTHOUS_ULCERS">
         <DescriptionLocID>SYM_CRP_APTHOUS_ULCERS_DESCRIPTION</DescriptionLocID>
         <DiscomfortLevel>Medium</DiscomfortLevel>
@@ -8932,7 +8935,10 @@ chronic interstitial nephritis, adrenal insufficiency
         <IconIndex>1741</IconIndex>
     </GameDBSymptom>
 
-	<!-- Digital Ulcers  (Butch) -->
+	<!-- Digital Ulcers  (Butch) 
+	Tag: fingers, hand
+	Desc: Digital ulcers occur because of poor blood flow to the fingertips.
+	-->
 	<GameDBSymptom ID="SYM_CRP_DIGITAL_ULCERS">
         <DescriptionLocID>SYM_CRP_DIGITAL_ULCERS_DESCRIPTION</DescriptionLocID>
         <DiscomfortLevel>Medium</DiscomfortLevel>
