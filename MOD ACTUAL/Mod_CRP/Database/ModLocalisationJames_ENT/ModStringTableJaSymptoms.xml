@@ -1,0 +1,424 @@
+<Database>
+	<GameDBStringTable ID="LOC_EN_ADDON_CRP_OTOR_SYMPTOMS">
+		<LanguageCode>ja</LanguageCode>
+		<LanguageNameLocalized>日本語</LanguageNameLocalized>
+		<Contributors>
+			<Name>James B</Name>
+			<Name>Erzen</Name>
+		</Contributors>
+		<LocalizedStrings>
+			<!-- Symptoms -->
+
+			<!-- Section Nose -->
+			<!-- Nasal Symptoms -->
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_NASAL_POLYP</LocID>
+				<Text>鼻ポリープ</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SINUS_FINDINGS</LocID>
+				<Text>鼻の異物</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_NASAL_DRIP</LocID>
+				<Text>後鼻漏</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_NASAL_DRIP_DESCRIPTION</LocID>
+				<Text>後鼻漏は鼻から出た粘液が喉の奥に垂れてきてしまう症状です。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_INFLAMMED_RH</LocID>
+				<Text>腔内の炎症</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_INFLAMMED_RH_DESCRIPTION</LocID>
+				<Text>患者の鼻腔は炎症を起こしています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_INFLAMMED_SINUSES</LocID>
+				<Text>副鼻腔の炎症</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_INFLAMMED_SINUSES_DESCRIPTION</LocID>
+				<Text>副鼻腔を覆っている粘膜組織の内壁が炎症を起こした状態です。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SINUS_FINDINGS_DESCRIPTION</LocID>
+				<Text>CT検査により鼻の異物が判明しました。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_NASAL_DRAINAGE</LocID>
+				<Text>鼻汁</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_NASAL_DRAINAGE_DESCRIPTION</LocID>
+				<Text>患者の鼻から液体が出ています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SNORING</LocID>
+				<Text>いびき</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SNORE_DESCRIPTION</LocID>
+				<Text>いびきとは、睡眠中に鼻を鳴らす、あるいはうなるような音を立てる行為、またはその事実のことです。閉塞性睡眠時無呼吸症候群の可能性があります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_IRREGULAR_NASAL_CYCLE</LocID>
+				<Text>異常な鼻サイクル</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_IRREGULAR_NASAL_CYCLE_DESC</LocID>
+				<Text>鼻サイクルとは、人間やその他の動物において、鼻腔の部分的な充血と脱気が交互に起こることで、しばしば無自覚な場合があります。これは、視床下部が自律神経系の半分を選択的に活性化することによって、鼻甲介（鼻甲介とも呼ばれる）が生理的にうっ血することです。病的な鼻づまりと混同してはいけません。この場合、鼻の周期は不規則で、鼻や鼻につながる神経に何か異常がある徴候かもしれません。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_DIFFICULTY_BREATHING_THROUGH_NOSE</LocID>
+				<Text>鼻呼吸が困難</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_DIFFICULTY_BREATHING_THROUGH_NOSE_DESC</LocID>
+				<Text>患者は鼻での呼吸が困難な状態です。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_DRY_NOSE</LocID>
+				<Text>乾いた鼻</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_DRY_NOSE_DESC</LocID>
+				<Text>患者の鼻腔が乾いた状態です。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_NASAL_PAIN</LocID>
+				<Text>鼻の痛み</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_NASAL_PAIN_DESC</LocID>
+				<Text>患者は鼻の痛みを訴えています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_LOSS_OF_SMELL_OR_TASTE</LocID>
+				<Text>嗅覚/味覚の喪失</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_LOSS_OF_SMELL_OR_TASTE_DESC</LocID>
+				<Text>患者の嗅覚および/または味覚が失われています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_NOSE_DAMAGE</LocID>
+				<Text>鼻の傷</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_NOSE_DAMAGE_DESCRIPTION</LocID>
+				<Text>患者の鼻が傷んでいます。</Text>
+			</GameDBLocalizedString>
+
+			<!-- Section Ear -->
+			<!-- Ear Related Symptoms -->
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_EAR_PRESSURE</LocID>
+				<Text>耳への圧力感</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_EAR_PRESSURE_DESCRIPTION</LocID>
+				<Text>患者は耳が圧迫されているように感じたり、耳が詰まったように感じたりします。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_EAR_DAMAGE</LocID>
+				<Text>耳の傷</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_EAR_DAMAGE_DESCRIPTION</LocID>
+				<Text>患者の耳が何らかの外傷や病気によって損傷しています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_EAR_DEFORMITY</LocID>
+				<Text>耳の変形</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_EAR_DEFORMITY_DESCRIPTION</LocID>
+				<Text>患者の耳が変形しています。</Text>
+			</GameDBLocalizedString>
+
+			<!-- Section Throat and Mouth -->
+			<!-- Throat and Mouth Related Symptoms -->
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_NECK_INJURY</LocID>
+				<Text>首の怪我</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_NECK_INJURY_DESCRIPTION</LocID>
+				<Text>患者は首を痛めました。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SWOLLEN_NECK</LocID>
+				<Text>首のむくみ</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SWOLLEN_NECK_DESCRIPTION</LocID>
+				<Text>患者の首がむくんでいます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_MOUTH_DRAINAGE</LocID>
+				<Text>口からの漏れ</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_MOUTH_DRAINAGE_DESCRIPTION</LocID>
+				<Text>患者の口から不明な液体が出ています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_DRY_MOUTH</LocID>
+				<Text>口腔乾燥症</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_DRY_MOUTH_DESCRIPTION</LocID>
+				<Text>患者の口の中が乾燥している状態です。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HYPOSALIVATION</LocID>
+				<Text>唾液分泌不全</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HYPOSALIVATION_DESCRIPTION</LocID>
+				<Text>唾液の分泌が不十分であり、患者の口の中が乾燥しています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SIALOLITHIASIS</LocID>
+				<Text>唾液腺結石症</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SIALOLITHIASIS_DESCRIPTION</LocID>
+				<Text>唾液腺結石症における結石は、ほとんどがカルシウムでできていますが、マグネシウム、カリウム、アンモニウムなども含まれています。口中には、耳下腺、顎下腺、舌下腺、小唾液腺という3つの唾液腺があり、結石ができる可能性があります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_PSEUDOMEMBRANE</LocID>
+				<Text>偽膜</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_PSEUDOMEMBRANE_DESCRIPTION</LocID>
+				<Text>偽膜とは、感染症や炎症の際に目やのどに時々生成される壊死性滲出物のことです。通常、結膜（白目の部分）を覆い、非常に不快な思いをすることがあります。ジフテリアに感染した場合にも偽膜が発生することがあります。 </Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_VOCAL_POLYP_HEMORRHAGE</LocID>
+				<Text>声帯ポリープの出血</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_VOCAL_POLYP_HEMORRHAGE_DESCRIPTION</LocID>
+				<Text>患者の声帯ポリープから出血が起きています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_LUMP_IN_THROAT</LocID>
+				<Text>喉のしこり</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_LUMP_IN_THROAT_DESCRIPTION</LocID>
+				<Text>患者の喉にしこりが認められました。</Text>
+			</GameDBLocalizedString>
+
+			<!-- Other Symptoms -->
+
+			<!-- Facial Symptoms -->
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_FACIAL_PRESSURE</LocID>
+				<Text>顔の圧迫感</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_FACIAL_PRESSURE_DESC</LocID>
+				<Text>患者は顔が圧迫されているように感じています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_FACIAL_PAIN</LocID>
+				<Text>顔の痛み</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_FACIAL_PAIN_DESC</LocID>
+				<Text>患者は顔に痛みを感じています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_FACIAL_WEAKNESS</LocID>
+				<Text>顔面筋力低下</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_FACIAL_WEAKNESS_DESC</LocID>
+				<Text>患者さんの表情筋は、顔面神経の何らかの外傷や病気により弱っています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_FACIAL_DEFORMITY</LocID>
+				<Text>顔の変形</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_FACIAL_DEFORMITY_DESC</LocID>
+				<Text>患者の顔面に変形が認められます。</Text>
+			</GameDBLocalizedString>
+
+			<!-- Section Blood -->
+			<!-- Blood related Symptoms -->
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SQLL_CARCINOMA_BLOOD_MARKERS</LocID>
+				<Text>扁平上皮癌の血液指標</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SQLL_CARCINOMA_BLOOD_MARKERS_DESCRIPTION</LocID>
+				<Text>血液検査では、CA-125、CA-19-9、SCC抗原などの血液指標が上昇し、どこかに扁平上皮癌の腫瘍があることが判明しました。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_ADENOCARCINOMA_BLOOD_MARKERS</LocID>
+				<Text>腺癌の血液指標</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_ADENOCARCINOMA_BLOOD_MARKERS_DESCRIPTION</LocID>
+				<Text>血液検査の結果、ある種の血液指標が上昇しており、どこかに腺癌の腫瘍があることを示唆しています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_MELANOMA_BLOOD_MARKERS</LocID>
+				<Text>皮膚癌の血液指標</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_MELANOMA_BLOOD_MARKERS_DESCRIPTION</LocID>
+				<Text>血液検査をすると、ある種の血液指標となる抗原が上昇しており、どこかに皮膚癌があることが分かります。 </Text>
+			</GameDBLocalizedString>
+
+			<!-- Section Stomach -->
+			<!-- Digestive System related symptoms -->
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_ACID_REFLUX</LocID>
+				<Text>胃酸の逆流</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_ACID_REFLUX_DESCRIPTION</LocID>
+				<Text>胸やけとは、胸やのどが焼けるような痛みを感じることです。胃酸が食道（食べ物を口から胃に運ぶ管）に逆流したときに起こります。胸焼けの治療は、制酸剤またはプロトンポンプ阻害剤です。 </Text>
+			</GameDBLocalizedString>
+
+			<!-- Section Lungs -->
+			<!-- Lung related symptoms -->
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_PNEUMONIA</LocID>
+				<Text>肺炎</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_PNEUMONIA_DESCRIPTION</LocID>
+				<Text>肺炎は、片方または両方の肺の気嚢に炎症を起こす感染症です。気嚢は液体や膿で満たされ、痰や膿を伴う咳、発熱、悪寒、呼吸困難などを引き起こします。細菌性肺炎は、細菌、ウイルス、真菌など様々な生物が原因となり、治療しないと呼吸不全などの合併症を引き起こす可能性があります。 </Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_ARDS</LocID>
+				<Text>急性呼吸窮迫症候群（ARDS）</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_ARDS_DESCRIPTION</LocID>
+				<Text>急性呼吸窮迫症候群（ARDS）とは、肺の広範囲に及ぶ炎症が急速に進行することを特徴とする呼吸不全の一種です。症状としては、息切れ、呼吸困難、皮膚の青色化などがあります。 </Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_STRIDOR</LocID>
+				<Text>呼気性喘鳴</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_STRIDOR_DESCRIPTION</LocID>
+				<Text>吸気性喘鳴とは、気流の乱れによって生じる甲高い喘ぎ声のことです。喘鳴、胸郭外気道閉塞とも呼ばれることがあります。気流は、通常、喉頭（声帯）または気管（気管）の閉塞によって阻害されます。成人よりも小児に多くみられます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_DECREASED_PITCH_AND_LOUDNESS</LocID>
+				<Text>声域と声量の減少</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_DECREASED_PITCH_AND_LOUDNESS_DESCRIPTION</LocID>
+				<Text>患者の声域と声量が減少しています。</Text>
+			</GameDBLocalizedString>
+
+			<!-- Section Nervous System -->
+			<!-- Nervous System related symptoms -->
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SEVERE_PAIN</LocID>
+				<Text>重度の痛み</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SEVERE_PAIN_DESCRIPTION</LocID>
+				<Text>患者は強い痛みを感じています。 </Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_ENCEPHALITIS</LocID>
+				<Text>脳炎</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_ENCEPHALITIS_DESCRIPTION</LocID>
+				<Text>脳炎とは、脳に起こる炎症のことです。原因はいくつかありますが、最も多いのはウイルスによる感染です。脳炎は、多くの場合、発熱や頭痛などの軽いインフルエンザのような徴候や症状のみを引き起こすか、全く症状が出ません。時には、インフルエンザのような症状がより重くなることもあります。脳炎はまた混乱した思考、発作、または動きの問題または視覚や聴覚などの感覚を引き起こす可能性があります。場合によっては、脳炎は生命を脅かすことができます。脳炎がどのように各個人に影響を与えるかを予測することは困難であるため、タイムリーな診断と治療が重要です。 </Text>
+			</GameDBLocalizedString>
+
+		</LocalizedStrings>
+	</GameDBStringTable>
+</Database>

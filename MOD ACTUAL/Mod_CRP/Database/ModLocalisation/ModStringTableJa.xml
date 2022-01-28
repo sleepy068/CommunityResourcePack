@@ -1,0 +1,21 @@
+<Database>
+	<GameDBStringTable ID="LOC_EN_ADDON_MOD_CRP">
+		<LanguageCode>ja</LanguageCode>
+		<LanguageNameLocalized>日本語</LanguageNameLocalized>
+		<Contributors>
+			<Name>Sleepy068</Name>
+			<Name>MacNaab</Name>
+			<Name>James</Name>
+			<Name>Erzen</Name>
+		</Contributors>
+
+		<LocalizedStrings>
+
+			<GameDBLocalizedString>
+				<LocID>ADDON_MOD_CRP</LocID>
+				<Text>コミュニティ・リソースパック</Text>
+			</GameDBLocalizedString>
+
+		</LocalizedStrings>
+	</GameDBStringTable>
+</Database>

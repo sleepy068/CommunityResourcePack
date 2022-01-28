@@ -1,1914 +1,2039 @@
 <Database>
-	<!-- Oncology Mod by Sleepy068 -->
-	<GameDBStringTable ID="LOC_JA_ADDON_CRP_SLEEPY_SYMPTOMS">
-	<LanguageCode>ja</LanguageCode>
-	<LanguageNameLocalized>日本語</LanguageNameLocalized>
-	<Contributors>
-	<Name>Clamm0363</Name>
-	</Contributors>
+	<GameDBStringTable ID="LOC_EN_ADDON_CRP_SLEEPY_SYMPTOMS">
+		<LanguageCode>ja</LanguageCode>
+		<LanguageNameLocalized>日本語</LanguageNameLocalized>
+		<Contributors>
+			<Name>Sleepy068</Name>
+			<Name>MacNaab</Name>
+			<Name>James</Name>
+			<Name>Erzen</Name>
+		</Contributors>
 
-	<LocalizedStrings>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_ACTINIC_KERATOSIS</LocID>                               
-		<Text>日光角化症</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_ACTINIC_KERATOSIS_DESC</LocID>                   
-		<Text>日光角化症とは、何年も日光にさらされることで皮膚にできる、鱗状のザラザラした斑点である。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_NODULE_SKIN</LocID>                               
-		<Text>皮膚結節</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_NODULE_SKIN_DESC</LocID>                   
-		<Text>皮膚にできた小さな光沢のある隆起や結節。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_PERINEURAL_INVASION</LocID>                               
-		<Text>神経周囲浸潤</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_PERINEURAL_INVASION_DESC</LocID>                   
-		<Text>神経周囲浸潤 （PNI） とは、神経周囲腔への癌の浸潤を指す。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_METASTASIZED_CANCER</LocID>                               
-		<Text>転移癌</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_METASTASIZED_CANCER_DESC</LocID>                   
-		<Text>転移癌とは、発生部位から体の他の部位に転移する癌のことである。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CHRONIC_WOUND</LocID>                               
-		<Text>慢性創傷</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CHRONIC_WOUND_DESC</LocID>                   
-		<Text>慢性創傷とは、おおよそ3カ月以内に治らない潰瘍のことである。小規模に始まり、何度もかさぶたになることもあるが、改善はされない。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_ABNORMAL_MOLE</LocID>                               
-		<Text>異形成母斑</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_ABNORMAL_MOLE_DESC</LocID>                   
-		<Text>境界線の不均一、異常な色、または成長の変化を伴うほくろ。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_HIGH_EPLVL</LocID>                               
-		<Text>高エピネフリン値</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_HIGH_EPLVL_DESC</LocID>                   
-		<Text>患者はエピネフリ（（アドレナリン）の血中濃度が上昇している。アドレナリンは通常、副腎と延髄の少数の神経細胞の両方から産生される。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_HIGH_NEPLVL</LocID>                               
-		<Text>高ノルエピネフリン値</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_HIGH_NEPLVL_DESC</LocID>                   
-		<Text>患者はノルエピネフリン（ノルアドレナリン）の血中濃度が上昇している。ノルエピネフリンは、ストレスホルモンと神経伝達物質の両方として作用する体内の天然化学物質である。脳がストレスの多い出来事が起きたと認識すると、ストレスホルモンとして血液中に放出される。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SEIZURES</LocID>                               
-		<Text>発作</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SEIZURES_DESC</LocID>                   
-		<Text>けいれん発作は、脳内で突然起こる、制御できない電気的な障害である。行動、動作、感情、意識レベルに変化が生じることがある。</Text>  
-	</GameDBLocalizedString>
+		<LocalizedStrings>
 
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_HEMOPTYSIS1</LocID>                               
-		<Text>軽度の喀血</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_HEMOPTYSIS1_DESC</LocID>                   
-		<Text>喀血とは、気管支、喉頭、気管、または肺から血液または血液に汚染された粘液が喀出されることである。つまり、気道からの出血である。これは、肺がん、結核、気管支炎、肺炎などの感染症、特定の心血管疾患で発生することがある。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_NERVE_DAMAGE</LocID>                               
-		<Text>術後神経因性疼痛</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_NERVE_DAMAGE_DESC</LocID>                   
-		<Text>手術中に神経が損傷すると、術後神経因性疼痛（PONP）が発生することがある。損傷を受けた神経は、体のさまざまな部位から脳に信号を正しく伝えることができなくなる。その代わりに、これらの信号が過剰になり、慢性疼痛が数カ月から数年持続することがある。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_HIGH_CEALVL</LocID>                               
-		<Text>癌胎児性抗原の高値</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_HIGH_CEALVL_DESC</LocID>                   
-		<Text>癌胎児性抗原（CEA）の血中濃度が上昇している。CEA値が高い場合は、特定の種類の癌の徴候である可能性がある。これには結腸癌、直腸癌、前立腺癌、卵巣癌、肺癌、甲状腺癌、肝臓癌などがある。CEA値の上昇は、肝硬変、良性乳房疾患、肺気腫など、一部の良性疾患の徴候である可能性もある。</Text> 
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_POLYPS</LocID>                               
-		<Text>大腸ポリープ</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_POLYPS_DESC</LocID>                   
-		<Text>ポリープとは、大腸の内壁を覆っている組織が腸内に突出して増殖したものである。大腸ポリープが存在しても通常は無症状である。ほとんどの大腸ポリープは無害だが、中には癌化するものもある。</Text> 
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_HYPONATREMIA</LocID>                               
-		<Text>低ナトリウム血症</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_HYPONATREMIA_DESC</LocID>                   
-		<Text>低ナトリウム血症は、血液中のナトリウム濃度が異常に低いときに起こる。ナトリウムは電解質で、細胞の中や周囲の水分量を調節する働きを持っている。</Text> 
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_HYPERGLYCEMIA</LocID>                               
-		<Text>高血糖</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_HYPERGLYCEMIA_DESC</LocID>                   
-		<Text>高血糖とは血液中の糖分（血糖）が濃いことを示す専門用語である。高血糖は、体内のインスリンが不足している場合や、体がインスリンを適切に使用できない場合に発生する。</Text> 
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_HYPERCORTISOL</LocID>                               
-		<Text>副腎皮質機能亢進症</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_HYPERCORTISOL_DESC</LocID>                   
-		<Text>副腎皮質機能亢進症はクッシング症候群とも呼ばれ、副腎が産生するホルモンであるコルチゾールの過剰な濃度に体の組織が慢性的にさらされることで起こるまれな内分泌疾患である。</Text> 
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_HYPERALDOSTERONISM</LocID>                               
-		<Text>高アルドステロン症</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_HYPERALDOSTERONISM_DESC</LocID>                   
-		<Text>高アルドステロン症は、副腎がアルドステロンを過剰に産生する疾患で、高血圧や血中カリウム値の低下を引き起こす。原発性高アルドステロン症は、一方の副腎の活動亢進（片側性疾患）または両方の副腎の活動亢進（両側性疾患）によって引き起こされる。</Text> 
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_LARGE_LYMPHNODE</LocID>                               
-		<Text>リンパ節炎</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_LARGE_LYMPHNODE_DESC</LocID>                   
-		<Text>リンパ節炎（リンパ節の腫れ）は、病気、感染症、ストレスに反応してリンパ節が腫れた状態である。リンパ節の腫れは、リンパ系が原因物質を体から排除しようとしている徴候の1つであり、通常、免疫系の腺は細菌やウイルスの感染に反応して大きくなるが、多くのリンパ節が突然腫れた場合はがんの可能性がある。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_ELAVATED_5HIAA</LocID>                               
-		<Text>尿中5-HIAAの高値</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_ELAVATED_5HIAA_DESC</LocID>                   
-		<Text>患者の尿中5-HIAA（5-ヒドロキシインドール酢酸）濃度が上昇している。セロトニンは尿中で5-ヒドロキシインドール酢酸（5HIAA）として測定される。5HIAAレベルの上昇はカルチノイド症候群およびカルチノイドクリーゼと相関する。心臓弁が高濃度のセロトニンに長時間さらされると、この病気の合併症が発生する。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CGA_BL_DETECTED</LocID>                               
-		<Text>血中クロモグラニンAの高値</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CGA_BL_DETECTED_DESC</LocID>                   
-		<Text>患者の血液中の腫瘍マーカーであるクロモグラニンAの濃度が上昇している。クロモグラニンA（CgA）は全てのカルチノイド腫瘍に関連する一般的なマーカーで、腫瘍細胞によって産生されて放出されるタンパク質である。クロモグラニンAは他のホルモンと関連しており、それらの調節に関与している可能性がある。クロモグラニンAの血中濃度は正常であり、その範囲は現在およそ39ng/L未満である。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CARCINOID_CRISIS</LocID>                               
-		<Text>カルチノイドクリーゼ</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CARCINOID_CRISIS_DESC</LocID>                   
-		<Text>カルチノイドクリーゼは生命を脅かす型のカルチノイド症候群であり、極度のストレス、腫瘍操作（生検または手術）、または麻酔によって誘発されうる生物学的活性化合物の腫瘍からの圧倒的な量の放出に起因する。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_ANAPHYLACTIC_SHOCK</LocID>                               
-		<Text>アナフィラキシーショック</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_ANAPHYLACTIC_SHOCK_DESC</LocID>                   
-		<Text>アナフィラキシーショックはまれだが重度のアレルギー反応で、すぐに治療しないと命にかかわることがある。食物アレルギー、虫刺され、特定の薬に対するアレルギーが原因で起こることが最も多い。エピネフリンと呼ばれる薬剤の注射がすぐに必要である。</Text>  
-	</GameDBLocalizedString>
-	
-	<!-- Blood Cancer Symptoms -->
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_UNUSUAL_INFECT</LocID>                               
-		<Text>異常な感染症</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_UNUSUAL_INFECT_DESC</LocID>                   
-		<Text>原因不明の感染症、または異常な性質を示す感染症。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_FREQUENT_INFECT</LocID>                               
-		<Text>反復感染</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_FREQUENT_INFECT_DESC</LocID>                   
-		<Text>反復感染とは、感染数が多すぎるか、重症度が高すぎるか、持続期間が長すぎる感染症である。免疫系が正常に機能するのに十分な量の白血球が体内で作られていないために、感染症が頻繁に発生したり、再発したりすることがある。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_LYMPHOCYTOSIS</LocID>                               
-		<Text>リンパ球増加症</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_LYMPHOCYTOSIS_DESC</LocID>                   
-		<Text>リンパ球増加症とは、体内に白血球の一種であるリンパ球が正常よりも多く存在する状態である。リンパ球は免疫系の一部で、感染症を撃退する働きを持つ。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_PETECHIAE</LocID>                               
-		<Text>点状出血</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_PETECHIAE_DESC</LocID>                   
-		<Text>点状出血とは、小さく円形で隆起のない斑で、皮膚や粘膜、もしくは漿膜に現れる。皮下出血の結果として発生する。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_BLEEDING_GUM</LocID>                               
-		<Text>歯肉出血</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_BLEEDING_GUM_DESC</LocID>                   
-		<Text>歯ぐきからの出血は、歯周病の最も一般的な症状だが、他の健康問題を示唆することもある。歯を強く磨きすぎたり、入れ歯が合っていない場合にも起こる。頻繁な歯肉出血は、より深刻な問題を示すこともある。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_HIGH_TCOUNT</LocID>                               
-		<Text>T細胞数の高値</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_HIGH_TCOUNT_DESC</LocID>                   
-		<Text>T細胞数の増加の原因としては、以下のものが考えられる。伝染性単核球症、別名「キス病」。急性リンパ性白血病、白血球に影響を及ぼす癌の一種。多発性骨髄腫、骨髄の形質細胞に影響を及ぼす癌の一種。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_RC_APLASIA</LocID>                               
-		<Text>赤芽球癆</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_RC_APLASIA_DESC</LocID>                   
-		<Text>赤芽球癆（PRCA）または赤芽球減少症は、赤血球前駆細胞に影響を及ぼすが白血球には影響を及ぼさない貧血の一種を指す。PRCAでは、骨髄は赤血球の産生を停止する。PRCAを引き起こすものには複数の原因が存在する。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CHRONIC_NEUT</LocID>                               
-		<Text>好中球減少症</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CHRONIC_NEUT_DESC</LocID>                   
-		<Text>好中球減少症とは、好中球の量が少ない状態である。好中球は白血球の一種であり、すべての白血球は、感染に対する体の抵抗力を高める。好中球は、体内に侵入した有害な細菌や真菌（イースト）を破壊することによって、感染に抵抗する。好中球は骨髄で作られる。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SPLENOMEGALY</LocID>                               
-		<Text>脾腫</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SPLENOMEGALY_DESC</LocID>                   
-		<Text>脾腫は脾臓が大きくなったときに起こる病気である。脾臓腫大または脾臓腫大とも呼ばれる。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_RUP_SPLENOMEGALY</LocID>                               
-		<Text>脾臓破裂</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_RUP_SPLENOMEGALY_DESC</LocID>                   
-		<Text>脾臓破裂は、脾臓の被膜が破れて腹部に血液が流れ込んだときに起こる急病である。破裂の大きさによっては大量の内出血が発生する。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_HEPATOMEGALY</LocID>                               
-		<Text>肝肥大</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_HEPATOMEGALY_DESC</LocID>                   
-		<Text>肝肥大とは、肝臓が異常に大きい状態である。多くの場合、それは深刻な健康問題の徴候を示している。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_THROMBOCYTOPENIA</LocID>                               
-		<Text>血小板減少症</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_THROMBOCYTOPENIA_DESC</LocID>                   
-		<Text>血小板減少症は、血小板数が少ない状態である。血小板は、血液の凝固を助ける無色の血液細胞で、血管損傷の際に凝集して栓を形成し、出血を止める。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_02</LocID>                               
-		<Text>PML-RARA t（15;17）転座の検出</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_02_DESC</LocID>                   
-		<Text>APL細胞には「バランスのとれた転座」と呼ばれる非常に特異的な異常があり、15番染色体と17番染色体の一部が入れ替わっている。その結果「PML/RARα」として知られる異常な融合遺伝子が形成され、この変異遺伝子が疾患の多くの症状を引き起こす。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_FISH_POSLESION</LocID>                               
-		<Text>FISH陽性病変</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_FISH_POSLESION_DESC</LocID>                   
-		<Text>患者の病変は検査され、FISH検査で悪性であることが確認された。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_01</LocID>                               
-		<Text>フィラデルフィア染色体転座の検出</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_01_DESC</LocID>                   
-		<Text>フィラデルフィア染色体またはフィラデルフィア転座（Ph）は、白血病がん細胞（特に慢性骨髄性白血病（CML）細胞）の22番染色体における特異的な遺伝子異常である。フィラデルフィア染色体の染色体異常は相互転座で、9番染色体と22番染色体の一部が入れ替わる。この転座の存在は、ほとんどのCML症例で陽性であるため、CMLに対する感度の高い検査である。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SM_P_001</LocID>                               
-		<Text>ミエロペルオキシダーゼ陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SM_P_001_DESC</LocID>                   
-		<Text>ミエロペルオキシダーゼはリソソーム酵素で、好中球やその前駆体である好酸球、単球のアズール顆粒に存在する。この染色法は主に急性骨髄性白血病と急性リンパ芽球性白血病の鑑別に用いられる。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SM_P_002</LocID>                               
-		<Text>ズダンブラックB陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SM_P_002_DESC</LocID>                   
-		<Text>ソルベントブラック3はアゾ染料である。非蛍光性で比較的熱安定性の高いリソクロム（脂溶性染料）ジアゾ染料であり、凍結切片上の中性トリグリセリドおよび脂質、ならびにパラフィン切片上のいくつかのリボタンパク質の染色に用いられる。製造ラボでは、ソルベントブラック3をズダン染色に使用する。血液疾患の鑑別では、骨髄芽球は染まるが、リンパ芽球は染まらない。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_03</LocID>                               
-		<Text>IDH1/IDH2変異の検出</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_03_DESC</LocID>                   
-		<Text>イソクエン酸デヒドロゲナーゼ（IDH）はトリカルボン酸（TCA）サイクルにおけるイソクエン酸のα-ケトグルタル酸（α-KG）への変換に関与する重要な酵素である。IDH変異は新形態酵素を産生し、それはR-2-HGの異常な蓄積につながり、白血病誘発を促進する。IDH変異は急性骨髄性白血病（AML）患者の20%に発生し、主にIDH1 R132,IDH2 R140,およびIDH2 R172を含む。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_04</LocID>                               
-		<Text>BCR-ABL融合遺伝子の検出</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_04_DESC</LocID>                   
-		<Text>BCR-ABLは、BCRとABLという2つの遺伝子が組み合わさった変異で、融合遺伝子と呼ばれることもある。BCR遺伝子は正常では22番染色体上にあり、ABL遺伝子は正常では9番染色体上にある。BCR-ABL変異は、BCR遺伝子とABL遺伝子の断片が切断され、転座したときに起こる。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_05</LocID>                               
-		<Text>8トリソミーの検出</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_05_DESC</LocID>                   
-		<Text>ワルカニー症候群2としても知られる8トリソミーは、8番染色体のコピー（トリソミー）が三つあることによって引き起こされるヒトの染色体異常で、モザイクを伴うことも伴わないこともある。「モザイクの」という用語は、余分な染色体を含む細胞と含まない細胞があることを示す。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_06</LocID>                               
-		<Text>9番染色体トリソミーの検出</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_06_DESC</LocID>                   
-		<Text>9番染色体トリソミーモザイクはまれな染色体異常で、体内の一部の細胞では9番染色体全体が二度ではなく三度（トリソミー）現れる。用語「モザイクの」は、いくつかの細胞が過剰な第9染色体を含み、他の細胞が典型的な染色体対を有することを示す。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_07</LocID>                               
-		<Text>フィラデルフィア遺伝子の重複</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_07_DESC</LocID>                   
-		<Text>欠損染色体であるフィラデルフィア染色体の重複が検出されている。これは慢性骨髄性白血病のより進行した段階で起こりうる。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_BLA_HIGH1</LocID>                               
-		<Text>芽球数の上昇</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_BLA_HIGH1_DESC</LocID>                   
-		<Text>芽球は、好中球、単球、リンパ球および赤血球のような成熟した循環血液細胞の前駆体である。芽球は通常、骨髄中に少数存在し、血液中に大量に認められることはない。検査では、患者の血液中に芽球の高値（5%から19%）が検出されている。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_BLA_HIGH2</LocID>                               
-		<Text>芽球数の高値</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_BLA_HIGH2_DESC</LocID>                   
-		<Text>芽球は、好中球、単球、リンパ球および赤血球のような成熟した循環血液細胞の前駆体である。芽球は通常、骨髄中に少数存在し、血液中に大量に認められることはない。検査では、患者の血液中に芽球の高値（20%超）が検出されている。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_BLA_HIGH3</LocID>                               
-		<Text>芽球数の異常高値</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_BLA_HIGH3_DESC</LocID>                   
-		<Text>芽球は、好中球、単球、リンパ球および赤血球のような成熟した循環血液細胞の前駆体である。芽球は通常、骨髄中に少数存在し、血液中に大量に認められることはない。検査では、患者の血液中に芽球の著しい高値（30%超）が検出されている。このレベルでは、芽球細胞が正常な白血球を締め出してしまい、白血球の効果が大幅に低下する。</Text>  
-	</GameDBLocalizedString>
-	
-	<!-- ############### CELL MARKERS ############### -->
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD10_BRIGHT</LocID>                               
-		<Text>ネプリライシン（CD10）強陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD10_BRIGHT_DESC</LocID>                   
-		<Text>膜メタロエンドペプチダーゼ、中性エンドペプチダーゼ、分化抗原群10、および急性リンパ球性白血病の共通の抗原としても知られるネプリライシンは、ヒトにおいてMME遺伝子によってコードされる酵素である。一般的な急性リンパ球性白血病で癌特異抗原として同定されているCD10は、様々なタイプの細胞に広く発現する細胞表面外酵素である。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD10_NEG</LocID>                               
-		<Text>ネプリライシン（CD10）陰性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD10_NEG_DESC</LocID>                   
-		<Text>膜メタロエンドペプチダーゼ、中性エンドペプチダーゼ、分化抗原群10、および急性リンパ球性白血病の共通の抗原としても知られるネプリライシンは、ヒトにおいてMME遺伝子によってコードされる酵素である。一般的な急性リンパ球性白血病で癌特異抗原として同定されているCD10は、様々なタイプの細胞に広く発現する細胞表面外酵素である。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD19_BRIGHT</LocID>                               
-		<Text>CD19抗原強陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD19_BRIGHT_DESC</LocID>                   
-		<Text>CD19分子、Bリンパ球表面抗原B4、T細胞表面抗原Leu-12およびCVID3としても知られるBリンパ球抗原CD19は、ヒトではCD19遺伝子によってコードされる膜貫通タンパク質である。ヒトではCD19は形質細胞を除くすべてのB細胞系細胞と濾胞樹状細胞に発現している。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD19_NEG</LocID>                               
-		<Text>CD19抗原陰性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD19_NEG_DESC</LocID>                   
-		<Text>CD19分子、Bリンパ球表面抗原B4、T細胞表面抗原Leu-12およびCVID3としても知られるBリンパ球抗原CD19は、ヒトではCD19遺伝子によってコードされる膜貫通タンパク質である。ヒトではCD19は形質細胞を除くすべてのB細胞系細胞と濾胞樹状細胞に発現している。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD20_DIM</LocID>                               
-		<Text>CD20抗原弱陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD20_DIM_DESC</LocID>                   
-		<Text>Bリンパ球抗原CD20または単にCD20は、プロB期に始まり、成熟するまで濃度が徐々に増加するすべてのB細胞の表面に発現する。CD20はB細胞の形質細胞への発生と分化に役割を果たす膜包埋表面分子である。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD20_BRIGHT</LocID>                               
-		<Text>CD20抗原強陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD20_BRIGHT_DESC</LocID>                   
-		<Text>Bリンパ球抗原CD20または単にCD20は、プロB期に始まり、成熟するまで濃度が徐々に増加するすべてのB細胞の表面に発現する。CD20はB細胞の形質細胞への発生と分化に役割を果たす膜包埋表面分子である。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_TDT_BRIGHT</LocID>                               
-		<Text>TdT抗原強陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_TDT_BRIGHT_DESC</LocID>                   
-		<Text>末端ヌクレオチド付加酵素（TdT）は、DNAヌクレオチジルエキソトランスフェラーゼ（DNTT）またはターミナルトランスフェラーゼとしても知られ、未熟、プレB,プレTリンパ球様細胞および急性リンパ球性白血病/リンパ腫細胞で発現する特別なDNAポリメラーゼである。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_TDT_NEG</LocID>                               
-		<Text>TdT抗原陰性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_TDT_NEG_DESC</LocID>                   
-		<Text>末端ヌクレオチド付加酵素（TdT）は、DNAヌクレオチジルエキソトランスフェラーゼ（DNTT）またはターミナルトランスフェラーゼとしても知られ、未熟、プレB,プレTリンパ球様細胞および急性リンパ球性白血病/リンパ腫細胞で発現する特別なDNAポリメラーゼである。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD22_DIM</LocID>                               
-		<Text>CD22抗原弱陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD22_DIM_DESC</LocID>                   
-		<Text>CD22または分化抗原群22は、レクチンのSIGLECファミリーに属する分子である。成熟B細胞の表面に存在し、一部の未熟B細胞にはあまりみられない。CD22は糖結合性膜貫通タンパク質で、シアル酸のN末端にある免疫グロブリン（Ig）ドメインと特異的に結合する。Igドメインの存在はCD22を免疫グロブリンスーパーファミリーのメンバーにする。CD22はB細胞受容体（BCR）シグナル伝達の阻害受容体として機能する。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD22_BRIGHT</LocID>                               
-		<Text>CD22抗原強陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD22_BRIGHT_DESC</LocID>                   
-		<Text>CD22または分化抗原群22は、レクチンのSIGLECファミリーに属する分子である。成熟B細胞の表面に存在し、一部の未熟B細胞にはあまりみられない。CD22は糖結合性膜貫通タンパク質で、シアル酸のN末端にある免疫グロブリン（Ig）ドメインと特異的に結合する。Igドメインの存在はCD22を免疫グロブリンスーパーファミリーのメンバーにする。CD22はB細胞受容体（BCR）シグナル伝達の阻害受容体として機能する。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD23_BRIGHT</LocID>                               
-		<Text>Fcε受容体II（CD23）強陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD23_BRIGHT_DESC</LocID>                   
-		<Text>FcεRIIとしても知られるCD23は、アレルギーおよび寄生虫に対する抵抗性に関与する抗体アイソタイプであるIgEの「低親和性」受容体であり、IgEレベルの調節に重要である。多くの抗体受容体とは異なり、CD23はC型レクチンである。CD23抗原は慢性リンパ性白血病の分化に重要と考えられる細胞表面タンパク質である。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD34_BRIGHT</LocID>                               
-		<Text>CD34抗原強陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD34_BRIGHT_DESC</LocID>                   
-		<Text>CD34タンパク質は、初期の造血および血管関連組織において発現を示す単回膜貫通シアロムチンタンパク質ファミリーのメンバーである。CD34も重要な接着分子であり、T細胞がリンパ節に入るのに必要である。これはリンパ節の内皮で発現しているが、これに結合するL-セレクチンはT細胞上にある。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD79a_BRIGHT</LocID>                               
-		<Text>CD79a抗原強陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD79a_BRIGHT_DESC</LocID>                   
-		<Text>B細胞抗原レセプター複合体関連タンパク質α鎖およびMB-1膜糖タンパク質としても知られる分化抗原群CD79Aは、ヒトにおいてCD79A遺伝子によってコードされるタンパク質である。CD79aはB細胞の発生と機能において多様な役割を果たしている。CD79a/bヘテロ二量体は代理軽鎖と会合した場合、その膜貫通領域を介して免疫グロブリン重鎖と非共有結合的に会合し、したがって、発生中のB細胞において、免疫グロブリン軽鎖およびプレBCRとともにBCRを形成する。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD79b_NEG</LocID>                               
-		<Text>CD79b抗原陰性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD79b_NEG_DESC</LocID>                   
-		<Text>CD79b分子、CD79B（分化抗原群79B）としても知られる免疫グロブリン関連βは、ヒト遺伝子である。CD79a/bヘテロ二量体は代理軽鎖と会合した場合、その膜貫通領域を介して免疫グロブリン重鎖と非共有結合的に会合し、したがって、発生中のB細胞において、免疫グロブリン軽鎖およびプレBCRとともにBCRを形成する。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD11c_BRIGHT</LocID>                               
-		<Text>インテグリンαX（CD11c）強陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD11c_BRIGHT_DESC</LocID>                   
-		<Text>インテグリンαX（補体成分3受容体4サブユニット）（ITGAX）としても知られるCD11cはCD11cをコードする遺伝子である。CD11cは、単球、顆粒球、B細胞のサブセット、樹状細胞、およびマクロファージに発現するI型膜貫通タンパク質であり、B細胞慢性リンパ性白血病、辺縁帯リンパ腫、および有毛細胞白血病で認められることがある。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD25_BRIGHT</LocID>                               
-		<Text>インターロイキン-2受容体α鎖（CD25）強陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD25_BRIGHT_DESC</LocID>                   
-		<Text>インターロイキン-2受容体α鎖（CD25）は、ヒトにおいてIL2RA遺伝子によりコードされるタンパク質である。インターロイキン-2（IL2）受容体α（IL2RA）およびβ（IL2RB）鎖は、共通のγ鎖（IL2RG）と共に、高親和性IL2受容体を構成する。IL2RAは、大部分のB細胞腫瘍、一部の急性非リンパ性白血病、神経芽腫、肥満細胞症、および腫瘍浸潤リンパ球に発現する。それはHTLV-1の受容体として機能し、その結果、成人T細胞リンパ腫/白血病の腫瘍細胞に発現する。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD25_NEG</LocID>                               
-		<Text>インターロイキン-2受容体α鎖（CD25）陰性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD25_NEG_DESC</LocID>                   
-		<Text>インターロイキン-2受容体α鎖（CD25）は、ヒトにおいてIL2RA遺伝子によりコードされるタンパク質である。インターロイキン-2（IL2）受容体α（IL2RA）およびβ（IL2RB）鎖は、共通のγ鎖（IL2RG）と共に、高親和性IL2受容体を構成する。IL2RAは、大部分のB細胞腫瘍、一部の急性非リンパ性白血病、神経芽腫、肥満細胞症、および腫瘍浸潤リンパ球に発現する。それはHTLV-1の受容体として機能し、その結果、成人T細胞リンパ腫/白血病の腫瘍細胞に発現する。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD103_BRIGHT</LocID>                               
-		<Text>インターロイキン-3受容体（CD123）弱陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD103_BRIGHT_DESC</LocID>                   
-		<Text>インテグリンαEはCD103としても知られており、ヒトにおいてITGAE遺伝子によってコードされるインテグリンタンパク質である。CD103は上皮内リンパ球（IEL）T細胞（αβT細胞とγδT細胞の両方）およびいくつかの末梢制御性T細胞（Tregs）に広く発現している。腸症関連T細胞リンパ腫を除いて、CD103陰性の他のほとんどの血液悪性腫瘍とは対照的に、このマーカー陽性の有毛細胞白血病の同定に有用である。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD123_DIM</LocID>                               
-		<Text>インターロイキン-3受容体（CD123）弱陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD123_DIM_DESC</LocID>                   
-		<Text>インターロイキン-3受容体（CD123）は、免疫系で重要な可溶性サイトカインであるインターロイキン-3のシグナル伝達を助ける細胞上に存在する分子である。多能性前駆細胞上に見出される受容体は、細胞内でチロシンリン酸化を誘導し、造血細胞系内で増殖および分化を促進する。CD123は白血病幹細胞を含む急性骨髄性白血病（AML）の亜型で発現する。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD123_BRIGHT</LocID>                               
-		<Text>インターロイキン-3受容体（CD123）強陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD123_BRIGHT_DESC</LocID>                   
-		<Text>インターロイキン-3受容体（CD123）は、免疫系で重要な可溶性サイトカインであるインターロイキン-3のシグナル伝達を助ける細胞上に存在する分子である。多能性前駆細胞上に見出される受容体は、細胞内でチロシンリン酸化を誘導し、造血細胞系内で増殖および分化を促進する。CD123は白血病幹細胞を含む急性骨髄性白血病（AML）の亜型で発現する。</Text>  
-	</GameDBLocalizedString>
-	
-		<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD123_NEG</LocID>                               
-		<Text>インターロイキン-3受容体（CD123）陰性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD123_NEG_DESC</LocID>                   
-		<Text>インターロイキン-3受容体（CD123）は、免疫系で重要な可溶性サイトカインであるインターロイキン-3のシグナル伝達を助ける細胞上に存在する分子である。多能性前駆細胞上に見出される受容体は、細胞内でチロシンリン酸化を誘導し、造血細胞系内で増殖および分化を促進する。CD123は白血病幹細胞を含む急性骨髄性白血病（AML）の亜型で発現する。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD1a_BRIGHT</LocID>                               
-		<Text>CD1a抗原強陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD1a_BRIGHT_DESC</LocID>                   
-		<Text>CD1a（分化抗原群1a）はCD1A遺伝子によりコードされるヒトタンパク質である。この遺伝子は、主要組織適合複合体（MHC）タンパク質と構造的に関連し、β-2-ミクログロブリンとヘテロ二量体を形成する膜貫通糖タンパク質のCD1ファミリーのメンバーをコードする。CD1タンパク質は主に自己あるいは微生物由来の脂質や糖脂質抗原をT細胞に提示する。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD1a_NEG</LocID>                               
-		<Text>CD1a抗原陰性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD1a_NEG_DESC</LocID>                   
-		<Text>CD1a（分化抗原群1a）はCD1A遺伝子によりコードされるヒトタンパク質である。この遺伝子は、主要組織適合複合体（MHC）タンパク質と構造的に関連し、β-2-ミクログロブリンとヘテロ二量体を形成する膜貫通糖タンパク質のCD1ファミリーのメンバーをコードする。CD1タンパク質は主に自己あるいは微生物由来の脂質や糖脂質抗原をT細胞に提示する。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD5_BRIGHT</LocID>                               
-		<Text>CD5抗原強陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD5_BRIGHT_DESC</LocID>                   
-		<Text>CD5は、T細胞（種々の種）の表面およびB-1aとして知られるマウスB細胞のサブセットにおいて発現される分化抗原群である。ヒトB細胞におけるこの受容体の発現は議論の余地のある話題であり、現在まで、ヒトB細胞のマーカーとしてのこの受容体の役割に関するコンセンサスは存在しない。CD5はT細胞の免疫組織化学的マーカーとして優れているが、CD3ほどの感度はない。T細胞腫瘍の約76%にCD5が発現していることが報告されており、CD3を発現していない慢性リンパ性白血病やマントル細胞リンパ腫（両方ともB細胞悪性腫瘍である）にもみられる。皮膚T細胞リンパ腫には一般的にみられるが、このような病態ではCD5がみられないことが悪性度の指標として用いられる。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD7_BRIGHT</LocID>                               
-		<Text>CD7抗原強陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD7_BRIGHT_DESC</LocID>                   
-		<Text>CD7（分化抗原群7）は、ヒトにおいてCD7遺伝子によってコードされるタンパク質である。この遺伝子は、免疫グロブリンスーパーファミリーのメンバーである膜貫通タンパク質をコードする。このタンパクは胸腺細胞と成熟T細胞にみられ、T細胞相互作用および初期リンパ系発達中のT細胞/B細胞相互作用において必須の役割を果たす。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD13_BRIGHT</LocID>                               
-		<Text>アミノペプチダーゼN（CD13）強陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD13_BRIGHT_DESC</LocID>                   
-		<Text>アラニルアミノペプチダーゼ（AAP）またはアミノペプチダーゼN（AP-N）としても知られる膜アラニルアミノペプチダーゼ（EC3.4.11.2）は、ヒトにおいてANPEP遺伝子によりコードされる酵素である。アミノペプチダーゼNは小腸と腎臓の微絨毛膜に存在し、他の細胞膜にも存在する。小腸において、アミノペプチダーゼNは、胃および膵臓のプロテアーゼによるタンパク質の加水分解から生成されるペプチドの最終消化において役割を果たす。近位尿細管上皮細胞および他の細胞型におけるその機能はあまり明らかではない。この遺伝子の異常は、さまざまな種類の白血病やリンパ腫の原因と考えられている。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD15_BRIGHT</LocID>                               
-		<Text>シアリルルイスX（CD15）強陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD15_BRIGHT_DESC</LocID>                   
-		<Text>シアリルルイスX（sLeX）は分化抗原群15s（CD15）またはステージ特異的胚抗原1（SSEA-1）としても知られており、通常細胞表面のO-グリカンに結合する四糖炭水化物である。細胞間認識プロセスにおいて重要な役割を果たすことが知られている。また、卵子が精子を呼び寄せる手段でもある。最初にそれにくっつき接合子を形成する。シアリルルイスXは好中球の貪食と走化を仲介する。ホジキン病、一部のB細胞慢性リンパ性白血病、急性リンパ芽球性白血病、およびほとんどの急性非リンパ性白血病の患者に発現する。CD15は、そのまれな単核変異体を含め、ほとんどすべてのリード＝シュテルンベルク細胞に存在しており、生検でこのような細胞の存在を同定するために免疫組織化学で用いることができる。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD33_BRIGHT</LocID>                               
-		<Text>Siglec-3（CD33）強陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD33_BRIGHT_DESC</LocID>                   
-		<Text>CD33またはSiglec-3（シアル酸結合Ig様レクチン3、SIGLEC3、SIGLEC-3、gp67、p67）は、骨髄系細胞で発現する膜貫通受容体である。通常は骨髄特異的と考えられているが、一部のリンパ系細胞にも認められる。CD33は糖タンパク質や糖脂質のようなシアル酸残基をもつ分子によって刺激される。結合すると、タンパク質のサイトゾル部分に存在するCD33の免疫受容体チロシンベース阻害モチーフ（ITIM）はリン酸化され、SHPホスファターゼのようなSrc相同性2（SH2）ドメイン含有タンパク質のドッキング部位として作用する。この結果、細胞内の食作用を阻害するカスケードが生じる。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD117_BRIGHT</LocID>                               
-		<Text>癌原遺伝子c-KIT（CD117）強陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD117_BRIGHT_DESC</LocID>                   
-		<Text>プロトオンコジーンc-KITは、チロシン-タンパク質キナーゼKIT、CD117または肥満/幹細胞成長因子受容体としても知られ、ヒトにおいてKIT遺伝子によってコードされる受容体型チロシンキナーゼである。KITは、骨髄における特定の型の造血（血液）前駆細胞を同定するために使用される重要な細胞表面マーカーである。具体的には、造血幹細胞（HSC）、多能性前駆細胞（MPP）、および共通骨髄前駆細胞（CMP）が高レベルのKITを発現し、一般的なリンパ系前駆細胞（CLP）が低レベルのKITを発現する。KITに対する抗体は、組織学的組織切片において特定の種類の腫瘍を識別するのに役立つ免疫組織化学において広く使用されている。主に、KIT陽性であるが、同様の外観を有する平滑筋および神経腫瘍で陽性であるデスミンおよびS-100などのマーカーは陰性であるGISTsの診断に用いられる。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD117_NEG</LocID>                               
-		<Text>癌原遺伝子c-KIT（CD117）陰性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD117_NEG_DESC</LocID>                   
-		<Text>プロトオンコジーンc-KITは、チロシン-タンパク質キナーゼKIT、CD117または肥満/幹細胞成長因子受容体としても知られ、ヒトにおいてKIT遺伝子によってコードされる受容体型チロシンキナーゼである。KITは、骨髄における特定の型の造血（血液）前駆細胞を同定するために使用される重要な細胞表面マーカーである。具体的には、造血幹細胞（HSC）、多能性前駆細胞（MPP）、および共通骨髄前駆細胞（CMP）が高レベルのKITを発現し、一般的なリンパ系前駆細胞（CLP）が低レベルのKITを発現する。KITに対する抗体は、組織学的組織切片において特定の種類の腫瘍を識別するのに役立つ免疫組織化学において広く使用されている。主に、KIT陽性であるが、同様の外観を有する平滑筋および神経腫瘍で陽性であるデスミンおよびS-100などのマーカーは陰性であるGISTsの診断に用いられる。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD38_BRIGHT</LocID>                               
-		<Text>サイクリックADPリボースヒドロラーゼ（CD38）強陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD38_BRIGHT_DESC</LocID>                   
-		<Text>環状ADPリボース加水分解酵素としても知られるCD38は、CD4+、CD8+、Bリンパ球およびナチュラルキラー細胞を含む多くの免疫細胞の表面に見出される糖タンパク質である。CD38はまた、細胞接着、シグナル伝達およびカルシウムシグナリングにおいても機能する。CD38機能の喪失は、免疫応答の障害、代謝障害、および社会的健忘を含む行動変容と関連している。CD38タンパク質は細胞活性化のマーカーである。HIV感染、白血病、骨髄腫、固形腫瘍、2型糖尿病および骨代謝、ならびにいくつかの遺伝的に決定された状態に関連している。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD38_DIM</LocID>                               
-		<Text>サイクリックADPリボースヒドロラーゼ（CD38）弱陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD38_DIM_DESC</LocID>                   
-		<Text>環状ADPリボース加水分解酵素としても知られるCD38は、CD4+、CD8+、Bリンパ球およびナチュラルキラー細胞を含む多くの免疫細胞の表面に見出される糖タンパク質である。CD38はまた、細胞接着、シグナル伝達およびカルシウムシグナリングにおいても機能する。CD38機能の喪失は、免疫応答の障害、代謝障害、および社会的健忘を含む行動変容と関連している。CD38タンパク質は細胞活性化のマーカーである。HIV感染、白血病、骨髄腫、固形腫瘍、2型糖尿病および骨代謝、ならびにいくつかの遺伝的に決定された状態に関連している。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD43_BRIGHT</LocID>                               
-		<Text>ロイコシアリン（CD43）強陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD43_BRIGHT_DESC</LocID>                   
-		<Text>シアロホリンまたはCD43（分化抗原群43）としても知られるロイコシアリンは、ヒトにおいてSPN（シアロホリン）遺伝子によりコードされる膜貫通細胞表面タンパク質である。CD43分子の欠損はウィスコット・アルドリッチ症候群の発症と関連している。免疫組織化学を用いて、CD43は、健康なリンパ節および扁桃の傍皮質T細胞において実証することができ、リンパ系および骨髄系腫瘍の範囲でも陽性である。それはT細胞リンパ腫の90%以上に存在するが、一般的にCD3抗原ほどこの状態を証明する効果はない。しかしながら、B細胞リンパ芽球性リンパ腫の状態にある悪性細胞はしばしばCD43陽性であり、他の抗体で染色することが困難であるため、B細胞リンパ球性リンパ腫を証明するためのパネルの一部として有用である。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD8_BRIGHT</LocID>                               
-		<Text>CD8抗原強陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD8_BRIGHT_DESC</LocID>                   
-		<Text>CD8（分化抗原群8）はT細胞受容体（TCR）の補助受容体として働く膜貫通糖タンパク質である。TCRと同様に、CD8は主要組織適合遺伝子複合体（MHC）分子に結合するが、MHCクラスIタンパクに特異的である。CD8補助レセプターは主に細胞傷害性T細胞の表面に発現しているが、ナチュラルキラー細胞、皮質胸腺細胞、樹状細胞にもみられる。CD8分子は細胞傷害性T細胞集団のマーカーである。T細胞リンパ芽球性リンパ腫および色素減少性菌状息肉症で発現する。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD3_BRIGHT</LocID>                               
-		<Text>CD3抗原強陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD3_BRIGHT_DESC</LocID>                   
-		<Text>免疫学では、CD3（分化抗原群3）T細胞補助受容体は、細胞傷害性T細胞（CD8+ナイーブT細胞）とTヘルパー細胞（CD4陽性ナイーブT細胞）の両方の活性化を助ける。CD3は、T細胞が胸腺で発生する幹細胞である前胸腺細胞の細胞質で最初に発現される。前胸腺細胞は共通の胸腺細胞に分化し、次いで髄質胸腺細胞に分化し、この後期にCD3抗原が細胞膜に移動し始める。抗原はすべての成熟T細胞の膜に結合しており、プルキンエ細胞には少量しか存在しないようであるが、他の細胞にはほとんど結合していない。この高い特異性は、T細胞発生のすべての段階におけるCD3の存在と相まって、組織切片におけるT細胞の有用な免疫組織化学的マーカーとなる。抗原はほとんどすべてのT細胞リンパ腫および白血病に存在しているため、表面的に類似したB細胞性および骨髄性腫瘍との鑑別に用いることができる。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD3_NEG</LocID>                               
-		<Text>CD3抗原陰性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD3_NEG_DESC</LocID>                   
-		<Text>免疫学では、CD3（分化抗原群3）T細胞補助受容体は、細胞傷害性T細胞（CD8+ナイーブT細胞）とTヘルパー細胞（CD4陽性ナイーブT細胞）の両方の活性化を助ける。CD3は、T細胞が胸腺で発生する幹細胞である前胸腺細胞の細胞質で最初に発現される。前胸腺細胞は共通の胸腺細胞に分化し、次いで髄質胸腺細胞に分化し、この後期にCD3抗原が細胞膜に移動し始める。抗原はすべての成熟T細胞の膜に結合しており、プルキンエ細胞には少量しか存在しないようであるが、他の細胞にはほとんど結合していない。この高い特異性は、T細胞発生のすべての段階におけるCD3の存在と相まって、組織切片におけるT細胞の有用な免疫組織化学的マーカーとなる。抗原はほとんどすべてのT細胞リンパ腫および白血病に存在しているため、表面的に類似したB細胞性および骨髄性腫瘍との鑑別に用いることができる。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD16_BRIGHT</LocID>                               
-		<Text>FcγRIII（CD16）強陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD16_BRIGHT_DESC</LocID>                   
-		<Text>FcγRIIIとしても知られるCD16は、ナチュラルキラー細胞、好中球、単球、およびマクロファージの表面上に認められる分化分子の抗原群である。CD16は、シグナル伝達に関与するFc受容体FcγRIIIIaおよびFcγRIIIIbとして同定されている。これらの受容体はIgG抗体のFc部分に結合し、ヒトNK細胞において抗体依存性細胞媒介性細胞傷害（ADCC）を活性化する。CD16はヒト単球が行うADCC過程に必要である。ヒトにおいて、CD16を発現する単球は、特異的抗体の存在下で種々のADCC能力を有し、一次白血病細胞、癌細胞株、およびB型肝炎ウイルスに感染した細胞を死滅させることができる。加えて、CD16は、抗体なしでいくつかのウイルス感染および癌細胞の直接殺傷を媒介することができる。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD56_BRIGHT</LocID>                               
-		<Text>NC接着分子（CD56）強陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD56_BRIGHT_DESC</LocID>                   
-		<Text>神経細胞接着分子（NCAM）はCD56とも呼ばれ、ニューロン、グリアおよび骨格筋の表面に発現するホモフィリック結合糖タンパク質である。CD56はその発見部位のために神経系統コミットメントのマーカーと考えられることが多いが、CD56の発現は、とりわけ造血系においても見出される。ここで、CD56の発現は、ナチュラルキラー細胞と最も強く関連しているが、これに限定されるわけではない。解剖病理学では、病理学者はCD56免疫組織化学を用いて特定の腫瘍を認識する。CD56陽性の腫瘍は、骨髄腫、骨髄性白血病、神経内分泌腫瘍、ウィルムス腫瘍、神経芽腫、節外性NK/T細胞リンパ腫、鼻型、膵腺房細胞癌、褐色細胞腫、傍神経節腫、小細胞肺癌、およびユーイング肉腫ファミリー腫瘍である。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_HLADR_BRIGHT</LocID>                               
-		<Text>HLA-DR強陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_HLADR_BRIGHT_DESC</LocID>                   
-		<Text>HLA-DRは、6番染色体領域6p 21.31上のヒト白血球抗原複合体によってコードされるMHCクラスII細胞表面受容体である。HLA-DRとペプチドの複合体は、一般に9から30アミノ酸の長さであり、T細胞受容体のリガンドを構成する。</Text>  
-	</GameDBLocalizedString>
-	
-	<!-- ############### NORMAL STRINGS ############### -->
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_PANCYTOPENIA</LocID>                               
-		<Text>汎血球減少症</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_PANCYTOPENIA_DESC</LocID>                   
-		<Text>汎血球減少症は、赤血球、白血球、血小板の3種類すべての血球数が減少した状態である。汎血球減少症は通常、血球を産生する骨髄の異常が原因だが、根本的な原因はいくつか存在する。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_HAIRYCELL</LocID>                               
-		<Text>毛様細胞</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_HAIRYCELL_DESC</LocID>                   
-		<Text>毛様細胞は、細胞質に毛のような突起がある異常な白血球である。有毛細胞白血病の典型的な徴候である。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SM_P_003</LocID>                               
-		<Text>TRAP酵素の検出</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SM_P_003_DESC</LocID>                   
-		<Text>酒石酸耐性酸ホスファターゼ（TRAPまたはTRAPase）は酸ホスファターゼ5酒石酸耐性（ACP5）とも呼ばれ、ほ乳類で発現するグリコシル化単量体金属タンパク質酵素である。それは約35kDaの分子量、塩基性等電点（7.6-9.5）、および酸性条件下での最適活性を有する。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_08</LocID>                               
-		<Text>BRAF V600E変異の検出</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_08_DESC</LocID>                   
-		<Text>B-Rafプロトオンコジーン（BRAF）は細胞質セリン/トレオニンキナーゼをコードし、マイトジェン活性化タンパク質キナーゼシグナル伝達経路の調節に重要な役割を果たす。BRAF遺伝子のエクソン15のコドン600（V600E）における活性化ミスセンス変異が、黒色腫、結腸直腸癌、甲状腺乳頭癌、有毛細胞白血病、およびランゲルハンス細胞組織球症を含む多発性新生物で同定されている。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_09</LocID>                               
-		<Text>IGHV超変異の検出</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_09_DESC</LocID>                   
-		<Text>Ig重鎖V-III領域VH26は、ヒトにおいてIGHV遺伝子によってコードされるタンパク質である。IGHVは免疫グロブリン重鎖可変領域遺伝子であり、慢性リンパ性白血病のようなB細胞新生物では、IGHVの突然変異は一部の治療に対するより良好な反応および長期生存と関連している。HCL患者の約80-90%は、免疫グロブリン重鎖可変遺伝子に過剰変異を有する。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_10</LocID>                               
-		<Text>17p13染色体欠失の検出</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_10_DESC</LocID>                   
-		<Text>検査の結果、患者の検査細胞から染色体17p13が欠失していることが判明した。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_NECROSIS</LocID>                               
-		<Text>壊死</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_NECROSIS_DESC</LocID>                   
-		<Text>壊死は細胞損傷の一形態であり、自己分解により生組織中の細胞の早期死をもたらす。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_LPT1</LocID>                               
-		<Text>大きな原発腫瘍の検出</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_LPT1_DESC</LocID>                   
-		<Text>検査の結果、患者の体内に大きな原発腫瘍が発見されたが、これは癌がより進行した状態にあることを示している可能性がある。</Text>  
-	</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_ACTINIC_KERATOSIS</LocID>
+				<Text>光線角化症</Text>
+			</GameDBLocalizedString>
 
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_BREAST_LUMP</LocID>                               
-		<Text>乳房のしこり</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_BREAST_LUMP_DESC</LocID>                   
-		<Text>乳房のしこりとは、乳房の局所的な腫れ、隆起、膨隆、隆起などで、周囲の乳房組織とは感じ方が異なるものである。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_BREAST_DISCH</LocID>                               
-		<Text>乳頭分泌物</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_BREAST_DISCH_DESC</LocID>                   
-		<Text>乳頭分泌とは、乳頭から液体が放出されることである。これは非常によくみられる乳房の症状で、ほとんどの場合、何かしらの問題が原因ではなく乳房の正常な機能の一部である。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SORE_NIPPLE</LocID>                               
-		<Text>乳頭痛</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SORE_NIPPLE_DESC</LocID>                   
-		<Text>乳頭痛は、乳頭の周囲の乳房組織に生じる痛みである。乳頭痛は、乳房痛、乳頭分泌物、乳房のしこりまたは腫瘤、掻痒、皮膚の変化など、他の症状および徴候と関連することがある。乳癌は典型的には乳頭痛や乳房痛を引き起こさない。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_BREAST_SCHANGE</LocID>                               
-		<Text>胸部の変形</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_BREAST_SCHANGE_DESC</LocID>                   
-		<Text>患者は乳房の形や大きさの変化を経験している。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_BREAST_DIMP</LocID>                               
-		<Text>胸部のくぼみ</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_BREAST_DIMP_DESC</LocID>                   
-		<Text>橙皮状皮膚とも呼ばれ、乳房にくぼみができると、皮膚がオレンジのくぼみや凹凸のある皮膚のように見える。皮膚が赤くなって炎症を起こすこともある。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_BREAST_PAIN</LocID>                               
-		<Text>胸痛</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_BREAST_PAIN_DESC</LocID>                   
-		<Text>片側または両側の乳房に生じる乳房の張り、圧痛、鋭い痛みは、通常は重大な異常を意味しない。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SUS_CALC</LocID>                               
-		<Text>疑わしい石灰化</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SUS_CALC_DESC</LocID>                   
-		<Text>乳房の石灰化は、女性の乳房組織に生じる小さなカルシウムの沈着である。非常に多くみられ、通常は良性（非がん性）である。乳房の石灰化は女性に多くみられるが、男性にもみられることがある。場合によっては、特定のタイプの乳房石灰化が早期乳がんを示唆することがある。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_IRR_BMASS</LocID>                               
-		<Text>胸部の不整形陰影</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_IRR_BMASS_DESC</LocID>                   
-		<Text>マンモグラフィーで認められる異常は、結節、腫瘤、しこり、高濃度乳房、ゆがみなどと呼ばれる。境界が不規則な腫瘤（しこり）や星のように見える腫瘤（スピキュラ）は、がんの可能性がある。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CMA_CA153</LocID>                               
-		<Text>血中癌抗原15-3の高値</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CMA_CA153_DESC</LocID>                   
-		<Text>癌抗原15-3（CA15-3）は、様々な細胞、特に乳がん細胞によって作られるタンパクである。タンパク質は血液中に移動し、そこで測定される。CA15-3の値は、体の他の部位に転移した乳がんの女性のほとんどで正常より高くなっている（転移性乳がんと呼ばれる）。一部の種類のがん細胞は抗原を過剰に産生しないため、すべての種類の乳がんがCA15-3値を上昇させるわけではない。</Text>  
-	</GameDBLocalizedString>
-	
-		<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CMA_CA2729</LocID>                               
-		<Text>血中癌抗原27-29の高値</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CMA_CA2729_DESC</LocID>                   
-		<Text>癌抗原27-29は、医師が乳がんの腫瘍マーカーとして使用する抗原の1つである。これらのマーカーは、がんが存在すると必ず増加する傾向がある。CA 27.29検査は主に転移性乳がんのモニタリングに用いられ、あまり一般的ではないが、以前に早期乳がんの治療を受けた人の再発を検出するために用いられる。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_11</LocID>                               
-		<Text>BRCA1遺伝子欠陥の所見</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_11_DESC</LocID>                   
-		<Text>BRCA1/2はヒトの癌抑制遺伝子（管理者遺伝子としても知られる）であり、DNAの修復に関与している。BRCA1とBRCA2は無関係のタンパク質であるが、両者は正常では乳房や他の組織の細胞で発現し、損傷したDNAの修復を助けたり、DNAが修復できない場合には細胞を破壊したりする。BRCA1またはBRCA2に欠陥がある女性は、乳癌の生涯リスクが高く、30-60%の範囲であると推定され、卵巣癌の生涯リスクは約20%である。癌の予防および早期発見のための対策が有益となりうる。BRCA1またはBRCA2に欠陥がある男性では、前立腺がんおよび男性乳がんのリスクがある程度高くなる可能性がある。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_HRM_01</LocID>                               
-		<Text>エストロゲン受容体陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_HRM_01_DESC</LocID>                   
-		<Text>癌にエストロゲンに対する受容体がある場合、その癌はエストロゲン受容体陽性（またはER+）と呼ばれる。このことは、癌細胞が正常な乳がん細胞と同様に、増殖を促進する可能性のあるエストロゲンからのシグナルを受け取っている可能性があることを示唆している。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_HRM_02</LocID>                               
-		<Text>プロゲステロン受容体陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_HRM_02_DESC</LocID>                   
-		<Text>プロゲステロン受容体があれば、癌はプロゲステロン受容体陽性（PR+）である。これもまた、がん細胞が増殖を促進するプロゲステロンからのシグナルを受けている可能性があることを意味している。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD340_NEG</LocID>                               
-		<Text>HER2/neu（CD340）陰性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD340_NEG_DESC</LocID>                   
-		<Text>CD340、癌原遺伝子Neu、Erbb2、またはERBB2としても知られる受容体チロシン-タンパク質キナーゼerbB-2は、ヒトにおいてERBB2遺伝子によってコードされるタンパク質である。ERBBはトリゲノムから単離された赤芽球癌遺伝子Bから短縮され、しばしばHER2またはHER2/neuとも呼ばれる。HER2はヒト上皮成長因子受容体（HER/EGFR/ERBB）ファミリーのメンバーである。このがん遺伝子の増幅または過剰発現は、特定の侵攻性の乳がんの発生および進行において重要な役割を果たすことが示されている。近年、タンパク質は乳癌患者の約30%の重要なバイオマーカーおよび治療標的となっている。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD340_POS</LocID>                               
-		<Text>HER2/neu（CD340）変異陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD340_POS_DESC</LocID>                   
-		<Text>CD340、癌原遺伝子Neu、Erbb2、またはERBB2としても知られる受容体チロシン-タンパク質キナーゼerbB-2は、ヒトにおいてERBB2遺伝子によってコードされるタンパク質である。ERBBはトリゲノムから単離された赤芽球癌遺伝子Bから短縮され、しばしばHER2またはHER2/neuとも呼ばれる。HER2はヒト上皮成長因子受容体（HER/EGFR/ERBB）ファミリーのメンバーである。このがん遺伝子の増幅または過剰発現は、特定の侵攻性の乳がんの発生および進行において重要な役割を果たすことが示されている。近年、タンパク質は乳癌患者の約30%の重要なバイオマーカーおよび治療標的となっている。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SPEC_MARG</LocID>                               
-		<Text>スピキュラを伴う辺縁</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SPEC_MARG_DESC</LocID>                   
-		<Text>スピキュラは悪性腫瘍の真の診断的特徴である。組織のストランドが不明瞭な腫瘤から放射状に広がり、星状の外観を呈する。</Text>  
-	</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_ACTINIC_KERATOSIS_DESC</LocID>
+				<Text>光線角化症は、長年日光にさらされることによって発症する、皮膚のざらざらした鱗状の斑点です。</Text>
+			</GameDBLocalizedString>
 
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD44v6_BRIGHT</LocID>                               
-		<Text>CD44v6抗原強陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD44v6_BRIGHT_DESC</LocID>                   
-		<Text>CD44v6は膜貫通糖タンパク質のCD44ファミリーのアイソフォームである。上皮癌における高いCD44v6発現は、腫瘍増殖、浸潤、転移、および再発と相関する。CD44v6は、受容体型チロシンキナーゼc-Met、RONおよびVEGFR-2の共受容体である。</Text>  
-	</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_NODULE_SKIN</LocID>
+				<Text>皮膚上の結節</Text>
+			</GameDBLocalizedString>
 
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_12</LocID>                               
-		<Text>GATA3変異の所見</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_12_DESC</LocID>                   
-		<Text>GATA3はヒトにおいてGATA3遺伝子によってコードされる転写因子である。GATA3転写因子は、炎症性および液性免疫応答ならびに血管内皮の適切な機能と同様に、様々な組織の胚発生に重要である。乳房細胞におけるGATA3タンパク質の免疫細胞化学的分析は、原発性乳癌を診断するための貴重なマーカーであり、症例の最大94%で陽性として試験されている。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_HEMOPTYSIS2</LocID>                               
-		<Text>重度の喀血</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_HEMOPTYSIS2_DESC</LocID>                   
-		<Text>喀血とは、気管支、喉頭、気管、または肺から血液または血液に汚染された粘液が喀出されることである。つまり、気道からの出血である。これは、肺がん、結核、気管支炎、肺炎などの感染症、特定の心血管疾患で発生することがある。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_INC_INTRAPRE</LocID>                               
-		<Text>頭蓋内圧亢進</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_INC_INTRAPRE_DESC</LocID>                   
-		<Text>頭蓋内圧（ICP）の上昇は、脳の周囲の圧力の上昇である。脳の周りの水分量が増えていることが原因である可能性がある。例えば、脳のクッションとなる脳脊髄液の量が増えたり、外傷や破裂した腫瘍によって脳内の血液が増えたりすることがある。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_BRAIN_ABW</LocID>                               
-		<Text>異常な脳波パターン</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_BRAIN_ABW_DESC</LocID>                   
-		<Text>脳波検査で異常な脳波パターンが検出された。一貫した局在を示す棘波、鋭波、または棘波複合体が、ときに脳腫瘍の経過の初期に観察される。しかしながら、これらは、痙攣に関連する緩徐に増殖する新生物の初期所見として、または局所の減速が生じた後に、より一般的である。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_LPT2</LocID>                               
-		<Text>異常な腫瘤の検出</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_LPT2_DESC</LocID>                   
-		<Text>検査により患者に異常な腫瘤が検出されたため、悪性度、形状または進行を同定するためにさらなる検査が必要である。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_13</LocID>                               
-		<Text>1型神経線維腫（NF-1）の所見</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_13_DESC</LocID>                   
-		<Text>1型神経線維腫（NF-1）は、多くのヒト細胞型において正常な機能に必要とされるニューロフィブロミンと呼ばれるタンパク質の産生に関与する第17染色体上の遺伝子の突然変異によって引き起こされる複雑な多系統ヒト疾患である。神経線維腫症I型（NFI）患者の約10%は中枢神経系（CNS）腫瘍を有する。最も一般的なものは視床下部-視神経グリオーマであり、脳幹および小脳毛様細胞性星細胞腫がこれに続く。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_EGB</LocID>                               
-		<Text>好酸性顆粒小体の所見</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_EGB_DESC</LocID>                   
-		<Text>好酸性顆粒小体が頻繁に存在することは、多形性黄色星細胞腫（PXA）または毛様細胞性星細胞腫などの高悪性度腫瘍が低悪性度腫瘍に向かうのを阻止する上でしばしば有用な手がかりとなる。</Text>  
-	</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_NODULE_SKIN_DESC</LocID>
+				<Text>皮膚に小さな光沢のある隆起や結節ができています。</Text>
+			</GameDBLocalizedString>
 
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_ABSCESS</LocID>                               
-		<Text>膿瘍</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_FND</LocID>                   
-		<Text>局所神経障害</Text>  
-	</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_PERINEURAL_INVASION</LocID>
+				<Text>傍神経浸潤</Text>
+			</GameDBLocalizedString>
 
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_FND_DESC</LocID>                               
-		<Text>局所神経障害とは、神経、脊髄、脳の機能に問題がある状態である。顔面の左側、右腕、舌などの小さな領域など、特定の部位が侵される。言語障害、視覚障害、聴覚障害も局所神経障害とみなされる。</Text>  
-	</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_PERINEURAL_INVASION_DESC</LocID>
+				<Text>傍神経浸潤（PNI）とは、神経の周囲にがんが浸潤している状態を指します。</Text>
+			</GameDBLocalizedString>
 
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CMD</LocID>                   
-		<Text>石灰化ミネラルの沈着</Text>  
-	</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_METASTASIZED_CANCER</LocID>
+				<Text>転移性がん</Text>
+			</GameDBLocalizedString>
 
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CMD_DESC</LocID>                               
-		<Text>脳結石は、大きな固形の頭蓋内石灰化と定義される。多くの人が良性であると考えているが、これらのリン酸カルシウム沈着物または「脳結石」は大きくなることがあり、痙攣からパーキンソン症状に及ぶ神経症状を伴う。異栄養性石灰化は、外傷、手術、脳卒中、放射線治療などの脳損傷部位に最もよくみられる。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_DYSPHASIA</LocID>                   
-		<Text>不全失語症</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_14</LocID>                   
-		<Text>リ・フラウメニ症候群</Text>  
-	</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_METASTASIZED_CANCER_DESC</LocID>
+				<Text>転移性がんとは、発生した部位から体の他の部位に転移するがんです。</Text>
+			</GameDBLocalizedString>
 
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_14_DESC</LocID>                               
-		<Text>リ・フラウメニ症候群（LFS）は、広範囲の特定の、しばしばまれな癌に対する遺伝性家族性素因である。これは、TP53として知られる腫瘍抑制遺伝子の変化（突然変異）によるものである。</Text>  
-	</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CHRONIC_WOUND</LocID>
+				<Text>慢性創傷</Text>
+			</GameDBLocalizedString>
 
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_DYSPHASIA_DESC</LocID>                               
-		<Text>不全失語症とは、脳の病気や損傷により、発話や理解力の低下を特徴とする言語障害である。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_MCRO_CYSTS</LocID>                   
-		<Text>小嚢胞</Text>  
-	</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CHRONIC_WOUND_DESC</LocID>
+				<Text>慢性創傷とは、3ヶ月程度で治らない傷のことです。最初は小さく、何度もかさぶたになることもありますが、自然に治癒しない状態を指します。</Text>
+			</GameDBLocalizedString>
 
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_MCRO_CYSTS_DESC</LocID>                               
-		<Text>小嚢腫は単純に非常に小さな嚢胞である。嚢胞は、液体や半固体の物質で満たされた良性の異常な増殖物で、ときに痛みを伴う。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_KI67_LLI</LocID>                               
-		<Text>KI-67抗原の低標識率</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_KI67_LLI_DESC</LocID>                   
-		<Text>Ki-67またはMKI-67としても知られるKI-67抗原は、ヒトにおいてMKI67遺伝子（モノクローナル抗体Ki-67によって同定される抗原）によってコードされるタンパク質である。Ki-67は与えられた細胞集団の増殖分画を決定する優れたマーカーである。Ki-67陽性腫瘍細胞の割合（Ki-67標識指数）は、しばしば癌の臨床経過と相関する。</Text>  
-	</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_ABNORMAL_MOLE</LocID>
+				<Text>異常なほくろ</Text>
+			</GameDBLocalizedString>
 
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_KI67_BLI</LocID>                               
-		<Text>KI-67抗原の高標識率</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_15</LocID>                               
-		<Text>ヘテロ接合性の消失</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_15_DESC</LocID>                   
-		<Text>染色体腕10qのヘテロ接合性の消失は、原発性および二次性膠芽腫の両方で最も頻度の高い遺伝子変化であり、症例の60-90%に発生する。この突然変異は多形性膠芽腫に特異的であると考えられ、他の腫瘍悪性度ではまれにしか認められない。この突然変異は生存率の低下と関連している。10q+1または2の付加的遺伝子突然変異におけるLOHは頻繁な変化であり、膠芽腫の発生における主要な因子である可能性が最も高い。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_16</LocID>                               
-		<Text>PDGFRの過剰発現</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_16_DESC</LocID>                   
-		<Text>血小板由来成長因子（PDGF）は、細胞増殖と分裂を調節する多数の成長因子の一つである。特に、PDGFは、血管形成、既存の血管組織からの血管の成長、間葉系細胞の有糸分裂、すなわち増殖において重要な役割を果たす。腫瘍学では、PDGF遺伝子はPDGF受容体（PDGFR）に結合することによりグリア細胞の主要なマイトジェンとして作用する。PDGFRの増幅または過剰発現は二次性膠芽腫に至る経路において典型的である。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_017</LocID>                               
-		<Text>IDH1/IDH2変異陰性</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_DYSPAREUNIA</LocID>                   
-		<Text>性交疼痛（女性）</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_DYSPAREUNIA_DESC</LocID>                               
-		<Text>痛みを伴う性交は、構造的な問題から心理的な問題までさまざまな理由で発生する。多くの女性は人生のある時点で苦痛な性交を経験する。有痛性性交の医学用語は性交疼痛症であり、性交の直前、性交中、または性交後に持続性または再発性の性器痛として定義される。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CMA_CA125</LocID>                   
-		<Text>血中癌抗原125の高値</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CMA_CA125_DESC</LocID>                               
-		<Text>CA-125は、ムチン16またはMUC16としても知られ、ヒトにおいてMUC16遺伝子によってコードされるタンパク質である。MUC16はムチンファミリー糖タンパク質のメンバーである。CA125検査は、血液中のCA125というタンパク質（癌抗原125）の量を測定する。CA125検査は、治療中および治療後に特定の癌をモニタリングするために用いられる。場合によっては、卵巣がんのリスクが非常に高い人で卵巣癌の初期徴候を探すために、CA125検査が実施されることがある。卵巣癌ではCA-125の値が高くなる。閉経前の女性では、癌以外の多くの疾患や疾患が高濃度のCA-125を引き起こす可能性がある。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_EARLY_SAT</LocID>                               
-		<Text>早期の満腹感</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_EARLY_SAT_DESC</LocID>                   
-		<Text>早期満腹感とは、食事を十分に食べられなかったり、少量の食事で満腹感が得られない状態である。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_PMPB</LocID>                               
-		<Text>閉経後出血</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_PMPB_DESC</LocID>                   
-		<Text>閉経後出血（PMB）は、ホルモン療法（HT）を受けていない女性において無月経の1年後に起こる出血と定義される。プロゲステロンとエストロゲンの継続的な投与を受けている女性では、特に最初の6カ月間に不正性器出血が起こる可能性がある。閉経後出血の原因はいくつか考えられる。最も一般的な原因は、エストロゲン濃度の低下が原因で起こる腟内膜（萎縮性膣炎）または子宮内膜（子宮内膜萎縮）の炎症と菲薄化である。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_IRR_MNS</LocID>                               
-		<Text>生理不順</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_IRR_MNS_DESC</LocID>                   
-		<Text>月経の遅れ、異常、または異常な出血パターンのこと。月経不順は、基礎疾患以外の原因で起こることもある。例えば、不規則な月経、更年期または初潮の家族歴、身体的ストレス、心理的ストレス、喫煙または薬物の副作用がある。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_APM</LocID>                               
-		<Text>異常骨盤腔内腫瘤の検出</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_APM_DESC</LocID>                   
-		<Text>骨盤内腫瘤は、骨盤部の腫大または腫脹である。ほとんどの骨盤内腫瘤はルーチンの婦人科診察または身体診察で発見される。骨盤内腫瘤は、子宮頸部、子宮、子宮付属器などの婦人科臓器、または腸、膀胱、尿管、腎器官などの他の骨盤内臓器に由来することがある。骨盤内腫瘤を引き起こす可能性のある婦人科的問題は数多く存在する。さらに、骨盤内腫瘤を引き起こす可能性のある他の疾患もある。ほとんどは卵巣嚢胞などの良性疾患であるが、婦人科癌に関連するものもある。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_OVAR_CYST</LocID>                               
-		<Text>卵巣嚢胞</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_OVAR_CYST_DESC</LocID>                   
-		<Text>卵巣嚢胞とは、卵巣内または卵巣表面にある液体で満たされた袋またはポケットのことである。ほとんどの卵巣嚢胞は症状を引き起こさない。月経不順、性交時の痛み、不規則な排便が起こることもある。ほとんどの卵巣嚢胞は無害で、治療しなくても自然治癒する。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SM_P_004</LocID>                               
-		<Text>浸潤性微小乳頭状構造</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SM_P_004_DESC</LocID>                   
-		<Text>微小乳頭状構造は、線維血管コアを伴わない微小毛細血管構造を示すパターンとして定義される。微小毛細管パターンの存在は、卵巣癌、乳癌、および膀胱癌の予後不良につながることがよく知られている。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SM_P_005</LocID>                               
-		<Text>砂粒体</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SM_P_005_DESC</LocID>                   
-		<Text>砂粒体は、円形の顕微鏡的な石灰化した集塊である。砂粒体は、十分に分化した漿液性がんによくみられる所見であり、子宮頸部腟細胞診で検出された悪性腺細胞との関連で発見されることがある。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_18</LocID>                               
-		<Text>BRAF V599E変異の検出</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_18_DESC</LocID>                   
-		<Text>B-Rafプロトオンコジーン（BRAF）は、マイトジェン活性化プロテインキナーゼシグナル伝達経路の制御に重要な役割を持つ細胞質のセリン/スレオニンキナーゼをコードしている。BRAF遺伝子の変異は良性および悪性黒色細胞病変に見られ、その90%以上がV599E変異である。この変異は、構成的に活性化されたキナーゼ機能とin vitroでのコロニー形成の増加をもたらす。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_ASCITES</LocID>                               
-		<Text>腹水</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_ASCITES_DESC</LocID>                   
-		<Text>体液のたまりによる腹部の腫れで、肝臓病に関連していることが多い。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_PLEURAL_EFFUSION</LocID>                               
-		<Text>胸水</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_PLEURAL_EFFUSION_DESC</LocID>                   
-		<Text>胸水は、「肺の上の水」と呼ばれることもあるが、肺の外側にある胸膜の層の間に余分な体液が溜まったものである。胸膜は、肺と胸腔の内側に並ぶ薄い膜であり、呼吸を潤滑にして促進する働きをする。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD146_BRIGHT</LocID>                               
-		<Text>MCAM（CD146）強陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD146_BRIGHT_DESC</LocID>                   
-		<Text>メラノーマ細胞接着分子（MCAM）は、様々な腫瘍で異常発現し、腫瘍転移と密接に関連している細胞接着分子である。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CK7_BRIGHT</LocID>                               
-		<Text>ケラチン7（CK7）強陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CK7_BRIGHT_DESC</LocID>                   
-		<Text>ケラチン、サイトケラチン-7（CK-7）またはケラチン-7（K7）またはサルコレクチン（SCL）としても知られるII型細胞骨格7は、ヒトにおいてKRT7遺伝子によってコードされるタンパク質である。ケラチン-7は単腺上皮や移行上皮にみられる。肺と乳房の上皮細胞はともにケラチン-7を含んでいるが、結腸や前立腺の上皮細胞のようにケラチン-7を含まない腺上皮細胞もある。ケラチン-7抗原は健常細胞および腫瘍細胞の両方に認められるため、CK7に対する抗体は、卵巣癌および移行上皮癌を結腸癌および前立腺癌からそれぞれ区別するための免疫組織化学において使用することができる。このような診断を行う際にCK20と併用されることが多い。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CK7_NEG</LocID>                               
-		<Text>ケラチン7（CK7）陰性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CK7_NEG_DESC</LocID>                   
-		<Text>ケラチン、サイトケラチン-7（CK-7）またはケラチン-7（K7）またはサルコレクチン（SCL）としても知られるII型細胞骨格7は、ヒトにおいてKRT7遺伝子によってコードされるタンパク質である。ケラチン-7は単腺上皮や移行上皮にみられる。肺と乳房の上皮細胞はともにケラチン-7を含んでいるが、結腸や前立腺の上皮細胞のようにケラチン-7を含まない腺上皮細胞もある。ケラチン-7抗原は健常細胞および腫瘍細胞の両方に認められるため、CK7に対する抗体は、卵巣癌および移行上皮癌を結腸癌および前立腺癌からそれぞれ区別するための免疫組織化学において使用することができる。このような診断を行う際にCK20と併用されることが多い。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CK20_BRIGHT</LocID>                               
-		<Text>ケラチン20（CK20）強陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CK20_BRIGHT_DESC</LocID>                   
-		<Text>ケラチン20（しばしばCK20と略される）は、ヒトではKRT20遺伝子によってコードされるタンパク質である。免疫組織化学では、CK20に対する抗体は、通常CK20タンパク質を含む上皮から生じる様々な腺癌を同定するために使用することができる。例えば、このタンパク質は、大腸癌、移行期細胞癌およびメルケル細胞癌に一般的に見られるが、肺癌、前立腺癌および非粘膜性卵巣癌には見られない。CK7に対する抗体と組み合わせて、異なるタイプの腺性腫瘍を区別するために使用されることが多い。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CK20_NEG</LocID>                               
-		<Text>ケラチン20（CK20）陰性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CK20_NEG_DESC</LocID>                   
-		<Text>ケラチン20（しばしばCK20と略される）は、ヒトではKRT20遺伝子によってコードされるタンパク質である。免疫組織化学では、CK20に対する抗体は、通常CK20タンパク質を含む上皮から生じる様々な腺癌を同定するために使用することができる。例えば、このタンパク質は、大腸癌、移行期細胞癌およびメルケル細胞癌に一般的に見られるが、肺癌、前立腺癌および非粘膜性卵巣癌には見られない。CK7に対する抗体と組み合わせて、異なるタイプの腺性腫瘍を区別するために使用されることが多い。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_17</LocID>                               
-		<Text>IDH1/IDH2陰性所見</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_17_DESC</LocID>                   
-		<Text>イソクエン酸脱水素酵素（IDH）は、トリカルボン酸（TCA）サイクルにおけるイソクエン酸のα-ケトグルタル酸（α-KG）への変換に関与する重要な酵素である。IDH変異は新形酵素を産生し、R-2-HGの異常蓄積を引き起こし、白血病発症を促進する。IDH変異は急性骨髄性白血病（AML）患者の20%に発生し、主にIDH1 R132、IDH2 R140、IDH2 R172を含む。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_PSA_BL_DETECTED</LocID>                               
-		<Text>前立腺特異抗原の高値</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_PSA_BL_DETECTED_DESC</LocID>                   
-		<Text>前立腺特異抗原（PSA）は、前立腺のみで産生される糖タンパク質であり、その機能は、精液を液化することである。少量が血流に漏出し、そこで測定することができる。前立腺特異抗原は組織特異的であるが、癌特異的ではない。前立腺肥大症（BPH）、前立腺炎、尿路感染症、前立腺梗塞のある男性では、前立腺のレベルが高くなることがある。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_DYSORGASMIA</LocID>                   
-		<Text>射精痛</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_DYSORGASMIA_DESC</LocID>                               
-		<Text>射精痛は痛みを伴うオルガスムと定義されるが、性交時に痛みが生じることはない。痛みはしばしば骨盤、殿部、腹部のけいれん性の感覚として現れる。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_APM1</LocID>                               
-		<Text>前立腺肥大</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_APM1_DESC</LocID>                   
-		<Text>検査の結果、患者の前立腺に異常が見つかった。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_DIFF_URINE</LocID>                               
-		<Text>尿閉</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_DIFF_URINE_DESC</LocID>                   
-		<Text>排尿が困難で、膀胱を完全に空にすることができない。尿閉には、基礎疾患以外の原因があることがある。例えば、意図的に尿をため込んだり、薬の副作用などによるものである。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_NIGHT_URGE</LocID>                               
-		<Text>夜尿症</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_NIGHT_URGE_DESC</LocID>                   
-		<Text>夜間に頻回に起きてトイレに行き排尿しなければならない状態を夜尿症という。夜尿症は、睡眠から覚めないが、膀胱が空になるおねしょとは異なる。夜尿症は、特に高齢者に多い睡眠障害の原因である。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_UAS_PCA3</LocID>                               
-		<Text>前立腺癌抗原3の高値</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_UAS_PCA3_DESC</LocID>                   
-		<Text>前立腺癌抗原3（PCA3）は前立腺腫瘍で高発現する。検査の結果、PCA3の尿中濃度が高いことが判明している。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_UAS_PCA3</LocID>                               
-		<Text>前立腺癌抗原3の高値</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_UAS_PCA3_DESC</LocID>                   
-		<Text>前立腺癌抗原3（PCA3）は前立腺腫瘍で高発現する。検査の結果、PCA3の尿中濃度が高いことが判明している。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_ED</LocID>                               
-		<Text>勃起不全</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_ED_DESC</LocID>                   
-		<Text>勃起不全（ED）とは、勃起を得られない、または性交できるほど勃起を強く保つことができない状態のことである。インポテンツと呼ばれることもあるが、現在ではあまり使われていない。時折起こるEDは珍しいものではなく、多くの男性がストレスを感じている時に経験する。臨床的に限局した前立腺癌に対する根治的前立腺摘除術後の勃起不全は、手術の潜在的な合併症として知られている。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_HEMATOSPERMIA</LocID>                               
-		<Text>血精液症</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_HEMATOSPERMIA_DESC</LocID>                   
-		<Text>血精液症とは、精液に血が混じっている状態と定義されている。精液に血が混じっていることは、あまり意味がないと思われがちだが、それを経験した男性にとっては大きな懸念材料となることがある。この状態は一般的で、多くのエピソードが気づかれないことが多いため、血精液症の有病率はいまだ不明である。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_HYPERCALCEMIA</LocID>                               
-		<Text>高カルシウム血症</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_HYPERCALCEMIA_DESC</LocID>                   
-		<Text>高カルシウム血症とは、血液中のカルシウム濃度が正常値を超えている状態のことである。高カルシウム血症は、ほとんどの場合、首の4つの小さな腺（副甲状腺）の過活動によって、または癌から引き起こされる。血液中の余分なカルシウムは、多くの身体システムに影響を与える。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SEVERE_HYPERCALCEMIA</LocID>                               
-		<Text>重度の高カルシウム血症</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SEVERE_HYPERCALCEMIA_DESC</LocID>                   
-		<Text>重度の高カルシウム血症は、緊急の治療を必要とする医学的緊急事態である。高カルシウム血症とは、血液中のカルシウム濃度が正常値を超えている状態であり、まれに、重度の高カルシウム血症は、心臓の機能に支障をきたし、動悸や失神、心臓の不整脈などの症状を引き起こすことがある。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD13_NEG</LocID>                               
-		<Text>アミノペプチダーゼN（CD13）陰性</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD30_BRIGHT</LocID>                   
-		<Text>CD30抗原強陽性</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD30_BRIGHT_DESC</LocID>                               
-		<Text>CD30（TNFRSF8としても知られる）は、腫瘍壊死因子受容体ファミリーの細胞膜タンパク質であり、腫瘍マーカーである。この受容体は、活性化されたT細胞およびB細胞によって発現されるが、安静時のT細胞およびB細胞によっては発現されない。TRAF2およびTRAF5は、この受容体と相互作用し、NF-κBの活性化につながるシグナル伝達を媒介することがでる。CD30は、未分化大細胞リンパ腫と関連している。CD30は胚性癌では発現するが精巣腫では発現しないため、これらの生殖細胞腫瘍を区別する上で有用なマーカーとなる。CD30およびCD15は、ホジキンリンパ腫に典型的なリード＝シュテルンベルク細胞にも発現している。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD45_BRIGHT</LocID>                               
-		<Text>PTPRC（CD45）強陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD45_BRIGHT_DESC</LocID>                   
-		<Text>受容体型プロテインチロシンホスファターゼCは、ヒトではPTPRC遺伝子によってコードされる酵素である。PTPRCはCD45抗原（CDは分化抗原群の略）としても知られており、当初は白血球共通抗原（LCA）と呼ばれていた。CD45は造血におけるシグナル伝達の調節に関与するチロシンホスファターゼ活性を有する汎白血球タンパク質である。CD45はマウスおよびヒト非形質転換造血細胞上の脂質ラフトと共局在しないが、脂質ラフト内のCD45の位置は急性骨髄性白血病への発癌性形質転換の間に修飾される。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_19</LocID>                               
-		<Text>IGH-BCL2転座</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_19_DESC</LocID>                   
-		<Text>濾胞性リンパ腫（FL）の特徴は、14番染色体上のIgH遺伝子座と18番染色体上のBCL2遺伝子が関与する異常転座t（14;18）（q32;q21）である。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_20</LocID>                               
-		<Text>BCL6（3q27）超変異</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_20_DESC</LocID>                   
-		<Text>B細胞リンパ腫6タンパク質は、ヒトにおいてBCL6遺伝子によってコードされるタンパク質である。BCL2、BCL3、BCL5、BCL7A、BCL9およびBCL10と同様に、リンパ腫において臨床的意義を有する。この遺伝子によりコードされるタンパク質は進化的に保存されたジンクフィンガー転写因子であり、N末端POZ/BTBドメインを含む。このタンパク質は配列特異的な転写抑制因子として作用し、B細胞のSTAT依存性インターロイキン4（IL-4）応答を調節することが示されている。このタンパク質はいくつかのコリプレッサー複合体と相互作用して転写を阻害する。この遺伝子は、びまん性大細胞型B細胞リンパ腫（DLBCL）において高頻度に転座および過剰変異していることが見出されている。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_BLC2_BRIGHT</LocID>                               
-		<Text>BCL2強陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_BLC2_BRIGHT_DESC</LocID>                   
-		<Text>BCL2遺伝子によりヒトでコードされるBcl-2（B細胞リンパ腫2）は、アポトーシスを阻害（抗アポトーシス）または誘導（アポトーシス促進性）することにより細胞死（アポトーシス）を調節する調節タンパク質のBcl-2ファミリーの創設メンバーである。Bcl-2に対する抗体は、抗原を含む細胞を同定するために免疫組織化学とともに用いることができる。健康な組織では、これらの抗体はマントル帯のB細胞や一部のT細胞と反応する。しかし、濾胞性リンパ腫や他の多くのがんでは、陽性細胞がかなり増加する。一部の症例では、生検でのBcl-2染色の有無が患者の予後または再発の可能性にとって重要である。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_BL_DGP</LocID>                               
-		<Text>びまん性増殖パターン</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_BL_DGP_DESC</LocID>                   
-		<Text>漠然とした結節性および／またはびまん性の細胞増殖パターン。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_ABNORMAL_NODULE</LocID>                               
-		<Text>異常な色の結節</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_ABNORMAL_NODULE_DESC</LocID>                   
-		<Text>皮膚に結節（しこり）があり、奇妙な赤紫の色を呈している。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_MCP_VIR</LocID>                               
-		<Text>メルケル細胞ポリオーマウイルスの所見</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_MCP_VIR_DESC</LocID>                   
-		<Text>メルケル細胞ポリオーマウイルス（MCVまたはMCPyV）は、2008年1月にペンシルバニア州ピッツバーグで初めて報告された。これはデジタルトランスクリプトームサブトラクションと呼ばれる技術を用いた不偏メタゲノム次世代配列決定を用いて発見されたヒトウイルス病原体の最初の例であった。MCVは現在知られている7つのヒトオンコウイルスの1つである。ウイルスの検出はまだ研究段階であり、一般に臨床試験としては利用できないが、ウイルスDNAの検出はPCR法またはFISH法により行う。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_MCP_VIR_EL</LocID>                               
-		<Text>電子顕微鏡のMCV所見</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_MCP_VIR_EL_DESC</LocID>                   
-		<Text>MCV VLPの5万倍の透過型電子顕微鏡は特徴的なポリオーマウイルス正二十面体キャプシド構造を示した。この証拠は、現在知られている7つのヒトオンコウイルスのうちの1つであるメルケル細胞ポリオーマウイルス（MCV）を示している。 </Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SM_P_006</LocID>                               
-		<Text>サイクリンD1の過剰生産</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SM_P_006_DESC</LocID>                   
-		<Text>サイクリンD1は、細胞が細胞周期に入るのを調節するタンパク質である。G0期とG1期の間の移行を促進する。正常組織では、基底上皮細胞、内皮細胞、間質細胞は細胞周期を経るため、サイクリンD1陽性であることが多い。サイクリンD1遺伝子とIgH,t（11;14）の転座の結果、大多数のマントル細胞リンパ腫はサイクリンD1を過剰発現し、これは低悪性度B細胞リンパ腫の分類に有用な特徴である。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_21</LocID>                               
-		<Text>IGH/CCND1転座の所見</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_21_DESC</LocID>                   
-		<Text>IGH遺伝子再構成は、多くの癌に関連する古典的細胞遺伝学的遺伝子異常の1つであると考えられている。MCLの分子的特徴であるt（11;14）（q13;q32）（IGH/CCND1）は、IGH遺伝子座全体に見られるエンハンサー要素によって媒介されるG1期細胞周期遺伝子、CCND1（サイクリンD1のコード化）の調節解除と過剰発現をもたらす。</Text>  
-	</GameDBLocalizedString>
-	
-	<!-- ### ### -->
-	<!-- ######################################## Content for V0.13.2.0 Added Below ######################################## -->
-	<!-- ### ### -->
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_BL_SPC</LocID>                               
-		<Text>粗顆粒状クロマチン</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_BL_SPC_DESC</LocID>                   
-		<Text>病理学では、粗顆粒状クロマチンは、塩コショウ核や斑状クロマチンとも呼ばれ、（光顕微鏡で）顆粒状のクロマチンを示す細胞核を指す。塩コショウクロマチンは、典型的には甲状腺髄様癌、神経内分泌腫瘍、褐色細胞腫などの内分泌腫瘍で見られる。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_BL_LSAC</LocID>                               
-		<Text>大きな未分化細胞</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_BL_LSAC_DESC</LocID>                   
-		<Text>未分化細胞は顕著な多形性を示す（変動性）。核は特徴的に極めて高染色性（黒ずんだ）で大型である。核-細胞質比は、正常な1:4または1:6の代わりに1:1に近づくことがある。隣接細胞よりもかなり大きい巨大細胞が形成され、一つの巨大核または複数の核（合胞体）を有することがある。未分化核の大きさと形状は様々で奇異である。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SM_P_007</LocID>                               
-		<Text>甲状腺転写因子1陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SM_P_007_DESC</LocID>                   
-		<Text>NK2ホメオボックス1（NKX2-1）は、甲状腺転写因子1（TTF-1）としても知られ、ヒトではNKX2-1遺伝子によりコードされるタンパク質である。TTF-1陽性細胞は、II型肺細胞およびクラブ細胞として肺に認められる。甲状腺では濾胞および傍濾胞細胞もTTF-1陽性であり、肺癌では腺癌が通常陽性であるのに対し、扁平上皮癌および大細胞癌が陽性となることはまれである。小細胞癌（原発部位にかかわらず）は通常陽性である。TTF1は単なる肺腺癌の臨床マーカーではない。肺癌において変異していることが実験的に観察されていることから、肺癌細胞の維持に積極的な役割を果たしている。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_IS_001</LocID>                               
-		<Text>腫瘍タンパク質P63強陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_IS_001_DESC</LocID>                   
-		<Text>腫瘍タンパク質p63は、一般的にp63と呼ばれ、形質転換関連タンパク質63としても知られているが、ヒトではTP63（p63としても知られている）遺伝子によってコードされているタンパク質である。P63免疫染色は、頭頸部扁平上皮癌、前立腺腺癌（前立腺癌の最も一般的なタイプ）および前立腺良性組織の鑑別に有用である。 </Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_HYPERTROPHIC_PO</LocID>                               
-		<Text>肥大性肺骨関節症</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_HYPERTROPHIC_PO_DESC</LocID>                   
-		<Text>肥大性肺骨関節症（HPO）は、肺癌としばしば関連する稀な腫瘍随伴症候群である。肥大性骨関節症（HOA）は、手指および足指のばち状指、四肢の腫脹、ならびに関節の疼痛および腫脹を伴う臨床症候群である。この病態は、橈骨および腓骨を侵す対称性骨膜炎を特徴とし、大腿骨、上腕骨、中手骨、および中足骨が侵されることが少ない。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD44_BRIGHT</LocID>                               
-		<Text>CD44抗原強陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD44_BRIGHT_DESC</LocID>                   
-		<Text>CD44抗原は、細胞間相互作用、細胞接着および遊走に関与する細胞表面糖タンパク質である。ヒトでは、CD44抗原は11番染色体上のCD44遺伝子によってコードされている。CD44は多くの癌に高度に発現し、CD44の細胞表面への動員を介して転移を調節する細胞表面接着受容体である。適切な細胞外マトリックスリガンドとの相互作用は転移に関与する移動と浸潤過程を促進する。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_22</LocID>                               
-		<Text>EGFR変異過剰発現</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_22_DESC</LocID>                   
-		<Text>上皮成長因子受容体（上皮成長因子;ErbB-1;ヒトHER1）は、細胞外タンパク質リガンドの上皮成長因子ファミリー（EGFファミリー）メンバーに対する受容体である膜貫通タンパク質である。EGFRの過剰発現につながる変異（アップレギュレーションまたは増幅として知られる）は、肺腺癌（症例の40%）、肛門癌、膠芽腫（50%）、頭頸部上皮腫瘍（80-100%）など、多くの癌と関連している。EGFRが関与するこれらの体細胞変異は、恒常的な活性化をもたらし、制御不能な細胞分裂をもたらす。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD274_BRIGHT</LocID>                               
-		<Text>PD-L1（CD274）強陽性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CM_CD274_BRIGHT_DESC</LocID>                   
-		<Text>分化抗原群274（CD274）またはB7ホモログ1（B7-H1）としても知られるプログラム死リガンド1（PD-L1）は、ヒトにおいてCD274遺伝子によりコードされるタンパク質である。プログラム死リガンド1（PD-L1）は、妊娠、組織同種移植片、自己免疫疾患および肝炎のような他の疾患状態のような特別なイベント中の免疫系の適応腕の抑制に主要な役割を果たすと推測されている40kDa1型膜貫通タンパク質である。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_IS_002</LocID>                               
-		<Text>腫瘍タンパク質P53異常発現</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_IS_002_DESC</LocID>                   
-		<Text>腫瘍タンパク質p53、細胞性腫瘍抗原p53（UniProt名）、腫瘍抑制因子p53としても知られるp53は、TP53（人間）およびTrp53（マウス）のような、種々の生物における相同遺伝子によってコードされるタンパク質の任意のアイソフォームである。このホモログ（元々は単一のタンパク質であると考えられており、しばしば単一のタンパク質と言われている）は多細胞生物において重要であり、そこでは癌形成を防止し、従って腫瘍抑制因子として機能する。TP53遺伝子は変異原（化学物質、放射線、ウイルス）によっても修飾され、制御されない細胞分裂の可能性が高まる。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_BL_HISRC</LocID>                               
-		<Text>印環細胞形態</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_BL_HISRC_DESC</LocID>                   
-		<Text>組織学的には、印環細胞は大きな空胞を有する細胞であり、悪性型は主に癌腫で見られる。印環細胞は様々な癌と最も頻繁に関連している。大腸癌を印環細胞大腸癌とするには、定義上、50%以上（高）の印環細胞成分が必要である。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_23</LocID>                               
-		<Text>高頻度マイクロサテライト不安定性</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_23_DESC</LocID>                   
-		<Text>マイクロサテライト不安定性（MSI）はDNAミスマッチ修復（MMR）障害に起因する遺伝的高変異性（突然変異の素因）の状態である。MSIの存在は、MMRが正常に機能していないという表現型の証拠を示す。MMRは、1塩基のミスマッチや短い挿入や欠失など、DNA複製中に自然に起こるエラーを修正する。MMRに関与するタンパク質は、DNAのミスマッチ部分に結合する複合体を形成することによってポリメラーゼの誤りを訂正し、誤りを取り除き、正しい配列をその場所に挿入する。MMRが異常に機能している細胞は、DNA複製中に起こるエラーを修正することができず、結果としてエラーが蓄積する。マイクロサテライト不安定性は多くの型の癌と関連するが、結腸癌との関連で最も一般的である。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SM_P_008</LocID>                               
-		<Text>ムチン-4高発現</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SM_P_008_DESC</LocID>                   
-		<Text>ムチン-4（MUC4）は、ヒトにおいてMUC4遺伝子によってコードされるムチンタンパク質である。他のムチンと同様に、MUC-4は高分子量の糖タンパク質である。粘液の主成分は、気管、結腸、子宮頸部などの上皮表面を覆う粘性の分泌物で、ムチンとよばれる高度にグリコシル化されたタンパク質である。これらの糖タンパク質は上皮細胞の保護に重要な役割を果たし、上皮の再生と分化に関与している。MUC-4は、特に腫瘍発生と転移に寄与するそのシグナル伝達と抗接着特性のために、癌の進行において様々な役割を果たすことが見出されている。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_24</LocID>                               
-		<Text>CDH1（CD324）変異の所見</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_CDF_T_24_DESC</LocID>                   
-		<Text>CAM120/80または上皮カドヘリン（Eカドヘリン）またはウボモルリンとしても知られるカドヘリン-1は、ヒトにおいてCDH1遺伝子によってコードされるタンパク質である。CDH1はCD324（分化抗原群324）とも呼ばれる腫瘍抑制遺伝子である。E-カドヘリン機能または発現の消失は、癌の進行および転移に関与している。E-カドヘリンのダウンレギュレーションは組織内の細胞接着の強度を低下させ、細胞運動性を増加させる。これにより、がん細胞は基底膜を通過して周囲の組織に侵入できるようになる。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_COLONOFIND</LocID>                               
-		<Text>大腸内視鏡所見</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_COLONOFIND_DESC</LocID>                   
-		<Text>検査で結腸の異常所見が報告されている。さらなる検査や生検の結果は、所見が懸念される原因であるかどうかを判断するのに役立つ。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SM_P_010</LocID>                               
-		<Text>ムチン-2高発現</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SM_P_010_DESC</LocID>                   
-		<Text>ムチンは、ほとんどの動物の上皮組織によって産生される高分子量の高度にグリコシル化されたタンパク質（複合糖質）のファミリーである。MUC2としても知られる粘液ゲル形成オリゴマーであるムチン-2は、ヒトにおいてMUC2遺伝子によってコードされるタンパク質である。ムチン-2は腸において特に顕著であり、腸上皮の杯細胞から大腸内腔に分泌される。腫瘍学において、MUC-2の過剰発現は粘液層を形成することによって抗腫瘍免疫エフェクターから保護し、腫瘍発生を促進する可能性がある。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SM_P_011</LocID>                               
-		<Text>ムチン-5AC高発現</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SM_P_011_DESC</LocID>                   
-		<Text>高度にグリコシル化され分泌されたムチンMUC5ACは、そのシステインに富む反復のおかげで、分子間および分子内ジスルフィド結合を形成することができ、その結果、複雑なポリマーが形成され、それが上皮細胞表面上にポリマー性粘液ゲルのフレームワークを形成する。MUC5ACは、上皮細胞へのバリア機能、宿主と病原体の相互作用、前癌病変または悪性病変部位への免疫細胞の誘引、および状況依存的な腫瘍進行を含む、多様な機能的意義を有する分子である。MUC5ACの差次的発現、グリコシル化および局在化は、良性および悪性の多数の病理と関連している。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SM_P_012</LocID>                               
-		<Text>ムチン-1高発現</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SM_P_012_DESC</LocID>                   
-		<Text>多型性上皮ムチン（PEM）または上皮膜抗原またはEMAとも呼ばれる細胞表面関連（MUC1）ムチン-1は、ヒトのMUC1遺伝子によってコードされるムチンである。MUC1は細胞外ドメインにO-結合型糖鎖を多数もつ糖タンパク質である。ムチンは、病原体が細胞外ドメインのオリゴ糖に結合することによって感染から体を保護し、病原体が細胞表面に到達するのを防ぐ。MUC1の過剰発現はしばしば結腸癌、乳癌、卵巣癌、肺癌および膵臓癌と関連する。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SM_P_009</LocID>                               
-		<Text>ムチン-6高発現</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SM_P_009_DESC</LocID>                   
-		<Text>MUC6としても知られるオリゴマー性粘液/ゲル形成性ムチン-6は、ヒト遺伝子である。肝外胆管病変（胆道IPMN）では、MUC2発現は円柱細胞変化および腸分化の程度と平行しているが、MUC6は立方細胞パターンの腫瘍および幽門または胆管分化の症例では特徴的に陽性である。幽門腺腺腫（胆嚢の）は、M‐GGMC‐1などの他の幽門腺マーカーと同様にMUC6に対して一貫して陽性である。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_BL_PMCC</LocID>                               
-		<Text>単一型粘液生産性細胞</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_BL_PMCC_DESC</LocID>                   
-		<Text>粘膜癌は他のタイプの癌細胞と一緒に形成されることがあるが、そうでない場合は「単一の」癌とみなされる。純粋な粘液性癌は、90-100%の粘液性細胞で構成されている。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_BL_MMCC</LocID>                               
-		<Text>混合型粘液生産性細胞</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_BL_MMCC_DESC</LocID>                   
-		<Text>粘液性癌は、他の種類のがん細胞とともに発生することがあり、その場合は混合型粘液性癌と呼ばれる。</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SM_P_013</LocID>                               
-		<Text>ナプシンA高発現</Text>  
-	</GameDBLocalizedString>
-            
-	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_SM_P_013_DESC</LocID>                   
-		<Text>ナプシンAは機能的アスパラギン酸プロテイナーゼであり、健康な肺実質の細胞質に発現する。このタンパク質はTAO2ポリペプチドと相同であり、生理活性のあるサーファクタントBタンパク質の成熟に関与している。このタンパク質は38kDaのタンパク質で、II型肺胞上皮細胞、肺胞マクロファージ、尿細管、膵臓の外分泌腺や管に発現している。ナプシンAは原発性肺癌の代替マーカーとなりうる。</Text>  
-	</GameDBLocalizedString>
-	
-	</LocalizedStrings>
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_ABNORMAL_MOLE_DESC</LocID>
+				<Text>ほくろの境目が不均一で、色が変わっていたり、生え方が変化しています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HIGH_EPLVL</LocID>
+				<Text>High Epinephrine Levels</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HIGH_EPLVL_DESC</LocID>
+				<Text>患者のエピネフリン（アドレナリン）の血中濃度が上昇しています。アドレナリンは通常、副腎と延髄にある少数の神経細胞の両方によって産生されます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HIGH_NEPLVL</LocID>
+				<Text>ノルエピネフリン血中濃度の上昇</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HIGH_NEPLVL_DESC</LocID>
+				<Text>患者のノルエピネフリン（ノルアドレナリン）の血中濃度が上昇しています。ノルエピネフリンは体内で自然に発生する化学物質で、ストレスホルモンと神経伝達物質の両方の働きをします。脳がストレスとなる出来事が起こったと認識すると、ストレスホルモンとして血中に放出されます。 </Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SEIZURES</LocID>
+				<Text>発作</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SEIZURES_DESC</LocID>
+				<Text>発作とは、突然、脳の中で制御不能な電気的障害が起こることです。発作が起きると、行動、動作、感情、意識レベルが変化することがあります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HEMOPTYSIS1</LocID>
+				<Text>軽度の喀血</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HEMOPTYSIS1_DESC</LocID>
+				<Text>喀血とは、気管支、喉頭、気管、肺から血液や血液の混じった粘液が咳き込むこと、つまり、気道から出血することです。肺がん、結核、気管支炎、肺炎などの感染症、ある種の心疾患などで起こることがあります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_NERVE_DAMAGE</LocID>
+				<Text>術後神経障害性疼痛</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_NERVE_DAMAGE_DESC</LocID>
+				<Text>手術中に神経を損傷した場合、術後神経障害性疼痛（PONP）を発症することがあります。損傷した神経は、体の各部位から脳へ信号を正しく伝えることができません。その代わりに、これらの信号が誇張され、数ヶ月から数年にわたり慢性的な痛みが続くことがあります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HIGH_CEALVL</LocID>
+				<Text>癌胎児性抗原(CEA)血中濃度の上昇</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HIGH_CEALVL_DESC</LocID>
+				<Text>癌胎児性抗原(CEA)の血中濃度が上昇している患者さんです。CEAの高値は、ある種の癌の徴候である可能性があります。これには、結腸および直腸、前立腺、卵巣、肺、甲状腺、または肝臓のがんなどが含まれます。また、肝硬変、非がん性乳房疾患、肺気腫など、がん以外の疾患の徴候として認められる場合もあります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_POLYPS</LocID>
+				<Text>Colorectal Polyp</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_POLYPS_DESC</LocID>
+				<Text>ポリープとは、結腸や直腸の粘膜にできた組織の増殖で、腸の中に突出しているものをいいます。大腸ポリープのある人には、通常は自覚症状が全くありません。ほとんどの大腸ポリープは無害ですが、中には癌化するものもあります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HYPONATREMIA</LocID>
+				<Text>低ナトリウム血症</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HYPONATREMIA_DESC</LocID>
+				<Text>低ナトリウム血症は、血液中のナトリウムの濃度が異常に低くなった場合に起こります。ナトリウムは電解質の一種で、細胞の中や周りにある水の量を調節する働きがあります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HYPERGLYCEMIA</LocID>
+				<Text>高血糖</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HYPERGLYCEMIA_DESC</LocID>
+				<Text>高血糖とは、専門用語で「血糖値が高い」ことを意味します。高血糖は、体内のインスリンの量が少なすぎるか、インスリンをうまく使えない場合に起こります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HYPERCORTISOL</LocID>
+				<Text>高コルチゾール症</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HYPERCORTISOL_DESC</LocID>
+				<Text>高コルチゾール症はクッシング症候群とも呼ばれ、副腎から自然に分泌されるホルモンであるコルチゾールが体内の組織で慢性的に過剰なレベルに晒されることによって起こるまれな内分泌疾患です。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HYPERALDOSTERONISM</LocID>
+				<Text>アルドステロン症</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HYPERALDOSTERONISM_DESC</LocID>
+				<Text>アルドステロン症は、副腎で作られるアルドステロンが過剰になり、高血圧や血中カリウム濃度の低下を引き起こす病気です。原発性アルドステロン症は、片方の副腎の機能亢進（片側性疾患）と両方の副腎（両側性疾患）のいずれかが原因となって発症することがあります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_LARGE_LYMPHNODE</LocID>
+				<Text>リンパ節炎</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_LARGE_LYMPHNODE_DESC</LocID>
+				<Text>リンパ節炎（腫脹性リンパ節）とは、病気や感染症、ストレスなどに反応して、リンパ節が腫れることをいいます。リンパ節の腫れは、リンパ系が原因物質を体外に排出しようとする働きがあることを示す一つのサインです。通常、免疫系腺は細菌やウイルス感染に反応して拡大しますが、多くのリンパ節が突然腫れることは、がんを示唆している可能性があります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_ELAVATED_5HIAA</LocID>
+				<Text>尿中の5-HIAA濃度の上昇</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_ELAVATED_5HIAA_DESC</LocID>
+				<Text>患者の尿中の5-HIAA（5-hydroxyindoleacetic acid）濃度が上昇しています。5ヒドロキシインドール酢酸（5HIAA）は、尿中のセロトニンの代謝産物として測定されます。5HIAAの上昇は、カルチノイド症候群と相関があります。心臓弁が高濃度のセロトニンに長時間さらされることは、本疾患の合併症と関連します。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CGA_BL_DETECTED</LocID>
+				<Text>クロモグラニンA血中濃度が上昇</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CGA_BL_DETECTED_DESC</LocID>
+				<Text>患者さんの血液中の腫瘍マーカーであるクロモグラニンAの濃度が上昇しています。クロモグラニンA（CgA）は、すべてのカルチノイド腫瘍に関連する一般的なマーカーであり、腫瘍細胞によって産生され、放出されるタンパク質です。クロモグラニンAは他のホルモンと関連し、その調節に関与している可能性があります。血中のクロモグラニンAには正常値があり、現在のところ、おおよそ39ng/L以下の範囲となっています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CARCINOID_CRISIS</LocID>
+				<Text>カルチノイドクリーゼ</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CARCINOID_CRISIS_DESC</LocID>
+				<Text>カルチノイドクリーゼとは、生命を脅かすカルチノイド症候群の一種で、極度のストレス、腫瘍の操作（生検または手術）、麻酔によって誘発される腫瘍からの圧倒的な量の生物学的活性化合物の放出に起因するものです。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_ANAPHYLACTIC_SHOCK</LocID>
+				<Text>アナフィラキシーショック</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_ANAPHYLACTIC_SHOCK_DESC</LocID>
+				<Text>アナフィラキシーショックは、稀にしか起こらないが、すぐに治療しないと命にかかわるような重篤なアレルギー反応です。多くの場合、食物、虫刺され、特定の薬物に対するアレルギーが原因です。エピネフリンと呼ばれる薬剤の注射が早急に必要です。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_UNUSUAL_INFECT</LocID>
+				<Text>異常な感染症</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_UNUSUAL_INFECT_DESC</LocID>
+				<Text>原因不明または特異な性質を示す感染症。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_FREQUENT_INFECT</LocID>
+				<Text>感染症の頻発</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_FREQUENT_INFECT_DESC</LocID>
+				<Text>感染症の頻発とは、感染症の感染数が多すぎたり、重症化したり、長く続いたりすることを指します。頻繁な感染症や再発性の感染症は、体が免疫システムを正常に働かせるために十分な白血球を生産していないために起こる可能性があります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_LYMPHOCYTOSIS</LocID>
+				<Text>リンパ球増加</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_LYMPHOCYTOSIS_DESC</LocID>
+				<Text>リンパ球増加は、白血球の一種であるリンパ球が体内で通常より多く見受けられることをいいます。リンパ球は免疫システムの一部であり、感染症を撃退するために働きます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BLEEDING_GUM</LocID>
+				<Text>歯肉出血</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BLEEDING_GUM_DESC</LocID>
+				<Text>歯肉出血は、歯周病で最もよく見られる症状です。しかし、それは他の健康問題を指し示すこともあります。歯肉から時々出血するのは、歯を強く磨きすぎていたり、入れ歯が正しく装着されていなかったりすることが原因である可能性があります。また、頻繁に起こる歯茎の出血は、より深刻な問題を示している場合もあります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HIGH_TCOUNT</LocID>
+				<Text>T細胞数の増加</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HIGH_TCOUNT_DESC</LocID>
+				<Text>T細胞数が多い場合、以下の原因が考えられます：伝染性単核球症（または「キス病」として知られています）、急性リンパ性白血病（ALL）、白血球を侵す癌の一種多発性骨髄腫、骨髄の形質細胞を侵す癌の一種。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_RC_APLASIA</LocID>
+				<Text>赤芽球癆</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_RC_APLASIA_DESC</LocID>
+				<Text>赤芽球癆（PRCA）または赤芽球減少症は、赤血球の前駆体が影響を受け、白血球が影響を受けないタイプの貧血を指します。PRCAでは、骨髄での赤血球の産生が停止します。PRCAを引き起こす病因は複数存在します。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CHRONIC_NEUT</LocID>
+				<Text>好中球減少</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CHRONIC_NEUT_DESC</LocID>
+				<Text>好中球減少症とは、好中球が少ない状態のことをいいます。好中球は白血球の一種です。すべての白血球は、感染症への抵抗を助けます。好中球は、体内に侵入した有害な細菌や真菌（酵母）を破壊することによって、感染と戦います。好中球は骨髄で作られます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SPLENOMEGALY</LocID>
+				<Text>脾腫</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SPLENOMEGALY_DESC</LocID>
+				<Text>脾腫は、脾臓が肥大することで起こる病気です。一般的には、脾臓肥大、脾臓腫大とも呼ばれます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_RUP_SPLENOMEGALY</LocID>
+				<Text>Ruptured Spleen</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_RUP_SPLENOMEGALY_DESC</LocID>
+				<Text>脾臓破裂は、脾臓を覆っているカプセル状のものが破れ、血液がお腹の中に流れ込むことで起こる救急疾患です。破裂の大きさによっては、大量の内出血を起こすことがあります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HEPATOMEGALY</LocID>
+				<Text>肝腫脹</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HEPATOMEGALY_DESC</LocID>
+				<Text>肝腫脹とは、患者さんの肝臓が異常に大きいことをいいます。健康上の重大な問題の兆候であることが多いです。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_THROMBOCYTOPENIA</LocID>
+				<Text>血小板減少症</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_THROMBOCYTOPENIA_DESC</LocID>
+				<Text>血小板減少症は、血小板の数が少ない状態です。血小板（血球細胞）は無色の血液細胞で、血液を凝固させる働きがあります。血小板は、血管の傷の中で固まり栓を形成することで出血を止めます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_02</LocID>
+				<Text>PML-RARA 融合遺伝子の発見</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_02_DESC</LocID>
+				<Text>APL（急性前骨髄球性白血病）細胞は、15番と17番の染色体の一部が入れ替わる「染色体転座」という非常に特殊な異常があります。その結果、"PML/RARα "として知られる異常な融合遺伝子が形成されます。この変異した遺伝子が、この病気の多くの特徴を引き起こすのです。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_FISH_POSLESION</LocID>
+				<Text>FISH検査陽性</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_FISH_POSLESION_DESC</LocID>
+				<Text>患者の病巣を検査し、FISH検査で悪性であることが確認されました。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_01</LocID>
+				<Text>フィラデルフィア染色体異常の発見</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_01_DESC</LocID>
+				<Text>フィラデルフィア染色体またはフィラデルフィア転座（Ph）は、白血病がん細胞（特に慢性骨髄性白血病（CML）細胞）の22番染色体における特定の遺伝子異常です。フィラデルフィア染色体の染色体異常は、9番と22番という2つの染色体の一部が入れ替わる相互転座です。この転座の存在はCMLのほとんどの症例で確認できるため、CMLの高感度検査として用いられます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SM_P_001</LocID>
+				<Text>ミエロペルオキシダーゼ（MPO）陽性</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SM_P_001_DESC</LocID>
+				<Text>ミエロペルオキシダーゼは、好中球およびその前駆体である好酸球、単球のアズール顆粒に存在するリソゾーム酵素です。この染色は、主に急性骨髄性白血病と急性リンパ性白血病の鑑別に用いられます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SM_P_002</LocID>
+				<Text>ズダン染色検査陽性</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SM_P_002_DESC</LocID>
+				<Text>ソルベントブラック3は、アゾ系色素です。無蛍光で比較的熱に強いリゾクローム（脂溶性染料）ジアゾ染料で、凍結切片の中性トリグリセリドや脂質、パラフィン切片の一部のリポ蛋白の染色に使用されています。実験室では、ズダン染料にソルベントブラック3が使用されます。血液疾患の鑑別には、骨髄芽細胞は染まりますが、リンパ芽細胞は染まりません。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_03</LocID>
+				<Text>イソクエン酸デヒドロゲナーゼ(IDH1/2)変異の発見</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_03_DESC</LocID>
+				<Text>イソクエン酸デヒドロゲナーゼ（IDH）は、トリカルボン酸サイクルにおいてイソクエン酸からα-ケトグルタル酸（α-KG）への変換に関与する重要な酵素であり、この酵素を阻害することにより、TCAサイクルが阻害される。IDHの変異により新型酵素が生成され、R-2-HGの異常蓄積を引き起こし、白血病の発症を促進することがあります。IDH変異は急性骨髄性白血病（AML）患者の20％に認められ、主にIDH1 R132、IDH2 R140、IDH2 R172が含まれています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_04</LocID>
+				<Text>BCR-ABL融合遺伝子の発見</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_04_DESC</LocID>
+				<Text>BCR-ABLは、BCRとABLと呼ばれる2つの遺伝子が組み合わさってできる変異です。融合遺伝子と呼ばれることもあります。BCR遺伝子は通常22番染色体上にあります。ABL遺伝子は通常9番染色体上にあります。BCR-ABL変異は、BCR遺伝子とABL遺伝子の断片が途切れて場所が入れ替わることで起こります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_05</LocID>
+				<Text>トリソミー8遺伝子の発見</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_05_DESC</LocID>
+				<Text>トリソミー8は、ワルカニー症候群2としても知られており、8番染色体を3本持つことによって起こるヒトの染色体異常です（トリソミー）。この疾患は、モザイクを伴う場合と伴わない場合があります。モザイク」とは、ある細胞には余分な染色体が存在するが、他の細胞には存在しないことを意味します。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_06</LocID>
+				<Text>トリソミー9遺伝子の発見</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_06_DESC</LocID>
+				<Text>モザイク型トリソミー9は、第9染色体全体が体の一部の細胞で2回ではなく3回出現する（トリソミー）まれな染色体異常です。モザイク」とは、ある細胞には余分な9番染色体が存在し、他の細胞には通常の染色体対が存在することを意味します。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_07</LocID>
+				<Text>フィラデルフィア染色体重複</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_07_DESC</LocID>
+				<Text>欠陥染色体であるフィラデルフィア染色体の重複が検出されました。これは慢性骨髄性白血病のより進行した段階で発生する可能性があります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BLA_HIGH1</LocID>
+				<Text>軽度な血中芽細胞数の上昇</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BLA_HIGH1_DESC</LocID>
+				<Text>検査により、患者さんの血液中に高いレベルの芽細胞が検出されました（5～19％）。芽細胞は、好中球、単球、リンパ球、赤血球など、成熟した循環血液細胞の前駆体です。 通常、芽細胞は骨髄に少ない数で存在し、血液中にはそれほど多くは見られません。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BLA_HIGH2</LocID>
+				<Text>血中芽細胞数の上昇</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BLA_HIGH2_DESC</LocID>
+				<Text>検査により、患者さんの血液中に高濃度の芽細胞が検出されました（20％以上）。芽細胞は、好中球、単球、リンパ球、赤血球など、成熟した循環血液細胞の前駆体です。 通常、芽細胞は骨髄に少ない数で存在し、 血液中にはそれほど多くは見られません。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BLA_HIGH3</LocID>
+				<Text>大幅な血中芽細胞数の上昇</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BLA_HIGH3_DESC</LocID>
+				<Text>検査により、患者さんの血液中に非常に高いレベルの芽細胞が検出されました（30％以上）。このレベルでは、芽細胞が正常な白血球を押しのけてしまうため、白血球の働きが悪くなってしまいます。芽細胞は、好中球、単球、リンパ球、赤血球など、成熟した循環血液細胞の前駆体です。 通常、芽細胞は骨髄に少ない数で存在し、 血液中にはそれほど多くは見られません。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD10_BRIGHT</LocID>
+				<Text>ネプリライシン (CD10) 陽性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD10_BRIGHT_DESC</LocID>
+				<Text>ネプリライシンは、MME、NEP、CD10、CALLAとしても知られている酵素で、ヒトではMME遺伝子にコードされています。CD10は、癌特異的抗原としてcommon acute lymphoblastic leukemiaに同定され、様々な種類の細胞に広く発現している細胞表面外酵素です。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD10_NEG</LocID>
+				<Text>ネプリライシン (CD10) 陰性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD10_NEG_DESC</LocID>
+				<Text>ネプリライシンは、MME、NEP、CD10、CALLAとしても知られている酵素で、ヒトではMME遺伝子にコードされています。CD10は、癌特異的抗原としてcommon acute lymphoblastic leukemiaに同定され、様々な種類の細胞に広く発現している細胞表面外酵素です。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD19_BRIGHT</LocID>
+				<Text>CD19抗原 陽性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD19_BRIGHT_DESC</LocID>
+				<Text>Bリンパ球抗原CD19は、CD19分子、Bリンパ球表面抗原B4、T細胞表面抗原Leu-12およびCVID3としても知られている膜貫通タンパク質で、ヒトではCD19遺伝子によってコードされています。ヒトでは、CD19は、形質細胞を除く全てのB細胞系と濾胞樹状細胞に発現しています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD19_NEG</LocID>
+				<Text>CD19抗原 陰性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD19_NEG_DESC</LocID>
+				<Text>Bリンパ球抗原CD19は、CD19分子、Bリンパ球表面抗原B4、T細胞表面抗原Leu-12およびCVID3としても知られている膜貫通タンパク質で、ヒトではCD19遺伝子によってコードされています。ヒトでは、CD19は、形質細胞を除く全てのB細胞系と濾胞樹状細胞に発現しています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD20_DIM</LocID>
+				<Text>CD20抗原 曖昧な発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD20_DIM_DESC</LocID>
+				<Text>Bリンパ球抗原CD20またはCD20は、すべてのB細胞の表面にプロB期に始まり、成熟するまで徐々に濃度を増して発現します。CD20は膜に埋め込まれた表面分子であり、B細胞の発生と形質細胞への分化に関与しています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD20_BRIGHT</LocID>
+				<Text>CD20抗原 陽性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD20_BRIGHT_DESC</LocID>
+				<Text>Bリンパ球抗原CD20またはCD20は、すべてのB細胞の表面にプロB期に始まり、成熟するまで徐々に濃度を増して発現します。CD20は膜に埋め込まれた表面分子であり、B細胞の発生と形質細胞への分化に関与しています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_TDT_BRIGHT</LocID>
+				<Text>TdT抗原 陽性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_TDT_BRIGHT_DESC</LocID>
+				<Text>末端デオキシヌクレオチジルトランスフェラーゼ（TdT）は、DNAヌクレオチジルレキソトランスフェラーゼ（DNTT）または末端転移酵素とも呼ばれ、未熟な、プレB、プレTリンパ球および急性リンパ性白血病/リンパ腫細胞に発現する特殊なDNAポリメラーゼです。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_TDT_NEG</LocID>
+				<Text>TdT抗原 陰性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_TDT_NEG_DESC</LocID>
+				<Text>末端デオキシヌクレオチジルトランスフェラーゼ（TdT）は、DNAヌクレオチジルレキソトランスフェラーゼ（DNTT）または末端転移酵素とも呼ばれ、未熟な、プレB、プレTリンパ球および急性リンパ性白血病/リンパ腫細胞に発現する特殊なDNAポリメラーゼです。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD22_DIM</LocID>
+				<Text>CD22抗原 曖昧な発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD22_DIM_DESC</LocID>
+				<Text>CD22（Cluster of Differentiation-22）は、SIGLECファミリーのレクチンに属する分子です。成熟B細胞の表面に存在し、一部の未熟B細胞にはあまり存在しません。CD22は糖結合性膜貫通タンパク質であり、N末端に位置する免疫グロブリン（Ig）ドメインでシアル酸を特異的に結合します。Igドメインが存在することから、CD22は免疫グロブリンスーパーファミリーの一員である。CD22は、B細胞受容体（BCR）シグナル伝達の抑制性受容体として機能しています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD22_BRIGHT</LocID>
+				<Text>CD22抗原 陽性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD22_BRIGHT_DESC</LocID>
+				<Text>CD22（Cluster of Differentiation-22）は、SIGLECファミリーのレクチンに属する分子です。成熟B細胞の表面に存在し、一部の未熟B細胞にはあまり存在しません。CD22は糖結合性膜貫通タンパク質であり、N末端に位置する免疫グロブリン（Ig）ドメインでシアル酸を特異的に結合します。Igドメインが存在することから、CD22は免疫グロブリンスーパーファミリーの一員である。CD22は、B細胞受容体（BCR）シグナル伝達の抑制性受容体として機能しています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD23_BRIGHT</LocID>
+				<Text>CD23抗原 陽性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD23_BRIGHT_DESC</LocID>
+				<Text>CD23は、またはFcεRIIとも呼ばれ、アレルギーや寄生虫に対する抵抗性に関与する抗体アイソタイプであるIgEの「低親和性」受容体で、IgEレベルの調節に重要です。多くの抗体受容体とは異なり、CD23はC型レクチンです。CD23抗原は、慢性リンパ性白血病の分化に重要であると考えられている細胞表面タンパク質です。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD34_BRIGHT</LocID>
+				<Text>CD34抗原 陽性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD34_BRIGHT_DESC</LocID>
+				<Text>CD34タンパク質は、初期の造血組織や血管関連組織に発現を示す一回膜貫通型のシアロムシンタンパク質ファミリーの一員です。CD34は重要な接着分子でもあり、T細胞がリンパ節に入る際に必要とされます。リンパ節内皮に発現し、一方、結合するL-セレクチンはT細胞上にあります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD79a_BRIGHT</LocID>
+				<Text>CD79A抗原 陽性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD79a_BRIGHT_DESC</LocID>
+				<Text>CD79Aは、B細胞抗原受容体複合体関連タンパク質のα鎖及びMB-1膜糖タンパク質としても知られており、ヒトではCD79A遺伝子によってコードされているタンパク質です。CD79Aは、B細胞の発生と機能において多様な役割を担っています。CD79a/bヘテロダイマーは、膜貫通領域を介して免疫グロブリン重鎖と非共有結合し、その結果、免疫グロブリン軽鎖とともにBCRを形成し、発達中のB細胞において代用軽鎖と結合するとプレBCRとなります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD79b_NEG</LocID>
+				<Text>CD79B抗原 陰性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD79b_NEG_DESC</LocID>
+				<Text>免疫グロブリン関連ベータであるCD79b分子は、CD79B（Cluster of Differentiation 79B）とも呼ばれるヒトの遺伝子です。CD79a/bヘテロダイマーは、膜貫通領域を介して免疫グロブリン重鎖と非共有結合するため、免疫グロブリン軽鎖とともにBCRを形成し、発達中のB細胞では代用軽鎖と結合するとプレBCRを形成します。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD11c_BRIGHT</LocID>
+				<Text>インテグリンαX鎖 (CD11c) 陽性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD11c_BRIGHT_DESC</LocID>
+				<Text>CD11cは、インテグリンαX鎖 (ITGAX)とも呼ばれ、CD11cをコードする遺伝子です。CD11cは、単球、顆粒球、B細胞のサブセット、樹状細胞、マクロファージに発現するI型膜貫通タンパク質で、B細胞性慢性リンパ性白血病、辺縁帯リンパ腫、毛状細胞白血病で発現されることがあります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD25_BRIGHT</LocID>
+				<Text>インターロイキン2受容体α鎖 (CD25) 陽性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD25_BRIGHT_DESC</LocID>
+				<Text>インターロイキン2受容体α鎖（CD25とも呼ばれる）は、ヒトではIL2RA遺伝子にコードされるタンパク質です。インターロイキン2（IL2）受容体α鎖（IL2RA）およびβ鎖（IL2RB）は、共通のγ鎖（IL2RG）とともに、高親和性IL2受容体を構成しています。IL2RAは、ほとんどのB細胞性新生物、いくつかの急性非リンパ性白血病、神経芽腫、肥満細胞症、腫瘍浸潤リンパ球に発現しています。また、HTLV-1の受容体として機能し、その結果、成人T細胞リンパ腫/白血病の腫瘍細胞上に発現しています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD25_NEG</LocID>
+				<Text>インターロイキン2受容体α鎖 (CD25) 陰性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD25_NEG_DESC</LocID>
+				<Text>インターロイキン2受容体α鎖（CD25とも呼ばれる）は、ヒトではIL2RA遺伝子にコードされるタンパク質です。インターロイキン2（IL2）受容体α鎖（IL2RA）およびβ鎖（IL2RB）は、共通のγ鎖（IL2RG）とともに、高親和性IL2受容体を構成しています。IL2RAは、ほとんどのB細胞性新生物、いくつかの急性非リンパ性白血病、神経芽腫、肥満細胞症、腫瘍浸潤リンパ球に発現しています。また、HTLV-1の受容体として機能し、その結果、成人T細胞リンパ腫/白血病の腫瘍細胞上に発現しています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD103_BRIGHT</LocID>
+				<Text>インテグリンαE (CD103) 陽性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD103_BRIGHT_DESC</LocID>
+				<Text>インテグリンαEは、CD103とも呼ばれ、ヒトではITGAE遺伝子にコードされるインテグリンタンパク質です。CD103は、上皮内リンパ球（IEL）T細胞（αβT細胞およびγδT細胞の両方）および一部の末梢制御性T細胞（Tregs）に広く発現しています。腸管関連T細胞リンパ腫を除く他のほとんどの血液腫瘍がCD103に陰性であるのとは対照的に、このマーカーに陽性の毛状細胞白血病の同定に有用です。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD123_DIM</LocID>
+				<Text>インターロイキン3受容体 (CD123) 曖昧な発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD123_DIM_DESC</LocID>
+				<Text>インターロイキン3受容体（CD123）は、細胞上に存在する分子で、免疫系で重要な可溶性サイトカインであるインターロイキン3のシグナルを伝達するのに役立ちます。この受容体は、多能性前駆細胞上に存在し、細胞内でチロシンリン酸化を誘導し、造血細胞系内の増殖と分化を促進します。CD123は、白血病幹細胞を含む急性骨髄性白血病（AML）のサブタイプに共通して発現しています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD123_BRIGHT</LocID>
+				<Text>インターロイキン3受容体 (CD123) 陽性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD123_BRIGHT_DESC</LocID>
+				<Text>インターロイキン3受容体（CD123）は、細胞上に存在する分子で、免疫系で重要な可溶性サイトカインであるインターロイキン3のシグナルを伝達するのに役立ちます。この受容体は、多能性前駆細胞上に存在し、細胞内でチロシンリン酸化を誘導し、造血細胞系内の増殖と分化を促進します。CD123は、白血病幹細胞を含む急性骨髄性白血病（AML）のサブタイプに共通して発現しています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD123_NEG</LocID>
+				<Text>インターロイキン3受容体 (CD123) 陰性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD123_NEG_DESC</LocID>
+				<Text>インターロイキン3受容体（CD123）は、細胞上に存在する分子で、免疫系で重要な可溶性サイトカインであるインターロイキン3のシグナルを伝達するのに役立ちます。この受容体は、多能性前駆細胞上に存在し、細胞内でチロシンリン酸化を誘導し、造血細胞系内の増殖と分化を促進します。CD123は、白血病幹細胞を含む急性骨髄性白血病（AML）のサブタイプに共通して発現しています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD1a_BRIGHT</LocID>
+				<Text>CD1a 抗原 陽性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD1a_BRIGHT_DESC</LocID>
+				<Text>CD1a (Cluster of Differentiation 1a) は、CD1A 遺伝子によってコードされるヒトタンパク質です。この遺伝子は、膜貫通型糖タンパク質であるCD1ファミリーのメンバーをコードしており、主要組織適合性複合体（MHC）タンパク質と構造的に関連し、β2ミクログロブリンとヘテロ二量体を形成しています。CD1タンパク質は、主に自己または微生物由来の脂質および糖脂質抗原のT細胞への提示を媒介します。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD1a_NEG</LocID>
+				<Text>CD1a抗原 陰性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD1a_NEG_DESC</LocID>
+				<Text>CD1a (Cluster of Differentiation 1a) は、CD1A 遺伝子によってコードされるヒトタンパク質です。この遺伝子は、膜貫通型糖タンパク質であるCD1ファミリーのメンバーをコードしており、主要組織適合性複合体（MHC）タンパク質と構造的に関連し、β2ミクログロブリンとヘテロ二量体を形成しています。CD1タンパク質は、主に自己または微生物由来の脂質および糖脂質抗原のT細胞への提示を媒介します。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD5_BRIGHT</LocID>
+				<Text>CD5抗原 陽性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD5_BRIGHT_DESC</LocID>
+				<Text>CD5は、T細胞（様々な種）の表面や、B-1aと呼ばれるマウスB細胞のサブセットに発現する細胞表面糖タンパク質です。ヒトB細胞におけるこの受容体の発現については議論があり、現在に至るまで、ヒトB細胞のマーカーとしての役割については合意が得られていません。CD5は、CD3ほどではないが、T細胞の免疫組織化学的マーカーとして優れています。T細胞新生物の約76％がCD5を発現していると報告されており、CD3を発現しない慢性リンパ性白血病やマントル細胞リンパ腫（いずれもB細胞悪性腫瘍）にも見出されています。皮膚T細胞リンパ腫では一般的に消失しており、この疾患では消失が悪性度の指標となり得ます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD7_BRIGHT</LocID>
+				<Text>CD7抗原 陽性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD7_BRIGHT_DESC</LocID>
+				<Text>CD7 (Cluster of Differentiation 7) は、ヒトでは CD7 遺伝子によってコードされるタンパク質です。この遺伝子は、免疫グロブリンスーパーファミリーのメンバーである膜貫通型タンパク質をコードしています。このタンパク質は胸腺細胞および成熟T細胞に存在します。リンパ球の初期発生におけるT細胞間の相互作用やT細胞/B細胞間の相互作用に重要な役割を担っています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD13_BRIGHT</LocID>
+				<Text>アミノペプチダーゼN (CD13) 陽性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD13_BRIGHT_DESC</LocID>
+				<Text>膜型アラニルアミノペプチダーゼ (EC 3.4.11.2) は、アラニルアミノペプチダーゼ (AAP) またはアミノペプチダーゼ N (AP-N) とも呼ばれ、ヒトでは ANPEP 遺伝子によりコードされている酵素です。アミノペプチダーゼNは、小腸や腎臓の微絨毛膜に存在し、他の細胞膜にも存在します。小腸では、アミノペプチダーゼNは、胃や膵臓のプロテアーゼによるタンパク質の加水分解で生じたペプチドの最終消化に関与しています。近位尿細管上皮細胞や他の細胞種におけるその機能は、あまり明らかではありません。この遺伝子の欠陥は、様々なタイプの白血病やリンパ腫の原因となるようです。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD15_BRIGHT</LocID>
+				<Text>Sialyl-Lewis X (CD15) 陽性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD15_BRIGHT_DESC</LocID>
+				<Text>シアリルLewisX（sLeX）は、Cluster of Differentiation 15s (CD15s) または stage-specific embryonic antigen 1 (SSEA-1) とも呼ばれ、通常、細胞表面のO-グリカンに結合する4糖の炭水化物の一種です。この糖鎖は、細胞間の認識プロセスに重要な役割を担っていることが知られています。また、卵子が精子を引き寄せる手段でもあり、まず卵子に付着し、次に精子と結合して、最終的に接合体を形成します。シアリルLewisxは食作用と走化性を仲介し、好中球に見られます。ホジキン病、いくつかのB細胞性慢性リンパ性白血病、急性リンパ芽球性白血病、およびほとんどの急性非リンパ球性白血病の患者に発現しています。CD15は、希少な単核球を含むほぼ全てのリード-スタンバーグ細胞上に存在し、生検においてその存在を確認するために免疫組織化学的に用いることができます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD33_BRIGHT</LocID>
+				<Text>シグレック-3 (CD33) 陽性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD33_BRIGHT_DESC</LocID>
+				<Text>CD33またはシグレック-3（sialic acid binding Ig-like lectin 3, SIGLEC3, SIGLEC-3, gp67, p67）は、骨髄系の細胞に発現する膜貫通型受容体です。通常、骨髄系細胞に特異的であると考えられていますが、一部のリンパ系細胞にも存在することがあります。CD33は、糖タンパク質や糖脂質など、シアル酸残基を持つあらゆる分子によって刺激されることが可能です。結合すると、CD33の細胞質部分に存在する免疫受容体チロシン抑制モチーフ（ITIM）がリン酸化され、SHPホスファターゼなどのSrc homology 2（SH2）ドメインを含むタンパク質とのドッキング部位として機能します。この結果、細胞内の貪食を阻害するカスケードが形成されます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD117_BRIGHT</LocID>
+				<Text>プロトオンコジーンc-KIT (CD117) 陽性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD117_BRIGHT_DESC</LocID>
+				<Text>プロトオンコジーンc-KITは、チロシンプロテインキナーゼKIT、CD117、肥満/幹細胞成長因子受容体としても知られており、ヒトではKIT遺伝子によってコードされている受容体チロシンキナーゼタンパク質です。KITは、骨髄中のある種の造血前駆細胞の同定に用いられる重要な細胞表面マーカーです。具体的には、造血幹細胞（HSC）、多能性前駆細胞（MPP）、共通骨髄系前駆細胞（CMP）はKITを高レベルで発現しています。一般的なリンパ球前駆細胞（CLP）は、表面レベルの低いKITを発現しています。KITに対する抗体は、組織切片中の特定の種類の腫瘍を識別するための免疫組織化学に広く使用されています。主にGISTの診断に用いられ、KITは陽性ですが、平滑筋や神経腫瘍で陽性となるデスミンやS-100などのマーカーは陰性で、似たような外観を持ちます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD117_NEG</LocID>
+				<Text>プロトオンコジーンc-KIT (CD117) 陰性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD117_NEG_DESC</LocID>
+				<Text>プロトオンコジーンc-KITは、チロシンプロテインキナーゼKIT、CD117、肥満/幹細胞成長因子受容体としても知られており、ヒトではKIT遺伝子によってコードされている受容体チロシンキナーゼタンパク質です。KITは、骨髄中のある種の造血前駆細胞の同定に用いられる重要な細胞表面マーカーです。具体的には、造血幹細胞（HSC）、多能性前駆細胞（MPP）、共通骨髄系前駆細胞（CMP）はKITを高レベルで発現しています。一般的なリンパ球前駆細胞（CLP）は、表面レベルの低いKITを発現しています。KITに対する抗体は、組織切片中の特定の種類の腫瘍を識別するための免疫組織化学に広く使用されています。主にGISTの診断に用いられ、KITは陽性ですが、平滑筋や神経腫瘍で陽性となるデスミンやS-100などのマーカーは陰性で、似たような外観を持ちます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD38_BRIGHT</LocID>
+				<Text>サイクリックADPリボースヒドロラーゼ (CD38) 陽性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD38_BRIGHT_DESC</LocID>
+				<Text>CD38は、サイクリックADPリボースヒドロラーゼとしても知られ、CD4⁺、CD8⁺、Bリンパ球、ナチュラルキラー細胞など多くの免疫細胞の表面に存在する糖タンパク質です。CD38はまた、細胞接着、シグナル伝達、カルシウムシグナル伝達にも機能しています。CD38の機能喪失は、免疫応答の障害、代謝障害、社会的健忘を含む行動変容と関連しています。CD38タンパク質は、細胞活性化のマーカーです。HIV感染、白血病、骨髄腫、固形腫瘍、II型糖尿病、骨代謝、また、いくつかの遺伝的疾患と関連しています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD38_DIM</LocID>
+				<Text>サイクリックADPリボースヒドロラーゼ (CD38) 曖昧な発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD38_DIM_DESC</LocID>
+				<Text>CD38は、サイクリックADPリボースヒドロラーゼとしても知られ、CD4⁺、CD8⁺、Bリンパ球、ナチュラルキラー細胞など多くの免疫細胞の表面に存在する糖タンパク質です。CD38はまた、細胞接着、シグナル伝達、カルシウムシグナル伝達にも機能しています。CD38の機能喪失は、免疫応答の障害、代謝障害、社会的健忘を含む行動変容と関連しています。CD38タンパク質は、細胞活性化のマーカーです。HIV感染、白血病、骨髄腫、固形腫瘍、II型糖尿病、骨代謝、また、いくつかの遺伝的疾患と関連しています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD43_BRIGHT</LocID>
+				<Text>ロイコシアリン (CD43) 陽性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD43_BRIGHT_DESC</LocID>
+				<Text>ロイコシアリンは、シアロフォリンまたはCD43（Cluster of Differentiation 43）としても知られている膜貫通型の細胞表面タンパク質で、ヒトではSPN（シアロフォリン）遺伝子によってコードされています。CD43分子の欠陥はウィスコット・アルドリッチ症候群の発症に関連しています。免疫組織化学的手法により、CD43は健康なリンパ節や扁桃腺の傍皮質T細胞に認められ、様々なリンパ系および骨髄系腫瘍にも陽性です。T細胞リンパ腫の90％以上に存在するが、一般にCD3抗原に比べ、この病態を示すのに有効ではありません。しかし、B細胞性リンパ腫の悪性細胞はCD43陽性であることが多く、他の抗体で染色することが困難な場合があるため、B細胞性リンパ腫を示すパネルの一部として有用である場合があります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD8_BRIGHT</LocID>
+				<Text>CD8抗原 陽性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD8_BRIGHT_DESC</LocID>
+				<Text>CD8（Cluster of Differentiation 8）は、T細胞受容体（TCR）の共受容体として機能する膜貫通型糖タンパク質です。TCRと同様に、CD8は主要組織適合性複合体（MHC）分子に結合するが、クラスI MHCタンパク質に特異的です。CD8共受容体は、細胞傷害性T細胞の表面に主に発現していますが、ナチュラルキラー細胞、皮質胸腺細胞および樹状細胞にも見出すことができます。CD8分子は、細胞傷害性T細胞集団のマーカーです。T細胞リンパ芽球性リンパ腫や低色素性菌状息肉症で発現しています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD3_BRIGHT</LocID>
+				<Text>CD3抗原 陽性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD3_BRIGHT_DESC</LocID>
+				<Text>免疫学では、CD3 (cluster of differentiation 3) T細胞共受容体は、細胞傷害性T細胞（CD8+ナイーブT細胞）と、Tヘルパー細胞（CD4+ナイーブT細胞）の両方の活性化に役立つと考えられています。CD3は、胸腺でT細胞が発生する幹細胞であるプロ胸腺細胞の細胞質で最初に発現しています。プロ胸腺細胞は、普通胸腺細胞、髄質胸腺細胞へと分化し、この後者の段階でCD3抗原が細胞膜に移動し始めます。この抗原は、すべての成熟T細胞の膜に結合しており、他のタイプの細胞にはほとんど存在しませんが、プルキンエ細胞には少量存在するようです。この高い特異性と、T細胞のすべての発生段階におけるCD3の存在により、組織切片におけるT細胞の免疫組織化学的マーカーとして有用です。この抗原は、ほとんど全てのT細胞リンパ腫および白血病に存在し続けるので、表面的に類似したB細胞および骨髄性新生物との区別に用いることができます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD3_NEG</LocID>
+				<Text>CD3抗原 陰性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD3_NEG_DESC</LocID>
+				<Text>免疫学では、CD3 (cluster of differentiation 3) T細胞共受容体は、細胞傷害性T細胞（CD8+ナイーブT細胞）と、Tヘルパー細胞（CD4+ナイーブT細胞）の両方の活性化に役立つと考えられています。CD3は、胸腺でT細胞が発生する幹細胞であるプロ胸腺細胞の細胞質で最初に発現しています。プロ胸腺細胞は、普通胸腺細胞、髄質胸腺細胞へと分化し、この後者の段階でCD3抗原が細胞膜に移動し始めます。この抗原は、すべての成熟T細胞の膜に結合しており、他のタイプの細胞にはほとんど存在しませんが、プルキンエ細胞には少量存在するようです。この高い特異性と、T細胞のすべての発生段階におけるCD3の存在により、組織切片におけるT細胞の免疫組織化学的マーカーとして有用です。この抗原は、ほとんど全てのT細胞リンパ腫および白血病に存在し続けるので、表面的に類似したB細胞および骨髄性新生物との区別に用いることができます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD16_BRIGHT</LocID>
+				<Text>FcγレセプターIII (CD16) 陽性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD16_BRIGHT_DESC</LocID>
+				<Text>CD16は、FcγレセプターIIIとも呼ばれ、ナチュラルキラー細胞、好中球、単球、マクロファージの表面に存在する分化促進分子です。CD16は、シグナル伝達に関与するFc受容体FcγRIIIaおよびFcγRIIIbとして同定されています。これらの受容体はIgG抗体のFc部分と結合し、ヒトNK細胞において抗体依存性細胞傷害（ADCC）を活性化させます。CD16は、ヒト単球が行うADCCプロセスに必要です。ヒトでは、CD16を発現する単球は、特定の抗体の存在下で様々なADCC能力を持ち、初代白血病細胞、癌細胞株、B型肝炎ウイルスに感染した細胞などを殺傷することができます。さらに、CD16は抗体なしで、一部のウイルス感染細胞や癌細胞の直接殺傷を仲介することができます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD56_BRIGHT</LocID>
+				<Text>神経細胞接着分子 (CD56) 陽性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD56_BRIGHT_DESC</LocID>
+				<Text>神経細胞接着分子（NCAM）は、CD56とも呼ばれ、神経細胞、グリア、骨格筋の表面に発現する親和性の高い結合糖タンパク質です。CD56は、その発見部位から神経系へのコミットメントのマーカーとされることが多いですが、CD56の発現は、とりわけ造血系でも見られます。CD56の発現は、ナチュラルキラー細胞に最も強く関連していますが、これに限定されるものではありません。解剖病理学では、病理学者は特定の腫瘍を認識するためにCD56免疫組織化学を利用します。CD56陽性の腫瘍は、骨髄腫、骨髄性白血病、神経内分泌腫瘍、ウィルムス腫瘍、神経芽腫、節外NK/T細胞リンパ腫、鼻タイプ、膵アシナー細胞癌、褐色細胞腫、傍神経節腫、小細胞肺癌、ユーイング肉腫などがあります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_HLADR_BRIGHT</LocID>
+				<Text>HLA-DR 陽性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_HLADR_BRIGHT_DESC</LocID>
+				<Text>HLA-DRは、第6染色体領域6p21.31にあるヒト白血球抗原複合体にコードされるMHCクラスII細胞表面受容体です。HLA-DRと一般に9〜30アミノ酸長のペプチドとの複合体は、T細胞受容体のリガンドを構成しています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_PANCYTOPENIA</LocID>
+				<Text>汎血球減少症</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_PANCYTOPENIA_DESC</LocID>
+				<Text>汎血球減少症とは、赤血球、白血球、血小板の3種類の血球の数がすべて少なくなった状態のことです。汎血球減少症は通常、血球を生成する骨髄に問題があることが多いですが、しかし、いくつかの異なる原因が潜んでいることもあります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HAIRYCELL</LocID>
+				<Text>有毛細胞</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HAIRYCELL_DESC</LocID>
+				<Text>有毛細胞は、細胞質に毛のような突起がある異常な白血球です。有毛細胞白血病の典型的な兆候です。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SM_P_003</LocID>
+				<Text>TRAP酵素の発見</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SM_P_003_DESC</LocID>
+				<Text>酒石酸耐性酸性フォスファターゼ（TRAPまたはTRAPase）は、酸性フォスファターゼ5、酒石酸耐性（ACP5）とも呼ばれ、哺乳類に発現する糖鎖単量体金属タンパク質酵素です。分子量約35kDa、塩基性等電点（7.6-9.5）を有し、酸性条件下で最適な活性を示します。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_08</LocID>
+				<Text>B-Raf癌遺伝子の発見</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_08_DESC</LocID>
+				<Text>B-Raf癌遺伝子（BRAF）は、細胞質セリン・スレオニンキナーゼをコードし、分裂促進因子活性化タンパク質キナーゼのシグナル伝達経路を制御する重要な役割を担っています。BRAF遺伝子のエキソン15のコドン600に活性化ミスセンス変異（V600E）が確認されており、メラノーマ、大腸がん、甲状腺乳頭がん、有毛細胞白血病、ランゲルハンス細胞組織球症など多くの新生物が存在することがわかっています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_09</LocID>
+				<Text>IGHV超変異を発見</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_09_DESC</LocID>
+				<Text>免疫グロブリン重鎖V-III領域VH26は、ヒトではIGHV@遺伝子にコードされるタンパク質です。IGHVは免疫グロブリン重鎖可変領域遺伝子です。慢性リンパ性白血病などのB細胞性新生物では、IGHVの変異はいくつかの治療に対するより良い反応と生存期間の延長と関連しています。HCL患者の約80～90％は、免疫グロブリン重鎖可変領域遺伝子に超変異を有しています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_10</LocID>
+				<Text>染色体17p13の欠損を発見</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_10_DESC</LocID>
+				<Text>検査により、患者の検査対象細胞から染色体17p13が欠損していることが検出されました。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_NECROSIS</LocID>
+				<Text>壊死の発見</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_NECROSIS_DESC</LocID>
+				<Text>壊死は細胞傷害の一種で、自己分解により生体組織の細胞が早期に死滅することです。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_LPT1</LocID>
+				<Text>大きな原発性腫瘍の発見</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_LPT1_DESC</LocID>
+				<Text>検査で大きな原発性腫瘍が検出された場合、癌がより進行した状態であることを示すことがあります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BREAST_LUMP</LocID>
+				<Text>乳房のしこり</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BREAST_LUMP_DESC</LocID>
+				<Text>乳房のしこりは、乳房の局所的な腫れ、隆起、膨隆、隆起で、周囲の乳房組織とは異なる感触のものです。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BREAST_DISCH</LocID>
+				<Text>乳頭分泌物</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BREAST_DISCH_DESC</LocID>
+				<Text>乳頭分泌物とは、乳頭から液体が放出されることです。乳房の症状としては非常に一般的なもので、ほとんどの場合、問題によって引き起こされるというよりも、乳房の正常な機能の一部であると言えます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SORE_NIPPLE</LocID>
+				<Text>乳頭痛</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SORE_NIPPLE_DESC</LocID>
+				<Text>乳頭痛とは、乳頭周辺の乳房組織に生じる痛みのことです。乳頭痛は、乳房痛、乳頭分泌物、乳房のしこりや腫瘤、かゆみ、皮膚の変化など、他の症状や徴候と関連していることがあります。乳がんは通常、乳頭痛や乳房痛を引き起こしません。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BREAST_SCHANGE</LocID>
+				<Text>乳房の形状変化</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BREAST_SCHANGE_DESC</LocID>
+				<Text>患者は乳房の形や大きさに変化を経験しています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BREAST_DIMP</LocID>
+				<Text>乳房のくぼみ</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BREAST_DIMP_DESC</LocID>
+				<Text>橙皮状皮膚とも呼ばれる乳房のくぼみにより、皮膚がオレンジのようにポツポツと凹凸があるように見え、また、皮膚が赤く炎症を起こしている場合もあります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BREAST_PAIN</LocID>
+				<Text>乳房痛</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BREAST_PAIN_DESC</LocID>
+				<Text>片側または両側の乳房の張力、圧痛、鋭い痛みがよく起こりますが、通常、深刻な異常を意味しません。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SUS_CALC</LocID>
+				<Text>乳房石灰沈着</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SUS_CALC_DESC</LocID>
+				<Text>乳房石灰沈着とは、女性の乳房組織にできる小さなカルシウムの沈着です。非常によく見られるもので、通常は良性（非がん性）です。乳房石灰沈着は女性に多くみられますが、男性にもみられることがあります。場合によっては、ある種の乳房石灰化は早期乳癌を示唆することがあります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_IRR_BMASS</LocID>
+				<Text>乳房密度の異常</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_IRR_BMASS_DESC</LocID>
+				<Text>超音波検査での潜在的な異常は、結節、腫瘤、塊、密度、または歪みと呼ばれるかもしれません。不規則な境界線や星形のような外観（棘状）を持つ腫瘤（しこり）は、癌である可能性があります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CMA_CA153</LocID>
+				<Text>がん抗原15-3の血中濃度の上昇</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CMA_CA153_DESC</LocID>
+				<Text>がん抗原15-3（CA15-3）は、様々な細胞、特に乳がん細胞で作られるタンパク質です。このタンパク質は血液中に移動し、そこで測定することができます。CA15-3の値は、体の他の部分に転移した乳がん（転移性乳がんと呼ばれます）のほとんどの女性で、通常よりも高くなります。乳がんの種類によっては、この抗原を過剰に産生しないタイプのがん細胞もあるため、すべての乳がんでCA15-3値が上昇するわけではありません。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CMA_CA2729</LocID>
+				<Text>がん抗原27-29の血中濃度の上昇</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CMA_CA2729_DESC</LocID>
+				<Text>がん抗原27-29は、医師が乳がんの腫瘍マーカーとして使用しているいくつかの抗原のうちの一つです。これらのマーカーは、癌が存在する場合は常に増加する傾向があります。CA 27.29検査は、主に転移性乳癌のモニタリングに使用され、早期乳癌の治療を受けた人の再発を検出することはあまり一般的ではありません。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_11</LocID>
+				<Text>BRCA1遺伝子損傷の発見</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_11_DESC</LocID>
+				<Text>BRCA1/2は、ヒトの腫瘍抑制遺伝子（世話焼き遺伝子とも呼ばれる）で、DNAの修復を担っています。BRCA1とBRCA2は無関係のタンパク質ですが、どちらも通常、乳房やその他の組織の細胞で発現し、損傷したDNAの修復を助け、DNAが修復されない場合は細胞を破壊します。BRCA1またはBRCA2に欠陥がある女性は、生涯乳がんのリスクが高く、30～60％の範囲と推定され、生涯卵巣がんのリスクは約20％と推定されます。これらの方は、がんの予防や早期発見のための対策が有効です。BRCA1またはBRCA2に欠陥がある男性は、前立腺癌と男性乳癌のリスクがある程度高くなる可能性があります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HRM_01</LocID>
+				<Text>エストロゲン受容体陽性</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HRM_01_DESC</LocID>
+				<Text>エストロゲンの受容体があるがんをエストロゲン受容体陽性がん（ER+）といいます。これは、がん細胞が正常な乳房細胞と同様に、エストロゲンからシグナルを受けて増殖を促進する可能性があることを示唆しています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HRM_02</LocID>
+				<Text>プロゲステロン受容体陽性</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HRM_02_DESC</LocID>
+				<Text>プロゲステロン受容体を持つがんは、プロゲステロン受容体陽性（PR+）となります。この場合も、がん細胞はプロゲステロンからシグナルを受けて、増殖を促進する可能性があることを意味します。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD340_NEG</LocID>
+				<Text>HER2/neu (CD340) 陰性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD340_NEG_DESC</LocID>
+				<Text>受容体チロシンプロテインキナーゼerbB-2は、CD340、プロトオンコジーンNeu、Erbb2、またはERBB2としても知られており、ヒトではERBB2遺伝子によってコードされているタンパク質です。ERBBは、鳥類のゲノムから単離された遺伝子であるerythroblastic oncogene Bから略されたもので、HER2またはHER2/neuとも呼ばれることが多いです。HER2は、ヒト上皮成長因子受容体（HER/EGFR/ERBB）ファミリーの一員です。この癌遺伝子の増幅や過剰発現は、ある種の攻撃的なタイプの乳癌の発生や進行に重要な役割を果たすことが示されています。近年、このタンパク質は、乳がん患者の約30％にとって重要なバイオマーカーであり、治療の標的となっています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD340_POS</LocID>
+				<Text>HER2/neu (CD340) 陽性変異</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD340_POS_DESC</LocID>
+				<Text>受容体チロシンプロテインキナーゼerbB-2は、CD340、プロトオンコジーンNeu、Erbb2、またはERBB2としても知られており、ヒトではERBB2遺伝子によってコードされているタンパク質です。ERBBは、鳥類のゲノムから単離された遺伝子であるerythroblastic oncogene Bから略されたもので、HER2またはHER2/neuとも呼ばれることが多いです。HER2は、ヒト上皮成長因子受容体（HER/EGFR/ERBB）ファミリーの一員です。この癌遺伝子の増幅や過剰発現は、ある種の攻撃的なタイプの乳癌の発生や進行に重要な役割を果たすことが示されています。近年、このタンパク質は、乳がん患者の約30％にとって重要なバイオマーカーであり、治療の標的となっています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SPEC_MARG</LocID>
+				<Text>スピキュラ</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SPEC_MARG_DESC</LocID>
+				<Text>スピキュラは、CT画像などでの悪性腫瘍の診断上の特徴を指します。境界が不明瞭な腫瘤から放射状に伸びる組織の束が見られ、星状に見えます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD44v6_BRIGHT</LocID>
+				<Text>CD44v6 Antigen Bright Expression</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD44v6_BRIGHT_DESC</LocID>
+				<Text>CD44v6は、膜貫通型糖タンパク質であるCD44ファミリーのアイソフォームです。上皮性癌におけるCD44v6の高発現は、腫瘍の成長、浸潤、転移、および再発と相関します。CD44v6は、受容体チロシンキナーゼであるc-Met、RON、VEGFR-2の共受容体です。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_12</LocID>
+				<Text>GATA3変異の発見</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_12_DESC</LocID>
+				<Text>GATA3は転写因子であり、ヒトではGATA3遺伝子にコードされています。GATA3転写因子は、様々な組織の胚発生、炎症性・液性免疫応答、血管内皮の正常な機能発現に重要な役割を担っています。乳房細胞におけるGATA3タンパク質の免疫細胞化学的解析は、原発性乳がんの診断に有用なマーカーであり、最大で94％の症例で陽性と判定されます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HEMOPTYSIS2</LocID>
+				<Text>重度の喀血</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HEMOPTYSIS2_DESC</LocID>
+				<Text>喀血とは、気管支、喉頭、気管、肺から血液や血液の混じった粘液が咳き込むことです。つまり、気道から出血することです。肺がん、結核、気管支炎、肺炎などの感染症、ある種の心疾患などで起こることがあります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_INC_INTRAPRE</LocID>
+				<Text>頭蓋内圧の上昇</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_INC_INTRAPRE_DESC</LocID>
+				<Text>頭蓋内圧（ICP）の上昇とは、脳の周りの圧力が上昇することです。脳を取り囲む液体の量が増えることが原因である可能性があります。例えば、脳のクッションとなる脳脊髄液の量が増加したり、怪我や腫瘍の破裂によって脳内の血液が増加したりすることがあります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BRAIN_ABW</LocID>
+				<Text>異常な脳波パターン</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BRAIN_ABW_DESC</LocID>
+				<Text>患者の脳波に異常な脳波パターンを検出しています。スパイク、シャープウェーブ、スパイクウェーブコンプレックスが一定の局在で発生することは、脳腫瘍の経過の初期に時々観察されます。しかし、発作を伴う緩徐に成長する新生物の初期所見として、あるいは局所的な遅滞が生じた後の所見として、より一般的です。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_LPT2</LocID>
+				<Text>異常な腫瘤の発見</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_LPT2_DESC</LocID>
+				<Text>検査により異常な腫瘤が検出された場合、悪性度、種類、進行度を特定するためにさらなる検査が必要です。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_13</LocID>
+				<Text>神経線維腫症I型 (NF-1) の発見</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_13_DESC</LocID>
+				<Text>神経線維腫症I型（NF-1）は、多くのヒトの細胞タイプにおいて正常な機能に必要なニューロフィブロミンというタンパク質の産生に関与する17番染色体上の遺伝子の変異によって引き起こされる複雑な多系統のヒト疾患です。神経線維腫症I型（NFI）の患者様の約10％に中枢神経系（CNS）腫瘍が認められます。最も多いのは視床下部-視索グリオーマで、次いで脳幹および小脳の毛様細胞性星細胞腫があります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_EGB</LocID>
+				<Text>好酸性顆粒体</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_EGB_DESC</LocID>
+				<Text>好酸性顆粒体の頻繁な存在は、多形性黄色星細胞腫（PXA）や毛様細胞性星細胞腫のような低悪性度腫瘍と高悪性度新生物を区別する上でしばしば有用な手がかりとなります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_ABSCESS</LocID>
+				<Text>膿瘍</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_FND</LocID>
+				<Text>局所神経障害</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_FND_DESC</LocID>
+				<Text>局所神経障害とは、神経、脊髄、または脳の機能に問題があることです。顔の左側、右腕、あるいは舌のような小さな部位など、特定の場所に影響を及ぼします。言語、視覚、聴覚の問題も、局所神経障害とみなされます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CMD</LocID>
+				<Text>脳石(脳内リン酸カルシウム沈着)</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CMD_DESC</LocID>
+				<Text>脳石は、頭蓋内の大きな固形石灰化として定義されています。多くの人は良性とみなしていますが、これらのリン酸カルシウム沈着物または「脳石」は大きくなることがあり、発作からパーキンソン病症状まで、幅広い神経学的症状を伴います。萎縮性石灰化は、外傷、手術、脳卒中、放射線治療などの脳損傷部位に最も多くみられます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_DYSPHASIA</LocID>
+				<Text>発語障害</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_14</LocID>
+				<Text>リ・フラウメニ症候群</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_14_DESC</LocID>
+				<Text>リ・フラウメ二症候群（LFS）は、遺伝性の家族性素因で、特定の、多くはまれな、幅広い種類の癌を発症します。これは、TP53と呼ばれる腫瘍抑制遺伝子の変化（突然変異）に起因します。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_DYSPHASIA_DESC</LocID>
+				<Text>失語症は、脳の病気や障害によって、言葉を発すること、時には理解することもできない言語障害です。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_MCRO_CYSTS</LocID>
+				<Text>小嚢胞（マイクロシスト）</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_MCRO_CYSTS_DESC</LocID>
+				<Text>マイクロシストとは、簡単に言えば非常に小さな嚢胞のことです。嚢胞は、液体または半固体の物質で満たされた異常な、通常は非癌性の成長であり、時には痛みを引き起こします。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_KI67_LLI</LocID>
+				<Text>KI-67抗原 低いラベルインデックス</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_KI67_LLI_DESC</LocID>
+				<Text>抗原 KI-67 は、Ki-67 または MKI67 とも呼ばれ、ヒトでは MKI67 遺伝子によってコードされるタンパク質です（モノクローナル抗体 Ki-67 によって抗原が同定されます）。Ki-67は、ある細胞集団の増殖割合を決定するための優れたマーカーです。Ki-67陽性の腫瘍細胞の割合（Ki-67標識指数）は、しばしば癌の臨床経過と相関します。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_KI67_BLI</LocID>
+				<Text>KI-67抗原 活発なラベルインデックス</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_15</LocID>
+				<Text>ヘテロ接合性消失</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_15_DESC</LocID>
+				<Text>染色体10q上のヘテロ接合体喪失は、原発性および二次性膠芽腫の両方で最も頻度の高い遺伝子変化であり、60-90％の症例で発生します。この突然変異は多形性膠芽腫に特異的であるように思われ、他の腫瘍の悪性度ではまれに認められます。この変異は生存率の低下と関連しています。10qにおけるLOHおよび追加の遺伝子変異の1つまたは2つは頻繁に起こる変化であり、膠芽腫の発生に主要な役割を果たす可能性が最も高いと考えられています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_16</LocID>
+				<Text>PDGFRの過剰発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_16_DESC</LocID>
+				<Text>血小板由来成長因子（PDGF）は、細胞の増殖や分裂を制御する数多くの成長因子のうちの一つです。特に、血管の形成、既存の血管組織からの血管の成長、間葉系細胞の分裂、すなわち増殖に重要な役割を担っています。オンコロジーでは、PDGF遺伝子はPDGF受容体（PDGFR）と結合することにより、グリア細胞の主要な分裂促進因子として作用します。PDGFRの増幅や過剰発現は、二次性膠芽腫に至る経路の典型です。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_017</LocID>
+				<Text>IDH1/IDH2 陰性変異</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_DYSPAREUNIA</LocID>
+				<Text>性交疼痛症 (女性)</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_DYSPAREUNIA_DESC</LocID>
+				<Text>性交痛は、構造的な問題から心理的な懸念まで、さまざまな理由で発生します。多くの女性が、人生のある時点で性交痛に悩まされることになります。性交痛の医学用語は性交疼痛症で、性交の直前、最中、または後に起こる持続性または再発性の性器痛と定義されています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CMA_CA125</LocID>
+				<Text>がん抗体125の血中濃度の上昇</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CMA_CA125_DESC</LocID>
+				<Text>CA-125は、ムチン16またはMUC16としても知られており、ヒトではMUC16遺伝子によってコードされているタンパク質です。MUC16は、ムチンファミリーの糖タンパク質のメンバーです。CA 125検査は、血液中のCA 125（癌抗原125）というタンパク質の量を測定します。CA 125検査は、治療中や治療後に特定のがんをモニタリングするために用いられることがあります。場合によっては、卵巣がんのリスクが非常に高い人の卵巣がんの初期徴候を調べるために、CA 125検査が用いられることがあります。CA-125の量は、卵巣癌で多くなります。閉経前の女性では、がん以外にも多くの病気や疾患がCA-125の値を高くする原因となります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_EARLY_SAT</LocID>
+				<Text>早期満腹感</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_EARLY_SAT_DESC</LocID>
+				<Text>早期満腹感とは、お腹いっぱい食べられない、または少量の食事で満腹感を感じることです。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_PMPB</LocID>
+				<Text>閉経後出血</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_PMPB_DESC</LocID>
+				<Text>閉経後出血（PMB）は、ホルモン療法（HT）を受けていない女性において、1年間の無月経後に起こる出血と定義されます。プロゲステロンとエストロゲンのホルモン療法を継続している女性は、特に最初の6ヶ月間は不規則な膣からの出血があることが予想されます。閉経後の出血にはいくつかの原因が考えられます。最も一般的な原因は、エストロゲン濃度の低下による膣内膜（萎縮性膣炎）または子宮内膜（子宮内膜萎縮）の炎症と薄化です。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_IRR_MNS</LocID>
+				<Text>月経不順</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_IRR_MNS_DESC</LocID>
+				<Text>生理が来ない、遅れる、不規則になる、出血パターンに異常があるなどの状態です。月経不順には、基礎疾患以外の原因があることもあります。例えば、月経不順の家族歴、更年期や初潮、身体的ストレス、心理的ストレス、喫煙、薬の副作用などがあります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_APM</LocID>
+				<Text>骨盤内の異常な腫瘤を検出</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_APM_DESC</LocID>
+				<Text>骨盤内腫瘤とは、骨盤内の肥大や腫れを指します。骨盤内腫瘤の多くは、定期的な婦人科検診や健康診断で発見されます。骨盤内腫瘤は、子宮頸部、子宮、子宮付属器などの婦人科系器官、または腸、膀胱、尿管、腎臓などのその他の骨盤内器官から発生することがあります。骨盤内腫瘤の原因となる婦人科系の病気はたくさんあります。さらに、骨盤内腫瘤を引き起こす可能性のある他の病気もあります。多くは卵巣嚢腫のような良性の疾患ですが、婦人科がんに関係するものもあります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_OVAR_CYST</LocID>
+				<Text>卵巣嚢腫</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_OVAR_CYST_DESC</LocID>
+				<Text>卵巣嚢腫は、卵巣の中や表面にある、液体を含んだ袋やポケットです。ほとんどの場合、卵巣嚢腫は症状を起こしません。場合によっては、月経不順、性交時の痛み、不規則な排便などが起こることがあります。ほとんどの卵巣嚢腫は無害で、治療をしなくても自然に治ることが多いです。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SM_P_004</LocID>
+				<Text>浸潤性微小乳頭状構造</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SM_P_004_DESC</LocID>
+				<Text>微小乳頭状構造とは、線維血管のコアを持たない微小な乳頭構造を示すパターンと定義されます。卵巣がん、乳がん、膀胱がんなどでは、微小乳頭状パターンがあると経過が悪くなることがよく知られています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SM_P_005</LocID>
+				<Text>砂粒体</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SM_P_005_DESC</LocID>
+				<Text>砂粒体は、丸い顕微鏡的な石灰質の集塊です。砂粒体は、高分化型漿液性がんでよくみられる所見であり、子宮頸管細胞診で検出される悪性腺房細胞と関連して認められることがあります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_18</LocID>
+				<Text>B-Raf癌遺伝子の変異を発見</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_18_DESC</LocID>
+				<Text>B-Raf癌遺伝子（BRAF）は、細胞質セリン・スレオニンキナーゼをコードし、分裂促進因子活性化タンパク質キナーゼのシグナル伝達経路を制御する重要な役割を担っています。BRAF遺伝子の変異は、良性および悪性のメラノサイト病変で認められ、90％以上がV599E変異です。この変異により、キナーゼの機能が構成的に活性化され、試験でのコロニー形成が増加します。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_ASCITES</LocID>
+				<Text>腹水</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_ASCITES_DESC</LocID>
+				<Text>体液の蓄積によって起こる腹部の腫れで、肝臓の病気に関係することが多いです。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_PLEURAL_EFFUSION</LocID>
+				<Text>胸水</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_PLEURAL_EFFUSION_DESC</LocID>
+				<Text>胸水とは、肺の外側にある胸膜の層の間に過剰な液体が溜まることで、「肺に水が溜まる」とも呼ばれます。胸膜は、肺と胸腔の内側を覆っている薄い膜で、潤滑油のような役割を果たし、呼吸を容易にします。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD146_BRIGHT</LocID>
+				<Text>メラノーマ細胞接着分子 (CD146) 陽性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD146_BRIGHT_DESC</LocID>
+				<Text>メラノーマ細胞接着分子（MCAM）は、様々な腫瘍で異常発現している細胞接着分子で、腫瘍の転移と密接に関係しています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CK7_BRIGHT</LocID>
+				<Text>ケラチン 7 (CK7) 陽性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CK7_BRIGHT_DESC</LocID>
+				<Text>ケラチン、II型細胞骨格7は、サイトケラチン-7（CK-7）、ケラチン-7（K7）、サルコレクチン（SCL）としても知られており、ヒトではKRT7遺伝子によりコードされているタンパク質です。ケラチン-7は、単純腺上皮および移行上皮に存在します。肺と乳房の上皮細胞は共にケラチン-7を含んでいますが、結腸や前立腺の上皮のような他の腺上皮には含まれないものもあります。ケラチン-7抗原は健常細胞と腫瘍細胞の両方に存在するため、CK7に対する抗体を免疫組織化学的に用いて、卵巣癌と移行細胞癌をそれぞれ結腸癌と前立腺癌から区別することができます。このような診断を行う場合、CK20とともに使用されるのが一般的です。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CK7_NEG</LocID>
+				<Text>ケラチン7 (CK7) 陰性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CK7_NEG_DESC</LocID>
+				<Text>ケラチン、II型細胞骨格7は、サイトケラチン-7（CK-7）、ケラチン-7（K7）、サルコレクチン（SCL）としても知られており、ヒトではKRT7遺伝子によりコードされているタンパク質です。ケラチン-7は、単純腺上皮および移行上皮に存在します。肺と乳房の上皮細胞は共にケラチン-7を含んでいますが、結腸や前立腺の上皮のような他の腺上皮には含まれないものもあります。ケラチン-7抗原は健常細胞と腫瘍細胞の両方に存在するため、CK7に対する抗体を免疫組織化学的に用いて、卵巣癌と移行細胞癌をそれぞれ結腸癌と前立腺癌から区別することができます。このような診断を行う場合、CK20とともに使用されるのが一般的です。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CK20_BRIGHT</LocID>
+				<Text>ケラチン 20 (CK20) 陽性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CK20_BRIGHT_DESC</LocID>
+				<Text>ケラチン20は、しばしばCK20と略され、ヒトではKRT20遺伝子にコードされるタンパク質です。免疫組織化学において、CK20に対する抗体は、通常CK20タンパク質を含む上皮から生じる様々な腺癌の同定に使用することができます。例えば、このタンパク質は大腸がん、移行細胞がん、メルケル細胞がんによく見られるが、肺がん、前立腺がん、非粘液性卵巣がんでは存在しません。異なるタイプの腺癌を区別するために、CK7に対する抗体と組み合わせて使用されることが多いです。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CK20_NEG</LocID>
+				<Text>ケラチン 20 (CK20) 陰性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CK20_NEG_DESC</LocID>
+				<Text>ケラチン20は、しばしばCK20と略され、ヒトではKRT20遺伝子にコードされるタンパク質です。免疫組織化学において、CK20に対する抗体は、通常CK20タンパク質を含む上皮から生じる様々な腺癌の同定に使用することができます。例えば、このタンパク質は大腸がん、移行細胞がん、メルケル細胞がんによく見られるが、肺がん、前立腺がん、非粘液性卵巣がんでは存在しません。異なるタイプの腺癌を区別するために、CK7に対する抗体と組み合わせて使用されることが多いです。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_17</LocID>
+				<Text>IDH1/IDH2 陰性所見</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_17_DESC</LocID>
+				<Text>イソクエン酸デヒドロゲナーゼ（IDH）は、トリカルボン酸サイクルにおいてイソクエン酸からα-ケトグルタル酸（α-KG）への変換に関与する重要な酵素です。IDHの変異により新型酵素が生成され、R-2-HGの異常蓄積を引き起こし、白血病の発症を促進することがあります。IDH変異は急性骨髄性白血病（AML）患者の20％に認められ、主にIDH1 R132、IDH2 R140、IDH2 R172が含まれます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_PSA_BL_DETECTED</LocID>
+				<Text>前立腺特異抗原の血中濃度の上昇</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_PSA_BL_DETECTED_DESC</LocID>
+				<Text>前立腺特異抗原（PSA）は、前立腺のみで産生される糖タンパク質です。その働きは、精液を液化させることです。少量でも血流に漏れるので、測定が可能です。前立腺特異抗原は組織特異的ですが、がん特異的ではありません。前立腺肥大症、前立腺炎、尿路感染症、前立腺梗塞の男性では、値が上昇することがあります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_DYSORGASMIA</LocID>
+				<Text>オーガズム障害</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_DYSORGASMIA_DESC</LocID>
+				<Text>オーガズム障害は、オーガズム時に痛みを感じるものの、性交時に事前の痛みがないものと定義されています。痛みは、骨盤、臀部、腹部のけいれん感覚であることが多いです。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_APM1</LocID>
+				<Text>前立腺の異常の発見</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_APM1_DESC</LocID>
+				<Text>検査で前立腺に異常が見つかりました。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_DIFF_URINE</LocID>
+				<Text>尿閉</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_DIFF_URINE_DESC</LocID>
+				<Text>排尿が困難で、膀胱を完全に空にすることができない状態です。尿閉の原因は、基礎疾患によるものではない場合もあります。例えば、意図的に尿を我慢している場合や、薬の副作用などが挙げられます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_NIGHT_URGE</LocID>
+				<Text>夜間頻尿</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_NIGHT_URGE_DESC</LocID>
+				<Text>夜中に頻繁にトイレに起きて排尿したくなることを夜間頻尿といいます。夜間頻尿は、眠りから覚めなくても膀胱が空っぽになってしまうおねしょとは異なります。夜間頻尿は、特に高齢者の睡眠不足の原因としてよく知られています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_UAS_PCA3</LocID>
+				<Text>前立腺癌抗原3 発現の上昇</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_UAS_PCA3_DESC</LocID>
+				<Text>前立腺癌抗原3（PCA3）が前立腺腫瘍に高レベルで発現しています。検査では、尿中のPCA3濃度が高いことが判明しています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_ED</LocID>
+				<Text>勃起不全（ED）</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_ED_DESC</LocID>
+				<Text>勃起不全（ED）とは、性行為を行うのに十分な硬さの勃起が得られない、または維持できない状態を指します。インポテンスと呼ばれることもありますが、現在ではこの言葉はあまり使われなくなりました。時々起こる勃起障害は珍しいことではありません。多くの男性は、ストレスがかかったときに経験します。臨床的限局性前立腺がんに対する根治的前立腺切除術後の勃起不全は、手術の潜在的合併症として知られています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HEMATOSPERMIA</LocID>
+				<Text>血精液症</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HEMATOSPERMIA_DESC</LocID>
+				<Text>血精液症とは、精液中に血液が混じっている状態を指します。精液に血が混じることは、あまり意味のないことと思われがちですが、それを経験した男性にとっては大きな不安材料となることがあります。この症状は一般的であり、多くの場合、気づかれずに終わるため、血精液症の有病率は不明です。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HYPERCALCEMIA</LocID>
+				<Text>高カルシウム血症</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HYPERCALCEMIA_DESC</LocID>
+				<Text>高カルシウム血症とは、血液中のカルシウム濃度が正常値を超えている状態のことです。高カルシウム血症は、首にある4つの小さな腺（副甲状腺）の過剰な活動や、がんによって起こることがほとんどです。血液中の余分なカルシウムは、多くの身体システムに影響を及ぼします。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SEVERE_HYPERCALCEMIA</LocID>
+				<Text>重度の高カルシウム血症</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SEVERE_HYPERCALCEMIA_DESC</LocID>
+				<Text>重度の高カルシウム血症は、緊急に治療が必要な医学的な緊急事態です。高カルシウム血症とは、血液中のカルシウム濃度が正常値を超えている状態のことです。まれに、重度の高カルシウム血症が心臓の機能を妨げ、動悸や失神、不整脈の徴候、その他の心臓の問題を引き起こすことがあります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD13_NEG</LocID>
+				<Text>Aminopeptidase N (CD13) Negative Expression</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD30_BRIGHT</LocID>
+				<Text>CD30抗原 陽性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD30_BRIGHT_DESC</LocID>
+				<Text>CD30は、TNFRSF8としても知られ、腫瘍壊死因子受容体ファミリーの細胞膜タンパク質であり、腫瘍マーカーです。この受容体は、活性化されたT細胞およびB細胞によって発現されますが、静止しているT細胞およびB細胞には発現されません。TRAF2 と TRAF5 はこの受容体と相互作用し、NF-kappaB の活性化につながる信号伝達を媒介することができます。CD30 は未分化大細胞リンパ腫に関連しています。胚性癌では発現していますが、精巣腫瘍では発現していないため、これらの生殖細胞腫瘍を区別する上で有用なマーカーです。CD30とCD15は、ホジキンリンパ腫に典型的なReed-Sternberg細胞にも発現しています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD45_BRIGHT</LocID>
+				<Text>PTPRC (CD45) 陽性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD45_BRIGHT_DESC</LocID>
+				<Text>タンパクチロシンホスファターゼ、受容体型、Cは、PTPRCとも呼ばれ、ヒトではPTPRC遺伝子によってコードされている酵素です。PTPRCはCD45抗原（CDはCluster of Differentiationの略）としても知られており、当初は白血球共通抗原（LCA）と呼ばれていました。CD45は、チロシンホスファターゼ活性を持つ汎白血球タンパク質で、造血におけるシグナル伝達の制御に関与しています。CD45は、マウスやヒトの非転移性造血細胞では脂質ラフトと共局在しませんが、急性骨髄性白血病への発がん過程において脂質ラフト内でのCD45の位置が変化します。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_19</LocID>
+				<Text>IGH-BCL2 転座</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_19_DESC</LocID>
+				<Text>濾胞性リンパ腫（FL）の特徴は、14番染色体上のIgH遺伝子座と18番染色体上のBCL2遺伝子が関与する異常転座t(14; 18)(q32; q21)であることです。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_20</LocID>
+				<Text>BCL6 (3q27) 超変異</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_20_DESC</LocID>
+				<Text>B細胞リンパ腫6タンパク質は、ヒトではBCL6遺伝子にコードされるタンパク質です。BCL2、BCL3、BCL5、BCL7A、BCL9、BCL10と同様に、リンパ腫における臨床的意義があります。この遺伝子にコードされるタンパク質は、進化的に保存されたジンクフィンガー転写因子であり、N-末端のPOZ/BTBドメインを含んでいます。このタンパク質は、配列特異的な転写抑制因子として働き、B細胞のSTAT依存的なインターロイキン4 (IL-4) 応答を調節することが示されています。このタンパク質は、いくつかのコアプレッシャー複合体と相互作用して、転写を抑制することができます。この遺伝子は、びまん性大細胞型B細胞リンパ腫（DLBCL）において頻繁に転座し、高変異を示すことが分かっています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_BLC2_BRIGHT</LocID>
+				<Text>BCL2 陽性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_BLC2_BRIGHT_DESC</LocID>
+				<Text>Bcl-2 (B-cell lymphoma 2) は、ヒトでは BCL2 遺伝子によってコードされており、細胞死（アポトーシス）を抑制（抗アポトーシス）または誘導（プロアポトーシス）することによって調節する Bcl-2 ファミリーの創設メンバーです。Bcl-2に対する抗体は、免疫組織化学的に抗原を含む細胞を同定するために使用することができます。健康な組織では、これらの抗体は、マントル帯のB細胞や一部のT細胞と反応します。しかし、濾胞性リンパ腫や他の多くの癌では、陽性細胞がかなり増加します。場合によっては、生検でのBcl-2染色の有無が、患者の予後や再発の可能性にとって重要な意味を持つことがあります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BL_DGP</LocID>
+				<Text>びまん性成長パターン</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BL_DGP_DESC</LocID>
+				<Text>漠然とした結節および/またはびまん性の細胞増殖パターン。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_ABNORMAL_NODULE</LocID>
+				<Text>異常な色の結節</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_ABNORMAL_NODULE_DESC</LocID>
+				<Text>患者の皮膚に、赤や紫色の奇妙な色をした結節（しこり）があります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_MCP_VIR</LocID>
+				<Text>メルケル細胞ポリオーマウイルスの発見</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_MCP_VIR_DESC</LocID>
+				<Text>メルケル細胞ポリオーマウイルス（MCVまたはMCPyV）は、2008年1月にペンシルバニア州ピッツバーグで初めて報告されました。これは、デジタル・トランスクリプトーム・サブトラクションと呼ばれる技術を用いた偏りのないメタゲノム次世代シーケンシングによって発見された、ヒトウイルス性病原体の最初の例でした。MCVは、現在知られている7種類のヒト腫瘍ウィルスのうちの1つです。このウイルスの検出はまだ研究段階であり、一般に臨床検査として利用することはできません。ウイルスDNAの検出は、PCR法またはFISH法により行われます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_MCP_VIR_EL</LocID>
+				<Text>電子顕微鏡によるMCV発見</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_MCP_VIR_EL_DESC</LocID>
+				<Text>MCV VLPの透過型電子顕微鏡による50,000倍の観察では、ポリオマウイルスに特徴的な正20面体カプシド構造が観察されました。このことから、メルケル細胞ポリオーマウイルス（MCV）は、現在知られている7つのヒト腫瘍ウイルスのうちの1つであることが示唆されます。 </Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SM_P_006</LocID>
+				<Text>サイクリンD1過剰生産</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SM_P_006_DESC</LocID>
+				<Text>サイクリンD1は、細胞が細胞周期に入るのを制御するタンパク質です。G0期とG1期の間の移行を駆動します。正常組織では、基底上皮細胞、内皮細胞、間質細胞は細胞周期を経ているため、サイクリンD1が陽性であることが多いです。マントル細胞リンパ腫の大部分は、サイクリンD1遺伝子とIgHの転座（t(11;14)）の結果、サイクリンD1が過剰発現しています。これは、低悪性度B細胞リンパ腫の分類に有用な特徴です。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_21</LocID>
+				<Text>IGH/CCND1転座の発見</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_21_DESC</LocID>
+				<Text>IGH遺伝子再配列は、多くのがんに関連する古典的な細胞遺伝学的遺伝子異常のひとつと考えられています。MCLの分子的特徴であるt(11;14)(q13;q32) (IGH/CCND1) は、IGH遺伝子座全体に見られるエンハンサー要素を介したG1期細胞周期遺伝子CCND1（サイクリンD1をコード）の制御低下と過剰発現をもたらすものです。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BL_SPC</LocID>
+				<Text>胡麻塩状クロマチン</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BL_SPC_DESC</LocID>
+				<Text>病理学では、胡麻塩状クロマチンパターン（胡麻塩核、点状クロマチンとも）は、粒状クロマチンを示す細胞核を指す用語です（光学顕微鏡で）。胡麻塩状クロマチンは、甲状腺髄質癌、神経内分泌腫瘍、褐色細胞腫などの内分泌腫瘍によくみられます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BL_LSAC</LocID>
+				<Text>大きな未分化細胞</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BL_LSAC_DESC</LocID>
+				<Text>未分化細胞は、顕著な多形性（ばらつき）を示します。核は極めて多色性（濃く染まる）で大きいのが特徴です。核と細胞質の比率は、通常の1:4または1:6ではなく、1:1に近いかもしれません。隣接する細胞よりかなり大きい巨大細胞が形成されることがあり、1個の巨大な核または複数の核（合胞体）を有します。未分化細胞核は、大きさも形も様々で奇妙な形をしています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SM_P_007</LocID>
+				<Text>甲状腺転写因子1陽性</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SM_P_007_DESC</LocID>
+				<Text>NK2ホメオボックス1（NKX2-1）は、甲状腺転写因子1（TTF-1）とも呼ばれ、ヒトではNKX2-1遺伝子にコードされるタンパク質です。TTF-1陽性細胞は、肺ではII型肺細胞およびクララ細胞として見出されます。甲状腺では、濾胞細胞および傍濾胞細胞もTTF-1に陽性です。肺癌では、通常、腺癌が陽性で、扁平上皮癌と大細胞癌がまれに陽性となります。小細胞癌は（どの原発部位であっても）通常陽性です。TTF1は、単に肺腺癌の臨床マーカーにとどまりません。肺癌で変異しているという実験的観察から、肺癌細胞の維持に積極的な役割を担っています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_IS_001</LocID>
+				<Text>腫瘍タンパク質P63の陽性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_IS_001_DESC</LocID>
+				<Text>腫瘍タンパク質p63（一般的にはp63と呼ばれ、形質転換関連タンパク質63としても知られている）は、ヒトではTP63（別名p63）遺伝子によってコードされているタンパク質です。P63免疫染色は、頭頸部扁平上皮癌、前立腺腺癌（最も一般的な前立腺癌のタイプ）および良性前立腺組織の鑑別に有用です。 </Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HYPERTROPHIC_PO</LocID>
+				<Text>肥大性肺骨関節症</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HYPERTROPHIC_PO_DESC</LocID>
+				<Text>肥大性肺骨関節症（HPO）は、肺癌に合併することが多い稀な腫瘍随伴症候群です。肥大性骨関節症（HOA）は、手足の腫れ、四肢の肥大、関節の痛みと腫脹を伴う臨床症候群です。この疾患は、橈骨と腓骨、および程度は低いものの大腿骨、上腕骨、中手骨、中足骨に及ぶ対称的な骨膜炎によって特徴付けられます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD44_BRIGHT</LocID>
+				<Text>CD44抗原の陽性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD44_BRIGHT_DESC</LocID>
+				<Text>CD44抗原は、細胞間相互作用、細胞接着、移動に関与する細胞表面の糖タンパク質です。ヒトでは、CD44抗原は染色体11上のCD44遺伝子によってコードされています。CD44は、多くの癌で高発現している細胞表面接着受容体で、CD44の細胞表面への動員を介して転移を制御しています。適切な細胞外マトリックスリガンドとの相互作用により、転移に関与する移動と浸潤のプロセスが促進されます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_22</LocID>
+				<Text>EGFR変異の過剰な発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_22_DESC</LocID>
+				<Text>上皮成長因子受容体（EGFR; ErbB-1; ヒトでは HER1）は、細胞外タンパク質リガンドの上皮成長因子ファミリー（EGFファミリー）のメンバーに対する受容体である膜貫通型タンパク質です。EGFRの過剰発現をもたらす変異（アップレギュレーションまたは増幅として知られています）は、肺腺がん（症例の40%）、肛門がん、神経膠芽腫（50%）、頭頸部上皮性腫瘍（80-100%）など多くのがんと関連しています。EGFRが関与するこれらの体細胞変異は、その常時活性化をもたらし、無制限の細胞分裂を生じさせます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD274_BRIGHT</LocID>
+				<Text>PD-L1 (CD274) 陽性発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CM_CD274_BRIGHT_DESC</LocID>
+				<Text>プログラム細胞死リガンド 1（PD-L1）は、Cluster of Differentiation 274（CD274）またはB7 homolog 1（B7-H1）とも呼ばれ、ヒトではCD274遺伝子によってコードされているタンパク質です。プログラムデスリーガンド1（PD-L1）は、40kDaの1型膜貫通タンパク質で、妊娠、組織移植、自己免疫疾患、肝炎などの特定のイベント時に免疫系の適応的アームを抑制する上で主要な役割を果たすと推測されています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_IS_002</LocID>
+				<Text>腫瘍タンパク質P53の異常な発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_IS_002_DESC</LocID>
+				<Text>腫瘍タンパク質p53は、p53、細胞腫瘍抗原p53（UniProt名）、腫瘍抑制因子p53とも呼ばれ、TP53（ヒト）、Trp53（マウス）など、様々な生物の相同遺伝子がコードするタンパク質のいずれかのアイソフォームです。このホモログ（元々は単一のタンパク質と考えられており、しばしばそのように語られます）は、多細胞生物において重要であり、癌の形成を防ぐため、腫瘍抑制因子として機能します。TP53遺伝子は変異原（化学物質、放射線、ウイルス）によっても変化し、無秩序な細胞分裂を引き起こす可能性が高くなります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BL_HISRC</LocID>
+				<Text>印環細胞形態</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BL_HISRC_DESC</LocID>
+				<Text>組織学上、大きな液胞を持つ細胞を印環細胞といい、悪性型は主にがんに見られます。印環細胞は、様々な形態のがんと最も頻繁に関連しています。大腸癌の定義では、印環細胞大腸癌と指定されるためには50％以上（High）の印環細胞成分が必要です。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_23</LocID>
+				<Text>高いマイクロサテライト不安定性</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_23_DESC</LocID>
+				<Text>マイクロサテライト不安定性（MSI）は、DNAのミスマッチ修復（MMR）の障害に起因する遺伝的変異亢進（変異しやすい状態）のことです。MSIの存在は、MMRが正常に機能していないことを示す表現上の証拠となります。MMRは、一塩基のミスマッチや短い挿入・欠失など、DNA複製の際に自然に発生するエラーを修正します。MMRに関与するタンパク質は、DNAのミスマッチ部分に結合し、エラーを除去し、正しい配列をその場所に挿入する複合体を形成することによって、ポリメラーゼエラーを修正します。MMRの機能に異常がある細胞は、DNA複製の際に生じたエラーを修正することができず、結果としてエラーが蓄積されます。マイクロサテライト不安定性は多くの癌と関連しているが、結腸癌との関連で最も多く見られます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SM_P_008</LocID>
+				<Text>ムチン4の高い発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SM_P_008_DESC</LocID>
+				<Text>ムチン4（MUC 4）は、ヒトではMUC4遺伝子にコードされるムチンタンパク質です。他のムチンと同様、MUC-4は高分子の糖タンパク質です。気管、結腸、子宮頸部などの上皮表面を覆う粘液の主成分は、ムチンと呼ばれる糖鎖の多いタンパク質です。これらの糖タンパク質は、上皮細胞の保護に重要な役割を果たすとともに、上皮の再生や分化に関与していることが知られています。MUC-4は、特に腫瘍の発生や転移に寄与するシグナル伝達や抗接着特性により、がんの進行に様々な役割を果たすことが分かっています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_24</LocID>
+				<Text>CDH1 (CD324) 変異の発見</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CDF_T_24_DESC</LocID>
+				<Text>カドヘリン-1は、CAM 120/80、上皮カドヘリン（E-cadherin）、ウボモルリンとも呼ばれ、ヒトではCDH1遺伝子によってコードされているタンパク質です。CDH1は、CD324 (cluster of differentiation 324)とも呼ばれています。腫瘍抑制遺伝子である。E-カドヘリンの機能または発現の喪失は、がんの進行および転移に関与していると考えられています。E-カドヘリンのダウンレギュレーションは、組織内の細胞接着の強さを低下させ、結果として細胞の運動性を増加させます。その結果、がん細胞が基底膜を越えて周囲の組織に侵入することが可能になると考えられています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_COLONOFIND</LocID>
+				<Text>大腸内視鏡の所見</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_COLONOFIND_DESC</LocID>
+				<Text>検査で大腸の異常所見が報告されています。さらなる検査や生検の結果によって、その所見が心配の種であるかどうかが判断されます。</Text>
+			</GameDBLocalizedString>
+
+			<!-- MISSING -->
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SM_P_010</LocID>
+				<Text>ムチン2 高い発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SM_P_010_DESC</LocID>
+				<Text>ムチンは、ほとんどの動物の上皮組織で作られる高分子量の重グリコシル化タンパク質（糖鎖）のファミリーです。ムチン2（オリゴマー粘液ゲル形成性）は、MUC2として知られ、ヒトではMUC2遺伝子によってコードされているタンパク質です。ムチン2は、上皮内層の杯細胞から大腸の内腔に分泌され、特に腸で顕著です。オンコロジーでは、MUC-2の過剰発現が、粘液層を形成することで抗腫瘍免疫エフェクターを防御し、腫瘍の発生を促進する可能性があります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SM_P_011</LocID>
+				<Text>ムチン5AC 高い発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SM_P_011_DESC</LocID>
+				<Text>高グリコシル化分泌ムチンMUC5ACは、システインリッチリピートのおかげで分子間および分子内ジスルフィド結合を形成し、複雑なポリマーを形成し、それが上皮細胞表面の高分子粘液ゲルの骨格を形成しています。MUC5ACは、上皮細胞のバリア機能、宿主と病原体の相互作用、免疫細胞の前がん病変部位への誘引、文脈依存的な腫瘍の進行など、多彩な機能的意味を持つ分子です。MUC5ACの発現、グリコシル化、局在の違いは、多くの良性および悪性の病態と関連しています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SM_P_012</LocID>
+				<Text>ムチン 1 高い発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SM_P_012_DESC</LocID>
+				<Text>ムチン1, 細胞表面結合 (MUC1) は、多形上皮ムチン (PEM) または上皮膜抗原 (EMA) とも呼ばれ、ヒトでは MUC1 遺伝子によってコードされるムチンです。MUC1は、細胞外ドメインに広範なO-結合型グリコシル化を有する糖タンパク質です。ムチンは、細胞外ドメインのオリゴ糖に病原体が結合し、病原体が細胞表面に到達するのを防ぐことで、感染から体を守っています。MUC1の過剰発現は、しばしば結腸癌、乳癌、卵巣癌、肺癌、膵臓癌と関連しています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SM_P_009</LocID>
+				<Text>ムチン6 高い発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SM_P_009_DESC</LocID>
+				<Text>ムチン6, オリゴマー粘液/ゲル形成, 別名 MUC6 は、ヒトの遺伝子です。肝外胆管病変（胆道IPMN）では、MUC2の発現は柱状細胞の変化や腸管分化の程度と平行しているが、MUC6は立方体細胞パターンの腫瘍や幽門あるいは胆道分化を伴う症例で特徴的に陽性となります。幽門腺腺腫（胆嚢）は、M-GGMC-1などの他の幽門腺マーカーと同様に、MUC6に一貫して陽性です。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BL_PMCC</LocID>
+				<Text>純粋なムチン質細胞</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BL_PMCC_DESC</LocID>
+				<Text>ムチン質癌は他の種類の癌細胞と一緒にできることもありますが、そうでない場合は「純粋」な癌とみなされます。純粋な粘液癌は、90-100%の粘液細胞で構成されています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BL_MMCC</LocID>
+				<Text>混合粘液癌</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BL_MMCC_DESC</LocID>
+				<Text>粘液癌は他の種類の癌細胞と一緒にできることがあり、そのような癌を混合粘液癌と呼びます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SM_P_013</LocID>
+				<Text>ナプシンA 高い発現</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SM_P_013_DESC</LocID>
+				<Text>ナプシンAは機能性アスパラギン酸プロテアーゼで、健康な肺実質の細胞質で発現しています。また、II型肺細胞、肺胞マクロファージ、腎尿細管、膵臓の外分泌腺や管に発現する一本鎖の38kDaタンパク質で構成されています。ナプシンAは、原発性肺癌の代替マーカーとなる可能性があります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_WHITE_STOOLS</LocID>
+				<Text>白色の便</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_WHITE_STOOLS_DESC</LocID>
+				<Text>白い便や粘土のような便は、胆汁の不足が原因ですが、これは重大な基礎疾患を示している可能性があります。胆汁は肝臓で作られる消化液で、胆嚢に貯蔵されています。胆汁は消化の過程で小腸に排泄され、便は胆汁によって正常な茶色がかった色になります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_LIV_PRECONDITION</LocID>
+				<Text>肝疾患の既往</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_LIV_PRECONDITION_DESC</LocID>
+				<Text>患者さんのカルテ、または患者さん自身が、肝臓に持病がある、または持病があったことを医師に知らせました。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HEPATIC_ENCE</LocID>
+				<Text>肝性脳症</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HEPATIC_ENCE_DESC</LocID>
+				<Text>肝性脳症は、重度の肝疾患によって起こる脳機能の低下です。この状態では、肝臓は毒素を十分に除去することができません。そのため、血液中に毒素が蓄積され、脳障害につながる可能性があります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HYPERAMMONEMIA</LocID>
+				<Text>高アンモニア血症</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HYPERAMMONEMIA_DESC</LocID>
+				<Text>高アンモニア血症は血液中のアンモニアが過剰になることで起こる代謝異常です。脳障害や死に至ることもある危険な状態です。 </Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_IS_003</LocID>
+				<Text>α-フェトプロテインの濃度上昇</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_IS_003_DESC</LocID>
+				<Text>α-フェトプロテインは、ヒトではAFP遺伝子によってコードされているタンパク質です。AFP遺伝子は第4染色体のq腕に位置しています。AFPは胎児の発育中に卵黄嚢と胎児肝臓で産生される主要な血漿タンパク質です。AFPは主に肝臓癌と非好中球性生殖細胞腫瘍で発見されますが、これは稀です。これらは脳の松果体に存在します。また、肝硬変や慢性活動性肝炎の人の中には、AFPの血中濃度が高い人がいます。他の腫瘍マーカーの上昇と同様に、AFPの上昇自体は診断にはならず、あくまで示唆に過ぎません。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CMA_CAHP1</LocID>
+				<Text>肝細胞パラフィン1抗原の発見</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CMA_CAHP1_DESC</LocID>
+				<Text>肝細胞パラフィン1は、通常のホルマリン固定およびパラフィン包埋外科病理組織中の肝細胞と反応するように特別に開発されたモノクローナル抗体です。肝細胞を顆粒状に染色し、胆管や非実質肝細胞には反応しません。本抗体は、肝細胞腺腫を含む大部分の肝細胞癌を染めることができます。その他の成人悪性腫瘍には反応しませんが、胃癌の亜集団を含む少数の消化器系悪性腫瘍には局所的な染色が認められます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_AB_LFT</LocID>
+				<Text>異常な肝機能検査の結果</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_AB_LFT_DESC</LocID>
+				<Text>肝機能検査で異常値が出た場合、原因を特定するためにさらなる検査が必要です。肝機能検査の結果は、必ずしも肝臓の病気を示しているわけではなく、様々な状況の結果である可能性があります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_ACUTE_LIVER_FAILURE</LocID>
+				<Text>急性肝不全</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_ACUTE_LIVER_FAILURE_DESC</LocID>
+				<Text>急性肝不全（ALF）は、急激な肝機能の低下によって定義されるまれな症候群です。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CELL_REJECTION</LocID>
+				<Text>細胞性拒絶反応</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_CELL_REJECTION_DESC</LocID>
+				<Text>細胞性拒絶反応は、移植された臓器を体内の血液細胞が異物と認識し、それを攻撃するために細胞の軍隊を編成し始めることで起こります。拒絶反応が起きたからといって、移植された臓器を失うわけではありませんが、できるだけ早く拒絶反応を診断して治療することが非常に重要です。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_INTERNAL_BLEEDING</LocID>
+				<Text>体内出血</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_INTERNAL_BLEEDING_DESC</LocID>
+				<Text>体内、特に胸腔、胃腔、筋肉などの出血で、大きな外傷や手術、または未知の合併症によって起こる可能性があります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HEMO_INSTA</LocID>
+				<Text>不安定な血行動態</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_HEMO_INSTA_DESC</LocID>
+				<Text>血行動態の不安定は、血圧の異常や不安定により、血流が十分でない場合に起こります。この症状は生命を脅かす可能性があり、ICUでの治療が必要となる場合があります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_LES_RUPTURE</LocID>
+				<Text>病巣の破裂</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_LES_RUPTURE_DESC</LocID>
+				<Text>患者体内の病変や腫瘍が破裂しました。この場合、生命を脅かす内出血を伴います。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_FACIAL_NERVE_PARA</LocID>
+				<Text>顔面神経麻痺</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_FACIAL_NERVE_PARA_DESC</LocID>
+				<Text>顔面神経麻痺は、通常、顔の片側だけの顔面脱力を特徴とし、その他の症状として、味覚障害、聴覚過敏、唾液分泌や涙液分泌の減少が考えられます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_DYSPLASIA</LocID>
+				<Text>異形成</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_DYSPLASIA_DESC</LocID>
+				<Text>異形成（細胞異型） 組織内に異常なタイプの細胞が存在することで、癌の発生に先立つ段階を意味する場合があります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_EPI_HIGH1</LocID>
+				<Text>表皮細胞数の上昇</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_EPI_HIGH1_DESC</LocID>
+				<Text>検査により、表皮細胞が異常に多く検出されました。これは、予後が悪くなったり、がんがより進行していることを示すことがあります。 </Text>
+			</GameDBLocalizedString>
+
+
+		</LocalizedStrings>
 	</GameDBStringTable>
 </Database>

@@ -1,0 +1,235 @@
+<Database>
+	<GameDBStringTable ID="LOC_EN_ADDON_CRP_OTOR_TREATMENTS">
+		<LanguageCode>ja</LanguageCode>
+		<LanguageNameLocalized>日本語</LanguageNameLocalized>
+		<Contributors>
+			<Name>James B</Name>
+			<Name>日本語</Name>
+		</Contributors>
+		<LocalizedStrings>
+			<!-- Treatments -->
+			<!-- Surgery
+	<GameDBLocalizedString>
+	<LocID>SURG_***_FESS</LocID>
+	<Text>Functional Endoscopic Sinus Surgery</Text>
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>
+	<LocID>SURG_***_FESS_DESCRIPTION</LocID>
+	<Text>Functional endoscopic sinus surgery (FESS) is a minimally invasive surgical treatment which uses nasal endoscopes to enlarge the nasal drainage pathways of the paranasal sinuses to improve sinus ventilation. This procedure is generally used to treat inflammatory and infectious sinus diseases, including chronic rhinosinusitis that doesn't respond to drugs, nasal polyps, some cancers, and decompression of eye sockets/optic nerve in Graves ophthalmopathy. \n\nRequired room: Operating room at Otorhinolaryngology dpt.</Text>
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>
+	<LocID>SURG_***_TYPT</LocID>
+	<Text>Tympanoplasty</Text>
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>
+	<LocID>SURG_***_TYPT_DESCRIPTION</LocID>
+	<Text>Tympanoplasty, also called eardrum repair, refers to surgery performed to reconstruct a perforated tympanic membrane (eardrum) or the small bones of the middle ear. Eardrum perforation may result from chronic infection or, less commonly, from trauma to the eardrum. \n\nRequired room: Operating room at Otorhinolaryngology dpt.</Text>
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>
+	<LocID>SURG_***_PRS</LocID>
+	<Text>Papilloma Removal Surgery</Text>
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>
+	<LocID>SURG_***_PRS_DESCRIPTION</LocID>
+	<Text>Papilloma Removal Surgery is a removal of papillomas (Tumour like growths caused by HPV) to prevent or treat existing conditions.  \n\nRequired room: Operating room at Otorhinolaryngology dpt.</Text>
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>
+	<LocID>SURG_***_VNS</LocID>
+	<Text>Vestibular nerve section surgery</Text>
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>
+	<LocID>SURG_***_VNS_DESCRIPTION</LocID>
+	<Text>A vestibular nerve section describes the process of cutting the vestibular part of the cochleovestibular cranial nerve. This is generally done in an attempt to eliminate recurrent attacks of vertigo. \n\nRequired room: Operating room at Otorhinolaryngology dpt.</Text>
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>
+	<LocID>SURG_***_NDS</LocID>
+	<Text>Neck Dissection Surgery</Text>
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>
+	<LocID>SURG_***_NDS_DESCRIPTION</LocID>
+	<Text>The neck dissection is a surgical procedure for control of neck lymph node metastasis from squamous cell carcinoma (SCC) of the head and neck. The aim of the procedure is to remove lymph nodes from one side of the neck into which cancer cells may have migrated. \n\nRequired room: Operating room at Otorhinolaryngology dpt.</Text>
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>
+	<LocID>SURG_***_ERCS</LocID>
+	<Text>Ear Reconstruction Surgery</Text>
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>
+	<LocID>SURG_***_ERCS_DESCRIPTION</LocID>
+	<Text>Ear reconstruction is a form of surgery that can rebuild an ear damaged by trauma or cancer surgery, or misshapen or missing due to a congenital (present at birth) disorder. Along with surgery to rebuild or repair the ear, hearing rehabilitation with an otologist may be necessary. \n\nRequired room: Operating room at Otorhinolaryngology dpt.</Text>
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>
+	<LocID>SURG_***_ADNO</LocID>
+	<Text>Adenoidectomy</Text>
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>
+	<LocID>SURG_***_ADNO_DESCRIPTION</LocID>
+	<Text>Adenoidectomy is a surgical procedure performed to remove the adenoids. Adenoids are a mass of lymphoid tissue located behind the nasal passages. All surgical procedures have risks and potential complications. \n\nRequired room: Operating room at Otorhinolaryngology dpt.</Text>
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>
+	<LocID>SURG_***_LOTS</LocID>
+	<Text>Laryngotracheal Reconstruction Surgery</Text>
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>
+	<LocID>SURG_***_LOTS_DESCRIPTION</LocID>
+	<Text>Laryngotracheal reconstruction surgery widens your windpipe (trachea) to make breathing easier. Laryngotracheal reconstruction involves inserting a small piece of cartilage — stiff connective tissue found in many areas of your body — into the narrowed section of the windpipe to make it wider. Children most commonly experience problems with a narrowed windpipe, although the problem can also occur in adults. It can occur for many reasons, including injury, infection, stomach acid reflux, a birth defect or as the result of the insertion of a breathing tube. An adult's windpipe can become narrowed for the same reasons, but the cause may also be a disease that causes blood vessel or tissue inflammation, such as Wegener's granulomatosis or sarcoidosis.The goal of laryngotracheal reconstruction is to provide a safe and stable airway without the use of assistance from a breathing tube. In people who already have a tracheostomy tube to help them breathe, this procedure often makes it possible to get rid of the tracheostomy.</Text>
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>
+	<LocID>SURG_***_SPTP</LocID>
+	<Text>Septoplasty</Text>
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>
+	<LocID>SURG_***_SPTP_DESCRIPTION</LocID>
+	<Text>Septoplasty (SEP-toe-plas-tee) is a surgical procedure to straighten the bone and cartilage dividing the space between your two nostrils (septum). When the septum is crooked, it's known as a deviated septum. A deviated septum can make it harder to breathe through your nose and can increase the risk of sinus infections due to poor drainage.</Text>
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>
+	<LocID>SURG_***_FRS</LocID>
+	<Text>Face Reconstruction</Text>
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>
+	<LocID>SURG_***_FRS_DESCRIPTION</LocID>
+	<Text>Facial reconstruction surgery is used to restore a person's appearance to a relatively normal condition after a traumatic injury or event that has severely damaged a person's face and appearance. Such an injury may remove part or all of the face.</Text>
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>
+	<LocID>SURG_***_PHRS</LocID>
+	<Text>Pharyngeal Reconstruction</Text>
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>
+	<LocID>SURG_***_PHRS_DESCRIPTION</LocID>
+	<Text>Pharyngeal reconstruction is a procedure that reconstructs the throat (Pharynx) in order to widen or fix defects or injuries. This is commonly used to remove pharyngeal cancers and repair the throat.</Text>
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>
+	<LocID>SURG_***_TCSY</LocID>
+	<Text>Tracheal Reconstruction Surgery</Text>
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>
+	<LocID>SURG_***_TCSY_DESCRIPTION</LocID>
+	<Text>Tracheal reconstruction is a procedure that widens the windpipe in order to make breathing easier. It’s a common treatment for breathing difficulties related to a narrow windpipe like Tracheal Collapse or Tracheal Stenosis.</Text>
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>
+	<LocID>SURG_***_TONS</LocID>
+	<Text>Tonsillectomy</Text>
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>
+	<LocID>SURG_***_TONS_DESCRIPTION</LocID>
+	<Text>Tonsillectomy (ton-sih-LEK-tuh-me) is the surgical removal of the tonsils, two oval-shaped pads of tissue at the back of the throat — one tonsil on each side. A tonsillectomy was once a common procedure to treat infection and inflammation of the tonsils (tonsillitis). Today, a tonsillectomy is usually performed for sleep-disordered breathing but may still be a treatment when tonsillitis occurs frequently or doesn't respond to other treatments.</Text>
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>
+	<LocID>SURG_***_COIM</LocID>
+	<Text>Cochlear Ear Implant</Text>
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>
+	<LocID>SURG_***_COIM_DESCRIPTION</LocID>
+	<Text>A cochlear implant is an electronic device that partially restores hearing. It can be an option for people who have severe hearing loss from inner-ear damage who are no longer helped by using hearing aids. Cochlear implants use a sound processor that fits behind the ear. The processor captures sound signals and sends them to a receiver implanted under the skin behind the ear. The receiver sends the signals to electrodes implanted in the snail-shaped inner ear (cochlea). The signals stimulate the auditory nerve, which then directs them to the brain. The brain interprets those signals as sounds, though these sounds won't be just like normal hearing.</Text>
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>
+	<LocID>SURG_***_MTDY</LocID>
+	<Text>Mastoidectomy</Text>
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>
+	<LocID>SURG_***_MTDY_DESCRIPTION</LocID>
+	<Text>A mastoidectomy is a surgical procedure that removes diseased mastoid air cells. The mastoid is the part of your skull located behind your ear. It's filled with air cells made of bone and looks like a honey comb. The diseased cells are often the result of an ear infection that has spread into your skull. \n\nRequired room: Operating room at Otorhinolaryngology dpt.</Text>
+	</GameDBLocalizedString> -->
+
+			<!-- Treatments -->
+			<!-- Sprays, a course of therapy and pills -->
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_VOCAL_THERAPY</LocID>
+				<Text>ボイスセラピー</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_VOCAL_THERAPY_DESC</LocID>
+				<Text>ボイスセラピーは、発声行動や生活習慣の改善を指導することにより、嗄声の軽減を図るプログラムです。無理な発声行動の除去、健康な発声行動の形成、手術や損傷後の声帯傷の治癒を助けるための様々な作業で構成されています。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_CPAP</LocID>
+				<Text>CPAP療法</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_CPAP_DESC</LocID>
+				<Text>CPAP療法（持続的気道陽圧法）は、中等度から重度の閉塞性睡眠時無呼吸症候群に有効な治療法です。\n\n必要な部屋: 耳鼻咽喉科の検査室 / 耳鼻咽喉科の診察室 / ICU / 経過観察室</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_MASSAGE</LocID>
+				<Text>マッサージ</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_MASSAGE_DESC</LocID>
+				<Text>マッサージは、身体の軟部組織を揉みほぐすことです。マッサージの技術は、一般的に手、指、肘、膝、前腕、足、またはデバイスを使用して行われます。マッサージの目的は、一般的に体のストレスや痛みの治療のためです。\n\n必要な部屋: 耳鼻咽喉科の検査室 / 耳鼻咽喉科の診察室 / ICU / 経過観察室</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_SALINE_NASAL_SPRAY</LocID>
+				<Text>生理食塩水鼻腔スプレー</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_CORTICOSTEROID_NASAL_SPRAY</LocID>
+				<Text>コルチコステロイド鼻スプレー</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_CORTICOSTEROID_NASAL_SPRAY_DESC</LocID>
+				<Text>ステロイド鼻スプレー薬は、コルチコステロイド鼻スプレー薬とも呼ばれ、花粉症、副鼻腔炎、非アレルギー性鼻炎、鼻ポリープなど、さまざまな症状の治療に使用できる鼻にスプレーする抗炎症薬です。ステロイド点鼻薬の一部は薬局やお店で購入できますが、その他のものは処方でのみ入手可能です。また、点鼻薬も販売されています。 \n\n必要な部屋: 耳鼻咽喉科の検査室 / 耳鼻咽喉科の診察室 / ICU / 経過観察室</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_HEARING_AIDS</LocID>
+				<Text>Hearing Aids</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_HEARING_AIDS_DESC</LocID>
+				<Text>補聴器は、難聴者が音を聞き取りやすくすることで、聴力を改善するために設計された機器である。補聴器は、ほとんどの国で医療機器に分類され、それぞれの規制によって規制されています。PSAPなどの小型音声増幅器や、プレーンな音声補強システムは「補聴器」として販売することはできません。\n\n必要な部屋: 耳鼻咽喉科の検査室 / 耳鼻咽喉科の診察室 / ICU / 経過観察室</Text>
+			</GameDBLocalizedString>
+
+			<!-- Intubation and Intravenous Infusions -->
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_INTUBATION</LocID>
+				<Text>気管内挿管</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_INTUBATION_DESC</LocID>
+				<Text>気管内挿管とは、気管内チューブ（ET）と呼ばれるチューブを口から気道に挿入することです。これは、麻酔時、鎮静時、または重症の患者さんの呼吸を補助するために、人工呼吸器を装着するために行います。\n\n必要な部屋: 耳鼻咽喉科の検査室 / 耳鼻咽喉科の診察室 / ICU / 経過観察室</Text>
+			</GameDBLocalizedString>
+
+
+		</LocalizedStrings>
+	</GameDBStringTable>
+</Database>

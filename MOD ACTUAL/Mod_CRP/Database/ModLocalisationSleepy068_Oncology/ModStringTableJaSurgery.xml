@@ -1,0 +1,209 @@
+<Database>
+	<!-- CRP Mod with Sleepy068 -->
+	<GameDBStringTable ID="LOC_EN_ADDON_CRP_SLEEPY_SURGERY">
+		<LanguageCode>ja</LanguageCode>
+		<LanguageNameLocalized>日本語</LanguageNameLocalized>
+		<Contributors>
+			<Name>Sleepy068</Name>
+			<Name>Erzen</Name>
+		</Contributors>
+
+		<LocalizedStrings>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_MOHS_MICROGRAPHIC_SURGERY</LocID>
+				<Text>広範囲局所切除術</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_MOHS_MICROGRAPHIC_SURGERY_DESC</LocID>
+				<Text>広範囲局所切除術（WLE）は、正常組織の一部ごと、疾患または問題のある組織の小領域を切除する手術法です。この方法は、一般的に乳房や皮膚病変に行われますが、体のどの部位にも使用することができます。 \n\n必要な部屋: 腫瘍学科の手術室.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_LAPAROSCOPIC_SURGERY</LocID>
+				<Text>腹腔鏡手術</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_LAPAROSCOPIC_SURGERY_DESC</LocID>
+				<Text>腹腔鏡手術や「低侵襲」手術は、手術を行うための特殊な技術です。リスクが低く、小さな切開で済む低侵襲手術です。腹腔鏡手術では、腹腔鏡と呼ばれる器具を使用して腹部臓器を観察します。 \n\n必要な部屋: 腫瘍学科の手術室.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_LOBECTOMY_SURGERY</LocID>
+				<Text>肺葉切除術</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_LOBECTOMY_SURGERY_DESC</LocID>
+				<Text>肺葉切除術は、肺の葉を切除する手術です。早期の肺がんなど、疾患のある肺の一部を取り除くために行われます。 \n\n必要な部屋: 腫瘍学科の手術室.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_ENDOVASCULAR_EMBOLISATION</LocID>
+				<Text>血管内塞栓術</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_ENDOVASCULAR_EMBOLISATION_DESC</LocID>
+				<Text>血管内塞栓術（EE）は、侵襲的な外科手術の一つです。脳や体の他の部位にある異常な血管を治療するために使用されます。この方法は、開腹手術に代わる方法です。血管を塞いで、患部への血流を遮断します。 \n\n必要な部屋: 腫瘍学科の手術室.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_NERVE_DECOM_SURGERY</LocID>
+				<Text>神経再建手術</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_NERVE_DECOM_SURGERY_DESC</LocID>
+				<Text>神経再建手術、または外科的神経修復術では、傷ついた神経を探り、神経末端から傷ついた組織や瘢痕を除去します。その後、神経の端に十分な長さがあれば、神経を緊張させずに質の良い修復ができるため、直接再接続することが可能です。 \n\n必要な部屋: 神経科の手術室.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_POLYPECTOMY</LocID>
+				<Text>内視鏡的ポリープ切除術</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_POLYPECTOMY_DESC</LocID>
+				<Text>内視鏡的ポリープ切除術は、大腸の内側にあるポリープをスネアと呼ばれる器具によって切除するための手術です。ポリープとは、異常な組織の集まりのことです。この手術は、比較的非侵襲的です。 \n\n必要な部屋: 腫瘍学科の手術室.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_PARTIAL_COLECTOMY</LocID>
+				<Text>結腸切除術</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_PARTIAL_COLECTOMY_DESC</LocID>
+				<Text>結腸切除術は、大腸の任意の範囲を外科的に切除するもので、通常は分節切除となりますが、極端な場合には、大腸全体が切除されます。 \n\n必要な部屋: 腫瘍学科の手術室.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_ADRENALECTOMY</LocID>
+				<Text>副腎摘出術</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_ADRENALECTOMY_DESC</LocID>
+				<Text>副腎摘出術は、片方または両方の副腎を外科的に摘出する手術です。通常、副腎に腫瘍がある患者さんに勧められます。この手術は、開腹手術または腹腔鏡技術を使用して行うことができます。 \n\n必要な部屋: 腫瘍学科の手術室.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_SPLENECTOMY</LocID>
+				<Text>脾臓摘出術</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_SPLENECTOMY_DESC</LocID>
+				<Text>脾臓摘出術は、脾臓を摘出する外科手術です。脾臓は、胸郭の下、腹部の左上にある臓器です。脾臓は、感染症への抵抗を支援し、血液から古いまたは損傷した血液細胞などの不要な物質をろ過します。脾臓摘出の最も一般的な理由は、腹部の損傷によって起こることが多い脾臓破裂の治療です。脾臓摘出術は、不快感をもたらしている脾臓の肥大（脾腫）、いくつかの血液疾患、特定の癌、感染症、および非癌性の嚢胞や腫瘍などの他の症状の治療にも使用されることがあります。 \n\n必要な部屋: 腫瘍学科の手術室.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_SEG_MASTECTOMY</LocID>
+				<Text>乳房部分切除術</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_SEG_MASTECTOMY_DESC</LocID>
+				<Text>乳房そのものではなく、がんとその周囲の正常な組織を切除する手術です。生検のために脇の下のリンパ節を一部切除することもあります。また、がんが胸壁の近くにある場合は、胸壁の内壁の一部を切除することもあります。 \n\n必要な部屋: 腫瘍学科の手術室.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_DEBULKING</LocID>
+				<Text>腫瘍摘出術</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_DEBULKING_DESC</LocID>
+				<Text>腫瘍摘出術とは、外科的に治癒不可能な悪性新生物を、治癒を目的とせずに部分的に切除し、その後の薬剤や放射線などの補助的な治療をより効果的に行い、生存期間を延長させる方法です。医師は、がんを寛解に導くために、患者さんと一緒にフォローアップ治療の予約を取る必要があります。 \n\n必要な部屋: 神経科の手術室.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_UNI_SALOOPH</LocID>
+				<Text>片側卵管卵巣摘出術</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_UNI_SALOOPH_DESC</LocID>
+				<Text>片側卵管卵巣摘出術は、体の同じ側にあり、共通の血液供給を受けている卵巣と卵管を1つずつ手術で取り除く方法です（これに対して両側手術では、両方の卵巣と卵管を摘出します）。片側卵管卵巣摘出術は、妊孕性の温存を希望する女性にとって、妊孕性温存治療の第一選択として検討されるべきものです。局所再発のリスクが高いことが判明していますが、全生存期間の短縮とは関連していません。 \n\n必要な部屋: 腫瘍学科の手術室.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_RAD_PROS</LocID>
+				<Text>前立腺がん手術</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_RAD_PROS_DESC</LocID>
+				<Text>前立腺がん手術は、前立腺とその周囲の組織を切除する手術です。これには通常、精嚢と一部の近傍リンパ節が含まれます。がんが前立腺に限局している男性では、前立腺がん手術による完治が可能です。 \n\n必要な部屋: 腫瘍学科の手術室.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_PARATHY</LocID>
+				<Text>Parathyroidectomy</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_PARATHY_DESC</LocID>
+				<Text>副甲状腺切除術は、副甲状腺や副甲状腺腫瘍を切除する手術です。副甲状腺は、首の甲状腺のすぐ後ろにあります。これらの腺は、体の血液中のカルシウム濃度の制御を助けます。 \n\n必要な部屋: 腫瘍学科の手術室.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_SEGMENTECTOMY</LocID>
+				<Text>部分切除</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_SEGMENTECTOMY_DESC</LocID>
+				<Text>臓器や腺の一部を切除する手術のことで、体組織の一部を切除する切除術の亜種です。また、腫瘍とその周囲の正常な組織を切除する場合にも使用されます。 \n\n必要な部屋: 腫瘍学科の手術室.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_HEPATECTOMY</LocID>
+				<Text>肝切除</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_HEPATECTOMY_DESC</LocID>
+				<Text>肝切除とは、肝臓を外科的に切除すること（全部または一部を取り除くこと）です。 \n\n必要な部屋: 腫瘍学科の手術室.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_LIVER_TRANSPL</LocID>
+				<Text>肝臓移植</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_LIVER_TRANSPL_DESC</LocID>
+				<Text>肝臓移植とは、正常に機能しなくなった肝臓（肝不全）を摘出し、死亡したドナーからの健康な肝臓、または生きているドナーからの健康な肝臓の一部と置き換える外科的処置のことをいいます。 \n\n必要な部屋: 腫瘍学科の手術室.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_PAROTIDECTOMY</LocID>
+				<Text>耳下腺摘出術</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_PAROTIDECTOMY_DESC</LocID>
+				<Text>耳下腺摘出術は、唾液腺の中で主要かつ最大の耳下腺を外科的に切除することを指します。この手術は、急速に異常分裂する細胞の増殖である新生物のために行われるのが最も一般的です。新生物は良性または悪性の場合があります。 \n\n必要な部屋: 腫瘍学科の手術室.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_GTR</LocID>
+				<Text>開頭腫瘍全摘出</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_GTR_DESC</LocID>
+				<Text>全摘出とは、磁気共鳴画像（MRI）で見える腫瘍組織を完全に除去することです。拡大腫瘍切除は、MRIで見える腫瘍組織の境界を、周囲の影響を受けていない脳組織の一部ごと切除する、全摘出として行われます。 \n\n必要な部屋: 神経科の手術室.</Text>
+			</GameDBLocalizedString>
+
+			<!-- ### ### -->
+			<!-- ######################################## Content for V0.15.0.0 Added Below ######################################## -->
+			<!-- ### ### -->
+
+		</LocalizedStrings>
+	</GameDBStringTable>
+</Database>
