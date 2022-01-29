@@ -1,0 +1,178 @@
+<Database>
+	<!-- Plastic Surgery Mod by Sleepy068 -->
+	<GameDBStringTable ID="LOC_EN_ADDON_CRP_SLEEPYPL_TREATMENTS">
+		<LanguageCode>ja</LanguageCode>
+		<LanguageNameLocalized>日本語</LanguageNameLocalized>
+		<Contributors>
+			<Name>Sleepy068</Name>
+			<Name>Erzen</Name>
+		</Contributors>
+
+		<LocalizedStrings>
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_WATCH_WAIT</LocID>
+				<Text>経過観察</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_WATCH_WAIT_DESC</LocID>
+				<Text>経過観察とは、症状が出るまで、あるいは症状が変化するまで、治療を行わず、患者さんの状態を注意深く観察することです。一般に、このような状況では、治療が合併症を引き起こす危険性があるため、自然治癒力に任せることが望ましいとされています。\n\n必要な部屋: 診察室全般</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_EPIPEN</LocID>
+				<Text>アドレナリン注射液自己注射キット製剤</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_EPIPEN_DESC</LocID>
+				<Text>アドレナリン注射液自己注射キット製剤（エピペン）は、自動注射器技術により、エピネフリンを計量して注射する医療機器です。一般にアナフィラキシーの治療に使用されます。\n\n必要な部屋: 診察室全般</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_MRSA_TREATMENT_A</LocID>
+				<Text>ST合剤</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_MRSA_TREATMENT_A_DESC</LocID>
+				<Text>MRSA治療の第一選択薬です。トリメトプリム-スルファメトキサゾール（TMP-SMX; Bactrim DS, Septra DS, Sulfamethoprim-DS）。この薬剤は、メチシリン耐性黄色ブドウ球菌の治療に非常に有効であることが示されています。 \n\n必要な部屋: 診察室全般</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_COMPRESSION_GARMENT</LocID>
+				<Text>圧迫衣の着用</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_COMPRESSION_GARMENT_DESC</LocID>
+				<Text>脂肪吸引手術後のコンプレッションウェア（圧迫衣）の着用は、体の回復を助け、治癒過程での患者の快適さを高めます。圧迫衣は、手術によって生じた袋状または不規則な皮膚表面を時間経過で修正するのに役立ちます。\n\n必要な部屋: 診察室全般</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_INTRA_LIPIDEMULSION</LocID>
+				<Text>脂肪乳剤</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_INTRA_LIPIDEMULSION_DESC</LocID>
+				<Text>脂肪乳剤とは、ヒトの静脈内投与用の脂質の分散系溶液を指します。最も一般的に使用されているイントラリピッドの商品名で呼ばれることが多く、大豆油、卵リン脂質、グリセリンの乳剤で、10%、20%、30%の濃度で販売されています。脂肪乳剤は、局所麻酔薬による心血管系虚脱に対する有効な治療法として確立されています。その作用機序については、拡大した血管内脂質相を形成することにより、標的組織から新たに形成された「脂質シンク」に原因薬剤を追い込む平衡が確立されるという説が有力です。\n\n必要な部屋: 入院病棟全般.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_BOTOX</LocID>
+				<Text>ボトックス注射</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_BOTOX_DESC</LocID>
+				<Text>ボツリヌス毒素（ボトックス）は、ボツリヌス菌およびその近縁種が産生する神経毒性を有するタンパク質です。神経筋接合部の軸索末端から神経伝達物質のアセチルコリンが放出されるのを阻害し、弛緩性麻痺を引き起こします。ボツリヌス毒素は、様々な形成外科手術に有用である一方、最も毒性が強い物質として知られています。ボツリヌス毒素は、傷口や腸の感染、または食品に含まれる毒素の摂取により、自然に中毒を起こすことがあります。A型毒素の推定致死量は、静脈内または筋肉内で1.3-2.1ng/kg、吸入で10-13ng/kg、経口摂取で1000ng/kgとされています。\n\n必要な部屋: 診察室全般</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_ATROPINE_EYEDROP</LocID>
+				<Text>Atropine Eye Drops</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_ATROPINE_EYEDROP_DESC</LocID>
+				<Text>アトロピン点眼液は、抗ムスカリン薬と呼ばれる薬品の一種です。目の瞳孔を拡張し、水晶体を一時的に麻痺させ、医師が患者の目を検査しやすいようにするために使用されます。アトロピン硫酸塩のようなサイクロプレンティック薬を健康な目に入れると、視界がぼやけ、異なる距離に焦点を合わせる能力が失われ、弱視状態を余儀なくされます。 \n\n必要な部屋: 診察室全般</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_EYE_PATCH</LocID>
+				<Text>アイパッチ</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_EYE_PATCH_DESC</LocID>
+				<Text>アイパッチは、患者の強い視力の目の視界を遮ることで機能します。これにより、弱視の目をより強く働かせ、その目の視力を向上させることができるのです。\n\n必要な部屋: 診察室全般</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_CORTICOSTEROID_EYEDROPS</LocID>
+				<Text>眼科用コルチコステロイド</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_CORTICOSTEROID_EYEDROPS_DESC</LocID>
+				<Text>眼科用コルチコステロイド（コルチゾン様医薬品）は、特定の目の病気や手術によって起こるかもしれない、目の永久的な損傷を防ぐために使用されます。また、充血や炎症、その他の不快感を和らげる効果もあります。 \n\n必要な部屋: 診察室全般</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_CHEMPEEL_L</LocID>
+				<Text>α-ヒドロキシ酸ピール</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_CHEMPEEL_L_DESC</LocID>
+				<Text>アルファヒドロキシ酸（AHA）は通常、クエン酸（柑橘類）、グリコール酸（サトウキビ）、乳酸（発酵乳）、リンゴ酸（リンゴ）、酒石酸（ブドウ）から抽出したものです。一般的には、グリコール酸と乳酸がよく適用されます。AHAは、ケミカルピーリングの中で最もマイルドなものです。主に、非常に細かいシワや乾燥した肌、脱水した肌、軽度の肌や色素の異常、ニキビの治療に有効です。 \n\n必要な部屋: 診察室全般</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_SCLEROTHERAPY</LocID>
+				<Text>硬化療法</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_SCLEROTHERAPY_DESC</LocID>
+				<Text>硬化療法は、血管に薬液を注入する治療法で、通常、足のクモ状静脈や静脈瘤が対象となります。硬化療法は、血管壁を刺激し、それらを硬化させます。これにより、血管の線維化、または瘢痕化につながります。硬化溶液を注入された静脈は、その後、体が自然に治療静脈を吸収するように、数週間の期間にわたって溶解、吸収されます。硬化療法は、実行するためにわずか10分程度しか必要としない非侵襲的な手順であり、侵襲的な静脈瘤の手術と比較して最小限の手間で行えます。 \n\n必要な部屋: 診察室全般</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_SKIN_LT</LocID>
+				<Text>皮膚のレーザー治療</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_SKIN_LT_DESC</LocID>
+				<Text>レーザー治療またはレーザーリサーフェシングは、レーザーを使用して皮膚の層を除去することにより、皮膚の外観を改善したり、顔の小さな欠点を治療したりする方法です。このタイプのレーザーは、シワ、傷、イボ、その他の症状の治療に使用されます。2番目のタイプはエルビウムで、このタイプのレーザーは顔、手、首、胸の表面的で中程度に深いラインとしわを除去するために使用されます。CO2レーザーよりも副作用が少ないのが特徴です。 \n\n必要な部屋: 診察室全般</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_CHE_INJECT</LocID>
+				<Text>酵素注射治療 (CCH)</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_CHE_INJECT_DESC</LocID>
+				<Text>酵素の一種、通常クロストリジウムヒストリチカムから抽出したコラゲナーゼを患者さんの手のひらの緊張した紐に注射すると、紐が柔らかく弱くなり、医師が手を操作して紐を断ち、指をまっすぐにすることができるようになるのです。 \n\n必要な部屋: 診察室全般</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_CORTICOSTEROID_INJECTIONS2</LocID>
+				<Text>副腎皮質ホルモンの注射</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_CORTICOSTEROID_INJECTIONS2_DESC</LocID>
+				<Text>副腎皮質ホルモン（ステロイド）は、炎症を治療するために使用されることがある薬です。副腎皮質ステロイドを痛みのある部位（関節や筋肉など）に注射すると、その部位の炎症を抑え、痛みを和らげ、組織の腫れを抑え、機能や運動能力を向上させることができます。医師は、肥厚性瘢痕やケロイドに直接コルチコステロイド溶液を注入し、そのサイズを縮小することができます。ステロイドはコラーゲン繊維の結合を破壊し、皮膚の下の瘢痕組織を減少させます。  \n\n必要な部屋: 診察室全般</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_CRYOSURGERY</LocID>
+				<Text>凍結手術</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_CRYOSURGERY_DESC</LocID>
+				<Text>凍結手術とは、極低温で腫瘍などの異常組織を破壊する手術の一種です。手術には液体窒素が最もよく使われますが、二酸化炭素やアルゴンも使用されることがあります。凍結手術は、凍結温度による細胞への破壊力を利用して行われます。温度が一定以上下がると、細胞内に氷の結晶ができ始め、密度が低くなるため、やがて細胞を引き裂くようになります。さらに、組織に栄養を供給している血管が凍り始めると、悪性腫瘍の増殖に悪影響を及ぼします。\n\n必要な部屋: 診察室全般</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_HYAACID_FILL</LocID>
+				<Text>ヒアルロン酸充填剤</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_HYAACID_FILL_DESC</LocID>
+				<Text>注入可能なヒアルロン酸（HA）は、一時的な皮膚充填剤の一種です。ヒアルロン酸は、体全体に自然に存在し、関節、目、皮膚に最も多く含まれています。皮膚では、ヒアルロン酸が水を引き寄せるので、肌がより潤うようになります。注射用ヒアルロン酸は、小じわや顔のひだを減らし、顔や唇に構造、骨格、ボリュームを出すために使用されます。注入可能なヒアルロン酸の効果は、すぐに現れます。 \n\n必要な部屋: 診察室全般</Text>
+			</GameDBLocalizedString>
+
+			<!-- ### ### -->
+			<!-- ######################################## Content for V.x Added Below ######################################## -->
+			<!-- ### ### -->
+
+		</LocalizedStrings>
+	</GameDBStringTable>
+</Database>

@@ -1,0 +1,257 @@
+<Database>
+	<!-- Plastic Surgery Mod by Sleepy068 -->
+	<GameDBStringTable ID="LOC_EN_ADDON_CRP_SLEEPYPL_SYMPTOMS">
+		<LanguageCode>ja</LanguageCode>
+		<LanguageNameLocalized>日本語</LanguageNameLocalized>
+		<Contributors>
+			<Name>Sleepy068</Name>
+			<Name>Erzen</Name>
+		</Contributors>
+
+		<LocalizedStrings>
+			<!-- Plastic Surgery Mod -->
+			<!-- CRP Export (Everything below will be exported to CRP after release) -->
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SEROMA</LocID>
+				<Text>血清腫</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_SEROMA_DESC</LocID>
+				<Text>血清腫は、皮膚の表面下に溜まる液体の集まりです。血清腫は外科的処置の後に発生することがあり、多くの場合、外科的切開の部位または組織が切除された部位に発生します。血清腫は、それ自体が吸収されるまでに数週間かかることがあります。合併症が起きない限り、血清腫が自然に吸収されるのを待つことが、自然治癒のための最善の方法です。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_POSTOP_PAIN</LocID>
+				<Text>術後疼痛</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_POSTOP_PAIN_DESC</LocID>
+				<Text>術後疼痛は、通常、手術後に発生する予期される一時的な背景疼痛の増加です。術後痛は、患者にとって重大な問題であり、麻酔科医や急性痛症専門医の課題でもあります。過去20年の間に、多剤併用鎮痛法の使用、局所麻酔の進歩、術後の持続的な鎮痛剤の注入などの進歩がありましたが、いくらかの患者は慢性術後疼痛に移行してしまうケースもあります。術後疼痛の管理が不十分だと、合併症やリハビリの長期化につながる可能性もあります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_M_SCAR_TISSUE</LocID>
+				<Text>軽度の瘢痕組織</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_M_SCAR_TISSUE_DESC</LocID>
+				<Text>瘢痕とは、皮膚表面の傷や怪我が治った後に、皮膚に残る跡のことです。瘢痕や瘢痕組織の形成は、治癒プロセスの正常な一部であり、怪我や手術によって皮膚が切断された場合に生じます。瘢痕組織の成長は多くの要因に影響されますが、その要因は以下の通りです。元の傷の重症度。体の傷の大きさ、深さ、位置。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_MRSA_INFECTION</LocID>
+				<Text>耐性黄色ブドウ球菌感染症</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_MRSA_INFECTION_DESC</LocID>
+				<Text>メチシリン耐性黄色ブドウ球菌（MRSA）感染症は、通常のスタフ感染症の治療に用いられる多くの抗生物質に対して耐性を持つようになったスタフ菌の一種によって引き起こされます。MRSA感染症は、すぐに深い痛みを伴う膿瘍になり、外科的な抜歯が必要になることもあります。細菌が皮膚にとどまっていることもありますが、体の奥深くまで潜り込み、骨、関節、手術の傷口、血流、心臓弁、肺などに生命を脅かす感染症を引き起こす可能性もあります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_PULMONARY_EMBOLISM</LocID>
+				<Text>肺塞栓症</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_PULMONARY_EMBOLISM_DESC</LocID>
+				<Text>肺塞栓症（PE）とは、体内の他の場所から血流に乗って移動してきた物質（塞栓）が肺の動脈を塞いでしまうことです。ほとんどの場合、肺塞栓症は足から移動した血栓、まれに体の他の部位から移動した血栓（深部静脈血栓症またはDVT）によって引き起こされます。手術は肺塞栓症のリスクを高めます。 \n\n処置に必要な条件: 循環器科 または ICU</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_LI_LOCALPOISIONING</LocID>
+				<Text>局所麻酔薬による中毒</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_LI_LOCALPOISIONING_DESC</LocID>
+				<Text>局所麻酔薬の毒性は、一般に治療上のミスの結果として生じます。毒性に至る状況には、不注意による静脈または動脈への注射、摂取または局所投与された局所麻酔薬含有製剤の量が多すぎることなどがあります。中枢神経系は、心臓系よりも局所麻酔薬の影響に敏感であり、一般に最初に毒性の徴候/症状が現れます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_LI_BAGGY_SKIN</LocID>
+				<Text>非対称または袋状になった皮膚</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_LI_BAGGY_SKIN_DESC</LocID>
+				<Text>皮下脂肪を除去すると、より滑らかで引き締まった身体に合わせて皮膚が縮むと考える患者がいます。しかし、特に皮膚が著しく損傷している部位では、必ずしもそうとは限りません。これは、全身に起こる可能性はありますが、胃や臀部に最も多く見られます。長い間、脂肪沈着物の上に皮膚が伸びていた場合、脂肪沈着物がなくなったときに、皮膚が引き締まらなかったり、縮んだりすることがあります。例えば、妊娠線がある部位は、脂肪吸引後にすぐに引き締まることはないでしょう。脂肪吸引後のくぼみの原因として最も多いのが、皮膚の余分な部分やたるみです。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_WOUND_INFECTION2</LocID>
+				<Text>創傷感染</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_WOUND_INFECTION2_DESC</LocID>
+				<Text>創傷感染とは、傷ついた皮膚の中で細菌などの雑菌が繁殖して起こるものです。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_RAPID_BLINKING</LocID>
+				<Text>過剰なまばたき</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_RAPID_BLINKING_DESC</LocID>
+				<Text>まばたきは反射的なもので、体が自動的に行うものです。また、まばたきをしたいときに自分でさせることもできます。過剰なまばたきとは、自分がしたい以上にまばたきをしてしまうことです。過剰なまばたきは、まばたき反射が過剰に刺激されることによって起こります。これは、目に異物が入ったことが原因であることがほとんどです。これは、巻き毛のまつげが眼球の前面にこすれるような単純なものです。このように、角膜に傷がつくと、異物を洗い流そうとして、過剰なまばたきと涙が出ます。また、アレルギー反応によって結膜に水が溜まり、かゆみが生じ、結膜が荒れることによっても、まばたきが過剰になることがあります。その他にも、まばたき過多を伴う疾患は数多くあります。まばたき過多の治療は、その根本的な原因によって異なります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_LAZY_EYE</LocID>
+				<Text>弱視</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_LAZY_EYE_DESC</LocID>
+				<Text>弱視は、処方された眼鏡やコンタクトレンズを使用しても正常な視力を得ることができない視力発達障害で、乳幼児期から幼児期にかけて発症します。ほとんどの場合、片方の目だけが影響を受けます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_EYE_DIPLOPIA</LocID>
+				<Text>複視</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_EYE_DIPLOPIA_DESC</LocID>
+				<Text>複視とは、1つの物体に対して、水平、垂直、斜め（すなわち垂直と水平の両方）、または回転方向にずれた2つの画像を同時に認識することです。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_EYE_CONJU_SCAR</LocID>
+				<Text>結膜の瘢痕</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_EYE_CONJU_SCAR_DESC</LocID>
+				<Text>結膜の瘢痕は、手術後、持続的な問題となることがあります。結膜は、典型的な半透明の白い外観に戻るのではなく、慢性的に充血したピンク色のままであることがあります。結膜は、白目とまぶたの裏側を覆っている薄い透明な膜のことですが、多くの疾患によって瘢痕化することがあります。瘢痕化すると、結膜が傷つき、涙が表面に付着するのを助ける保護粘液層が保てなくなります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_FOLLICULITIS</LocID>
+				<Text>毛包炎</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_FOLLICULITIS_DESC</LocID>
+				<Text>毛包炎は、毛包に炎症が起こる一般的な皮膚疾患です。通常、細菌や真菌の感染によって引き起こされます。最初は、毛包の周りに小さな赤いぶつぶつや白頭のにきびのように見えるかもしれません - 小さなポケットから、それぞれの髪が成長します。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_MILD_AR</LocID>
+				<Text>軽度のアレルギー反応</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_MILD_AR_DESC</LocID>
+				<Text>手術中または手術後に軽度のアレルギー反応が出ています。これは、使用された特定の麻酔薬、環境条件、手術中に使用された他の種類の薬剤や材料、あるいは創傷被覆材に対する反応である可能性があります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_THPAFA</LocID>
+				<Text>手掌筋膜の肥厚化</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_THPAFA_DESC</LocID>
+				<Text>手掌筋膜は、遠位を基点とした手のひらの三角形の構造物です。太くなると締まって短くなり、指を掌の内側に収縮させます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_H_BENT_DIGIT</LocID>
+				<Text>曲がった手の指</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_H_BENT_DIGIT_DESC</LocID>
+				<Text>この患者は、手の指が内側に曲がっていて、指の運動制御はできるものの、真っ直ぐにすることができない状態です。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_H_THICKCORD</LocID>
+				<Text>手の筋肉の索</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_H_THICKCORD_DESC</LocID>
+				<Text>患者の手には、硬く厚い筋肉・組織の索があります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_DIMPLES</LocID>
+				<Text>皮膚の窪み</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_DIMPLES_DESC</LocID>
+				<Text>患者の皮膚には、オレンジの皮やゴルフボールの表面構造のようなくぼみが見られます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_OOST</LocID>
+				<Text>瘢痕組織での過剰増殖</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_OOST_DESC</LocID>
+				<Text>瘢痕組織の過剰増殖は、傷の部位でコラーゲンが過剰に生成されることで起こります。傷が治った後も、瘢痕は成長し続けます。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BLEEDING1</LocID>
+				<Text>非常に軽度な出血</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BLEEDING1_DESC</LocID>
+				<Text>患者は非常に軽い出血をしており、通常、生命徴候に変化はなく、水分蘇生も通常必要ありません。このような出血は通常、自力で止まります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BLEEDING2</LocID>
+				<Text>軽度な出血</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BLEEDING2_DESC</LocID>
+				<Text>患者の出血は軽く、通常生命徴候に変化はなく、輸液による蘇生も通常必要ありません。さらなる合併症を防ぐために止血が必要な場合があります。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BLEEDING3</LocID>
+				<Text>出血</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BLEEDING3_DESC</LocID>
+				<Text>患者は出血しているため、乏血性ショックを防ぐためになんらかの処置が必要です。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BLEEDING4</LocID>
+				<Text>重度の出血</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BLEEDING4_DESC</LocID>
+				<Text>この患者は大量に出血しており、本処置は乏血性ショックを防ぐために重要です。</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BLEEDING5</LocID>
+				<Text>致命的な出血</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_CRP_BLEEDING5_DESC</LocID>
+				<Text>患者は大量に出血しており、患者の命を救うために直ちに処置を行う必要があります。</Text>
+			</GameDBLocalizedString>
+
+
+		</LocalizedStrings>
+	</GameDBStringTable>
+</Database>

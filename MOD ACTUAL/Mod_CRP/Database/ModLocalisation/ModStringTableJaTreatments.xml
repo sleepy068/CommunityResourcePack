@@ -1,0 +1,202 @@
+<Database>
+	<!-- Community Resource Pack -->
+	<GameDBStringTable ID="LOC_JA_ADDON_CRP_TREATMENTS">
+		<LanguageCode>ja</LanguageCode>
+		<LanguageNameLocalized>日本語</LanguageNameLocalized>
+		<Contributors>
+			<Name>Sleepy068</Name>
+			<Name>MacNaab</Name>
+			<Name>James</Name>
+			<Name>Erzen</Name>
+		</Contributors>
+
+		<LocalizedStrings>
+
+			<!-- ### ### -->
+			<!-- ######################################## Content From OBGYN ######################################## -->
+			<!-- ### ### -->
+
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_ANTI_ACNEE</LocID>
+				<Text>抗ニキビ薬</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_ANTI_ACNEE_DESCRIPTION</LocID>
+				<Text>様々な種類や形態のニキビを治療するための薬です。</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_OP</LocID>
+				<Text>卵胞・黄体ホルモン配合製剤</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_OP_DESCRIPTION</LocID>
+				<Text>この薬は、エストロゲンとプロゲスチンという2つの女性ホルモンを含んでいます。</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_METFORMINE</LocID>
+				<Text>チアゾリジン薬</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_METFORMINE_DESCRIPTION</LocID>
+				<Text>インスリン抵抗性を低下させる薬物療法です。</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_ANTI_ANDROGEN</LocID>
+				<Text>抗アンドロゲン剤</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_ANTI_ANDROGEN_DESCRIPTION</LocID>
+				<Text>抗アンドロゲン剤は、アンドロゲン受容体を阻害することで、男性ホルモンの作用を抑制します。</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_PROGESTATIF</LocID>
+				<Text>黄体ホルモン剤</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_PROGESTATIF_DESCRIPTION</LocID>
+				<Text>天然または合成の黄体ホルモンを含むステロイド剤です。</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_OESTROGENOTHERAPIE</LocID>
+				<Text>ホルモン補充療法</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_OESTROGENOTHERAPIE_DESCRIPTION</LocID>
+				<Text>プロゲスチンを含まないエストロゲンの投与を伴うホルモン補充療法です。</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_SURVEILLANCE</LocID>
+				<Text>医療ケア</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_SURVEILLANCE_DESCRIPTION</LocID>
+				<Text>医師や看護師などの医療従事者が、人の健康や幸福のために必要なものを提供する行為全般を指します。</Text>
+			</GameDBLocalizedString>
+
+			<!-- ### ### -->
+			<!-- ######################################## Content From MoreDG ######################################## -->
+			<!-- ### ### -->
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_KCL</LocID>
+				<Text>カリウム塩投与</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_KCL_DESCRIPTION</LocID>
+				<Text>マイクロカプセル化された塩化カリウムサプリメントの経口投与です。</Text>
+			</GameDBLocalizedString>
+			<!--  v0.02  -->
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_MOISTURIZER_CREAM</LocID>
+				<Text>保湿クリーム</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_MOISTURIZER_CREAM_DESCRIPTION</LocID>
+				<Text>肌の乾燥を防ぐための化粧品です。</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_GLUCOSE_IV</LocID>
+				<Text>ブドウ糖の投与</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_GLUCOSE_IV_DESCRIPTION</LocID>
+				<Text>ブドウ糖液の点滴静脈注射です。</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_HYDROCORTISONE</LocID>
+				<Text>ヒドロコルチゾン</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_HYDROCORTISONE_DESCRIPTION</LocID>
+				<Text>ヒドロコルチゾンは、副腎皮質ホルモンのコルチゾールが医薬品として販売される際の成分名です。</Text>
+			</GameDBLocalizedString>
+			<!--  v0.03  -->
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_AUTOGRAFT</LocID>
+				<Text>自己移植</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_AUTOGRAFT_DESCRIPTION</LocID>
+				<Text>同一人物の体のある場所から別の場所に組織を移植することです。</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_ALLOGRAFT</LocID>
+				<Text>同種移植</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_ALLOGRAFT_DESCRIPTION</LocID>
+				<Text>ドナー（遺伝的には同一ではない同種）からの組織移植を行います。</Text>
+			</GameDBLocalizedString>
+
+			<!--  v0.03.2  -->
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_CHELATEUR_FER</LocID>
+				<Text>鉄分補給剤</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_CHELATEUR_FER_DESCRIPTION</LocID>
+				<Text>鉄キレート療法の目的は、鉄を介した細胞の損傷を防ぐことにあります。</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_SCLEROTHERAPIE</LocID>
+				<Text>硬化療法</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_SCLEROTHERAPIE_DESCRIPTION</LocID>
+				<Text>炎症を起こし、血液を凝固させ、血管壁を狭くする刺激物を注射することで、静脈瘤を治療します。</Text>
+			</GameDBLocalizedString>
+			<!--  v0.03.3  -->
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_IMMUNOSUPRR</LocID>
+				<Text>免疫抑制剤</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_IMMUNOSUPRR_DESCRIPTION</LocID>
+				<Text>免疫抑制剤は、免疫系の活動を抑制または防止する薬剤です。</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_IPP_IV</LocID>
+				<Text>プロトンポンプ阻害薬</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_IPP_IV_DESCRIPTION</LocID>
+				<Text>胃カメラの前に高用量のプロトンポンプ阻害薬を投与すると、内視鏡的止血の必要性が減少します。</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_RADIO_EMBOLISATION</LocID>
+				<Text>血管内塞栓術</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_RADIO_EMBOLISATION_DESCRIPTION</LocID>
+				<Text>血管内塞栓術では、カテーテルを足の動脈に挿入して血管を通し、X線画像を用いて塞栓剤を注入します。 </Text>
+			</GameDBLocalizedString>
+
+
+			<!-- ### ### -->
+			<!-- ######################################## Content From Butch ######################################## -->
+			<!-- ### ### -->
+
+
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_BRONCHOSCOPIC_THERAPY</LocID>
+				<Text>気管支鏡治療</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_BRONCHOSCOPIC_THERAPY_DESCRIPTION</LocID>
+				<Text>気管支鏡検査は、診断や治療を目的として気道の内部を可視化する内視鏡技術です。通常は鼻や口から、場合によっては気管切開から器具を気道に挿入します。</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_INTRAVENOUS_ANTIFUNGALS</LocID>
+				<Text>抗真菌薬の静脈注射</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>TRT_CRP_INTRAVENOUS_ANTIFUNGALS_DESCRIPTION</LocID>
+				<Text>治療の効果を高めるために、抗真菌剤を静脈内に投与する治療法です。 \n\n必要な部屋： 全ての部屋/病棟/設備</Text>
+			</GameDBLocalizedString>
+
+
+		</LocalizedStrings>
+	</GameDBStringTable>
+
+</Database>

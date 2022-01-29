@@ -1,0 +1,132 @@
+<Database>
+	<!-- Community Resource Pack -->
+	<GameDBStringTable ID="LOC_JA_ADDON_CRP_EXAMINATIONS">
+
+		<LanguageCode>ja</LanguageCode>
+		<LanguageNameLocalized>日本語</LanguageNameLocalized>
+
+		<Contributors>
+			<Name>Sleepy068</Name>
+			<Name>MacNaab</Name>
+			<Name>James</Name>
+			<Name>Erzen</Name>
+		</Contributors>
+
+		<LocalizedStrings>
+
+			<!-- ### ### -->
+			<!-- ######################################## Content From OBGYN ######################################## -->
+			<!-- ### ### -->
+
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_SEIN</LocID>
+				<Text>乳房検診</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_SEIN_DESCRIPTION</LocID>
+				<Text>乳房の目視検査と触診</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_ECHO_PELV</LocID>
+				<Text>骨盤内超音波検査</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_ECHO_PELV_DESCRIPTION</LocID>
+				<Text>骨盤周りの超音波検査</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_FCU_SAMPLING</LocID>
+				<Text>パパニコロウ塗抹採取</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_FCU_TESTING</LocID>
+				<Text>パパニコロウ塗抹検査</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_FCU_DESCRIPTION</LocID>
+				<Text>剥離した細胞を特殊な方法で染色し、病変組織を鑑別することで、特に子宮頸部の癌を早期に発見する検査方法です。</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_HGPO_SAMPLING</LocID>
+				<Text>経口糖負荷試験の標本採取</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_HGPO_TESTING</LocID>
+				<Text>経口糖負荷試験の検査</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_HGPO_DESCRIPTION</LocID>
+				<Text>ブドウ糖負荷試験は、経口ブドウ糖負荷試験（OGTT）としても知られており、糖（ブドウ糖）に対する体の反応を測定します。</Text>
+			</GameDBLocalizedString>
+
+			<!-- ### ### -->
+			<!-- ######################################## Content From MoreDG ######################################## -->
+			<!-- ### ### -->
+			<!-- v0.02 -->
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_SCINTIGRAPHIE</LocID>
+				<Text>シンチグラフィ</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_SCINTIGRAPHIE_DESCRIPTION</LocID>
+				<Text>シンチグラフィ（ラテン語のscintilla（火花）に由来）は、ガンマスキャンとも呼ばれる核医学の診断検査で、特定の臓器や組織に移動する放射性同位元素を含む薬剤を体内に取り込み、放出されたガンマ線を外部の検出器（ガンマカメラ）で捉え、X線画像の撮影と同様のプロセスで2次元の画像を形成します。</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_ELISA_SAMPLING</LocID>
+				<Text>ELISA</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_ELISA_TESTING</LocID>
+				<Text>ELISA（検査）</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_ELISA_DESCRIPTION</LocID>
+				<Text>酵素結合免疫吸着法(ELISA)は、生化学の分析法としてよく用いられます。このアッセイでは、固相酵素免疫測定法（EIA）を用いて、液体サンプル中のリガンド（通常はタンパク質）の存在を、測定対象のタンパク質に対する抗体を用いて検出します。ELISAは、医学、植物病理学、バイオテクノロジーなどの診断ツールとして、また様々な産業分野での品質管理チェックとして利用されています。最もシンプルなELISAでは、サンプルの抗原を表面に付着させ、その上に適合する抗体を塗布します。次に、抗原に結合するための抗体を表面に塗布します。この抗体に酵素を結合させ、最後に酵素の基質となる物質を加えて反応させます。その後の反応で、検出可能な信号（通常は色の変化）が得られます。</Text>
+			</GameDBLocalizedString>
+
+
+			<!-- ### ### -->
+			<!-- ######################################## Content for V1.01 Added Below ######################################## -->
+			<!-- ### Always seperate localisation for new versions for translators ### -->
+
+			<!-- ### ### -->
+			<!-- ######################################## Content From Butch ######################################## -->
+			<!-- ### ### -->
+
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_BRONCHOALVEOLAR_LAVAGE_SAMPLING</LocID>
+				<Text>気管支肺胞洗浄</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_BRONCHOALVEOLAR_LAVAGE_SAMPLING_DESCRIPTION</LocID>
+				<Text>気管支肺胞洗浄法（BAL）とは、気管支鏡を口や鼻から肺に通し、肺の小さな部分に液体を吹き付けて、検査のために採取する医療検査です。一般的には、肺の病気を診断するために行われます。 \n\n必要な部屋：内科病棟診察室</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_BRONCHOALVEOLAR_LAVAGE_TESTING</LocID>
+				<Text>気管支肺胞洗浄液の検査</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_BRONCHOALVEOLAR_LAVAGE_TESTING_DESCRIPTION</LocID>
+				<Text>BALのサンプルは検査のために研究室に送られます。</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_ARTHROCENTESIS_SAMPLING</LocID>
+				<Text>関節穿刺</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_ARTHROCENTESIS_SAMPLING_DESCRIPTION</LocID>
+				<Text>関節穿刺とは、注射器を使って関節包から滑液を採取する臨床検査です。</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_ARTHROCENTESIS_TESTING</LocID>
+				<Text>検査室での関節穿刺の検査</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_ARTHROCENTESIS_TESTING_DESCRIPTION</LocID>
+				<Text>採取された滑液のサンプルは、検査のために検査室に送られます。</Text>
+			</GameDBLocalizedString>
+
+
+		</LocalizedStrings>
+	</GameDBStringTable>
+</Database>

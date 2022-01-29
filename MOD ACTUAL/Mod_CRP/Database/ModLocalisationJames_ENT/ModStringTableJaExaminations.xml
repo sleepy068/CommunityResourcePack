@@ -1,0 +1,152 @@
+<Database>
+	<GameDBStringTable ID="LOC_EN_ADDON_CRP_OTOR_EXAMINATIONS">
+		<LanguageCode>ja</LanguageCode>
+		<LanguageNameLocalized>日本語</LanguageNameLocalized>
+		<Contributors>
+			<Name>James B</Name>
+			<Name>Erzen</Name>
+		</Contributors>
+		<LocalizedStrings>
+			<!-- Examinations -->
+
+			<!-- Ear Examinations -->
+
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_EAR_EXAMINATION</LocID>
+				<Text>耳の検査 (CRP)</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_EAR_BIOPSY_SAMPLING</LocID>
+				<Text>耳の生検 -サンプリング</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_EAR_BIOPSY_SAMPLING_DESCRIPTION</LocID>
+				<Text>耳生検は、外科的麻酔下で外耳道のサンプルを採取する手術です。これは通常、耳の腫瘍が何からできているかを調べるために行われます。\n\nサンプリング: 診察室全般 / 検査室全般 \n\n必要な部屋: 耳鼻咽喉科の検査室 \n\n必要な設備: ガラス器具 + 顕微鏡</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_EAR_BIOPSY_TESTING</LocID>
+				<Text>耳の生検 - 検査</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_EAR_BIOPSY_TESTING_DESCRIPTION</LocID>
+				<Text>耳の生検は、外科的麻酔下で外耳道のサンプルを採取する手術です。これは通常、耳の腫瘍が何からできているかを調べるために行われます。\n\nサンプリング: 診察室全般 / 検査室全般 \n\n必要な部屋: 耳鼻咽喉科の検査室 \n\n必要な設備: ガラス器具 + 顕微鏡</Text>
+			</GameDBLocalizedString>
+
+			<!-- Nose Examinations -->
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_NOSE_BIOPSY_SAMPLING</LocID>
+				<Text>鼻腔生検 - サンプリング</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_NOSE_BIOPSY_SAMPLING_DESCRIPTION</LocID>
+				<Text>鼻腔生検は、外科的麻酔下で鼻腔のサンプルを採取する手術です。これは通常、鼻の腫瘍が何からできているかを調べるために行われます。\n\nサンプリング: 診察室全般 / 検査室全般 \n\n必要な部屋: 耳鼻咽喉科の検査室 \n\n必要な設備: ガラス器具 + 顕微鏡</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_NOSE_BIOPSY_TESTING</LocID>
+				<Text>鼻腔生検 - 検査</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_NOSE_BIOPSY_TESTING_DESCRIPTION</LocID>
+				<Text>鼻腔生検は、外科的麻酔下で鼻腔のサンプルを採取する手術です。これは通常、鼻の腫瘍が何からできているかを調べるために行われます。\n\nサンプリング: 診察室全般 / 検査室全般 \n\n必要な部屋: 耳鼻咽喉科の検査室 \n\n必要な設備: ガラス器具 + 顕微鏡</Text>
+			</GameDBLocalizedString>
+
+			<!-- Throat Examinations -->
+
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_LARYNGOSCOPY</LocID>
+				<Text>喉頭内視鏡</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_THROAT_BIOPSY_SAMPLING</LocID>
+				<Text>咽頭生検 - サンプリング</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_THROAT_BIOPSY_SAMPLING_DESCRIPTION</LocID>
+				<Text>咽頭生検は、外科的麻酔下で咽頭のサンプルを採取する手術方法です。これは通常、喉の腫瘍が何でできているかを調べるために行われます。\n\nサンプリング: 診察室全般 / 検査室全般 \n\n必要な部屋: 耳鼻咽喉科の検査室 \n\n必要な設備: ガラス器具 + 顕微鏡</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_THROAT_BIOPSY_TESTING</LocID>
+				<Text>咽頭生検 - 検査</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_THROAT_BIOPSY_TESTING_DESCRIPTION</LocID>
+				<Text>咽頭生検は、外科的麻酔下で咽頭のサンプルを採取する手術方法です。これは通常、喉の腫瘍が何でできているかを調べるために行われます。\n\nサンプリング: 診察室全般 / 検査室全般 \n\n必要な部屋: 耳鼻咽喉科の検査室 \n\n必要な設備: ガラス器具 + 顕微鏡</Text>
+			</GameDBLocalizedString>
+
+			<!-- Lab Tests -->
+
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_SPUTUM_CULTURE_SAMPLING</LocID>
+				<Text>痰培養 - サンプリング</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_SPUTUM_CULTURE_SAMPLING_DESCRIPTION</LocID>
+				<Text>痰培養は、肺や呼吸路に感染する細菌や真菌を検出・同定するための検査です。痰は、肺や隣接する気道で作られる液体です。... 細菌や真菌が増殖しない場合、培養は陰性となります。\n\nサンプリング: 診察室全般 / 検査室全般 \n\n必要な部屋: 耳鼻咽喉科の検査室 \n\n必要な設備: ガラス器具 + ドラフト + 微生物インキュベータ + 顕微鏡</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_SPUTUM_CULTURE_TESTING</LocID>
+				<Text>痰培養 - 検査</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_SPUTUM_CULTURE_TESTING_DESCRIPTION</LocID>
+				<Text>痰培養は、肺や呼吸路に感染する細菌や真菌を検出・同定するための検査です。痰は、肺や隣接する気道で作られる液体です。... 細菌や真菌が増殖しない場合、培養は陰性となります。\n\nサンプリング: 診察室全般 / 検査室全般 \n\n必要な部屋: 耳鼻咽喉科の検査室 \n\n必要な設備: ガラス器具 + ドラフト + 微生物インキュベータ + 顕微鏡</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_THROAT_SWAB_SAMPLING</LocID>
+				<Text>咽頭ぬぐい</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_THROAT_SWAB_SAMPLING_DESCRIPTION</LocID>
+				<Text>咽頭ぬぐい液の培養は、のどの細菌感染を診断するために一般的に使用される検査です。これらの感染症には、溶連菌感染症、肺炎、ジフテリア、扁桃腺炎、百日咳、髄膜炎などが含まれます。咽頭拭い液培養の目的は、感染を引き起こす可能性のある生物の存在を検出することです。\n\nサンプリング: 診察室全般 / 検査室全般 \n\n必要な部屋: 耳鼻咽喉科の検査室 \n\n必要な設備: ガラス器具 + ドラフト + 微生物インキュベータ + 顕微鏡</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_THROAT_SWAB_TESTING</LocID>
+				<Text>咽頭ぬぐい液の培養</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_THROAT_SWAB_TESTING_DESCRIPTION</LocID>
+				<Text>咽頭ぬぐい液の培養は、のどの細菌感染を診断するために一般的に使用される検査です。これらの感染症には、溶連菌感染症、肺炎、ジフテリア、扁桃腺炎、百日咳、髄膜炎などが含まれます。咽頭拭い液培養の目的は、感染を引き起こす可能性のある生物の存在を検出することです。\n\nサンプリング: 診察室全般 / 検査室全般 \n\n必要な部屋: 耳鼻咽喉科の検査室 \n\n必要な設備: ガラス器具 + ドラフト + 微生物インキュベータ + 顕微鏡</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_NASAL_SWAB_SAMPLING</LocID>
+				<Text>鼻腔ぬぐい</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_NASAL_SWAB_SAMPLING_DESCRIPTION</LocID>
+				<Text>鼻腔ぬぐい液検査は、呼吸器感染症の原因となるウイルスや細菌を調べる検査です。呼吸器感染症には多くの種類があります。鼻腔ぬぐい液検査は、医療従事者があなたの感染症の種類を診断し、あなたに最適な治療法を見つけるのに役立ちます。この検査は、鼻孔または鼻咽頭から細胞のサンプルを採取することによって行われます。鼻咽頭は、鼻と喉の一番上の部分です。\n\nサンプリング: 診察室全般 / 検査室全般 \n\n必要な部屋: 耳鼻咽喉科の検査室 \n\n必要な設備: ガラス器具 + ドラフト + 微生物インキュベータ + 顕微鏡</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_NASAL_SWAB_TESTING</LocID>
+				<Text>鼻腔ぬぐい液の培養</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>EXM_CRP_NASAL_SWAB_TESTING_DESCRIPTION</LocID>
+				<Text>鼻腔ぬぐい液検査は、呼吸器感染症の原因となるウイルスや細菌を調べる検査です。呼吸器感染症には多くの種類があります。鼻腔ぬぐい液検査は、医療従事者があなたの感染症の種類を診断し、あなたに最適な治療法を見つけるのに役立ちます。この検査は、鼻孔または鼻咽頭から細胞のサンプルを採取することによって行われます。鼻咽頭は、鼻と喉の一番上の部分です。\n\nサンプリング: 診察室全般 / 検査室全般 \n\n必要な部屋: 耳鼻咽喉科の検査室 \n\n必要な設備: ガラス器具 + ドラフト + 微生物インキュベータ + 顕微鏡</Text>
+			</GameDBLocalizedString>
+
+
+		</LocalizedStrings>
+	</GameDBStringTable>
+</Database>
