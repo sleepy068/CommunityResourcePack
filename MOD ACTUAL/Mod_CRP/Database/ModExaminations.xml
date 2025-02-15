@@ -1238,117 +1238,6 @@
         <DurationHours>2</DurationHours>
     </GameDBExamination>
 
-	<!-- Bronchoalveolar Lavage (Butch)(Broken)
-	<GameDBExamination ID="EXM_CRP_BRONCHOALVEOLAR_LAVAGE_SAMPLING">
-        <AbbreviationLocID>EXM_CRP_BRONCHOALVEOLAR_LAVAGE_SAMPLING_DESCRIPTION</AbbreviationLocID>
-        <DiscomfortLevel>High</DiscomfortLevel>
-        <Procedure>
-            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
-			 <RequiredSkillsToPrescribe>
-                <SkillRef>SKILL_DOC_SPEC_INTERNAL_MEDICINE</SkillRef>
-                <SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
-            </RequiredSkillsToPrescribe>
-            
-			<RequiredDoctorQualificationList>
-                <SkillRef>SKILL_DOC_SPEC_INTERNAL_MEDICINE</SkillRef>
-            </RequiredDoctorQualificationList>
-			
-            <RequiredEquipmentList>
-                <RequiredEquipment>
-                    <Tag>sit_exam</Tag>
-                </RequiredEquipment>
-                <RequiredEquipment>
-                    <Tag>thoracentesis</Tag>
-                </RequiredEquipment>
-                <RequiredEquipment>
-                    <Tag>clean_hands</Tag>
-                </RequiredEquipment>
-                <RequiredEquipment>
-                    <Tag>mobile_workstation</Tag>
-                </RequiredEquipment>
-            </RequiredEquipmentList>
-           
-		   <RequiredRoomTags>
-                <Tag>im_unique_office</Tag>
-            </RequiredRoomTags>
-			
-			<ProcedureScript>ProcedureScriptTreatmentProcedure</ProcedureScript>
-
-            <AnimationSetupSitting>
-                <AnimationNameIn>stand_treatment_in</AnimationNameIn>
-                <AnimationNameIdle>stand_treatment_idle</AnimationNameIdle>
-                <AnimationNameOut>stand_treatment_out</AnimationNameOut>
-            </AnimationSetupSitting>
-            <AnimationSetupLying>
-                <AnimationNameIn>stand_treatment_in</AnimationNameIn>
-                <AnimationNameIdle>stand_treatment_idle</AnimationNameIdle>
-                <AnimationNameOut>stand_treatment_out</AnimationNameOut>
-            </AnimationSetupLying>
-
-            <DressLevel>HALF</DressLevel>
-            <DressLevelAfter>FULL</DressLevelAfter>
-            <RequiredMobileWorkStationEquipmentSwitch>true</RequiredMobileWorkStationEquipmentSwitch>
-            <DetachedDepartmentRef>DPT_INTERNAL_MEDICINE_DEPARTMENT</DetachedDepartmentRef>
-			 <Biohazard>true</Biohazard>
-            <Priority>8</Priority>
-        </Procedure>
-		   
-        <ExaminationType>EXAMINATION</ExaminationType>
-        <Cost>50</Cost>
-        <IconIndex>1707</IconIndex>
-        <DurationHours>0.5</DurationHours>
-		 <LabTestingExaminationRef>EXM_CRP_BRONCHOALVEOLAR_LAVAGE_TESTING</LabTestingExaminationRef>
-    </GameDBExamination>
-	-->
-	
-	<!-- Bronchoalveolar Lavage Testing (Butch)(Broken)
-    <GameDBExamination ID="EXM_CRP_BRONCHOALVEOLAR_LAVAGE_TESTING">
-        <AbbreviationLocID>EXM_CRP_BRONCHOALVEOLAR_LAVAGE_TESTING_DESCRIPTION</AbbreviationLocID>
-         <DiscomfortLevel>None</DiscomfortLevel>
-        <Procedure>
-            <StaffSelectionRules>REQUIRED_ROOM_IGNORE_DOCTOR</StaffSelectionRules>
-            <RequiredSkillsToPrescribe>
-                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
-            </RequiredSkillsToPrescribe>
-            <RequiredStatLabQualificationRef>SKILL_LAB_SPECIALIST_QUALIF_SCIENCE_EDUCATION</RequiredStatLabQualificationRef>
-             <RequiredEquipmentList>
-                <RequiredEquipment>
-                    <Tag>stat_lab_exam</Tag>
-                    <DurationHours>0.1</DurationHours>
-                    <BlocksSpecialist>true</BlocksSpecialist>
-                </RequiredEquipment>
-                <RequiredEquipment>
-                    <Tag>hematoanalyzer</Tag>
-                    <DurationHours>0.1</DurationHours>
-                    <BlocksSpecialist>false</BlocksSpecialist>
-                </RequiredEquipment>
-                <RequiredEquipment>
-                    <Tag>biohazard_trash</Tag>
-                    <DurationHours>0.1</DurationHours>
-                    <BlocksSpecialist>true</BlocksSpecialist>
-                </RequiredEquipment>
-                <RequiredEquipment>
-                    <Tag>clean_hands</Tag>
-                    <DurationHours>0.1</DurationHours>
-                    <BlocksSpecialist>true</BlocksSpecialist>
-                </RequiredEquipment>
-            </RequiredEquipmentList>
-			
-			 <RequiredRoomTags>
-                <Tag>deprecated_lab</Tag>
-                <Tag>hematology_lab</Tag>
-            </RequiredRoomTags>    
-            <Biohazard>true</Biohazard>          
-            <Priority>20</Priority>
-            <FallbackLabDepartmentRef>DPT_LAB</FallbackLabDepartmentRef>
-        </Procedure>
-        
-		<Cost>50</Cost>
-        <IconIndex>1727</IconIndex>
-        <DurationHours>1</DurationHours>
-    </GameDBExamination>
-	-->
-	
 	<!-- Arthrocentesis Sampling (Butch)
 	Tags: Joints, Synovial, Needle
 	Desc:                                    -->
@@ -3635,5 +3524,115 @@
 	<!-- ======================================================== -->
 	<!-- ============= Removed (Always Comment Out) ============= -->
 	<!-- ======================================================== -->
+	<!-- Bronchoalveolar Lavage (Butch)(Broken)
+	<GameDBExamination ID="EXM_CRP_BRONCHOALVEOLAR_LAVAGE_SAMPLING">
+        <AbbreviationLocID>EXM_CRP_BRONCHOALVEOLAR_LAVAGE_SAMPLING_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+			 <RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_SPEC_INTERNAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+            </RequiredSkillsToPrescribe>
+            
+			<RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_SPEC_INTERNAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>
+			
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>sit_exam</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>thoracentesis</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>clean_hands</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>mobile_workstation</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+           
+		   <RequiredRoomTags>
+                <Tag>im_unique_office</Tag>
+            </RequiredRoomTags>
+			
+			<ProcedureScript>ProcedureScriptTreatmentProcedure</ProcedureScript>
+
+            <AnimationSetupSitting>
+                <AnimationNameIn>stand_treatment_in</AnimationNameIn>
+                <AnimationNameIdle>stand_treatment_idle</AnimationNameIdle>
+                <AnimationNameOut>stand_treatment_out</AnimationNameOut>
+            </AnimationSetupSitting>
+            <AnimationSetupLying>
+                <AnimationNameIn>stand_treatment_in</AnimationNameIn>
+                <AnimationNameIdle>stand_treatment_idle</AnimationNameIdle>
+                <AnimationNameOut>stand_treatment_out</AnimationNameOut>
+            </AnimationSetupLying>
+
+            <DressLevel>HALF</DressLevel>
+            <DressLevelAfter>FULL</DressLevelAfter>
+            <RequiredMobileWorkStationEquipmentSwitch>true</RequiredMobileWorkStationEquipmentSwitch>
+            <DetachedDepartmentRef>DPT_INTERNAL_MEDICINE_DEPARTMENT</DetachedDepartmentRef>
+			 <Biohazard>true</Biohazard>
+            <Priority>8</Priority>
+        </Procedure>
+		   
+        <ExaminationType>EXAMINATION</ExaminationType>
+        <Cost>50</Cost>
+        <IconIndex>1707</IconIndex>
+        <DurationHours>0.5</DurationHours>
+		 <LabTestingExaminationRef>EXM_CRP_BRONCHOALVEOLAR_LAVAGE_TESTING</LabTestingExaminationRef>
+    </GameDBExamination>
+	-->
+	
+	<!-- Bronchoalveolar Lavage Testing (Butch)(Broken)
+    <GameDBExamination ID="EXM_CRP_BRONCHOALVEOLAR_LAVAGE_TESTING">
+        <AbbreviationLocID>EXM_CRP_BRONCHOALVEOLAR_LAVAGE_TESTING_DESCRIPTION</AbbreviationLocID>
+         <DiscomfortLevel>None</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_IGNORE_DOCTOR</StaffSelectionRules>
+            <RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredSkillsToPrescribe>
+            <RequiredStatLabQualificationRef>SKILL_LAB_SPECIALIST_QUALIF_SCIENCE_EDUCATION</RequiredStatLabQualificationRef>
+             <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>stat_lab_exam</Tag>
+                    <DurationHours>0.1</DurationHours>
+                    <BlocksSpecialist>true</BlocksSpecialist>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>hematoanalyzer</Tag>
+                    <DurationHours>0.1</DurationHours>
+                    <BlocksSpecialist>false</BlocksSpecialist>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>biohazard_trash</Tag>
+                    <DurationHours>0.1</DurationHours>
+                    <BlocksSpecialist>true</BlocksSpecialist>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>clean_hands</Tag>
+                    <DurationHours>0.1</DurationHours>
+                    <BlocksSpecialist>true</BlocksSpecialist>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+			
+			 <RequiredRoomTags>
+                <Tag>deprecated_lab</Tag>
+                <Tag>hematology_lab</Tag>
+            </RequiredRoomTags>    
+            <Biohazard>true</Biohazard>          
+            <Priority>20</Priority>
+            <FallbackLabDepartmentRef>DPT_LAB</FallbackLabDepartmentRef>
+        </Procedure>
+        
+		<Cost>50</Cost>
+        <IconIndex>1727</IconIndex>
+        <DurationHours>1</DurationHours>
+    </GameDBExamination>
+	-->
 	
 </Database>
