@@ -802,68 +802,6 @@
 	<!-- ============= Internal or Physical Exams ============= -->
 	<!-- ====================================================== -->
 	
-	<!-- Bronchoalveolar Lavage (Butch) -->
-	<GameDBExamination ID="EXM_CRP_BRONCHOALVEOLAR_LAVAGE_SAMPLING">
-        <AbbreviationLocID>EXM_CRP_BRONCHOALVEOLAR_LAVAGE_SAMPLING_DESCRIPTION</AbbreviationLocID>
-        <DiscomfortLevel>High</DiscomfortLevel>
-        <Procedure>
-            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
-			 <RequiredSkillsToPrescribe>
-                <SkillRef>SKILL_DOC_SPEC_INTERNAL_MEDICINE</SkillRef>
-                <SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
-            </RequiredSkillsToPrescribe>
-            
-			<RequiredDoctorQualificationList>
-                <SkillRef>SKILL_DOC_SPEC_INTERNAL_MEDICINE</SkillRef>
-            </RequiredDoctorQualificationList>
-			
-            <RequiredEquipmentList>
-                <RequiredEquipment>
-                    <Tag>sit_exam</Tag>
-                </RequiredEquipment>
-                <RequiredEquipment>
-                    <Tag>thoracentesis</Tag>
-                </RequiredEquipment>
-                <RequiredEquipment>
-                    <Tag>clean_hands</Tag>
-                </RequiredEquipment>
-                <RequiredEquipment>
-                    <Tag>mobile_workstation</Tag>
-                </RequiredEquipment>
-            </RequiredEquipmentList>
-           
-		   <RequiredRoomTags>
-                <Tag>im_unique_office</Tag>
-            </RequiredRoomTags>
-			
-			<ProcedureScript>ProcedureScriptTreatmentProcedure</ProcedureScript>
-
-            <AnimationSetupSitting>
-                <AnimationNameIn>stand_treatment_in</AnimationNameIn> <!--TODO tempAnim-->
-                <AnimationNameIdle>stand_treatment_idle</AnimationNameIdle>
-                <AnimationNameOut>stand_treatment_out</AnimationNameOut>
-            </AnimationSetupSitting>
-            <AnimationSetupLying>
-                <AnimationNameIn>stand_treatment_in</AnimationNameIn>
-                <AnimationNameIdle>stand_treatment_idle</AnimationNameIdle>
-                <AnimationNameOut>stand_treatment_out</AnimationNameOut>
-            </AnimationSetupLying>
-
-            <DressLevel>HALF</DressLevel>
-            <DressLevelAfter>FULL</DressLevelAfter>
-            <RequiredMobileWorkStationEquipmentSwitch>true</RequiredMobileWorkStationEquipmentSwitch>
-            <DetachedDepartmentRef>DPT_INTERNAL_MEDICINE_DEPARTMENT</DetachedDepartmentRef>
-			 <Biohazard>true</Biohazard>
-            <Priority>8</Priority>
-        </Procedure>
-		   
-        <ExaminationType>EXAMINATION</ExaminationType>
-        <Cost>50</Cost>
-        <IconIndex>1707</IconIndex>
-        <DurationHours>0.5</DurationHours>
-		 <LabTestingExaminationRef>EXM_CRP_BRONCHOALVEOLAR_LAVAGE_TESTING</LabTestingExaminationRef>
-    </GameDBExamination>
-	
 	<!-- Colonoscopy (Sleepy068)
 	TAGS: bowel, coloscopy, endoscopic, endoscope, optic camera, endoscopy
 	DESC: A colonoscopy is a medical procedure that is done to look for cancer, colon polyps or other abnormalities inside the bowel. -->
@@ -1300,7 +1238,70 @@
         <DurationHours>2</DurationHours>
     </GameDBExamination>
 
-	<!-- Bronchoalveolar Lavage Testing (Butch)-->
+	<!-- Bronchoalveolar Lavage (Butch)(Broken)
+	<GameDBExamination ID="EXM_CRP_BRONCHOALVEOLAR_LAVAGE_SAMPLING">
+        <AbbreviationLocID>EXM_CRP_BRONCHOALVEOLAR_LAVAGE_SAMPLING_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+			 <RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_SPEC_INTERNAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+            </RequiredSkillsToPrescribe>
+            
+			<RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_SPEC_INTERNAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>
+			
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>sit_exam</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>thoracentesis</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>clean_hands</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>mobile_workstation</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+           
+		   <RequiredRoomTags>
+                <Tag>im_unique_office</Tag>
+            </RequiredRoomTags>
+			
+			<ProcedureScript>ProcedureScriptTreatmentProcedure</ProcedureScript>
+
+            <AnimationSetupSitting>
+                <AnimationNameIn>stand_treatment_in</AnimationNameIn>
+                <AnimationNameIdle>stand_treatment_idle</AnimationNameIdle>
+                <AnimationNameOut>stand_treatment_out</AnimationNameOut>
+            </AnimationSetupSitting>
+            <AnimationSetupLying>
+                <AnimationNameIn>stand_treatment_in</AnimationNameIn>
+                <AnimationNameIdle>stand_treatment_idle</AnimationNameIdle>
+                <AnimationNameOut>stand_treatment_out</AnimationNameOut>
+            </AnimationSetupLying>
+
+            <DressLevel>HALF</DressLevel>
+            <DressLevelAfter>FULL</DressLevelAfter>
+            <RequiredMobileWorkStationEquipmentSwitch>true</RequiredMobileWorkStationEquipmentSwitch>
+            <DetachedDepartmentRef>DPT_INTERNAL_MEDICINE_DEPARTMENT</DetachedDepartmentRef>
+			 <Biohazard>true</Biohazard>
+            <Priority>8</Priority>
+        </Procedure>
+		   
+        <ExaminationType>EXAMINATION</ExaminationType>
+        <Cost>50</Cost>
+        <IconIndex>1707</IconIndex>
+        <DurationHours>0.5</DurationHours>
+		 <LabTestingExaminationRef>EXM_CRP_BRONCHOALVEOLAR_LAVAGE_TESTING</LabTestingExaminationRef>
+    </GameDBExamination>
+	-->
+	
+	<!-- Bronchoalveolar Lavage Testing (Butch)(Broken)
     <GameDBExamination ID="EXM_CRP_BRONCHOALVEOLAR_LAVAGE_TESTING">
         <AbbreviationLocID>EXM_CRP_BRONCHOALVEOLAR_LAVAGE_TESTING_DESCRIPTION</AbbreviationLocID>
          <DiscomfortLevel>None</DiscomfortLevel>
@@ -1346,6 +1347,7 @@
         <IconIndex>1727</IconIndex>
         <DurationHours>1</DurationHours>
     </GameDBExamination>
+	-->
 	
 	<!-- Arthrocentesis Sampling (Butch)
 	Tags: Joints, Synovial, Needle
@@ -1396,7 +1398,7 @@
         <LabTestingExaminationRef>EXM_CRP_ARTHROCENTESIS_TESTING</LabTestingExaminationRef>
     </GameDBExamination>
 	
-	<!--- Arthrocentesis Testng (Butch)
+	<!--- Arthrocentesis Testing (Butch)
     Tags: Snyovial Fluid, 
     Desc:                               -->	
 	<GameDBExamination ID="EXM_CRP_ARTHROCENTESIS_TESTING">
