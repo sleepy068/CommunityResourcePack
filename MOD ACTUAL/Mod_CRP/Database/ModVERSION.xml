@@ -1,21 +1,20 @@
 <Database>
 <!--
 
-Update v0.0.11.5
+Update v1.1.0
 Last Patcher [Sleepy068]
 
 Changes:
 
 
 Localisation:
-Japanese Localisation updated to latest (v0.0.11.4)(Big thank you to Erzen)
+
 
 Bug Fixes:
-Fixed Localisation Log Error Duplicate database entry, overriding the original one: LOC_RU_ADDON_CRP_EXAMINATIONS by renaming Sleepy's Localisation from that of the core Localisation.
-Fixed Localisation Log Error Duplicate database entry, overriding the original one: LOC_TR_ADDON_CRP_EXAMINATIONS by renaming Sleepy's Localisation from that of the core Localisation.
-Fixed grammar issue with Baggy Skin description.
+
 
 Addition:
+
 
 -->
 </Database>
